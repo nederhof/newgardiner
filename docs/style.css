@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Hieroglyphic';
+    src: url('NewGardiner.ttf') format('truetype');
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.navigation {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.navigation .button {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 7px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #08f;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 2px solid #06b;
+	transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.navigation .button:hover {
+	background-color: #06b;
+	border-color: #048;
+}
+
+.navigation span {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	font-size: 14px;
+	margin: 20px auto;
+}
+
+table th, table td {
+	border: 1px solid #000000;
+	text-align: center;
+	vertical-align: top;
+	padding: 8px;
+}
+
+.label {
+	background-color: #f0f0f0;
+	font-weight: bold;
+}
+
+.glyph {
+	font-family: Hieroglyphic;
+	font-size: 24px;
+}
+
+.code {
+	font-size: 12px;
+	color: #111;
+}
+
