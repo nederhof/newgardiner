@@ -42,11 +42,12 @@ def generate_page(page_num, previous_page, next_page, page_start, page_end):
 	etree.SubElement(head, 'link', rel='stylesheet', href='style.css')
 	body = etree.SubElement(html, 'body')
 	h1 = etree.SubElement(body, 'h1')
-	h1.text = 'NewGardiner font'
+	a = etree.SubElement(h1, 'a', {'href': 'index.html'})
+	a.text = 'NewGardiner font'
 	navigation = etree.SubElement(body, 'div', {'class': 'navigation'})
-	previous_filename = page_filename(previous_page) if previous_page is not None else 'index.html'
-	previous_button = etree.SubElement(navigation, 'a', {'href': previous_filename, 'class': 'button'})
-	previous_button.text = '⬅'
+	if previous_page is not None:
+		previous_button = etree.SubElement(navigation, 'a', {'href': page_filename(previous_page), 'class': 'button'})
+		previous_button.text = '⬅'
 	subtitle = etree.SubElement(navigation, 'span')
 	subtitle.text = f'{page_start:X}-{page_end:X}'
 	if next_page is not None:
@@ -71,7 +72,7 @@ def generate_index(page_index):
 	download = etree.SubElement(body, 'h2')
 	download.text = 'More information and download'
 	download_par = etree.SubElement(body, 'p')
-	download_link = etree.SubElement(download_par, 'a', {'href': 'github.com/nederhof/newgardiner'})
+	download_link = etree.SubElement(download_par, 'a', {'href': 'https://github.com/nederhof/newgardiner'})
 	download_link.text = 'on GitHub'
 	charts = etree.SubElement(body, 'h2')
 	charts.text = 'Charts'
