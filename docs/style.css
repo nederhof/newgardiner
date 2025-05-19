@@ -84,3 +84,6 @@ table th, table td {
 	color: #111;
 }
 
+.unused {
+	background: repeating-linear-gradient( -45deg, #999, #999 2px, #888 2px, #888 4px);
+}

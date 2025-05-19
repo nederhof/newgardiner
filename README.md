@@ -51,7 +51,7 @@ Ancillary Unicode documentation:
 
 ## Selected versions of the NewGardiner font
 
-- 3.00 (2025-05-18)
+- 3.01 (2025-05-19)
 	- Added the 3995 glyphs in the extended list (but with placeholders for non-core signs).
 - 2.10 (2024-02-16)
 	- Changed philological brackets.

@@ -11,9 +11,9 @@ def generate_table(body, page_start, page_end):
 	thead = etree.SubElement(table, 'thead')
 	tr_header = etree.SubElement(thead, 'tr')
 	etree.SubElement(tr_header, 'th', {'class': 'label'})
-	num_columns = (page_end - page_start) // 16
+	num_columns = -(-(page_end - page_start) // 16)
 	for col in range(num_columns):
-		col_label = page_start // 16 + col
+		col_label = (page_start // 16) + col
 		th = etree.SubElement(tr_header, 'th', {'class': 'label'})
 		th.text = f'{col_label:X}x'
 	tbody = etree.SubElement(table, 'tbody')
@@ -24,13 +24,14 @@ def generate_table(body, page_start, page_end):
 		th_row.text = f'{row:X}'
 		for col in range(num_columns):
 			code_point = page_start + col * num_rows + row
-			if code_point >= page_end:
-				break
-			td = etree.SubElement(tr, 'td')
-			div_glyph = etree.SubElement(td, 'div', {'class': 'glyph'})
-			div_glyph.text = chr(code_point)
-			div_code = etree.SubElement(td, 'div', {'class': 'code'})
-			div_code.text = f'{code_point:X}'
+			if code_point < page_end:
+				td = etree.SubElement(tr, 'td')
+				div_glyph = etree.SubElement(td, 'div', {'class': 'glyph'})
+				div_glyph.text = chr(code_point)
+				div_code = etree.SubElement(td, 'div', {'class': 'code'})
+				div_code.text = f'{code_point:X}'
+			else:
+				td = etree.SubElement(tr, 'td', {'class': 'unused'})
 
 def generate_page(page_num, previous_page, next_page, page_start, page_end):
 	html = etree.Element('html', lang='en')
