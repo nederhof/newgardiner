@@ -50,6 +50,11 @@ Ancillary Unicode documentation:
 - [Database](https://www.unicode.org/L2/L2023/23109-n5215-database.pdf)
 - [Encoding principles](https://www.unicode.org/reports/tr57/tr57-4.html)
 
+## Corruption of the basic list
+
+- [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/unicode5to16compare.html)
+- [List of differences Unicode 5.2 versus Unicode 16](https://nederhof.github.io/unicode5to16corruption.html)
+
 ## Selected versions of the NewGardiner font
 
 - 3.01 (2025-05-19)
