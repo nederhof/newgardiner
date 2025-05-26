@@ -52,8 +52,8 @@ Ancillary Unicode documentation:
 
 Corruption of the basic list:
 
-- [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/unicode5to16compare.html)
-- [List of differences Unicode 5.2 versus Unicode 16](https://nederhof.github.io/unicode5to16corruption.html)
+- [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare.html)
+- [List of differences Unicode 5.2 versus Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 
 ## Selected versions of the NewGardiner font
 
