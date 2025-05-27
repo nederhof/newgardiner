@@ -8,8 +8,29 @@
   </head>
   <body>
     <h1>Differences Unicode 5.2 / Unicode 16</h1>
-    <p>Where two glyphs are given for one code point, the first is from Unicode 5.2 and the second is from Unicode 16. The glyphs were automatically extracted from the officially published PDF code charts.</p>
+    <p>Where two glyphs are given for the same code point, the first is from Unicode 5.2 and the second is from Unicode 16. The glyphs were automatically extracted from the official PDF code charts. Lines in blue starting with code point and kEH_Desc are descriptions copied verbatim from Unikemet.</p>
     <h2>Apparent errors</h2>
+    <table class="difference">
+      <tbody>
+        <tr>
+          <td>
+            <img src="glyphs5/77847.png" class="image1"/>
+            <img src="glyphs16/77847.png" class="image2"/>
+            <div class="code">13017</div>
+          </td>
+          <td>
+            <img src="glyphs16/79053.png" class="image2"/>
+            <div class="code">134CD</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <tt>U+13017 kEH_Desc Man, standing, with a bend back, right arm forward, holding a staff/stick near the top, left arm hanging beside the body.</tt>
+      <br/>
+      <tt>U+134CD kEH_Desc Man, standing, with a bend back, right arm forward, holding a staff/stick near the top, with the staff at an backwards angle, left arm hanging beside the body.</tt>
+    </p>
+    <p>The staff in the original shape of U+13017 already had a slight backward angle, unlike the Unicode 16 form, where the staff is perfectly vertical. This will be solved in Unicode 17 by redrawing U+13017 to have the staff at a backward angle, like in the original shape. But then U+13017 and U+134CD will differ by no more than the exact degree of the angle, which seems a far-fetched distinction to make for the purposes of Unicode.</p>
     <table class="difference">
       <tbody>
         <tr>
@@ -45,7 +66,7 @@
     <p>
       <tt>U+130C1 kEH_Desc A forearm, with the palm of the hand facing upwards (D36) written over a human foot and lower leg (D58).</tt>
     </p>
-    <p>These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG. Around 2009, there were long discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not you agree this was the right decision should be irrelevant. Code charts should not be changed without a compelling reason.</p>
+    <p>These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG. Around 2009, there were discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not you agree this was the right decision should be irrelevant. Code charts should not be changed without a compelling reason.</p>
     <table class="difference">
       <tbody>
         <tr>
@@ -282,7 +303,7 @@
       </tbody>
     </table>
     <p/>
-    <p>Around 2009, there were protracted discussions about what the most appropriate orientation was for Unicode, since both orientations occur in GEG. In consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not you agree this was the right decision, having studied (or not) the arguments laid out by Egyptologists in 2009, all this should be irrelevant. The glyph should not be changed relative to Unicode 5.2. Where the other orientation is needed, a variation selector for rotation can be used.</p>
+    <p>Around 2009, there were protracted discussions about what the most appropriate orientation was for Unicode, since both orientations occur in GEG, and the sign was taken from iconography and is not attested in actual running text. In consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not you agree this was the right decision back then, having studied (or not) the arguments laid out by Egyptologists in 2009, all this should be irrelevant. The glyph should not change on a whim relative to what it has been for the past 15 years since Unicode 5.2. If anyone feels a need for the other orientation, a variation selector for rotation can be used.</p>
     <table class="difference">
       <tbody>
         <tr>
@@ -609,7 +630,7 @@
       <br/>
       <tt>U+142B8 kEH_Desc A hair-pin or burin, with a horizontal line under the oval of the pin, and a triangular shape on top of the oval.</tt>
     </p>
-    <p>The original shape of U+1334C seems to have a horizontal line on the top, so the new shape is not right, unless one can make a convincing case that the original shape was due to a misinterpretation. The intended use of U+1334C is for "a later form of U23" (Gardiner 1931) as found on the 26th Dyn. sarcophagus of Ankhnesneferibra (EA32). There is a photo on the BM website (see below link), but I have been unable to spot any tokens of U23 that Gardiner might have had in mind. The Database refers to the Pyramid of Unas, which is off by more than 2 millennia so this is unlikely to be relevant to U+1334C. It is unclear how the original shape of U+1334C relates to other, newly introduced code points for hair-pins.</p>
+    <p>The original shape of U+1334C seems to have a horizontal line on the top, so the new shape is not right, unless one can make a convincing case that the original shape was due to a misinterpretation. The intended use of U+1334C is for "a later form of U23" (Gardiner 1931) as found on the 26th Dyn. sarcophagus of Ankhnesneferibra (EA32). There is a photo on the BM website (see below link), but I have been unable to spot any tokens of U23 that Gardiner might have had in mind. The Database refers to the Pyramid of Unas, which is off by more than 2 millennia so this is unlikely to be relevant to U+1334C. It is unclear to me how the original shape of U+1334C relates to other, newly introduced code points for hair-pins.</p>
     <a href="https://www.britishmuseum.org/collection/object/Y_EA32">Link</a>
     <table class="difference">
       <tbody>
@@ -640,7 +661,7 @@
     <p>
       <tt>U+13393 kEH_Desc A cobra in repose (Naja haja) (I10), written over a hobble for cattle without a crossbar (V20).</tt>
     </p>
-    <p>Apart from plausible deniability (see above), the description fits the original shape but not the new shape. It would be better to revert to the Unicode 5.2 shape.</p>
+    <p>Apart from plausible deniability (see above), the description matches the original shape but not the new shape. It would be better to revert to the Unicode 5.2 shape.</p>
     <table class="difference">
       <tbody>
         <tr>
@@ -685,7 +706,7 @@
     <p>
       <tt>U+1341B kEH_Desc A representation of two ribs, top line curving downwards.</tt>
     </p>
-    <p>The description fits the original shape but not the new shape. Correct the new shape to have the top line curve downwards.</p>
+    <p>The description matches the original shape but not the new shape. Correct the new shape to have the top line curve downwards.</p>
     <table class="difference">
       <tbody>
         <tr>
@@ -752,7 +773,7 @@
     <p>
       <tt>U+1304F kEH_Desc Man, seated, right knee raised, raised arms at either side of the body, hands held vertically, with the handpalms inwards.</tt>
     </p>
-    <p>Hands were oriented outward, now inward. This may be a legitimate improvement if one can argue that the shape with outward handpalms was plain wrong and does not occur in real inscriptions.</p>
+    <p>Hands were oriented outward, now inward. This may be a legitimate improvement since it has been argued that the shape with outward handpalms was plain wrong and does not occur in real inscriptions.</p>
     <table class="difference">
       <tbody>
         <tr>
@@ -794,7 +815,7 @@
       <br/>
       <tt>U+136D9 kEH_Desc Woman, seated, both knees up, with covered legs and arms, with long hair, wearing a diadem and ureaus, holding a tie or strap, used with sandals (ankh-sign, S34), which angles forward.</tt>
     </p>
-    <p>For U+13057, there was a uraeus, now there is not. There may be good reasons to update the glyph of U+13057, provided one can argue the original shape was incorrect. But considering U+136D7 and U+136D9, which do have uraei, is it not plausible that the original shape might exist? If so far no token of U+13057 was located with uraeus, then what are you going to do if you do find such a token, introduce a new code point for it? This is disastrous for the stability of Unicode.</p>
+    <p>For U+13057, there was a uraeus in the original, now there is not. There may be good reasons to update the glyph of U+13057, provided one can argue the original shape was incorrect. But considering U+136D7 and U+136D9, which do have uraei, is it not plausible that the original shape might exist? If so far no token of U+13057 was located with uraeus, then what are you going to do if you do find such a token, introduce a new code point for it? This is disastrous for the stability of Unicode.</p>
     <table class="difference">
       <tbody>
         <tr>
@@ -845,7 +866,7 @@
     <p>
       <tt>U+130E8 kEH_Desc A jackal, standing, tail down (E17), on top of a standard used for the carrying of religious symbols, with an uraeus and SdSd-pretuberance at the front of the standard, with a mace (T3) written horizontally over the vertical pole of the standard.</tt>
     </p>
-    <p>Unicode 5.2 form did not have uraeus. If the missing uraeus was clearly a mistake, then fine. But if there is a reasonable chance one could also find occurrences without uraeus, will you then introduce a new code point for this once this happens? This is disastrous for the stability of Unicode.</p>
+    <p>The Unicode 5.2 form did not have the uraeus. If the missing uraeus was clearly a mistake, then fine. But if there is a reasonable chance one could also find occurrences without uraeus, will you then introduce a new code point for this once this happens? This is disastrous for the stability of Unicode.</p>
     <table class="difference">
       <tbody>
         <tr>
@@ -1031,7 +1052,7 @@
     <p>
       <tt>U+13247 kEH_Desc A basket with four pieces of grain or fruit (M39) in front of an oryx, standing (E28), on top of a standard used for the carrying of religious symbols (R12) on top of a parcel of land with irrigation ditches (N24).</tt>
     </p>
-    <p>There was no basket in the original shape. I understand the information in the Database to suggest this sign also occurs without basket. It would therefore have been much better to keep the sign unchanged, as the original form is not objectively wrong.</p>
+    <p>There was no basket in the original shape. I understand the information in the Database to suggest this sign also occurs without basket. It might therefore have been better to keep the sign unchanged, as the original form is not objectively wrong.</p>
     <table class="difference">
       <tbody>
         <tr>

@@ -18,7 +18,7 @@ useless for any practical purposes and were introduced in Unicode for all the wr
 In the font, the non-core signs have placeholder glyphs **nc**. A handful of non-core signs that were drawn by mistake are
 kept in a separate font.
 
-View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/).
+View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/page0.html).
 
 ## Warning
 
@@ -52,7 +52,7 @@ Ancillary Unicode documentation:
 
 Corruption of the basic list:
 
-- [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare.html)
+- [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare0.html)
 - [List of differences Unicode 5.2 versus Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 
 ## Selected versions of the NewGardiner font
