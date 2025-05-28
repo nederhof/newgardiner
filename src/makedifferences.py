@@ -13,7 +13,7 @@ errata = \
 {'code_point': 0x13017, 'others': [0x134CD],
 'comment': 'The staff in the original shape of 0x13017 already had a slight backward angle, unlike the Unicode 16 form, where the staff is perfectly vertical. This will be solved in Unicode 17 by redrawing 0x13017 to have the staff at a backward angle, like in the original shape. But then 0x13017 and 0x134CD will differ by no more than the exact degree of the angle, which seems a far-fetched distinction to make for the purposes of Unicode.'},
 {'code_point': 0x1303A, 'others': [0x1355D],
-'comment': '0x1303A was given incompatible hairstyle. Will be solved in Unicode 17 by swapping the shapes and ancillary documention of 0x1303A and 0x1355D from Unicode 16.'},
+'comment': '0x1303A was given incompatible hairstyle. Will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x1303A and 0x1355D from Unicode 16.'},
 {'code_point': 0x130C1, 'others': [],
 'comment': 'These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG. Around 2009, there were discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not you agree this was the right decision should be irrelevant. Code charts should not be changed without a compelling reason.'},
 {'code_point': 0x130F9, 'others': [0x13ABE],
