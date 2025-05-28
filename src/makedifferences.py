@@ -24,7 +24,7 @@ errata = \
 'comment': 'The original shape (tail up) was misplaced at 0x13AE8. Will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130FB and 0x13AE8 from Unicode 16.'},
 {'code_point': 0x130FC, 'others': [],
 'comment': 'The original shape had the tail up.'},
-{'code_point': 0x13108, 'others': [0x13B83], 'comment': 'The original shape was misplaced at 0x13B83. The only reasonable solution is to swap shapes and ancillary documention from Unicode 16.'},
+{'code_point': 0x13108, 'others': [0x13B83], 'comment': 'The original shape was misplaced at 0x13B83. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.'},
 {'code_point': 0x13110, 'others': [], 'comment': 'Even though these are insignificant graphical variants, code charts should not be changed without a good reason. Unless a compelling case can be made that the horn over the liquid cannot occur in real inscriptions, revert to the Unicode 5.2 form.'},
 {'code_point': 0x13112, 'others': [0x13BB2], 'comment': 'The appearance of 0x13112 has changed considerably and one could even argue that 0x13BB2 is closer to the original shape than to the new shape; both the original shape and 0x13BB2 clearly have sharp teeth while the new shape of 0x13112 does not. Gardiner (1957) characterizes the sign as "lower jaw-bone of ox", which complicates matters.'},
 {'code_point': 0x1315D, 'others': [0x13C5D], 'comment': 'The description of 0x1315D does not match the images. The original shape has a standard closer to R92A. So if a graphical variant is needed with R12, then it should be at a new code point, so here that would be 0x13C5D. In other words, flip the ancillary documentation and give 0x13C5D the R12 shape.'},
