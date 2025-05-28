@@ -45,7 +45,7 @@ errata = \
 {'code_point': 0x13271, 'others': [], 'comment': 'In the original, the sides were more oblique than vertical.'},
 {'code_point': 0x13277, 'others': [0x13FDC], 'comment': 'The original shape (without circle) was misplaced at 0x13FDC. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.'},
 {'code_point': 0x1329F, 'others': [], 'comment': 'The new shape is mirrored. Since there is a mirroring control, there is no reasonable justification for this, even if the sign normally occurs the other way around.'},
-{'code_point': 0x132BC, 'others': [0x14107], 'comment': 'The original shape of 0x132BC was misplaced at 0x14107. The only reasonable solution is to swap shapes and ancillary documention from Unicode 16.'},
+{'code_point': 0x132BC, 'others': [0x14107], 'comment': 'The original shape of 0x132BC was misplaced at 0x14107. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.'},
 {'code_point': 0x132F6, 'others': [], 'comment': 'The description matches the original shape but not the new shape. In the new shape the piece of cloth is over the sickle.'},
 {'code_point': 0x1330C, 'others': [], 'comment': 'The original shape underspecified which of the signs is on top. It seems fine to me to clarify the desired appearance, if there is a sufficient amount of evidence suggesting that one or the other form is correct. But the new shape should be consistent with the description. In the new shape, the cobra is under the mace.'},
 {'code_point': 0x1330D, 'others': [], 'comment': 'The description matches the original shape but not the new shape. In the new shape the mace is over the cobras.'},
