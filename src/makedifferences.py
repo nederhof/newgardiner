@@ -17,7 +17,7 @@ errata = \
 {'code_point': 0x130C1, 'others': [],
 'comment': 'These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG. Around 2009, there were discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not you agree this was the right decision should be irrelevant. Code charts should not be changed without a compelling reason.'},
 {'code_point': 0x130F9, 'others': [0x13ABE],
-'comment': 'The original shape of 0x130F9 unmistakably had whiskers. To be solved in Unicode 17 by swapping the shapes and ancillary documention of 0x130F9 and 0x13ABE from Unicode 16?'},
+'comment': 'The original shape of 0x130F9 unmistakably had whiskers. To be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130F9 and 0x13ABE from Unicode 16?'},
 {'code_point': 0x130FA, 'others': [],
 'comment': 'Give the hare whiskers, to revert to original shape. Moreover, the difference between 0x130FA and 0x130F9 should be in the height, while the width should be roughly the same, i.e. 0x130FA is flatter than 0x130F9. See Gardiner (1957) for the typographical motivation.'},
 {'code_point': 0x130FB, 'others': [0x13AE8],
