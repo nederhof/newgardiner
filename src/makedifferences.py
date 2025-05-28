@@ -43,7 +43,7 @@ errata = \
 {'code_point': 0x1324A, 'others': [], 'comment': 'This does not remotely seem to be the same character. Even if the original shape is totally wrong, the new shape would have deserved a new code point, rather than trying to recycle an existing code point for a totally different thing. It is a mystery to me where the current shape comes from; it has been in the code charts since at least Unicode 9.'},
 {'code_point': 0x1326E, 'others': [], 'comment': 'The description of the shape of the roof matches the original shape but not the new shape.'},
 {'code_point': 0x13271, 'others': [], 'comment': 'In the original, the sides were more oblique than vertical.'},
-{'code_point': 0x13277, 'others': [0x13FDC], 'comment': 'The original shape (without circle) was misplaced at 0x13FDC. The only reasonable solution is to swap shapes and ancillary documention from Unicode 16.'},
+{'code_point': 0x13277, 'others': [0x13FDC], 'comment': 'The original shape (without circle) was misplaced at 0x13FDC. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.'},
 {'code_point': 0x1329F, 'others': [], 'comment': 'The new shape is mirrored. Since there is a mirroring control, there is no reasonable justification for this, even if the sign normally occurs the other way around.'},
 {'code_point': 0x132BC, 'others': [0x14107], 'comment': 'The original shape of 0x132BC was misplaced at 0x14107. The only reasonable solution is to swap shapes and ancillary documention from Unicode 16.'},
 {'code_point': 0x132F6, 'others': [], 'comment': 'The description matches the original shape but not the new shape. In the new shape the piece of cloth is over the sickle.'},
