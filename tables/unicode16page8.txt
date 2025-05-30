@@ -1,0 +1,27 @@
+0x13C9D 0x13C9F
+This may be one of the cases where consistency between different fonts will be
+impossible to achieve and where it will be impossible for the encoders to know which code point to choose.  The "teardrop sized perch with the point down" *is* an upside down cone. One shape is marginally thinner and longer than the other, that's all.
+
+0x13CBE
+The "one wing forward" is not remotely "horizontal" in the glyph. If the glyph is accurate, I would just say "wings forward, one slanting up and the other slanting down", avoiding also mention of the exact angle. [I'm not sure the word "slanting" is the most fluent English word one could choose.]
+
+0x13CD5 0x13CD6 0x13CD9 13CDA
+None of the descriptions of human-headed birds mention beards. If these are not expected to have beards, or if it doesn't matter, I would suggest omitting them from the glyphs.
+<p>
+The glyph of 0x13CDA, unlike 0x13CD9, seems to suggest uraei on the headdress. Are those real?
+
+0x13CE9 0x13CEA 0x13CED 0x13CEE
+These violate Point 5 of the Guidelines "Signs that exist with and without
+inner detailing will be included with the inner detailing".
+
+0x13150 0x13CFC
+Introduction of 0x13CFC violates Point 5 of the Guidelines.
+
+0x13D10 0x13D11
+In the glyph of 0x13D11, the cobra does *not* encircle the sun; it is just the I10 cobra.
+Cut-and-paste error from 0x13D10?
+
+0x13D45
+It is impossible to make out the sun disks on the cobras in the code charts. What's the point of specifying details that are so small that they are lost with any normal resolution?
+<p>
+(The description is also ungrammatical.)

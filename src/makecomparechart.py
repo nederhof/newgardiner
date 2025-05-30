@@ -3,8 +3,8 @@ import os
 
 TARGET_DIR = '../docs/'
 BASE_NAME = 'unicode5to16compare'
-DIR1 = 'glyphs5'
-DIR2 = 'glyphs16'
+DIR5 = 'glyphs5'
+DIR16 = 'glyphs16'
 
 def index_filename():
 	return f'{BASE_NAME}.html'
@@ -18,11 +18,11 @@ def page_filename(page_num):
 def page_path(page_num):
 	return f'{TARGET_DIR}{page_filename(page_num)}'
 
-def image_path1(code_point):
-	return f'{DIR1}/{code_point}.png'
+def image_path5(code_point):
+	return f'{DIR5}/{code_point}.png'
 
-def image_path2(code_point):
-	return f'{DIR2}/{code_point}.png'
+def image_path16(code_point):
+	return f'{DIR16}/{code_point}.png'
 
 def generate_table(body, page_start, page_end):
 	table = etree.SubElement(body, 'table')
@@ -44,8 +44,8 @@ def generate_table(body, page_start, page_end):
 			code_point = page_start + col * num_rows + row
 			if code_point < page_end:
 				td = etree.SubElement(tr, 'td')
-				etree.SubElement(td, 'img', {'src': image_path1(code_point), 'class': 'image1'})
-				etree.SubElement(td, 'img', {'src': image_path2(code_point), 'class': 'image2'})
+				etree.SubElement(td, 'img', {'src': image_path5(code_point), 'class': 'image5'})
+				etree.SubElement(td, 'img', {'src': image_path16(code_point), 'class': 'image16'})
 				div_code = etree.SubElement(td, 'div', {'class': 'code'})
 				div_code.text = f'{code_point:X}'
 			else:

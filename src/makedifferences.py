@@ -5,8 +5,8 @@ from unikemet import read_unikemet
 
 TARGET_DIR = '../docs/'
 TARGET_FILE = TARGET_DIR + 'unicode5to16corruption.html'
-DIR1 = 'glyphs5'
-DIR2 = 'glyphs16'
+DIR5 = 'glyphs5'
+DIR16 = 'glyphs16'
 
 errata = \
 [
@@ -36,7 +36,7 @@ errata = \
 'comment': 'Around 2009, there were protracted discussions about what the most appropriate orientation was for Unicode, since both orientations occur in GEG, and the sign was taken from iconography and is not attested in actual running text. In consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not you agree this was the right decision at the time, having studied (or not) the arguments laid out by Egyptologists in 2009, all this should be irrelevant. The glyph should not change on a whim relative to what it has been for the past 15 years since Unicode 5.2. If anyone feels a need for the other orientation, a variation selector for rotation can be used.'},
 {'code_point': 0x131C6, 'others': [], 'comment': 'Revert to the shape from Unicode 5.2. The description in fact already correctly reflects the original shape.'},
 {'code_point': 0x131D8, 'others': [], 'comment': 'It is unclear which sign is on top in Unicode 5.2, so fonts have the liberty to interpret this as desired, but at least make sure the shape is consistent with the description, which is currently not the case.'},
-{'code_point': 0x131F4, 'others': [0x131F6, 0x13EDE], 'comment': 'There is no inner circle in the original shape. One may argue this is an insignificant detail. But if one then introduces multiple code points 0x131F6 and 0x13EDE for the same sign with and without inner circle, then one simultaneously suggests that the inner circle is important and that the inner circle is not important. See also the Guidelines, which more often than not are divorced from what was actually done.'},
+{'code_point': 0x131F4, 'others': [0x131F6, 0x13EDE, 0x13EDF, 0x13EE0], 'comment': 'There is no inner circle in the original shape of 0x131F4. One may argue this is an insignificant detail. But if one then introduces multiple code points 0x131F6 and 0x13EDE for the same sign with and without inner circle, and similarly 0x13EDF and 0x13EE0, then one simultaneously suggests that the inner circle is important and that the inner circle is not important. See also the Guidelines, which more often than not are divorced from what was actually done.'},
 {'code_point': 0x13227, 'others': [], 'comment': 'The differences may be insignificant, but it appears to me that most of the description matches the original shape better than the Unicode 16 shape, in particular the orientation of the feather and the "short vertical line". This sign deserves to be revisited by an expert'},
 {'code_point': 0x13228, 'others': [], 'comment': 'I think the description matches the spear better in the original shape than in the Unicode 16 shape. This sign deserves to be revisited by an expert.'},
 {'code_point': 0x13246, 'others': [], 'comment': 'The Unicode 16 form does not seem to match the description, because it does not appear to have the usual R12 standard, as it does in the original. Also, in the original, the hare has whiskers.'},
@@ -49,6 +49,7 @@ errata = \
 {'code_point': 0x132F6, 'others': [], 'comment': 'The description matches the original shape but not the new shape. In the new shape the piece of cloth is over the sickle.'},
 {'code_point': 0x1330C, 'others': [], 'comment': 'The original shape underspecified which of the signs is on top. It seems fine to me to clarify the desired appearance, if there is a sufficient amount of evidence suggesting that one or the other form is correct. But the new shape should be consistent with the description. In the new shape, the cobra is under the mace.'},
 {'code_point': 0x1330D, 'others': [], 'comment': 'The description matches the original shape but not the new shape. In the new shape the mace is over the cobras.'},
+{'code_point': 0x1331C, 'others': [0x131C5, 0x131D5], 'comment': 'In the original code charts, the handle most certainly does not resemble M13 (0x131C5), If anything, it looks closer to 0x131D5.  I do not mind if the image in the code charts currently has that shape, as the shape of the handle seems a minor detail. But by putting "with a handle resembling ..." in the description you suggest that M13 is an essential part of the character identity of 0x1331C, whereas (as far as I know) scimitars do not generally have a handle resembling M13. The Database does not motivate departing from the original shape. The TSL has one single token (without citation!), which is rather blurry and does not seem to suggest M13 at all.'},
 {'code_point': 0x1332F, 'others': [], 'comment': 'By plausible deniability one could argue the new shape underspecifies which sign is on top. But in Unicode 16, the shapes of overlays generally commit to one or the other. It would be better therefore to revert to the Unicode 5.2 shape.'},
 {'code_point': 0x13332, 'others': [], 'comment': 'The original shape did not have a boss. It is fine to improve the appearance. But the new shape and the description do not seem to match. In the new shape, the boss is not really "in the center".'},
 {'code_point': 0x13341, 'others': [0x1429C], 'comment': 'It is unclear to me whether the original shape of 0x13341 is closer to its new shape, or whether it rather corresponds to 0x1429C. The original shape had a pronounced circle, like 0x1429C, while the new shape has more of a bulb. Does it even make sense to have two code points here?'},
@@ -97,7 +98,6 @@ differences = \
 {'code_point': 0x132E1, 'others': [], 'comment': 'The original shape underspecified which of the signs is on top. It seems fine to me to clarify the desired appearance as is done here. One worry for this case and for related cases is this: if the description mentioning which sign is on top is based on just one occurrence, and if in fact both possibilities exist, then the description is unduly specific. It would then be better to simply say that this is an overlay without specifying which sign is on top.'},
 {'code_point': 0x132F7, 'others': [], 'comment': 'In the original, the fringes are not sloping.'},
 ]
-# {'code_point': 0x , 'others': [], 'comment': },
 
 def desc_string(tables, code_point):
 	if code_point in tables['desc']:
@@ -114,29 +114,29 @@ def may_attach_desc_string(elem, tables, code_point, br=False):
 		tt = etree.SubElement(elem, 'tt')
 		tt.text = desc
 
-def attach_image1(elem, code_point, code_points):
-	etree.SubElement(elem, 'img', {'src': f'{DIR1}/{code_point}.png', 'class': 'image1'})
+def attach_image5(elem, code_point, code_points):
+	etree.SubElement(elem, 'img', {'src': f'{DIR5}/{code_point}.png', 'class': 'image5'})
 	code_points.add(code_point)
 
-def attach_image2(elem, code_point, code_points):
-	etree.SubElement(elem, 'img', {'src': f'{DIR2}/{code_point}.png', 'class': 'image2'})
+def attach_image16(elem, code_point, code_points):
+	etree.SubElement(elem, 'img', {'src': f'{DIR16}/{code_point}.png', 'class': 'image16'})
 	code_points.add(code_point)
 
 def make_difference(body, diff, tables, code_points):
 	code_point = diff['code_point']
 	others = diff['others']
 	comment = diff['comment']
-	table = etree.SubElement(body, 'table', {'class': 'difference'})
+	table = etree.SubElement(body, 'table', {'class': 'glyph_table'})
 	tbody = etree.SubElement(table, 'tbody')
 	tr = etree.SubElement(tbody, 'tr')
 	td = etree.SubElement(tr, 'td')
-	attach_image1(td, code_point, code_points)
-	attach_image2(td, code_point, code_points)
+	attach_image5(td, code_point, code_points)
+	attach_image16(td, code_point, code_points)
 	div_code = etree.SubElement(td, 'div', {'class': 'code'})
 	div_code.text = f'{code_point:X}'
 	for other in others:
 		td_other = etree.SubElement(tr, 'td')
-		attach_image2(td_other, other, code_points)
+		attach_image16(td_other, other, code_points)
 		div_other = etree.SubElement(td_other, 'div', {'class': 'code'})
 		div_other.text = f'{other:X}'
 	p_desc = etree.SubElement(body, 'p')
@@ -159,7 +159,7 @@ def make_page(tables):
 	etree.SubElement(head, 'link', rel='stylesheet', href='style.css')
 	body = etree.SubElement(html, 'body')
 	h1 = etree.SubElement(body, 'h1')
-	h1.text = 'Differences Unicode 5.2 / Unicode 16'
+	h1.text = title.text
 	p = etree.SubElement(body, 'p')
 	p.text = 'Where two glyphs are given for the same code point, the first is from Unicode 5.2 and the second is from Unicode 16. The glyphs were automatically extracted from the official PDF code charts. Lines in blue starting with code point and kEH_Desc are descriptions copied verbatim from Unikemet.'
 	h2 = etree.SubElement(body, 'h2')
@@ -179,4 +179,3 @@ def make_page(tables):
 if __name__ == '__main__':
 	tables = read_unikemet('../tables/Unikemet-16.0.0.txt')
 	make_page(tables)
-

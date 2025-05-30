@@ -1,0 +1,77 @@
+0x13D64 0x13192
+In the glyph of 0x13D64, the top and bottom lines have the same length. Copy-and-past
+error from 0x13192 in the description? Or is the glyph wrong?
+
+0x13D72
+In the glyph, the cobra is *under* the white crown, not *over*.
+
+0x13D92
+The mention of the forked base is strange, as the base is not visible.
+
+0x13DA8
+Font-technical issue at face of falcon, clockwise/counter-clockwise?
+
+0x13DAB 0x13DAD 0x13DAE
+What is the difference between "standing up" and "its tail coiled up, in a
+single coil"? In the glyphs, it is just the height of the tail that differs
+between 0x13DAB and 0x13DAD, and 0x13DAE actually appears to have a tail closer to 0x13DAB than to 0x13DAD.
+<p>
+Another example where consistency between fonts will be impossible to achieve, and the graphical distinctions that
+have been made seem inappropriately fine-grained for Unicode.
+
+0x13DB1 0x13DB2
+If it is really necessary to distinguish these two (they are functionality
+identical and as close as say the hare from the flat hare in appearance), then "lower than"
+is insufficient to distinguish 0x13DB1 from 0x13DB2. In the glyph, the coils are about half the height of the head. If this is accurate, then I would write "about half the height" rather than "lower than".
+
+0x13DB6
+In the glyph, the "hole" unmistakably looks like one end of the pt sign. Is that intentional?
+See:
+<p>
+https://thotsignlist.org/mysign?id=36
+<p>
+Here the shape in the normalized font looks like that in Unicode, 
+but the image of the token more plausibly looks like the description, with a rounded "hole".
+
+0x13DBB 0x13DBE
+What is the difference that justifies the multiple code points for such similar graphical variants? The "head upward" ? Or the exact angle of the knifes?  In fact the head in 0x13DBE is less "upward" than in 0x13DBB.
+<p>
+Once again I'm astonished that clearly distinct graphical variants among the basic list have been made Legacy, while almost indistinguishable variants were introduced as core signs.
+
+0x13DD3 0x13DD5
+I appreciate the fishes are difficult, because the graphical distinctions can
+be subtle and variable and often encoders need to rely more on function than
+on appearance, but even so, the above is a problem because the description of
+0x13DD3 subsumes that of 0x13DD5 and the functions are identical. If 0x13DD5
+is characterized by particular fins, then 0x13DD3 deserves to be characterized by particular (other) fins as well.
+
+0x13DD7 0x13DD8
+As above. One description subsumes the other. The functions are identical.
+
+0x131A3 0x13DE1 0x13DE2
+If the "multiple vertical lines" are sufficient reason to distinguish 0x13DE1
+from 0x131A3, then the "multiple vertical lines" in 0x13DE2 deserve to be
+mentioned as well. (That is provided the "multiple vertical lines" in the
+glyph of 0x13DE2 are real.)
+
+0x13DE7
+In the glyph, the wings are not remotely connected and I would not even say the wings make a circular form.  I think I know what is meant by "circular form", e.g. the winged scarab pectoral of Tutankhamun has a full circular form with the sun disk in between at the top (and a nb sign at the bottom). 0x13DE7 is not that.
+
+0x13E09 0x13E0A
+Correct "at the bottom".
+<p>
+The glyph of 0x13E0A looks quite strange. Could further guidance be provided
+how to interpret the different lines in the given glyph? Could one consider normalizing the glyph to help the user interpret what is drawn?
+
+0x13E20 0x13E27
+Overtly violates Point 5 of the Guidelines "Signs that exist with and without inner detailing will be included with the inner detailing".
+
+0x13E41 0x13E42
+Apart from the violation of Point 5 of the Guidelines, the description of
+0x13E42 is inaccurate. At best, correct 0x13E42 to "without".
+
+0x13E44 0x13E47
+I don't see how anyone can possible justify having the second next to the first. For similar cases of trivial graphical variants in the basic list, there was apparently a decision to make one of them Legacy. I see no consistency. The two shapes are functionally equivalent.
+
+0x13E5E 0x13376
+The way the root of 0x13E5E is drawn does not exactly suggest V9 (0x13376).

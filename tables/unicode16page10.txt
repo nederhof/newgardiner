@@ -1,0 +1,70 @@
+0x13E82 0x13E81
+Presumably, a "bud" looks different from a "flower". Yet the three things in
+the glyph of 0x13E82 look identical. My hunch is that the two things on either side should look like the buds in 0x13E81.
+
+0x13E8A
+The description seems a bit longer than necessary, unless I misinterpret it. How about just "A pool or strip of land with three vertical buds."?
+<p>
+I see three ticks on top of the land, but I don't think these are important enough to mention.
+
+0x13E9C
+Font-technical problem (anti-)clockwise?
+
+0x13EAA
+Apparently "bolls" are "rounded seed capsules of plants
+such as cotton or flax". What is on top in the glyph is square, not rounded.
+A redraw needed?
+
+0x13EAB 0x131E7
+The "near the bottom of the bundle" of 0x13EAB doesn't seem to match the glyph.
+<p>
+Also, does adding 0x13EAB next to 0x131E7 not
+violate Point 5 of the Guidelines "Signs that exist with and without inner detailing will be included with the inner detailing"?
+
+0x13EB2
+If it is really necessary to have a sign specifically for 2*4 pieces, then at
+least make the glyph consistent. There are 9 pieces in the glyph.
+<p>
+My preference would be to underspecify the number of pieces. If the number of rows is significant, one can mention that, e.g.:
+<p>
+"A basket with two rows [or layers] of pieces of grain or fruit."
+
+0x13EB5 0x13EB4
+Adding 0x13EB5 next to 0x13EB4 seems hardly appropriate for Unicode. 
+It appears to be overtly paleographic, and such details are lost in ordinary font sizes and coarse fonts may omit these details anyway.
+<p>
+Also related in spirit to Point 5 of the Guidelines.
+
+0x13ECF
+Correct "ribbled" to "rippled"?
+
+0x13EEC
+Hm, I would not say "filling the space", assuming the glyph is accurate. If
+the description is accurate, then the uraeus should be bigger and moved closer
+into the bounding box of the two wings. If the glyph is accurate, then how about "in the far corner of the space between the two wings"?
+
+0x13EF8
+Ok, but it is difficult to make out the smallest of the three circles. Perhaps
+a slight improvement to the glyph might be made to bring out all three circles clearly.
+
+0x13F03
+In the glyph, there are *four* horizontal lines, not three. Now, I'm not saying that counting lines is a good thing. My suggestion in keeping with other descriptions in this family of signs would be in the first instance (but see below):
+<p>
+"A parcel of land with irrigation ditches, at right angles."
+
+0x13F05 0x13F06
+In both cases, the lines "extend beyond each other". If the glyphs are accurate, then a different way should be found to phrase the difference between 0x13F05 and 0x13F06 (and preferably not by counting lines). Is it the orientation of the angles, sloping "forward" or sloping "backward"?
+<p>
+But then the question is why the mirroring control could not be used.
+
+0x13F0A
+In keeping with the above, I would say here for 0x13F0A:
+<p>
+"A parcel of land with irrigation ditches, at right angles."
+<p>
+and then the description of 0x13F03 could be expanded to be distinct from this:
+<p>
+"A parcel of land with irrigation ditches, at right angles, the horizontal lines extending beyond the leftmost and rightmost vertical lines."
+
+0x13F11
+In the glyph the viper is *under* the tree.

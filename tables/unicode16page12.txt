@@ -1,0 +1,70 @@
+0x14042 0x14050
+The description of 0x14042 is not nearly as detailed as some others.  For one thing, it doesn't mention the shapes at the ends of the "crescent moon", which are not like other boats, apart from 0x14050 perhaps, which has "prow and stern curved inwards".
+<p>
+Another thing is that the "back" is apparently at the left, unlike other boats where the back is at the right. Is that intentional?
+
+0x14048
+There appear to be *two* oars/rudders in the glyph.
+
+0x1404D 0x13933
+I don't think there is a doorway in the glyph of 0x1404D.
+<p>
+Also, in the vague image I seem to make out the vulture headdress underneath the bovine horns headdress, just like 0x13933. Is that real?
+
+0x14068 0x1406B 0x1406C
+There is "with an oar/rudder at the back" for 0x14068, there is "with lines crossing the prow" for 0x1406C, and nothing comparable for 0x1406B. Yet the shape looks identical in all three glyphs. For consistency, can we just have "with an oar/rudder at the back/front" for all these cases?
+
+0x14070 0x14075
+I don't see the "multiple horizontal lines written over it" in the glyph of 0x14070. Presumably, what was meant is similar to 0x14075.
+<p>
+I also think that the internal lines of the shrine and the lines of the sledge should not have been drawn as one and running over the boat/ship, if I understand the description correctly.
+
+0x14074
+The shape of the sledge as described ("four vertical lines between two horizontal lines") does not at all correspond to the glyph.
+
+0x14076 0x14077
+It is hard to imagine a more blatant, more literal violation of Point 5 of the
+Guidelines:
+<p>
+"Signs that exist with and without inner detailing will be included with the inner detailing"
+<p>
+Most of the Guidelines use weasel words that allow unlimited proliferation of
+variant shapes despite giving the impression of wanting to keep the number of
+variant shapes within reasonable bounds. If even one of the clearer guidelines
+is so flagrantly broken, then what is the point of having the guidelines in the first place?
+
+0x1407A
+The glyph suggests *two* oars/rudders.
+<p>
+I would not call the mentioned shape in the glyph a "horizontal rectangle". A rectangle consists of straight lines, while the shape is prominently curved. Perhaps say "flat shape inside between prow and stern with vertical lines as internal decoration"?
+
+0x1407C
+In the glyph, I don't really see two loops coming from the lower beam of the sail, more like one and half loops. One of the loops ends at the mast, which does not seem quite consistent with the description. Is it supposed to be drawn as in the glyph?
+
+0x14084 0x14085
+I suspect "point" is a dutchism. The shape at the bottom right I would call a "corner", not a "point".
+
+0x14086
+I see no "cross-beam over the sail" in the glyph. I think I see a cross-beam over the mast, *below* the sail. If the cross-beam is over the sail as in the description, what exactly is this supposed to look like?
+
+0x14088
+Hm, here I don't see a "point" (corner), but rather a short "distinct" beam at the bottom of the sail extending to the right, and a sail between the two "distinct" beams.
+
+0x14089
+Correct "point" to "corner".
+
+0x1408B
+"filling"? If this is what is meant, I would say something like "without depicting the space between the prongs". Unless "filling" is sailor's jargon for something specific.
+
+0x140F4
+I don't think the shapes in the glyph can be described as triangular.  One end is ever so slightly wider than the other end.
+
+0x14109 0x1410A 0x1410B 0x1410C 0x1410D 0x14110
+In 0x1410B, 0x1410C, 0x1410D the mentioned things are connected by a line at the bottom. The line is thin in 0x1410C while it is thick and prominent in 0x1410B and 0x1410D. By all reasonable measures, the thickness should not matter as to the identity of the sign. Even if the line is drawn as in 0x1410A, it is still just a line. I doubt there are any good reasons for talking about "base" in 0x14109 and 0x1410A while not even mentioning the connecting line in 0x1410B, 0x1410C, 0x1410D. 
+<p>
+The description of 0x14110 does mention "base", while the glyph has just a thick line, just like 0x1410B and 0x1410D.
+<p>
+My proposal would be to have "on a base" (not "a rectangular base") for all such signs for consistency.
+
+0x1412D
+In the glyph, there are two dots on either side of the fire-drill. Are those supposed to be there?

@@ -50,10 +50,11 @@ Ancillary Unicode documentation:
 - [Database](https://www.unicode.org/L2/L2023/23109-n5215-database.pdf)
 - [Encoding principles](https://www.unicode.org/reports/tr57/tr57-4.html)
 
-Corruption of the basic list:
+Critiques of Unicode 16:
 
 - [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare0.html)
-- [List of differences Unicode 5.2 versus Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
+- [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
+- [Issues with the extended list in Unicode 16 (pages 9-16)](https://nederhof.github.io/newgardiner/unicode16comments.html)
 
 ## Selected versions of the NewGardiner font
 

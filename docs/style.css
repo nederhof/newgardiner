@@ -73,7 +73,7 @@ tt {
 	color: blue;
 }
 
-.difference {
+.glyph_table {
 	margin-left: 0px;
 }
 
@@ -96,13 +96,13 @@ tt {
 	background: repeating-linear-gradient( -45deg, #999, #999 2px, #888 2px, #888 4px);
 }
 
-.image1 {
+.image5 {
 	display: inline;
 	width: 40px; 
 	height: 40px;
 }
 
-.image2 {
+.image16 {
 	display: inline;
 	width: 40px; 
 	height: 40px;
