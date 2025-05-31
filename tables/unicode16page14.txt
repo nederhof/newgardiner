@@ -5,7 +5,7 @@
 "At the front" in the description of 0x1429D becomes confusing because the sign is mirrored relative to say 0x1429C. Elsewhere in descriptions I have seen use of "left" and "right". I realise the downside of left/right is that strictly speaking this becomes incorrect for right-to-left running text, but the left/right terminology tends to be less ambiguous than front/back when describing signs in the sign list.
 
 0x142AE 0x13349
-In the Unicode 5.2 code charts (not the current code charts), the handle of 0x13349 was already a little below the wood.  Either way, distinguishing these two variants on the basis of how many pixels the handle is below the wood is entirely inappropriate for Unicode.
+In the Unicode 5.2 code charts (not the Unicode 16 code charts), the handle of 0x13349 was already a little below the wood.  Either way, distinguishing these two variants on the basis of how many pixels the handle is below the wood is entirely inappropriate for Unicode.
 <p>
 In the Database there is a comment:
 <p>
@@ -15,10 +15,10 @@ Quite! How this then became a new code point, let alone a core sign, is a myster
 
 0x142C4 0x142C5
 I suspect the "horizontal line on top of the forked drill-bit" should have distinguished these two, but
-it is missing from 0x142C5. Without this, the signs are identical for all practical purposes.
+it is missing from the glyph of 0x142C5. Without this, the signs are identical for all practical purposes.
 
 0x142DB 0x142DC
-To me, "square" implies 4 corners.  If this was meant to contrast 0x142DB with say 0x142DC, then perhaps "flat-bottomed" instead?
+To me, "square" implies 4 corners.  If this was meant to contrast 0x142DB with say 0x142DC, then perhaps replace "square-bottomed" by "flat-bottomed"?
 
 0x142F6
 The vertical line is interrupted by the base. That seems inconsistent with the description. Is the glyph incorrect or should the description be amended?
@@ -28,7 +28,7 @@ Also, I would replace "coming from" by "on".
 0x142F7 0x1334A
 Again, is the vertical line in 0x142F7 supposed to be interrupted at the base? There isn't actually a vertical line between the two ovals, it looks more like there is whitespace between the two ovals.
 <p>
-0x142F7 has "upwards dot"? The shape in the glyph is not like a dot. It looks more like U22 (0x1334A).
+0x142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot. It looks more like U22 (0x1334A).
 
 0x142FC
 There is no discernible beard in the image. Why not omit it from the description if it does not matter?

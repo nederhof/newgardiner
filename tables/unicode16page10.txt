@@ -13,7 +13,7 @@ Font-technical problem (anti-)clockwise?
 0x13EAA
 Apparently "bolls" are "rounded seed capsules of plants
 such as cotton or flax". What is on top in the glyph is square, not rounded.
-A redraw needed?
+Is a redraw needed?
 
 0x13EAB 0x131E7
 The "near the bottom of the bundle" of 0x13EAB doesn't seem to match the glyph.

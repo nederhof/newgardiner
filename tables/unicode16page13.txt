@@ -1,6 +1,3 @@
-0x1413E
-Strictly speaking, in the glyph the lower two counterweights are hanging down from the lotus flower, not from the top of the standard.
-
 0x14147
 Minor matter but the black blob on the left seems uncharacteristic. May be clockwise / anti-clockwise font-technical issue of an inner curve.
 
