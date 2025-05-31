@@ -71,9 +71,7 @@ helps no one, and is only a nuisance for standardization.
 In Unicode 17, the description will clarify that the flowers on the left are like M13 and the flower on the right are like M127.
 
 0x1312A 0x13BEC
-Unicode was not intended for expressing minor palaeographic distinctions.
-But if one insists on having two code points here, then the description of 0x1312A should be extended to have 
-"with two blocks at the bottom" to distinguish it from 0x13BEC.
+In Unicode 17, the description will clarify "with two blocks at the bottom" for 0x1312A.
 
 0x13C1F
 In Unicode 16, the glyph looks like a 45° rotation. Unicode 17 will correct the rotation of the glyph to 90°.
