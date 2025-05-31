@@ -24,14 +24,14 @@ The shape of the sledge as described ("four vertical lines between two horizonta
 
 0x14076 0x14077
 It is hard to imagine a more blatant, more literal violation of Point 5 of the
-Guidelines:
+Encoding Principles:
 <p>
 "Signs that exist with and without inner detailing will be included with the inner detailing"
 <p>
-Most of the Guidelines use weasel words that allow unlimited proliferation of
+Most of the Encoding Principles use weasel words that allow unlimited proliferation of
 variant shapes despite giving the impression of wanting to keep the number of
-variant shapes within reasonable bounds. If even one of the clearer guidelines
-is so flagrantly broken, then what is the point of having the guidelines in the first place?
+variant shapes within reasonable bounds. If even one of the clearer Encoding Principles
+is so flagrantly broken, then what is the point of having the Encoding Principles in the first place?
 
 0x1407A
 The glyph suggests *two* oars/rudders.

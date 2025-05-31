@@ -1,0 +1,91 @@
+0x13B6A
+The glyph has inward curving horns. As I commented elsewhere for 0x130FE, the evidence in the TSL shows that
+the curvature of horns is highly variable in actual inscriptions, 
+and thereby the description may be overspecific. How about just "with horns"?
+
+0x13B88 0x13B89 0x13B8B
+In the Database I find:
+<p>
+"overlay, but likely to difficult to render correctly with overlay tools."
+<p>
+Wanting to get the appearance to be "perfect" is generally a pretty bad reason to include composed signs as atomic code points, and if you were to follow the same reasoning consistently you would need to include many dozens if not hundreds of composed signs, not just for overlays but also for insertions.  Even for the vertical joiner, one could make the appearance more "perfect" if a hare becomes flatter, which is why Gardiner had E034A (0x130FA) in his font. But E034A was deprecated (made legacy) for good reasons!
+<p>
+HieroJax already has provisions to fine-tune the appearance of overlays, insertions and more. Cf.
+<p>
+https://nederhof.github.io/hierojax/ligaturelist.html
+<p>
+It appears to be an internally inconsistent strategy to deprecate existing composed signs in the basic sign list like 0x131A5 for nsw-bjtj (which is actually pretty difficult to get "perfect" if encoded compositionally) while introducing new composed signs in the extended sign list.
+<p>
+For nsw-bjtj see Points 9 and 10 of the Encoding Principles in:
+<p>
+https://www.unicode.org/reports/tr57/tr57-4.html
+<p>
+In particular under Point 10:
+<p>
+"However, exceptions can be made for signs which are widely used"
+<p>
+I would say that if exceptions can be made, then nsw-bjtj is a reasonable candidate for an exception. But 0x13B88 and 0x13B89 and 0x13B8B are not.
+
+0x13BB3
+The "vertical" does not appear accurate. In Unicode 17, the Unikemet description will be adjusted to have "pointing upwards".
+
+0x13BB9
+It is difficult to recognize what the glyph is meant to depict. In Unicode 17, the glyph will be improved on the basis of a photo of
+two tokens, but it remains difficult to recognize all the mentioned elements from the description.
+My suggestion would be to adjust the description to something shorter and less specific like "Stylised bent leg of a bovid".
+
+0x13BDF 0x13125
+I understand that 0x13BDF was introduced as a variant of 0x13125 for the use with insertions. This is a terrible
+idea, for at least three reasons.
+<p>
+First, it assumes that a font cannot detect whether a sign is used with
+or without an insertion and then automatically select an appropriate
+glyph for that sign. For HieroJax that is absolutely not the case and I
+cannot imagine that it is a problem for OpenType either. The task of
+placing an inserted group in the correct position, and scaling it
+appropriately, is several orders of magnitude more difficult than simply
+detecting co-occurrence of two characters.
+<p>
+Second, even if you assume that font technology is incapable of
+selecting the most appropriate glyph depending on whether or not it is
+used with insertion, you need a general design, as opposed to
+arbitrarily introducing extra code points for one or two signs for this
+purpose. There are many signs, perhaps dozens if not hundreds, that change their
+appearance depending on whether they are used with or without insertion.
+Much more common examples are U+1312A and U+1312B and U+13257
+but separate code points for those for the purpose of insertions were not introduced.
+<p>
+See how HieroJax handles these, by selecting appropriate glyphs
+depending on insertion:
+<p>
+https://nederhof.github.io/hierojax/insertionlist.html
+<p>
+Third, once you have introduced minor graphical variations as core
+independent code points, for the purpose of insertions, then you cannot
+prevent encoders from using those code points *without* insertions. They
+can then try to encode minor variations in dimensions, or just
+arbitrarily pick one or the other code point for the same sign. This
+helps no one, and is only a nuisance for standardization.
+
+0x13BE1
+In Unicode 17, the description will clarify that the flowers on the left are like M13 and the flower on the right are like M127.
+
+0x1312A 0x13BEC
+Unicode was not intended for expressing minor palaeographic distinctions.
+But if one insists on having two code points here, then the description of 0x1312A should be extended to have 
+"with two blocks at the bottom" to distinguish it from 0x13BEC.
+
+0x13C1F
+In Unicode 16, the glyph looks like a 45° rotation. Unicode 17 will correct the rotation of the glyph to 90°.
+
+0x13C4B 0x13C4C
+In Unicode 17, the Unikemet description of 0x13C4C will be clarified to mention the presence of lappets.
+
+0x13C58 0x13C59
+In Unicode 17, the description of 0x13C59 will be corrected to omit "and a lappet".
+I don't know why the description of 0x13C58 still has "straight feather" when the feather in the glyph is not straight.
+I would simply omit "straight" as insignificant palaeographic detail.
+
+0x13C5A
+As herons generally have two feathers, there is not enough information to distinguish this from other heron signs.
+In Unicode 17, the description will be completed to "A gray heron (Ardea cinerea) with a downward curve tip at the beak and two feathers on its head". But please correct "curve" to "curved" or even better "with the tip of the beak curved downward".

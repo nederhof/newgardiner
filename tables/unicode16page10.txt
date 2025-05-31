@@ -19,7 +19,7 @@ Is a redraw needed?
 The "near the bottom of the bundle" of 0x13EAB doesn't seem to match the glyph.
 <p>
 Also, does adding 0x13EAB next to 0x131E7 not
-violate Point 5 of the Guidelines "Signs that exist with and without inner detailing will be included with the inner detailing"?
+violate Point 5 of the Encoding Principles "Signs that exist with and without inner detailing will be included with the inner detailing"?
 
 0x13EB2
 If it is really necessary to have a sign specifically for 2*4 pieces, then at
@@ -33,7 +33,7 @@ My preference would be to underspecify the number of pieces. If the number of ro
 Adding 0x13EB5 next to 0x13EB4 seems hardly appropriate for Unicode. 
 It appears to be overtly paleographic, and such details are lost in ordinary font sizes and coarse fonts may omit these details anyway.
 <p>
-Also related in spirit to Point 5 of the Guidelines.
+Also related in spirit to Point 5 of the Encoding Principles.
 
 0x13ECF
 Correct "ribbled" to "rippled"?

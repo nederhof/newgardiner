@@ -64,10 +64,10 @@ The glyph of 0x13E0A looks quite strange. Could further guidance be provided
 how to interpret the different lines in the given glyph? Could one consider normalizing the glyph to help the user interpret what is drawn?
 
 0x13E20 0x13E27
-Overtly violates Point 5 of the Guidelines "Signs that exist with and without inner detailing will be included with the inner detailing".
+Overtly violates Point 5 of the Encoding Principles "Signs that exist with and without inner detailing will be included with the inner detailing".
 
 0x13E41 0x13E42
-Apart from the violation of Point 5 of the Guidelines, the description of
+Apart from the violation of Point 5 of the Encoding Principles, the description of
 0x13E42 is inaccurate. At best, correct 0x13E42 to "without".
 
 0x13E44 0x13E47

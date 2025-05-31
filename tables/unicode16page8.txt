@@ -11,11 +11,11 @@ None of the descriptions of human-headed birds mention beards. If these are not 
 The glyph of 0x13CDA, unlike 0x13CD9, seems to suggest uraei on the headdress. Are those real?
 
 0x13CE9 0x13CEA 0x13CED 0x13CEE
-These violate Point 5 of the Guidelines "Signs that exist with and without
+These violate Point 5 of the Encoding Principles "Signs that exist with and without
 inner detailing will be included with the inner detailing".
 
 0x13150 0x13CFC
-Introduction of 0x13CFC violates Point 5 of the Guidelines.
+Introduction of 0x13CFC violates Point 5 of the Encoding Principles.
 
 0x13D10 0x13D11
 In the glyph of 0x13D11, the cobra does *not* encircle the sun; it is just the I10 cobra.

@@ -1,6 +1,6 @@
 0x13F93
 There is no attempt to specify what the "internal details" consist of. I can understand why, as it would be pretty hard to specify what that even means.  Should any strokes or texture, no matter how insignificant, be seen as "internal detail"? This supports my view that there should not be multiple code points for the same sign with and without "internal details".
-Point 5 of the Guidelines actually suggests the same.
+Point 5 of the Encoding Principles actually suggests the same.
 
 0x13F98 0x13F99
 The two listed functions happen to be different, but unless the two functions are actually tied to the width difference, then this is not a meaningful distinction for Unicode, and consistency between fonts will be impossible to achieve.
@@ -51,7 +51,7 @@ If we are starting to encode groups atomically because we wish to fine-tune thei
 And if you accept that Unicode needs to encode fine-tuned positioning, then the one or two ligatures that have slipped through in the extended Unicode set will not suffice. You will need to start introducing possibly hundreds of additional code points of compositional groups. I don't think anyone would be happy with that either.
 
 0x13FFF 0x1329A
-Introduction of 0x13FFF violates Point 5 of the Guidelines:
+Introduction of 0x13FFF violates Point 5 of the Encoding Principles:
 <p>
 "Signs that exist with and without inner detailing will be included with the inner detailing".
 

@@ -22,7 +22,7 @@ Huh? I see nothing remotely like the description.
 0x141AF 0x132EF
 How is there a sickle shape? To me, 0x132EF and 0x141AF look identical except that one is slightly wider than the other, which is generally not a good enough reason to introduce multiple code points.
 <p>
-The Guidelines have under point 2:
+The Encoding Principles have under point 2:
 <p>
 "Chubby or slender signs are part of this continuum and will not be
 differentiated."
@@ -31,7 +31,7 @@ This seems to suggest that 0x141AF should not have existed next to 0x132EF.
 
 0x141BF 0x141C0
 A square is a special case of a rectangle; just saying. The fringes are comparably long, drawn slightly differently but so what?
-It doesn't seem appropriate to me that such shapes would be distinguished in Unicode (cf. again the Guidelines).
+It doesn't seem appropriate to me that such shapes would be distinguished in Unicode (cf. again the Encoding Principles).
 
 0x141D5 0x141D6
 If the circle section is to represent a crescent moon, then the glyph doesn't do a very good of representing this, i.e. it is nothing like N11 as it occurs in most fonts.
