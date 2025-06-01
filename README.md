@@ -58,7 +58,7 @@ Critiques of Unicode 16:
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 - [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
 
-Unicode 17:
+Provisional Unicode 17 code charts:
 
 - [Basic list (Beta Draft)](https://www.unicode.org/Public/draft/charts/blocks/U13000.pdf)
 - [Extended list (Beta Draft)](https://www.unicode.org/Public/draft/charts/blocks/U13460.pdf)
