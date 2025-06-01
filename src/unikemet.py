@@ -8,7 +8,7 @@ BASIC_END = 0x1342F
 
 def simplify_unikemet_name(name):
 	name = name.replace('HJ ', '')
-	match = re.match('^([A-IK-Z]?|NL|NU|AA)([0-9]+)([A-Z]{0,2})$', name)
+	match = re.match('^([A-IK-Z]?|NL|NU|AA)([0-9]{3})([A-Z]{0,2})$', name)
 	if match:
 		category = match.group(1).replace('AA', 'Aa')
 		number = match.group(2).lstrip('0')
@@ -31,6 +31,7 @@ def read_unikemet(filename):
 	ifao = {}
 	nomirror = {}
 	norotate = {}
+	altseq = {}
 	with open(filename, 'r') as f:
 		reader = csv.reader(f, delimiter='\t')
 		for row in reader:
@@ -61,6 +62,8 @@ def read_unikemet(filename):
 						nomirror[code] = val
 					case 'NoRotate':
 						norotate[code] = val
+					case 'AltSeq':
+						altseq[code] = val
 					case _:
 						print('Unrecognized kind', kind)
 	return {'cat': cat,
@@ -73,7 +76,8 @@ def read_unikemet(filename):
 		'hg': hg,
 		'ifao': ifao,
 		'nomirror': nomirror,
-		'norotate': norotate}
+		'norotate': norotate,
+		'altseq': altseq}
 
 def read_unikemet_to_code(filename):
 	code_to_unikemet = {}
@@ -119,8 +123,8 @@ def make_core_status(tables):
 			print('Wrong core status', '0x{:X}'.format(code), core[code])
 	return core_status
 
-def check_unikemet_unique():
-	unik = read_unikemet('../tables/Unikemet-16.0.0.txt')['unik']
+def check_unikemet_unique(tables):
+	unik = tables['unik']
 	unik_to_codes = defaultdict(list)
 	for code in unik:
 		unik_to_codes[unik[code]].append(code)
@@ -128,12 +132,12 @@ def check_unikemet_unique():
 		if len(unik_to_codes[unik[code]]) > 1:
 			print('Name clash', '0x{:X}'.format(code), unik[code])
 
-def check_unikemet_basic_list():
+def check_unikemet_basic_list(tables):
 	mapping1 = read_unikemet_to_code_multiple([
 		'../tables/unicode15hieroglyphs.csv',
 		'../tables/unicode15opencaps.csv', 
 		'../tables/unicode15closecaps.csv'])
-	mapping2 = restrict_code_map_range(read_unikemet('../tables/Unikemet-16.0.0.txt')['unik'],
+	mapping2 = restrict_code_map_range(tables['unik'],
 		BASIC_START, BASIC_END)
 	if len(mapping1) != len(mapping2):
 		print('Numbers of names in basic list differ')
@@ -141,16 +145,14 @@ def check_unikemet_basic_list():
 		if mapping1[code] != mapping2[code]:
 			print('Unikemet name mismatch', '0x{:X}'.format(code), mapping1[code], mapping2[code])
 
-def check_core_descriptions():
-	tables = read_unikemet('../tables/Unikemet-16.0.0.txt')
+def check_core_descriptions(tables):
 	desc = tables['desc']
 	core_status = make_core_status(tables)
 	for code in sorted(core_status):
 		if code > BASIC_END and core_status[code] == 'C' and code not in desc:
 			print('Missing description', '0x{:X}'.format(code))
 
-def check_omitted():
-	tables = read_unikemet('../tables/Unikemet-16.0.0.txt')
+def check_omitted(tables):
 	core_status = make_core_status(tables)
 	omitted_from_font = read_codes('../tables/omitted.csv')
 	noncores = [code for code in core_status if core_status[code] == 'N']
@@ -159,12 +161,14 @@ def check_omitted():
 	diff1 = list(set(noncores) - set(omitted_from_font))
 	diff2 = list(set(omitted_from_font) - set(noncores))
 	if len(diff1) > 0:
-		print('Noncores not omitted', diff1)
+		print('Noncores not omitted', ['0x{:X}'.format(code) for code in diff1])
 	if len(diff2) > 0:
 		print('Omitted not noncores', diff2)
 
 if __name__ == '__main__':
-	check_unikemet_unique()
-	check_unikemet_basic_list()
-	check_core_descriptions()
-	check_omitted()
+	# tables = read_unikemet('../tables/Unikemet-16.0.0.txt')
+	tables = read_unikemet('../tables/Unikemet16revised.txt')
+	check_unikemet_unique(tables)
+	check_unikemet_basic_list(tables)
+	check_core_descriptions(tables)
+	check_omitted(tables)

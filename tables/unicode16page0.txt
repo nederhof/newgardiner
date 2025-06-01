@@ -1,0 +1,7 @@
+0x1352A
+The glyph has four flowers, not three.
+To avoid inconsistency between description and glyph, the
+description in Unicode 17 will have "several papyrus flowers".
+
+0x1352C
+The description in Unicode 17 will be corrected to have "left knee raised", consistent with the glyph.

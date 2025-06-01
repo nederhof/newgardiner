@@ -32,9 +32,6 @@ I would simplify "on top of a base (O210A); on a broad base" to "on top of a bro
 The abaci are not shown in the glyph. (Why bother mentioning the abaci in the
 first place? It is a tiny detail and likely not essential to the character identity.)
 
-0x13FEB
-Truncated Unikemet description.
-
 0x13FF2
 The Database says "Needs to be atomic due to the position of the O34."
 <p>

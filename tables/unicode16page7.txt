@@ -35,7 +35,7 @@ two tokens, but it remains difficult to recognize all the mentioned elements fro
 My suggestion would be to adjust the description to something shorter and less specific like "Stylised bent leg of a bovid".
 
 0x13BDF 0x13125
-I understand that 0x13BDF was introduced as a variant of 0x13125 for the use with insertions. This is a terrible
+I understand that 0x13BDF was introduced as a variant of 0x13125 mainly for the use with insertions. This is a terrible
 idea, for at least three reasons.
 <p>
 First, it assumes that a font cannot detect whether a sign is used with

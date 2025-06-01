@@ -1,0 +1,10 @@
+0x13860 0x13861
+The hair in the glyph of 0x13860 is not long (like it is in 0x13861). This will be corrected in Unicode 17.
+
+0x1386A
+The glyph does suggests a sun disk (in the middle above the horns). This has been confirmed to be an error.
+In Unicode 17 one of the circles on the crown will be removed, but it is regrettably the wrong circle; the circle
+on top of the crown should remain.
+
+0x1393F
+The glyph has the handpalm inward. This will be corrected in Unicode 17.

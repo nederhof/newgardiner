@@ -27,10 +27,12 @@ inconsistencies between the new signs and the published encoding principles.
 This font inevitably suffers from these issues as well and should therefore be considered as no more than a preliminary attempt 
 to create a font covering the core signs.
 
-Particularly egregious is that some signs from the basic list were misplaced to
-new code points, while new shapes were assigned to old code points.
-Obviously this is unacceptable and the basic list needs to be restored to what it was in Unicode 5.2 as soon as possible.
-A stable situation may not exist until Unicode 18.
+Particularly egregious is that several signs from the basic list were misplaced to
+new code points, while new shapes were assigned to old code points, without
+any documented justification or open discussion.
+Obviously this is unacceptable, as it invalidated overnight any encodings that were compiled in the past 16 years. 
+The basic list needs to be restored to what it was in Unicode 5.2 as soon as possible.
+A stable situation may however not exist until Unicode 18.
 
 ## Links
 
@@ -54,7 +56,7 @@ Critiques of Unicode 16:
 
 - [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare0.html)
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
-- [Issues with the extended list in Unicode 16 (pages 8-16)](https://nederhof.github.io/newgardiner/unicode16comments.html)
+- [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
 
 Unicode 17:
 
@@ -63,6 +65,9 @@ Unicode 17:
 
 ## Selected versions of the NewGardiner font
 
+- 3.02 (2025-06-01)
+	- Revised basic list to make all glyphs no wider or taller than 1 EM.
+	- Minor revisions to extended list.
 - 3.01 (2025-05-19)
 	- Added the 3995 glyphs in the extended list (but with placeholders for non-core signs).
 - 2.10 (2024-02-16)

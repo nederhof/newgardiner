@@ -1,0 +1,17 @@
+0x1359E
+As the crossed arms are not visible in the glyph, Unicode 17 will change the description to have "hands sticking out".
+
+0x135A1
+It is not possible to tell from the glyph which side the speartip is on.
+In Unicode 17, the glyph will more clearly show the speartip to be at the top.
+
+0x135B5
+Unicode 17 will correct the glyph to have a triangle, consistent with the description, 
+where the Unicode 16 glyph suggested a cross.
+
+0x135F2
+In Unicode 17, the description is corrected from "with counterweight at the counterweight" to "with counterweight".
+
+0x1363E
+The glyph lacks a beard.
+In Unicode 17, the glyph will have a beard, consistent with the description.
