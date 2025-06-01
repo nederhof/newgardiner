@@ -35,9 +35,6 @@ It appears to be overtly paleographic, and such details are lost in ordinary fon
 <p>
 Also related in spirit to Point 5 of the Encoding Principles.
 
-0x13ECF
-Correct "ribbled" to "rippled"?
-
 0x13EEC
 Hm, I would not say "filling the space", assuming the glyph is accurate. If
 the description is accurate, then the uraeus should be bigger and moved closer
