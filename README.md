@@ -50,7 +50,7 @@ Ancillary Unicode documentation:
 
 - [Unikemet](https://www.unicode.org/Public/UCD/latest/ucd/Unikemet.txt)
 - [Database](https://www.unicode.org/L2/L2023/23109-n5215-database.pdf)
-- [Encoding principles](https://www.unicode.org/reports/tr57/tr57-4.html)
+- [Encoding principles](https://www.unicode.org/reports/tr57/tr57-4.html#EncodingPrinciples)
 
 Critiques of Unicode 16:
 
