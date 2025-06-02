@@ -1,5 +1,5 @@
 0x13D64 0x13192
-In the glyph of 0x13D64, the top and bottom lines have the same length. Copy-and-past
+In the glyph of 0x13D64, the top and bottom lines have the same length. Copy-and-paste
 error from 0x13192 in the description? Or is the glyph wrong?
 
 0x13D72
