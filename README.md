@@ -13,8 +13,8 @@ It includes:
 - Various ligatures and auxiliary signs for the implementation of [HieroJax](https://github.com/nederhof/hierojax).
 
 From the extended list only the **core** signs are included in the font. 
-The **non-core** signs are unverified and undocumented, and are thereby
-useless for any practical purposes and were introduced in Unicode for all the wrong reasons (don't ask). 
+The 568 **non-core** signs are unverified and undocumented, and are thereby
+pointless and were introduced in Unicode for all the wrong reasons (don't ask). 
 In the font, the non-core signs have placeholder glyphs **nc**. A handful of non-core signs that were drawn by mistake are
 kept in a separate font.
 
