@@ -120,7 +120,7 @@ def make_core_status(tables):
 		elif core[code] == 'C':
 			core_status[code] = 'C'
 		else:
-			print('Wrong core status', '0x{:X}'.format(code), core[code])
+			print('Wrong core status', f'0x{code:X}', core[code])
 	return core_status
 
 def check_unikemet_unique(tables):
@@ -130,7 +130,7 @@ def check_unikemet_unique(tables):
 		unik_to_codes[unik[code]].append(code)
 	for code in sorted(unik):
 		if len(unik_to_codes[unik[code]]) > 1:
-			print('Name clash', '0x{:X}'.format(code), unik[code])
+			print('Name clash', f'0x{code:X}', unik[code])
 
 def check_unikemet_basic_list(tables):
 	mapping1 = read_unikemet_to_code_multiple([
@@ -143,14 +143,14 @@ def check_unikemet_basic_list(tables):
 		print('Numbers of names in basic list differ')
 	for code in sorted(mapping1):
 		if mapping1[code] != mapping2[code]:
-			print('Unikemet name mismatch', '0x{:X}'.format(code), mapping1[code], mapping2[code])
+			print('Unikemet name mismatch', f'0x{code:X}', mapping1[code], mapping2[code])
 
 def check_core_descriptions(tables):
 	desc = tables['desc']
 	core_status = make_core_status(tables)
 	for code in sorted(core_status):
 		if code > BASIC_END and core_status[code] == 'C' and code not in desc:
-			print('Missing description', '0x{:X}'.format(code))
+			print('Missing description', f'0x{code:X}')
 
 def check_omitted(tables):
 	core_status = make_core_status(tables)
@@ -161,7 +161,7 @@ def check_omitted(tables):
 	diff1 = list(set(noncores) - set(omitted_from_font))
 	diff2 = list(set(omitted_from_font) - set(noncores))
 	if len(diff1) > 0:
-		print('Noncores not omitted', ['0x{:X}'.format(code) for code in diff1])
+		print('Noncores not omitted', [f'0x{code:X}' for code in diff1])
 	if len(diff2) > 0:
 		print('Omitted not noncores', diff2)
 

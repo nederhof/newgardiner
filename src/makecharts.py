@@ -39,7 +39,7 @@ def generate_page(page_num, previous_page, next_page, page_start, page_end):
 	etree.SubElement(head, 'meta', charset='UTF-8')
 	etree.SubElement(head, 'meta', name='viewport', content='width=device-width, initial-scale=1.0')
 	title = etree.SubElement(head, 'title')
-	title.text = f'NewGardiner {page_start:X}-{page_end:X}'
+	title.text = f'NewGardiner {page_start:X}-{page_end-1:X}'
 	etree.SubElement(head, 'link', rel='stylesheet', href='style.css')
 	body = etree.SubElement(html, 'body')
 	h1 = etree.SubElement(body, 'h1')
@@ -50,7 +50,7 @@ def generate_page(page_num, previous_page, next_page, page_start, page_end):
 		previous_button = etree.SubElement(navigation, 'a', {'href': page_filename(previous_page), 'class': 'button'})
 		previous_button.text = '⬅'
 	subtitle = etree.SubElement(navigation, 'span')
-	subtitle.text = f'{page_start:X}-{page_end:X}'
+	subtitle.text = f'{page_start:X}-{page_end-1:X}'
 	if next_page is not None:
 		next_button = etree.SubElement(navigation, 'a', {'href': page_filename(next_page), 'class': 'button'})
 		next_button.text = '➡'
@@ -93,7 +93,7 @@ def generate_pages(page_ranges):
 		page_start = page_range['start']
 		page_end = page_range['end'] if 'end' in page_range else page_ranges[page_num+1]['start']
 		generate_page(page_num, previous_page, next_page, page_start, page_end)
-		page_index.append({'page_num': page_num, 'page_start': page_start, 'page_end': page_end})
+		page_index.append({'page_num': page_num, 'page_start': page_start, 'page_end': page_end-1})
 	generate_index(page_index)
 
 page_ranges = [{'start': 0x13000}, {'start': 0x130E0}, {'start': 0x131C0}, {'start': 0x13290}, {'start': 0x13360, 'end': 0x13430},
