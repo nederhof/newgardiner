@@ -23,15 +23,11 @@ def read_comment_page(source):
 		for line in f:
 			if line.strip() == '':
 				if lines is not []:
-					code_points = [int(h, 16) for h in lines[0].split()]
-					comment_pars = ''.join(lines[1:]).split('<p>')
 					comments.append(read_comment(lines))
 					lines = []
 			else:
 				lines.append(line)
 		if lines is not []:
-			code_points = [int(h, 16) for h in lines[0].split()]
-			comment_pars = ''.join(lines[1:]).split('<p>')
 			comments.append(read_comment(lines))
 	return comments
 

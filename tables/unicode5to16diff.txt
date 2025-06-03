@@ -1,0 +1,83 @@
+0x13043 0x1333C
+In 0x13043, there was a line representing the ground, and there was no connecting rope. Now there is no line for the ground and there is a rope connecting the two pieces of the hoe. There may be good reasons to update the glyph, provided one can argue that the original form was incorrect. But there is a sign 0x1333C for a hoe without connecting rope, so the original glyph of 0x13043 is not implausible. If so far no token of 0x13043 was located without connecting rope, then what are you going to do if you do find such a token, introduce a new code point for it? This is disastrous for the stability of Unicode.
+
+0x1304F
+Hands were oriented outward, now inward. This may be a legitimate improvement since it has been argued that the shape with outward handpalms was plain wrong and does not occur in real inscriptions.
+
+0x13055
+In the original shape, the hair is not long.
+
+0x13057 0x136D7 0x136D9
+For 0x13057, there was a uraeus in the original, now there is not. There may be good reasons to update the glyph of 0x13057, provided one can argue the original shape was incorrect. But considering 0x136D7 and 0x136D9, which do have uraei, is it not plausible that the original shape might exist? If so far no token of 0x13057 was located with uraeus, then what are you going to do if you do find such a token, introduce a new code point for it? This is disastrous for the stability of Unicode.
+
+0x1306F 0x1375D
+For 0x1306F, the sun-disk was removed. This is fine if the sun-disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x1375D with sun-disk.
+
+0x130B9
+It is debatable whether the original shape has the folded piece of cloth on top, or whether the intention was to underspecify which of the two signs is on top. In the latter case, it may be adequate to describe this simply as an overlay of the two signs without specifying which of the two is on top, and leave it to the font designer how to draw this. There are several more such cases.
+
+0x130E8
+The Unicode 5.2 form did not have the uraeus. If the missing uraeus was clearly a mistake, then fine. But if there is a reasonable chance one could also find occurrences without uraeus, will you then introduce a new code point for this once this happens? This is disastrous for the stability of Unicode.
+
+0x130F3
+Unicode 5.2 form did not have the four pieces of grain or fruit. Seems insignificant detail and one could just mention in the description that there is a basket without specifying what is in it.
+
+0x13146 0x13C7C
+It is unclear to me what kind of standard was intended with the original shape of 0x13146, and it seems an insignificant detail. But if one starts introducing multiple code points depending on the choice of standard (cf. 0x13C7C), then it is not clear to me that the change of shape of 0x13146 is within the normal bounds of allowable graphical variation for a given code point, and perhaps a fresh code point would have been warranted.
+
+0x1314B
+The head of antilope was not previously discernible. Are *two* rudders visible, in both images?
+
+0x1314F 0x137B8
+For 0x1314F, the sun-disk was removed. This is fine if the sun-disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x137B8 that do have a sun-disk.
+
+0x13233
+Child was given white crown. Bovid lost its horns.
+
+0x13234
+Child was given white crown.
+
+0x13235
+Headdress lost the sun-disk.
+
+0x13236
+The bow was mirrored.
+
+0x1323C
+The object on the standard changed from looking similar to Y8 to something closer to R28.
+
+0x13241
+In the original, the standard was simplified.
+
+0x13242
+In the original, the standard was simplified.
+
+0x13247
+There was no basket in the original shape. I understand the information in the Database to suggest this sign also occurs without basket. It might therefore have been better to keep the sign unchanged, as the original form is not objectively wrong.
+
+0x1324F
+Object on standard changed to a kind of overlay.
+
+0x1325F
+The original shape underspecified which of the signs is on top. It seems fine to me to clarify the desired appearance as is done here.
+
+0x1327F
+The original shape was asymmetric, while the new shape is perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric.
+
+0x1328F
+There was no loop at the front in the original.
+
+0x132BA
+The two shapes are similar. But I cannot relate the description to the shapes. What is the loop at the back?
+
+0x132BF
+The standard has a different shape.
+
+0x132C5
+There appears to be a sun-disk on the headdress in the original.
+
+0x132E1
+The original shape underspecified which of the signs is on top. It seems fine to me to clarify the desired appearance as is done here. One worry for this case and for related cases is this: if the description mentioning which sign is on top is based on just one occurrence, and if in fact both possibilities exist, then the description is unduly specific. It would then be better to simply say that this is an overlay without specifying which sign is on top.
+
+0x132F7
+In the original, the fringes are not sloping.
