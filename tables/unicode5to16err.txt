@@ -1,7 +1,7 @@
 0x13017 0x134CD
 The staff in the original shape of 0x13017 already had a slight backward angle, unlike the Unicode 16 form, where the staff is perfectly vertical. This will be solved in Unicode 17 by redrawing 0x13017 to have the staff at a backward angle, like in the original shape. But note that then 0x13017 and 0x134CD will differ by no more than the exact degree of the angle, which seems an inappropriately small graphical distinction for the purposes of Unicode.
 
-0x1303A 0x1355D
+ok 0x1303A 0x1355D
 Considering the hairstyles, 0x1303A was misplaced at 0x1355D. This will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x1303A and 0x1355D from Unicode 16.
 
 0x130C1
@@ -10,16 +10,16 @@ These are arguably only insignificant graphical variants of the same thing, but 
 0x130FE
 The description suggests outward curving horns, unlike the Unicode 5.2 and Unicode 16 shapes. Some of the tokens in the TSL have outward curving horns and some have inward curving horns. Does it make sense to specify the curvature in the description when the curvature is so variable in actual inscriptions? How about just "with horns"?
 
-0x130F9 0x13ABE
+ok 0x130F9 0x13ABE
 The original shape of 0x130F9 unmistakably had whiskers. This will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130F9 and 0x13ABE from Unicode 16.
 
-0x130FA
+ok 0x130FA
 In the original shape, the hare has whiskers. Moreover, the difference between 0x130FA and 0x130F9 should be in the height, while the width should be roughly the same, i.e. 0x130FA is flatter than 0x130F9. See Gardiner (1957) for the typographical motivation. Both issues will be solved in Unicode 17.
 
-0x130FB 0x13AE8
+ok 0x130FB 0x13AE8
 The original shape (tail up) was misplaced at 0x13AE8. This will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130FB and 0x13AE8 from Unicode 16.
 
-0x130FC
+ok 0x130FC
 The original shape had the tail up. This will be solved in Unicode 17 by restoring the orientation of the tail.
 
 0x13108 0x13B83
@@ -40,10 +40,10 @@ It is by no more than a few black pixels, but it is unmistakable that the origin
 0x13164
 Give the shape a lappet to revert to Unicode 5.2.
 
-0x13169 0x13168
+ok 0x13169 0x13168
 The width of 0x13169 should be the same as that of 0x13168, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.
 
-0x1316B 0x1316A
+ok 0x1316B 0x1316A
 The width of 0x1316B should be the same as that of 0x1316A, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.
 
 0x131A6

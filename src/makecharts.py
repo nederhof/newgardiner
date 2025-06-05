@@ -6,6 +6,9 @@ TARGET_DIR = '../docs/'
 def page_filename(page_num):
 	return f'page{page_num}.html'
 
+def page_range(page_start, page_end):
+	return f'{page_start:X}-{page_end-1:X}'
+
 def generate_table(body, page_start, page_end):
 	table = etree.SubElement(body, 'table')
 	thead = etree.SubElement(table, 'thead')
@@ -39,7 +42,7 @@ def generate_page(page_num, previous_page, next_page, page_start, page_end):
 	etree.SubElement(head, 'meta', charset='UTF-8')
 	etree.SubElement(head, 'meta', name='viewport', content='width=device-width, initial-scale=1.0')
 	title = etree.SubElement(head, 'title')
-	title.text = f'NewGardiner {page_start:X}-{page_end-1:X}'
+	title.text = 'NewGardiner ' + page_range(page_start, page_end)
 	etree.SubElement(head, 'link', rel='stylesheet', href='style.css')
 	body = etree.SubElement(html, 'body')
 	h1 = etree.SubElement(body, 'h1')
@@ -50,7 +53,7 @@ def generate_page(page_num, previous_page, next_page, page_start, page_end):
 		previous_button = etree.SubElement(navigation, 'a', {'href': page_filename(previous_page), 'class': 'button'})
 		previous_button.text = '⬅'
 	subtitle = etree.SubElement(navigation, 'span')
-	subtitle.text = f'{page_start:X}-{page_end-1:X}'
+	subtitle.text = page_range(page_start, page_end)
 	if next_page is not None:
 		next_button = etree.SubElement(navigation, 'a', {'href': page_filename(next_page), 'class': 'button'})
 		next_button.text = '➡'
@@ -80,7 +83,7 @@ def generate_index(page_index):
 	for page in page_index:
 		page_par = etree.SubElement(body, 'p')
 		page_link = etree.SubElement(page_par, 'a', {'href': page_filename(page['page_num'])})
-		page_link.text = f'{page['page_start']:X}-{page['page_end']:X}'
+		page_link.text = page_range(page['page_start'], page['page_end'])
 	html_string = etree.tostring(html, pretty_print=True, doctype='<!DOCTYPE html>', encoding='unicode')
 	with open(TARGET_DIR + 'index.html', 'w', encoding='utf-8') as f:
 		f.write(html_string)
@@ -93,7 +96,7 @@ def generate_pages(page_ranges):
 		page_start = page_range['start']
 		page_end = page_range['end'] if 'end' in page_range else page_ranges[page_num+1]['start']
 		generate_page(page_num, previous_page, next_page, page_start, page_end)
-		page_index.append({'page_num': page_num, 'page_start': page_start, 'page_end': page_end-1})
+		page_index.append({'page_num': page_num, 'page_start': page_start, 'page_end': page_end})
 	generate_index(page_index)
 
 page_ranges = [{'start': 0x13000}, {'start': 0x130E0}, {'start': 0x131C0}, {'start': 0x13290}, {'start': 0x13360, 'end': 0x13430},

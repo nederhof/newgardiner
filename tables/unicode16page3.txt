@@ -1,20 +1,20 @@
-0x137E9 0x137EA
+ok 0x137E9 0x137EA
 The hair in the glyph of 0x137EA will be corrected to "coif" in Unicode 17.
 
-0x137F5 0x137F6 0x137F7
+ok 0x137F5 0x137F6 0x137F7
 The hair in the glyphs of 0x137F5 and 0x137F6 will be corrected to "coif/short hair" in Unicode 17.
 
-0x13802 0x13803
+ok 0x13802 0x13803
 The hair in the glyph of 0x13803 will be corrected to "long" in Unicode 17.
 
-0x1381A
+ok 0x1381A
 Unicode 17 will make the glyph consistent with the description by letting the god touch the wall.
 
 0x1382A
 The Unicode 17 glyph will be closer to the description by replacing the M16 shape on the head by M15.
 But it is still not clear in the glyph that the lines below the mat connect to the flowers, rather than to the waterpots.
 
-0x13794 0x136AE
+ok 0x13794 0x136AE
 These two are duplicates. This will be solved in Unicode 17 by making 0x136AE non-core.
 
 0x13795

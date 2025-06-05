@@ -26,7 +26,7 @@ In particular under Point 10:
 <p>
 I would say that if exceptions can be made, then nsw-bjtj is a reasonable candidate for an exception. But 0x13B88 and 0x13B89 and 0x13B8B are not.
 
-0x13BB3
+ok 0x13BB3
 The "vertical" does not appear accurate. In Unicode 17, the Unikemet description will be adjusted to have "pointing upwards".
 
 0x13BB9
@@ -67,16 +67,16 @@ can then try to encode minor variations in dimensions, or just
 arbitrarily pick one or the other code point for the same sign. This
 helps no one, and is only a nuisance for standardization.
 
-0x13BE1
+ok 0x13BE1
 In Unicode 17, the description will clarify that the flowers on the left are like M13 and the flower on the right are like M127.
 
-0x1312A 0x13BEC
+ok 0x1312A 0x13BEC
 In Unicode 17, the description will clarify "with two blocks at the bottom" for 0x1312A.
 
-0x13C1F
+ok 0x13C1F
 In Unicode 16, the glyph looks like a 45° rotation. Unicode 17 will correct the rotation of the glyph to 90°.
 
-0x13C4B 0x13C4C
+ok 0x13C4B 0x13C4C
 In Unicode 17, the Unikemet description of 0x13C4C will be clarified to mention the presence of lappets.
 
 0x13C58 0x13C59

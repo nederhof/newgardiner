@@ -11,8 +11,16 @@ DIR5 = 'glyphs5'
 DIR16 = 'glyphs16'
 
 def read_item(lines):
-	code_points = [int(h, 16) for h in lines[0].split()]
-	return {'code_point': code_points[0], 'others': code_points[1:], 'comment_pars': ''.join(lines[1:]).split('<p>')}
+	first_parts = lines[0].split()
+	ok = False
+	if first_parts[0] == 'ok':
+		first_parts = first_parts[1:]
+		ok = True
+	code_points = [int(h, 16) for h in first_parts]
+	return {'code_point': code_points[0], \
+			'others': code_points[1:], \
+			'comment_pars': ''.join(lines[1:]).split('<p>'),
+			'ok': ok}
 
 def read_diff_file(path):
 	items = []
@@ -56,6 +64,7 @@ def make_difference(body, diff, tables, code_points):
 	code_point = diff['code_point']
 	others = diff['others']
 	comment_pars = diff['comment_pars']
+	ok = diff['ok']
 	table = etree.SubElement(body, 'table', {'class': 'glyph_table'})
 	tbody = etree.SubElement(table, 'tbody')
 	tr = etree.SubElement(tbody, 'tr')
@@ -74,7 +83,10 @@ def make_difference(body, diff, tables, code_points):
 	for other in others:
 		may_attach_desc_string(p_desc, tables, other, br=True)
 	for comment_par in comment_pars:
-		par = etree.SubElement(body, 'p')
+		if ok:
+			par = etree.SubElement(body, 'p', {'class': 'done'})
+		else:
+			par = etree.SubElement(body, 'p')
 		if comment_par.strip().startswith('https:'):
 			a = etree.SubElement(par, 'a', {'href': comment_par.strip()})
 			a.text = 'Link'
@@ -93,7 +105,7 @@ def make_page(tables):
 	h1 = etree.SubElement(body, 'h1')
 	h1.text = title.text
 	p = etree.SubElement(body, 'p')
-	p.text = 'Where two glyphs are given for the same code point, the first is from Unicode 5.2 and the second is from Unicode 16. The glyphs were automatically extracted from the official PDF code charts. Lines in blue starting with code point and kEH_Desc are descriptions copied verbatim from Unikemet.'
+	p.text = 'Where two glyphs are given for the same code point, the first is from Unicode 5.2 and the second is from Unicode 16. The glyphs were automatically extracted from the official PDF code charts. Lines in blue starting with code point and kEH_Desc are descriptions copied verbatim from Unikemet. Comments in green indicate that the issues were resolved.'
 	h2 = etree.SubElement(body, 'h2')
 	h2.text = 'Apparent errors'
 	code_points = set()

@@ -1,4 +1,4 @@
-0x13989 0x1398A 0x1398B
+ok 0x13989 0x1398A 0x1398B
 In Unicode 17, the V-shaped patterns in 0x1398A and 0x1398B will be corrected to be triangles like in 0x13989, 
 consistent with the descriptions.
 
@@ -18,16 +18,16 @@ Functionally, the signs are equivalent.
 0x13A01 0x13A02
 Again, it would be hard to argue that the distinction between these two is anything other than palaeographic.
 
-0x13A13
+ok 0x13A13
 In the glyph, the angle is not exactly 90°. In Unicode 17, the description will be adjusted to have "roughly 90°".
 
-0x13A20
+ok 0x13A20
 The glyph may be misunderstood as an overlay of "hills" N26 and "leg" D58. 
 In Unicode 17, the glyph will be drawn differently to bring out U28 more clearly.
 
-0x13A2A
+ok 0x13A2A
 In the glyph, the vertical part of the standard looks like a leg of an animal, and there appears to be a loop at the right. 
 Both were confirmed to be errors. In Unicode 17, the glyph will be corrected to have a plain standard with a diagonal beam.
 
-0x13A5C
+ok 0x13A5C
 The loop around the neck in the glyph is an error. In Unicode 17, this will be removed.

@@ -1,8 +1,8 @@
-0x13A81
+ok 0x13A81
 The glyph depicts the jackal over the sedge, not the sedge over the jackal.
 The glyph will be corrected in Unicode 17.
 
-0x13A9F 0x13AA0 0x13AA1
+ok 0x13A9F 0x13AA0 0x13AA1
 In all three glyphs, the *left* paw is raised.
 The glyphs will be corrected in Unicode 17.
 
@@ -13,17 +13,17 @@ Conversely, 13AAF doesn't look like it has the head of a falcon, and I think nor
 The glyph of 0x13AAE does correspond to JSesh E80A and the glyph of 0x13AAF does correspond to JSesh E80, so in 
 this respect, Unikemet appears to be accurate.
 
-0x13AB4
+ok 0x13AB4
 The blade in the glyph is toward the front.
 The glyph will be corrected in Unicode 17.
 
-0x13B0E
+ok 0x13B0E
 There are two horizontal strokes in the glyph.
 The glyph will be corrected in Unicode 17.
 
-0x13B3B
+ok 0x13B3B
 In the glyph, the top knife has the blade forward.
 The glyph will be corrected in Unicode 17.
 
-0x13B39 0x13B58
+ok 0x13B39 0x13B58
 To distinguish the two glyphs, the description of 0x13B58 in Unicode 17 will be amended to have "without horns".
