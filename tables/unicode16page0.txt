@@ -1,3 +1,45 @@
+0x13461
+I feel "both" places an unnecessary and misleading emphasis on the plurality of "knees", because only one knee is visible after all. Can "both" be omitted?
+Same for 0x13463, 0x13464, 0x13465, 0x13469, 0x1346C, 0x1346D, 0x1346F, 0x13471, 0x13474, 0x13478, 0x1347A, 0x1347D, 0x1347F, 0x13480,
+0x134E8, 0x134E9, 0x134EB, 0x134F3, 0x13527, 0x1354E, 0x13556, 0x13558, 0x1355A, 0x1355E, and perhaps a few others that I've overlooked.
+
+0x13464
+Whatever "knees horizontal" is meant to convey, it may already be implied by "knees forwards".
+
+0x13472
+At least one of "hand vertical, hand palm towards the face, in front of the face" seems redundant.
+
+0x13473
+Should be "right foot horizontal"? Or is the glyph wrong?
+
+0x134A8
+The "front arm" is quite confusing. It is not the arm closest to the reader (I guess) but the arm connected to the shoulder closest to an
+imaginary person facing the man. Why not just "left arm" to disambiguate?
+
+0x134BB
+Don't use the expression "facing upwards" where the face is looking downwards. Perhaps "Man [...] with his back down [...]"? 
+
+0x134BF
+"elbow bend downwards" s.b. "elbows [plural] bent downwards".
+
+0x134C5
+The glyph has the hand palms inward. Is the description wrong or is the glyph wrong?
+
+0x134D2
+Is it just a "backward line"? The glyph suggests it is something more (M4?).
+
+0x134D6
+"right arm in forward" should be "in front"?
+
+0x134E4
+The hairstyle in the glyph does not appear to be a coif.
+
+0x13527
+In the glyph, the hand palms are inward or upward, but certainly not outward.
+
+0x13528
+The glyph does not have both knees raised.
+
 ok 0x1352A
 The glyph has four flowers, not three.
 To avoid inconsistency between description and glyph, the
@@ -5,3 +47,10 @@ description in Unicode 17 will have "several papyrus flowers".
 
 ok 0x1352C
 The description in Unicode 17 will be corrected to have "left knee raised", consistent with the glyph.
+
+0x13541
+The latest draft description is:
+<p>
+"Man, standing, back bent forwards, arms raised on either side of the body, bent at the elbow, hands at the height of the shoulders, holding an oar with both hands at 45° with the blade downwards."
+<p>
+If the oar is at 45 degrees, and the hands are both on the oar, then the hands cannot both be at the height of the shoulders. I think the description tries to be overly precise, to the point of no longer making sense. I would omit "hands at the height of the shoulders".

@@ -26,7 +26,7 @@ Unicode 5.2 form did not have the four pieces of grain or fruit. Seems insignifi
 It is unclear to me what kind of standard was intended with the original shape of 0x13146, and it seems an insignificant detail. But if one starts introducing multiple code points depending on the choice of standard (cf. 0x13C7C), then it is not clear to me that the change of shape of 0x13146 is within the normal bounds of allowable graphical variation for a given code point, and perhaps a fresh code point would have been warranted.
 
 0x1314B
-The head of antilope was not previously discernible. Are *two* rudders visible, in both images?
+The head of antelope was not previously discernible. Are *two* rudders visible, in both images?
 
 0x1314F 0x137B8
 For 0x1314F, the sun-disk was removed. This is fine if the sun-disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x137B8 that do have a sun-disk.
