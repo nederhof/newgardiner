@@ -1,3 +1,16 @@
+0x1356F
+The glyph has left and right hands switched around. It is a legitimate question whether the description needs to be this precise.
+Something like "hands holding a two-pronged mast [...]" would be perfectly adequate.
+
+0x13584 0x13585
+The description of x13584 has "bent slightly forwards" while the description of 0x13585 does not.
+Yet, apart from the position of the left arm, the poses in the two glyphs are 100% identical.
+If it is necessary to so precisely describe the pose, then at least make sure that the glyphs
+reflect what the descriptions say.
+
+0x13588
+The glyph does not have M2 as it normally looks.
+
 ok 0x1359E
 As the crossed arms are not visible in the glyph, Unicode 17 will change the description to have "hands sticking out".
 
@@ -5,12 +18,60 @@ ok 0x135A1
 It is not possible to tell from the glyph which side the speartip is on.
 In Unicode 17, the glyph will more clearly show the speartip to be at the top.
 
+0x135A4
+The "stick" looks more like a mace. If it is just a stick, then the glyph needs redrawing.
+
+0x135A5
+Change first full-stop to comma.
+
 ok 0x135B5
-Unicode 17 will correct the glyph to have a triangle, consistent with the description, 
+Unicode 17 will correct the glyph to have a triangle, consistent with the description,
 where the Unicode 16 glyph suggested a cross.
+
+0x135D3
+Correct "holding and axe" to "holding an axe".
+
+0x135D9
+The "in front of" makes no sense. The larger man is *behind* the smaller man.
+
+0x135DC
+Replace "g[r]ound together" by "bound together". The description of the arms of the second man does not correspond to the glyph. Also, only one knee of the second man is visible in the glyph, whereas the description mentions both knees.
+
+0x135ED
+The glyph suggests a uraeus not mentioned in the description. Remove the uraeus from the glyph, or amend the description?
+
+0x135EE
+Replace "counterweight (S18) at the counterweight" by just ""counterweight (S18)"
 
 ok 0x135F2
 In Unicode 17, the description is corrected from "with counterweight at the counterweight" to "with counterweight".
+
+0x135F4
+The glyph suggests a uraeus not mentioned in the description. Remove the uraeus from the glyph, or amend the description?
+
+0x135F9
+Replace "counterweight (S18) at the counterweight" by just "counterweight (S18)".
+
+0x13603
+Replace "left land" by "left hand".
+
+0x13604
+Cannot parse "as a two ties".
+
+0x13605
+Is the triangular shape attached to the staff real?
+
+0x1360B
+Replace "horizontally" by "horizontal".
+
+0x1360F
+"foreleg of the man" cannot be right.
+
+0x13637                                                                                        
+"heels touching ties" What does that mean?                                                     
+                                                                                               
+0x13639                                                                                        
+Cannot parse. I think a preposition "to" is missing.
 
 ok 0x1363E
 The glyph lacks a beard.

@@ -25,5 +25,5 @@ with the philologists what the intention was.
 Incidentally, 0x136C6 was reportedly not meant to become a core sign in Unicode 16, 
 but is still marked as core sign in Unicode 17.
 
-0x13714
-ok The glyph depicts only one arm. In Unicode 17, the description will be corrected to "arm raised in front".
+ok 0x13714
+The glyph depicts only one arm. In Unicode 17, the description will be corrected to "arm raised in front".
