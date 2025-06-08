@@ -1,13 +1,55 @@
+0x13661
+The hair style is not "short hair/wig" in the glyph.
+
+0x13663
+There is no "loop [...] running over the vertical pole" in the glyph.
+
+0x13667
+The "long-curved beard" could be brought out better in the glyph.
+Currently, there is just a blur between chin and shoulder.
+<p>
+Apropos, I don't think "long-curved" is English. Perhaps replace hyphen with comma?
+
 ok 0x1366D
 The glyph suggests an object held in the left hand.
 This was confirmed to be an error.
 The Unicode 17 glyph will no longer depict the object.
+
+0x13680
+In the glyph, the heels are not strictly touching the thighs, but who cares! 
+At best, this is a concern for hard-core palaeographers, and this is beyond the scope of Unicode.
+I would omit the phrase "touching the thighs" altogether.
+
+0x13689
+There is no platform in the glyph.
+
+0x1368A 
+S3 *is* the red crown. This suggests some noun is missing.
+
+0x1368C
+S3 *is* the red crown. This suggests some noun is missing.
+
+0x1368D
+S3 *is* the red crown. This suggests some noun is missing.
 
 ok 0x1369F 0x136A0
 The extended list aimed to distinguish between gods (to be systematically depicted with curved beards) and kings 
 (to be systematically depicted with straight beards). However, more often than
 not, the glyphs in Unicode 16 are inconsistent with this principle, as exemplified above.
 Unicode 17 will correct many god and king signs.
+
+0x136AD 0x136AC
+Minor issue, but 0x136AD does not have the same variant of R12 as 0x136AC.
+Should that matter? If not, then fine, and I assume that font designers are free to
+treat the two variants as interchangeable. But then I see a problem in that on other occasions,
+multiple code points were introduced for the same underlying sign, depending on the variant of standard;
+e.g. 0x1315D versus 0x13C5D. There appears to be no consistency.
+
+0x136B6
+There is no beard in the glyph.
+
+0x136B9
+There is no beard in the glyph. I don't think the hairstyle in the glyph is a "coif".
 
 0x136C6 0x136C7
 In the glyph of 0x136C7, there is something that looks like a headrest, not mentioned in the description,
@@ -24,6 +66,57 @@ with the philologists what the intention was.
 <p>
 Incidentally, 0x136C6 was reportedly not meant to become a core sign in Unicode 16, 
 but is still marked as core sign in Unicode 17.
+<p>
+Remove "a" from "with a leonid legs".
+
+0x136FF 0x13736
+In the glyph of 0x136FF, the hands don't appear to be "in a clapping motion". I imagine that for this, 
+one would at least have to have the hand palms directed towards one another,
+as they are in 0x13736 for example.
+
+0x13700
+In the glyph, only one lower leg is visible. But why on earth should we care whether 
+one or two legs are visible and whether the legs are separated (unless we are engaged in hard-core palaeographic studies, 
+which are outside the domain of Unicode)? I would suggest omitting "lower legs separated".
+
+0x13701
+Again, only one leg is visible, so omit "lower legs separated".
+
+0x13703
+Again, omit "lower legs separated".
+
+0x13704
+Again, omit "lower legs separated".
 
 ok 0x13714
 The glyph depicts only one arm. In Unicode 17, the description will be corrected to "arm raised in front".
+
+0x13717
+I would leave it at "hand palms upwards". The "hands horizontal" is not consistent with the glyph and that the hands are somewhat horizontal is already implied by "hand palms upwards".
+You are doing a severe disservice to users of Unicode by feeding them inconsistent information.
+In particular, you are making the job of font designers impossible.
+If you cannot ensure that the glyph in the code charts
+is consistent with the description, then there is no point making the description so overly specific.
+
+0x1373F
+The positions of the arms in the description are inconsistent with the glyph. Why bother making the description this overly 
+precise in the first place? Quite adequate would have been "Woman wearing red crown, seated, nursing a child on her lap".
+
+0x13740
+As above, the description is overly specific and thereby almost inevitably inconsistent with the glyph in the code charts.
+
+0x13745
+I don't think the object in the glyph can be called simply "rectangular". Perhaps "capital-L shaped"? This is assuming the glyph is accurate. Or is the description accurate?
+
+0x13747
+The hands in the glyph are not horizontal by any stretch of the imagination. I would leave it at "hand palms downwards", which probably
+implies what was meant.
+<p>
+Further, the glyph does a poor job of depicting that hair is hanging in front of the face. I would like to see a drawing of what this is supposed to look like. Are the eyes and mouth occluded from view by the hair?
+
+0x13752
+The beard is missing from the image.
+
+0x13754
+The beard is missing from the glyph.
+

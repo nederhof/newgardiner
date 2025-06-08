@@ -67,10 +67,10 @@ Replace "horizontally" by "horizontal".
 0x1360F
 "foreleg of the man" cannot be right.
 
-0x13637                                                                                        
-"heels touching ties" What does that mean?                                                     
-                                                                                               
-0x13639                                                                                        
+0x13637
+Correct "heels touching ties" to "heels touching thighs".
+
+0x13639
 Cannot parse. I think a preposition "to" is missing.
 
 ok 0x1363E

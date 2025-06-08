@@ -28,12 +28,12 @@ def read_diff_file(path):
 		lines = []
 		for line in f:
 			if line.strip() == '':
-				if lines is not []:
+				if len(lines) > 0:
 					items.append(read_item(lines))
 				lines = []
 			else:
 				lines.append(line)
-		if lines is not []:
+		if len(lines) > 0:
 			items.append(read_item(lines))
 	return items
 

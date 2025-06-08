@@ -29,12 +29,12 @@ def read_comment_page(source):
 		lines = []
 		for line in f:
 			if line.strip() == '':
-				if lines is not []:
+				if len(lines) > 0:
 					comments.append(read_comment(lines))
 					lines = []
 			else:
 				lines.append(line)
-		if lines is not []:
+		if len(lines) > 0:
 			comments.append(read_comment(lines))
 	return comments
 
