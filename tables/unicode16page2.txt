@@ -23,14 +23,8 @@ I would omit the phrase "touching the thighs" altogether.
 0x13689
 There is no platform in the glyph.
 
-0x1368A 
-S3 *is* the red crown. This suggests some noun is missing.
-
-0x1368C
-S3 *is* the red crown. This suggests some noun is missing.
-
-0x1368D
-S3 *is* the red crown. This suggests some noun is missing.
+0x1368A 0x1368C 0x1368D
+S3 *is* the red crown. This suggests some noun is missing in all three descriptions.
 
 ok 0x1369F 0x136A0
 The extended list aimed to distinguish between gods (to be systematically depicted with curved beards) and kings 
@@ -74,29 +68,20 @@ In the glyph of 0x136FF, the hands don't appear to be "in a clapping motion". I 
 one would at least have to have the hand palms directed towards one another,
 as they are in 0x13736 for example.
 
-0x13700
-In the glyph, only one lower leg is visible. But why on earth should we care whether 
+0x13700 0x13701 0x13703 0x13704
+In all four glyphs, only one lower leg is visible. But why on earth should we care whether 
 one or two legs are visible and whether the legs are separated (unless we are engaged in hard-core palaeographic studies, 
 which are outside the domain of Unicode)? I would suggest omitting "lower legs separated".
-
-0x13701
-Again, only one leg is visible, so omit "lower legs separated".
-
-0x13703
-Again, omit "lower legs separated".
-
-0x13704
-Again, omit "lower legs separated".
 
 ok 0x13714
 The glyph depicts only one arm. In Unicode 17, the description will be corrected to "arm raised in front".
 
 0x13717
-I would leave it at "hand palms upwards". The "hands horizontal" is not consistent with the glyph and that the hands are somewhat horizontal is already implied by "hand palms upwards".
+I would leave it at "hand palms upwards". The "hands horizontal" is not consistent with the glyph and that the hands are "half-way" horizontal is already implied by "hand palms upwards".
 You are doing a severe disservice to users of Unicode by feeding them inconsistent information.
 In particular, you are making the job of font designers impossible.
 If you cannot ensure that the glyph in the code charts
-is consistent with the description, then there is no point making the description so overly specific.
+is consistent with the description, then there is no point making the description so specific.
 
 0x1373F
 The positions of the arms in the description are inconsistent with the glyph. Why bother making the description this overly 
@@ -115,7 +100,7 @@ implies what was meant.
 Further, the glyph does a poor job of depicting that hair is hanging in front of the face. I would like to see a drawing of what this is supposed to look like. Are the eyes and mouth occluded from view by the hair?
 
 0x13752
-The beard is missing from the image.
+The beard is missing from the glyph.
 
 0x13754
 The beard is missing from the glyph.

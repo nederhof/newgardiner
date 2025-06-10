@@ -1,5 +1,31 @@
+0x1376D
+The description does not mention the line coming from the back of the crown in the glyph. Is it real at all?
+
+0x1377B
+The description does not mention the ankh sign. Is it real at all?
+
+0x13795
+The uraeus in the glyph has been confirmed to be an error.
+This will be solved in Unicode 17.
+But the band around the head with the loop at the back will remain for now.
+I suspect that is an error as well, as it is not mentioned in the description.
+
+0x137C6 0x137C7
+The description of 0x137C6 does not say the block throne is on a base, 
+unlike the description of 0x137C7.
+Is the description of 0x137C6 wrong in the omission of the base, or is the glyph wrong?
+
+0x137C8
+Correct "hand a" to "hand at".
+
+0x137D0
+The description does not mention the ankh sign. Is it real at all?
+
 ok 0x137E9 0x137EA
-The hair in the glyph of 0x137EA will be corrected to "coif" in Unicode 17.
+The hair in the glyph of 0x137EA will be corrected to a "coif" in Unicode 17.
+
+0x137F3
+Correct "stripped of leaved" to "stripped of leaves".
 
 ok 0x137F5 0x137F6 0x137F7
 The hair in the glyphs of 0x137F5 and 0x137F6 will be corrected to "coif/short hair" in Unicode 17.
@@ -7,18 +33,47 @@ The hair in the glyphs of 0x137F5 and 0x137F6 will be corrected to "coif/short h
 ok 0x13802 0x13803
 The hair in the glyph of 0x13803 will be corrected to "long" in Unicode 17.
 
-ok 0x1381A
+0x1380B
+There are no (forward curling) horns in the glyph. What should these look like?
+
+0x13813
+The description does not mention the sun disk. Is it real at all?
+
+0x13815
+There are no (forward curling) horns in the glyph. What should these look like?
+
+0x13817
+The description in the draft Unicode 17 version is inconsistent as to whether there is a lump of clay or a vessel:
+it has both "with a lump of clay on it" and "hands at the vessel".
+
+0x13818
+In the glyph, the left hand is not at the wheel, it is at the vessel. The right foot is not really at the base of the wheel. But who cares! Does the description need to be so precise? It could be simplified like the description of 0x13817 was simplified recently.
+
+0x13819
+Again, in the glyph, the left hand is not at the top of the potter's wheel, it is at the side of the lump of clay. And again, who cares!
+The description could be simplified.
+
+0x1381A
 Unicode 17 will make the glyph consistent with the description by letting the god touch the wall.
+But an unresolved issue is that there are no (forward curving) horns in the glyph.
+
+0x1381E
+If the two conical shapes are trees or loafs of bread, then they appear to be on two sticks. Can that be right?
+
+0x13829
+There is no beard in the glyph.
+The description in the draft Unicode 17 version was changed to start with "God with breast [...]";
+the glyph doesn't clearly show a breast, but it may be a matter of plausible deniability and I care about that less.
 
 0x1382A
 The Unicode 17 glyph will be closer to the description by replacing the M16 shape on the head by M15.
 But it is still not clear in the glyph that the lines below the mat connect to the flowers, rather than to the waterpots.
+There is no beard in the glyph.
+The description in the draft Unicode 17 version was changed to start with "God with breast [...]";
+the glyph doesn't clearly show a breast, but it may be a matter of plausible deniability and I care about that less.
 
 ok 0x13794 0x136AE
 These two are duplicates. This will be solved in Unicode 17 by making 0x136AE non-core.
 
-0x13795
-The uraeus in the glyph has been confirmed to be an error.
-This will be solved in Unicode 17.
-But the band around the head with the loop at the back will remain for now.
-I suspect that is an error as well, as it is not mentioned in the description.
+0x13835 0x13836
+In both cases, the final "on top of a base" repeats earlier information and should be removed.

@@ -11,8 +11,9 @@ Whatever "knees horizontal" is meant to convey, it may already be implied by "kn
 0x13472
 At least one of "hand vertical, hand palm towards the face, in front of the face" seems redundant.
 
-0x13473
-Should be "right foot horizontal"? Or is the glyph wrong?
+0x13473 0x13462
+The "left foot horizontal" in the description of 0x13473 suggest its glyph is wrong and should be
+like the position of the feet in 0x13462.
 
 0x134A8
 The "front arm" is quite confusing. It is not the arm closest to the reader (I guess) but the arm connected to the shoulder closest to an

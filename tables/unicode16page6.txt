@@ -7,7 +7,7 @@ In all three glyphs, the *left* paw is raised.
 The glyphs will be corrected in Unicode 17.
 
 0x13AAE 0x13AAF
-I don't think that the image of 13AAE has the head of a jackal. The beak looks more like a falcon (although there are ears). 
+I don't think that the glyph of 13AAE has the head of a jackal. The beak looks more like a falcon (although there are ears). 
 Conversely, 13AAF doesn't look like it has the head of a falcon, and I think normally a griffin has the head of a falcon. Are the descriptions reversed?
 <p>
 The glyph of 0x13AAE does correspond to JSesh E80A and the glyph of 0x13AAF does correspond to JSesh E80, so in 

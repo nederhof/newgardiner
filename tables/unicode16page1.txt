@@ -36,6 +36,7 @@ The "in front of" makes no sense. The larger man is *behind* the smaller man.
 
 0x135DC
 Replace "g[r]ound together" by "bound together". The description of the arms of the second man does not correspond to the glyph. Also, only one knee of the second man is visible in the glyph, whereas the description mentions both knees.
+Does the description need to be this precise?
 
 0x135ED
 The glyph suggests a uraeus not mentioned in the description. Remove the uraeus from the glyph, or amend the description?
@@ -69,9 +70,11 @@ Replace "horizontally" by "horizontal".
 
 0x13637
 Correct "heels touching ties" to "heels touching thighs".
+But I would omit this phrase altogether as overly precise (and in similar cases often
+inconsistent with the glyph in the code charts).
 
 0x13639
-Cannot parse. I think a preposition "to" is missing.
+Correct "the the" to "to the".
 
 ok 0x1363E
 The glyph lacks a beard.

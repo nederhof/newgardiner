@@ -1,10 +1,63 @@
 ok 0x13860 0x13861
 The hair in the glyph of 0x13860 is not long (like it is in 0x13861). This will be corrected in Unicode 17.
 
+0x13865
+No arm is visible in the glyph. My suggestion is to replace "arm forward, forearm following the angle of the upper leg, hand on the knee, horizontally, handpalm up, supporting" by simply "holding". Overly precise descriptions tend to be inconsistent with the glyphs
+in the code charts. And anyway, who cares. The character identity could be captured by as little as "Seated ibis-headed god holding face".
+
 0x1386A
 The glyph does suggests a sun disk (in the middle above the horns). This has been confirmed to be an error.
 In Unicode 17 one of the circles on the crown will be removed, but it is regrettably the wrong circle; the circle
 on top of the crown should remain.
 
+0x13872
+Should there be beards in the glyph if they are not mentioned in the description?
+
+0x13876 0x1387F 0x13881 0x138BA 0x138BB
+Correct "holding a holding" to "holding". Do global search-and-replace as there are many more occurrences.
+
+0x13892
+Correct "size of the king" to "size of the goddess".
+
+0x13897 0x13899
+For both, I think I also see the outlines of a vulture headdress in the glyph. Is that real?
+
+0x1389F
+The ankh sign is not angling forward in the glyph.
+
+0x138E3 0x138E4 0x138E8
+In all three glyphs, the hand on the knee seems to hold an ankh sign as well, not mentioned in the description. Is that real?
+In 0x138E8, the forked bottom is not visible in the glyph, so why mention it? Cut-and-paste error, or is the glyph wrong?
+
+0x138F8
+The ankh sign mentioned in the description is not in the glyph.
+Cut-and-paste error, or is the glyph wrong?
+
+0x138F9 0x138F8
+The "circle" in 0x138F9 looks perfectly identical to the "round vessel" from 0x138F8.
+If it is really just a circle (representing the sun?) and not a round vessel, then make sure it is perfectly round in the glyph.
+Conversely, if an educated guess can be made that the circle is meant to represent a round vessel, 
+then why not describe it as a round vessel?
+
+0x13903
+Left and right are reversed. Was the description based on right-to-left text? Why not simplify the description,
+say "[...] one hand holding [...] and the other hand holding [...]"?
+
+0x13904
+For the god, left and right are reversed. Why not simplify the description?
+
+0x1391D
+The glyph seems to have several "notches" on the palm branch, yet "notch forward" suggests there is only one.
+
+0x1392B 0x1392C
+For both signs, I think goddess and god are both holding ankh signs; are those real? 
+I also think the goddess has the vulture headdress; is that real?
+
 ok 0x1393F
 The glyph has the handpalm inward. This will be corrected in Unicode 17.
+
+0x13955
+Correct "an coif" to "and coif". Is the ankh sign in the glyph real?
+
+0x13956
+In the glyph, the hand palm is inward.

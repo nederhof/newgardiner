@@ -1,5 +1,5 @@
 0x1425E
-"vertical lines"? I rather see curves, not vertical lines. A matter of loose use of words, or rather an image that is incorrect?
+"vertical lines"? I rather see curves, not vertical lines. A matter of loose use of words, or rather a glyph that is incorrect?
 
 0x1429D 0x1429C
 "At the front" in the description of 0x1429D becomes confusing because the sign is mirrored relative to say 0x1429C. Elsewhere in descriptions I have seen use of "left" and "right". I realise the downside of left/right is that strictly speaking this becomes incorrect for right-to-left running text, but the left/right terminology tends to be less ambiguous than front/back when describing signs in the sign list.
@@ -31,4 +31,4 @@ Again, is the vertical line in 0x142F7 supposed to be interrupted at the base? T
 0x142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot. It looks more like U22 (0x1334A).
 
 0x142FC
-There is no discernible beard in the image. Why not omit it from the description if it does not matter?
+There is no discernible beard in the glyph. Why not omit it from the description if it does not matter?
