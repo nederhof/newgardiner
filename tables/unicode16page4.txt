@@ -36,21 +36,21 @@ Cut-and-paste error, or is the glyph wrong?
 0x138F9 0x138F8
 The "circle" in 0x138F9 looks perfectly identical to the "round vessel" from 0x138F8.
 If it is really just a circle (representing the sun?) and not a round vessel, then make sure it is perfectly round in the glyph.
-Conversely, if an educated guess can be made that the circle is meant to represent a round vessel, 
-then why not describe it as a round vessel?
 
 0x13903
 Left and right are reversed. Was the description based on right-to-left text? Why not simplify the description,
 say "[...] one hand holding [...] and the other hand holding [...]"?
 
 0x13904
-For the god, left and right are reversed. Why not simplify the description?
+For the god, left and right are reversed. 
+Cut-and-paste error in the description? I would be surprised if the image were not symmetric.
+Of course, if the description had been less detailed, then the inconsistency would not have arisen.
 
 0x1391D
 The glyph seems to have several "notches" on the palm branch, yet "notch forward" suggests there is only one.
 
 0x1392B 0x1392C
-For both signs, I think goddess and god are both holding ankh signs; are those real? 
+For both signs, I think goddess and god are both holding ankh signs in the glyphs; are those real? 
 I also think the goddess has the vulture headdress; is that real?
 
 ok 0x1393F

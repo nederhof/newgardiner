@@ -1,3 +1,16 @@
+0x1396B
+If the knife is *over* the strand, then let the knife occlude view of part of the strand to avoid inconsistency between
+description and glyph.
+
+0x1396D 0x13970
+Is it plausible that these are truly distinct signs, in the sense that if the strands are one pixel further to the left or to
+the right, then the function changes?
+Do these really need to be distinguished in Unicode? The Database does not reflect on this at all.
+
+0x13982
+I'm not sure that the line of eye-paint in the glyph can be called "wavy". Nor am I sure anyone should care, apart from
+hard-core palaeographers. Omit "wavy" from the description?
+
 ok 0x13989 0x1398A 0x1398B
 In Unicode 17, the V-shaped patterns in 0x1398A and 0x1398B will be corrected to be triangles like in 0x13989, 
 consistent with the descriptions.
@@ -29,5 +42,19 @@ ok 0x13A2A
 In the glyph, the vertical part of the standard looks like a leg of an animal, and there appears to be a loop at the right. 
 Both were confirmed to be errors. In Unicode 17, the glyph will be corrected to have a plain standard with a diagonal beam.
 
-ok 0x13A5C
+0x13A5C
 The loop around the neck in the glyph is an error. In Unicode 17, this will be removed.
+The description has "four pieces" while the glyph has three. A clear case of an overly specific
+description leading to avoidable problems. I suggesting omitting (at least) "four pieces of" in the description;
+"a basket with grain or fruit" is specific enough.
+
+0x139B2
+Does it taper out towards the top as well? The glyph suggests it mainly tapers out towards the top in fact. Not sure we should care about the exact shape. The main issue is that the shape is an oar, or more precisely, the blade of an oar (I think).
+
+0x139BA
+I'm not sure how to interpret "blade upwards". My first hunch would be to interpret it differently from the glyph,
+namely having the blade on top. Why not omit "blade upwards" to avoid the issue?
+
+0x139C3 0x139C9 0x139CA
+For all three glyphs, I'm not sure how to see a "loop" in the shapes.  Are the glyphs accurate?
+For 0x139C9 I'm also not sure how to interpret "angled forwards".
