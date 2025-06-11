@@ -1,3 +1,17 @@
+0x13A66
+Only one horn is visible in the glyph. But who cares! How many horns are visible should not matter for the purposes of Unicode.
+
+0x13A6E
+There is a beard in the glyph. But who cares whether there is a beard. This should not matter for the purposes of Unicode.
+
+0x13A6C 0x13A6D
+There is no beard in the two glyphs. But who cares whether there is a beard. This should not matter for the purposes of Unicode.
+
+0x13A74
+No beards are discernable. But who cares! In any case, make sure there are no inconsistencies between descriptions and glyphs. Not
+mentioning the beards would be one way to achieve that.
+Technically, the standard is not the "default" form of R12, but I don't care much, as long as the glyph is what was intended.
+
 ok 0x13A81
 The glyph depicts the jackal over the sedge, not the sedge over the jackal.
 The glyph will be corrected in Unicode 17.
@@ -5,6 +19,13 @@ The glyph will be corrected in Unicode 17.
 ok 0x13A9F 0x13AA0 0x13AA1
 In all three glyphs, the *left* paw is raised.
 The glyphs will be corrected in Unicode 17.
+
+0x13AA5
+In the glyph, it is the left front leg that is raised. But who cares! Changing the description to "one front leg raised" would solve the issue.
+
+0x13ACC 0x13AD8 0x13AE3 0x13B05
+In all four glyphs, the blade is not triangular but rounded. But who cares what the shape of the blade is.
+I would simply omit "triangular", thereby removing the inconsistencies between descriptions and glyphs.
 
 0x13AAE 0x13AAF
 I don't think that the glyph of 13AAE has the head of a jackal. The beak looks more like a falcon (although there are ears). 
@@ -27,3 +48,18 @@ The glyph will be corrected in Unicode 17.
 
 ok 0x13B39 0x13B58
 To distinguish the two glyphs, the description of 0x13B58 in Unicode 17 will be amended to have "without horns".
+
+ok 0x13AE9
+In the glyph, the tail is not folded under the rear.
+The glyph will be corrected in Unicode 17.
+
+0x13B0C
+For the left baboon, the left/right arms are reversed in the glyph. You could solve this simply by making the description less specific, say "one arm [...] holding [...] and another arm [...]".
+
+0x13B12
+I think I understand what is meant (something in the vein of "the kind of
+chevaux de frise that typically occurs on top of a wall"), but there are no
+walls in the glyphs. I would just omit "on top of walls".
+
+0x13B19
+The glyph has a base not mentioned in the description. Is that real?

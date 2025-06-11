@@ -29,7 +29,7 @@ Don't use the expression "facing upwards" where the face is looking downwards. P
 The glyph has the hand palms inward. Is the description wrong or is the glyph wrong?
 
 0x134D2
-Is it just a "backward line"? The glyph suggests it is something more (M4?).
+Is it just a "backward line"? The glyph suggests it is something more (presence of a notch, making this M4).
 
 0x134D6
 "right arm in forward" should be "in front"?
