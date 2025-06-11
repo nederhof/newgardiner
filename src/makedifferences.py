@@ -83,15 +83,16 @@ def make_difference(body, diff, tables, code_points):
 	for other in others:
 		may_attach_desc_string(p_desc, tables, other, br=True)
 	for comment_par in comment_pars:
+		comment_par = comment_par.strip()
 		if ok:
 			par = etree.SubElement(body, 'p', {'class': 'done'})
 		else:
 			par = etree.SubElement(body, 'p')
-		if comment_par.strip().startswith('https:'):
-			a = etree.SubElement(par, 'a', {'href': comment_par.strip()})
-			a.text = 'Link'
+		if comment_par.startswith('https:'):
+			a = etree.SubElement(par, 'a', {'href': comment_par})
+			a.text = comment_par
 		else:
-			par.text = comment_par.strip().replace('0x', 'U+')
+			par.text = comment_par.replace('0x', 'U+')
 
 def make_page(tables):
 	html = etree.Element('html', lang='en')
