@@ -208,7 +208,7 @@
       <br/>
       <tt>U+13BB2 kEH_Desc A lower jaw-bone of an animal with pointed teeth.</tt>
     </p>
-    <p>The appearance of U+13112 has changed considerably and one could even argue that U+13BB2 is closer to the original shape than to the new shape; both the original shape and U+13BB2 clearly have sharp teeth while the new shape of U+13112 does not. Gardiner (1957) characterizes the sign as "lower jaw-bone of ox", and as far as I know, oxen are not particularly known for having sharp teeth. But does this necessarily mean that the original shape of U+13112 and U+13BB2 differ in what they are meant to represent? Unless there is solid evidence that the original shape of U+13112 was wrong or uncharacteristic, it may be better to revert the shape to something closer to Unicode 5.2. It is then an open question whether the current shape of U+13BB2 deserves its own (core) code point.</p>
+    <p>The appearance of U+13112 has changed considerably and one could even argue that U+13BB2 is closer to the original shape than to the new shape; both the original shape and U+13BB2 clearly have sharp teeth while the new shape of U+13112 does not. Gardiner (1957) characterizes the sign as "lower jaw-bone of ox", and as far as I know, oxen are not particularly known for having sharp teeth. But does this necessarily mean that the original shape of U+13112 and U+13BB2 differ in what they are meant to represent? Unless there is solid evidence that the original shape of U+13112 was wrong or uncharacteristic, it may be better to revert the shape to something closer to Unicode 5.2. It is then an open question whether the current shape of U+13BB2 deserves its own (core) code point, or whether it is just a duplicate of U+13112.</p>
     <table class="glyph_table">
       <tbody>
         <tr>
@@ -1235,12 +1235,29 @@
             <img src="glyphs16/78583.png" class="image16"/>
             <div class="code">132F7</div>
           </td>
+          <td>
+            <img src="glyphs16/82367.png" class="image16"/>
+            <div class="code">141BF</div>
+          </td>
+          <td>
+            <img src="glyphs16/82368.png" class="image16"/>
+            <div class="code">141C0</div>
+          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+132F7 kEH_Desc A rectangular piece of cloth, with sloping fringes on its front short side, without internal decoration.</tt>
+      <br/>
+      <tt>U+141BF kEH_Desc A rectangular piece of cloth, with sloping fringes on its front short side, with a cross shape as internal decoration.</tt>
+      <br/>
+      <tt>U+141C0 kEH_Desc A square piece of cloth, with long sloping fringes on its front short side, with a cross shape as internal decoration.</tt>
     </p>
-    <p>In the original, the fringes are not sloping.</p>
+    <p>In the original shape of U+132F7, the fringes were not sloping.</p>
+    <p>Erman and Grapow already listed and contrasted both the sloping and the non-sloping forms. Many, if not most, dictionaries and grammars use the
+non-sloping form of S32. One would have to have very good arguments to unceremoniously purge the traditionally used
+non-sloping form by replacing it with the sloping form.</p>
+    <p>I also don't see how you can argue that U+141BF and U+141C0 deserve two independent (core) code points, even though they are basically the same shape apart from aspect ratio, while at the same time treating the non-sloping and sloping forms of S32 as the same shape to justify arbitrarily
+replacing one by the other in the code charts.</p>
   </body>
 </html>

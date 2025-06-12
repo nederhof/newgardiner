@@ -3,6 +3,12 @@ The glyph has inward curving horns. As I commented elsewhere for 0x130FE, the ev
 the curvature of horns is highly variable in actual inscriptions, 
 and thereby the description may be overspecific. How about just "with horns"?
 
+0x13B79
+"Written over" suggests the jackal occludes view of part of the band. Is it then "band written over jackal"?
+
+0x13B7B
+In the glyph, it appears the mace head is towards the front.
+
 0x13B88 0x13B89 0x13B8B
 In the Database I find:
 <p>
@@ -25,6 +31,11 @@ In particular under Point 10:
 "However, exceptions can be made for signs which are widely used"
 <p>
 I would say that if exceptions can be made, then nsw-bjtj is a reasonable candidate for an exception. But 0x13B88 and 0x13B89 and 0x13B8B are not.
+<p>
+Moreover, for 0x13B88 and 0x13B8B, "written over" suggests the mouth occludes view of part of the antelope. If this is not what is meant then use a different phrase, e.g. "overlaid with". Similarly, for 0x13B89, the glyph conversely suggests the antelope is over the ribs.
+
+0x13B91
+"sun disks" ? I only see one sun disk in the middle. Are the uraei to have sun disks instead? The glyph doesn't have these. Is the sun disk in the middle correct? That is not mentioned in the description.
 
 ok 0x13BB3
 The "vertical" does not appear accurate. In Unicode 17, the Unikemet description will be adjusted to have "pointing upwards".
@@ -70,8 +81,12 @@ helps no one, and is only a nuisance for standardization.
 ok 0x13BE1
 In Unicode 17, the description will clarify that the flowers on the left are like M13 and the flower on the right are like M127.
 
-ok 0x1312A 0x13BEC
-In Unicode 17, the description will clarify "with two blocks at the bottom" for 0x1312A.
+0x13BF9
+The draft Unikemet file has currently "A leg bone with heat, angled with the bone forward, with a piece of meat missing at the front."
+Correct "heat" to "meat"?
+
+0x13BFB
+Correct "of" to "off"?
 
 ok 0x13C1F
 In Unicode 16, the glyph looks like a 45° rotation. Unicode 17 will correct the rotation of the glyph to 90°.
