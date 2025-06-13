@@ -1,9 +1,17 @@
+0x13E74 0x13E75
+In 0x13E74, there is mention of a "flower", while in 0x13E75, what to me looks like the same shape is called a "bud". 
+Can that be right?
+
+0x13E81
+More fluent would perhaps be "with the flowers at the sides oriented outwards".
+
 0x13E82 0x13E81
 Presumably, a "bud" looks different from a "flower". Yet the three things in
 the glyph of 0x13E82 look identical. My hunch is that the two things on either side should look like the buds in 0x13E81.
 
 0x13E8A
-The description seems a bit longer than necessary, unless I misinterpret it. How about just "A pool or strip of land with three vertical buds."?
+The description seems a bit longer than necessary, unless I misinterpret it. 
+How about just "A pool or strip of land with three vertical lotus buds."?
 <p>
 I see three ticks on top of the land, but I don't think these are important enough to mention.
 

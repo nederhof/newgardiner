@@ -1,3 +1,7 @@
+0x13F8E
+One could improve the depiction of the ureaus. 
+Currently, one needs some imagination to see a ureaus in the shape.
+
 0x13F93
 There is no attempt to specify what the "internal details" consist of. I can understand why, as it would be pretty hard to specify what that even means.  Should any strokes or texture, no matter how insignificant, be seen as "internal detail"? This supports my view that there should not be multiple code points for the same sign with and without "internal details".
 Point 5 of the Encoding Principles actually suggests the same.
@@ -17,8 +21,14 @@ Understandably, in the Database we find:
 <p>
 Was it a mistake then that both 0x13FA1 and 0x13FA2 ended up being added to Unicode as core signs?
 
+0x13FA3
+The glyph and the description don't seem to match. Flat roof? Large doorway?
+
 0x13FA7
 I would make the spike more spiky. Now it just looks like a circle.
+
+0x13FCD
+In the glyph, I don't see the usual shape of V18.
 
 0x13FD2
 I don't see triangles. Redraw needed? What exactly is this supposed to look like? What is the roof like?
@@ -31,6 +41,9 @@ I would simplify "on top of a base (O210A); on a broad base" to "on top of a bro
 <p>
 The abaci are not shown in the glyph. (Why bother mentioning the abaci in the
 first place? It is a tiny detail and likely not essential to the character identity.)
+
+0x13FEB
+Truncated description.
 
 0x13FF2
 The Database says "Needs to be atomic due to the position of the O34."
@@ -62,6 +75,9 @@ I would make the spike more spiky because currently it doesn't look like a spike
 
 0x13294 0x14010 0x14011 0x14012
 If it is really necessary to distinguish these, then in 0x13294 and 0x14010, at least specify *two* angled lines. Perhaps for 0x14011 one could replace "multiple" by "more than 4".
+
+0x14014
+The glyph doesn't correspond well to the description. Consider the bottom horizontal line in the middle, which is too high.
 
 0x14027 0x14028
 Why is this not the same sign (with two different but related functions)?

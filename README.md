@@ -42,15 +42,17 @@ Latest Unicode code charts:
 - [Extended list](https://unicode.org/charts/PDF/U13460.pdf)
 - [Format controls](https://unicode.org/charts/PDF/U13430.pdf)
 
-Unicode 5.2 (2009) code charts:
-
-- [Basic list](https://www.unicode.org/charts/PDF/Unicode-5.2/U52-13000.pdf)
-
 Ancillary Unicode documentation:
 
 - [Unikemet](https://www.unicode.org/Public/UCD/latest/ucd/Unikemet.txt)
 - [Database](https://www.unicode.org/L2/L2023/23109-n5215-database.pdf)
 - [Encoding principles](https://www.unicode.org/reports/tr57/tr57-4.html#EncodingPrinciples)
+
+Unicode 5.2 (2009):
+
+- [Basic list](https://www.unicode.org/charts/PDF/Unicode-5.2/U52-13000.pdf)
+- [Document containing original Unikemet](https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf)
+- [Sources](https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf)
 
 Critiques of Unicode 16:
 

@@ -12,7 +12,7 @@ There are legs in the glyph.
 The "one wing forward" is not remotely "horizontal" in the glyph. If the glyph is accurate, I would just say "wings forward, one slanting up and the other slanting down", avoiding also mention of the exact angle. [I'm not sure the word "slanting" is the most fluent English word one could choose.]
 
 0x13CC1 0x13CC2
-The standards in the glyphs look like one half of the 'heaven' sign, not R92A.
+The standards in the glyphs look like one half of the 'sky' sign, not R92A.
 
 0x13CDD
 The standard in the glyph is not mentioned in the description.

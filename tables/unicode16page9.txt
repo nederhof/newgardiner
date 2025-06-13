@@ -1,12 +1,16 @@
 0x13D64 0x13192
 In the glyph of 0x13D64, the top and bottom lines have the same length. Copy-and-paste
 error from 0x13192 in the description? Or is the glyph wrong?
+One could of course avoid the problem by making the descriptions less precise; just a thought.
 
 0x13D72
 In the glyph, the cobra is *under* the white crown, not *over*.
 
 0x13D92
 The mention of the forked base is strange, as the base is not visible.
+
+0x13DA5
+In the glyph there is a sun disk on the headdress. Is that real?
 
 0x13DA8
 Font-technical issue at face of falcon, clockwise/counter-clockwise?
@@ -45,8 +49,15 @@ on appearance, but even so, the above is a problem because the description of
 0x13DD3 subsumes that of 0x13DD5 and the functions are identical. If 0x13DD5
 is characterized by particular fins, then 0x13DD3 deserves to be characterized by particular (other) fins as well.
 
+0x13DD4
+The glyph does not have the "loop under the horizontal beam".
+
 0x13DD7 0x13DD8
 As above. One description subsumes the other. The functions are identical.
+
+0x13DDF 0x13DDC 0x13DDD
+I don't think it is accurate to call the tail fin in the glyph of 0x13DDF a "V like shape". 
+The tail in 0x13DDC is arguably V-shaped, as the description says, but the tail in 0x13DDF is closer to that of 0x13DDD.
 
 0x131A3 0x13DE1 0x13DE2
 If the "multiple vertical lines" are sufficient reason to distinguish 0x13DE1
@@ -55,7 +66,10 @@ mentioned as well. (That is provided the "multiple vertical lines" in the
 glyph of 0x13DE2 are real.)
 
 0x13DE7
-In the glyph, the wings are not remotely connected and I would not even say the wings make a circular form.  I think I know what is meant by "circular form", e.g. the winged scarab pectoral of Tutankhamun has a full circular form with the sun disk in between at the top (and a nb sign at the bottom). 0x13DE7 is not that.
+In the glyph, the wings are not remotely connected and I would not even say the wings make a circular form.  I think I know what is meant by "circular form", e.g. the winged scarab pectoral of Tutankhamun has a full circular form with the sun disk in between at the top 
+(and a nb sign at the bottom); see link below. 0x13DE7 is not that.
+<p>
+https://egypt-museum.com/winged-scarab-pectoral-of-tutankhamun/
 
 0x13E09 0x13E0A
 Correct "at the bottom".
@@ -72,6 +86,9 @@ Apart from the violation of Point 5 of the Encoding Principles, the description 
 
 0x13E44 0x13E47
 I don't see how anyone can possible justify having the second next to the first. For similar cases of trivial graphical variants in the basic list, there was apparently a decision to make one of them Legacy. I see no consistency. The two shapes are functionally equivalent.
+
+0x13E48
+The glyph interprets the sign differently from the description. The glyph has 7 overlapping heart-shaped petals (no wavy circle at the outside). Which of the two is correct?
 
 0x13E5E 0x13376
 The way the root of 0x13E5E is drawn does not exactly suggest V9 (0x13376).
