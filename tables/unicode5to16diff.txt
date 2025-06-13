@@ -82,9 +82,10 @@ The original shape underspecified which of the signs is on top. It seems fine to
 0x132F7 0x141BF 0x141C0
 In the original shape of 0x132F7, the fringes were not sloping.
 <p>
-Erman and Grapow already listed and contrasted both the sloping and the non-sloping forms. Many, if not most, dictionaries and grammars use the
-non-sloping form of S32. One would have to have very good arguments to unceremoniously purge the traditionally used
+Erman and Grapow already listed and contrasted both the non-sloping and the sloping forms (the latter with cross). 
+Many, if not most, dictionaries and grammars use the non-sloping form of S32. 
+One would have to have very good arguments to unceremoniously purge the traditionally used
 non-sloping form by replacing it with the sloping form.
 <p>
-I also don't see how you can argue that 0x141BF and 0x141C0 deserve two independent (core) code points, even though they are basically the same shape apart from aspect ratio, while at the same time treating the non-sloping and sloping forms of S32 as the same shape to justify arbitrarily
+I also don't see how one can argue that 0x141BF and 0x141C0 deserve two independent (core) code points, even though they are basically the same shape apart from aspect ratio, while at the same time treating the non-sloping and sloping forms of S32 as the same shape to justify arbitrarily
 replacing one by the other in the code charts.

@@ -2,8 +2,20 @@
 This may be one of the cases where consistency between different fonts will be
 impossible to achieve and where it will be impossible for the encoders to know which code point to choose.  The "teardrop sized perch with the point down" *is* an upside down cone. One shape is marginally thinner and longer than the other, that's all.
 
+0x13CB4 0x13CB6 0x13CB7
+There are no visible cartouches in the glyphs. Copy-and-paste error of description or are the glyphs wrong?
+
+0x13CBA
+There are legs in the glyph.
+
 0x13CBE
 The "one wing forward" is not remotely "horizontal" in the glyph. If the glyph is accurate, I would just say "wings forward, one slanting up and the other slanting down", avoiding also mention of the exact angle. [I'm not sure the word "slanting" is the most fluent English word one could choose.]
+
+0x13CC1 0x13CC2
+The standards in the glyphs look like one half of the 'heaven' sign, not R92A.
+
+0x13CDD
+The standard in the glyph is not mentioned in the description.
 
 0x13CD5 0x13CD6 0x13CD9 13CDA
 None of the descriptions of human-headed birds mention beards. If these are not expected to have beards, or if it doesn't matter, I would suggest omitting them from the glyphs.
@@ -20,6 +32,12 @@ Introduction of 0x13CFC violates Point 5 of the Encoding Principles.
 0x13D10 0x13D11
 In the glyph of 0x13D11, the cobra does *not* encircle the sun; it is just the I10 cobra.
 Copy-and-paste error from 0x13D10?
+
+0x13D36
+In the glyph, the feather is angled backwards, and the spear is angled backwards as well (rather than being vertical).
+If you want to call the orientation of the spear "vertical", then fine, but then why specify the orientation of the
+feather? The descriptions are overly precise, which creates avoidable problems for consistency.
+Another thing is that the glyph does have a "handle" on the arrow/harpoon, contrary to the description.
 
 0x13D45
 It is impossible to make out the sun disks on the cobras in the code charts. What's the point of specifying details that are so small that they are lost with any normal resolution?
