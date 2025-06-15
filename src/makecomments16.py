@@ -99,7 +99,7 @@ def make_comment(body, comment, tables, code_points):
 			par = etree.SubElement(body, 'p', {'class': 'done'})
 		else:
 			par = etree.SubElement(body, 'p')
-		if comment_par.strip().startswith('https:'):
+		if comment_par.strip().startswith('http'):
 			a = etree.SubElement(par, 'a', {'href': comment_par.strip()})
 			a.text = comment_par.strip()
 		else:

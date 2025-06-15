@@ -88,7 +88,7 @@ def make_difference(body, diff, tables, code_points):
 			par = etree.SubElement(body, 'p', {'class': 'done'})
 		else:
 			par = etree.SubElement(body, 'p')
-		if comment_par.startswith('https:'):
+		if comment_par.startswith('http'):
 			a = etree.SubElement(par, 'a', {'href': comment_par})
 			a.text = comment_par
 		else:

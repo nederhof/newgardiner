@@ -1,91 +1,235 @@
-0x13043 0x1333C
-In 0x13043, there was a line representing the ground, and there was no connecting rope. Now there is no line for the ground and there is a rope connecting the two pieces of the hoe. There may be good reasons to update the glyph, provided one can argue that the original form was incorrect. But there is a sign 0x1333C for a hoe without connecting rope, so the original glyph of 0x13043 is not implausible. If so far no token of 0x13043 was located without connecting rope, then what are you going to do if you do find such a token, introduce a new code point for it? This is disastrous for the stability of Unicode.
+ok 0x13043
+Originally, there was a line representing the ground, and there was no connecting rope. 
+Now there is no line for the ground and there is a rope connecting the two pieces of the hoe. 
+In this instance, the Database seems to offer the adequate justification for a change to a glyph. 
+Both Urk IV 57,3, supposedly the source of the sign according to Gardiner (1928), and the earlier publication by Bouriant it was based on
+(in Recueil de traveaux 12, 1890) have the Unicode 16 form. For the latter, see p. 107 of:
+<p>
+https://digi.ub.uni-heidelberg.de/diglit/rectrav1892/0117/image,info
 
-0x1304F
-Hands were oriented outward, now inward. This may be a legitimate improvement since it has been argued that the shape with outward handpalms was plain wrong and does not occur in real inscriptions.
-
-0x13055
-In the original shape, the hair is not long.
+ok 0x1304F
+Hands were oriented outward, now inward. This may be a legitimate improvement since it has long been argued that the shape with outward handpalms was plain wrong and does not occur in real inscriptions. The supposed source is GITB 801-626-810, but this does not
+show the inscription itself. See p. 36 of:
+<p>
+http://www.griffith.ox.ac.uk/gri/s14.pdf
 
 0x13057 0x136D7 0x136D9
-For 0x13057, there was a uraeus in the original, now there is not. There may be good reasons to update the glyph of 0x13057, provided one can argue the original shape was incorrect. But considering 0x136D7 and 0x136D9, which do have uraei, is it not plausible that the original shape might exist? If so far no token of 0x13057 was located with uraeus, then what are you going to do if you do find such a token, introduce a new code point for it? This is disastrous for the stability of Unicode.
+For 0x13057, there was a uraeus in the original, now there is not. 
+The Database motivates this by asserting that the uraeus was a mistake 
+because it is not in Gardiner's source (Ann 42, 479). However, the font used
+therein is extremely coarse:
+<p>
+https://archive.org/details/ASAE-42-1943/page/n251/mode/2up
+<p>
+My hunch is that if the uraeus had existed, it would not have been visible in the transcription anyway.
+<p>
+Considering 0x136D7 and 0x136D9, which do have uraei, is it not plausible that the original shape might have existed? If so far no token of 0x13057 was located with uraeus, then what are you going to do if you do find such a token, introduce a new code point for it? This is disastrous for the stability of Unicode.
+Would it not have been safer to introduce a new code point for the shape without uraeus? 
+It is not like new code points were used sparingly; a staggering number of new code points were introduced for
+barely distinguishable variants of the heron alone.
 
 0x1306F 0x1375D
 For 0x1306F, the sun-disk was removed. This is fine if the sun-disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x1375D with sun-disk.
+<p>
+In the Database I find "redraw of C18G without sun" but without justification.
 
 0x130B9
 It is debatable whether the original shape has the folded piece of cloth on top, or whether the intention was to underspecify which of the two signs is on top. In the latter case, it may be adequate to describe this simply as an overlay of the two signs without specifying which of the two is on top, and leave it to the font designer how to draw this. There are several more such cases.
 
 0x130E8
-The Unicode 5.2 form did not have the uraeus. If the missing uraeus was clearly a mistake, then fine. But if there is a reasonable chance one could also find occurrences without uraeus, will you then introduce a new code point for this once this happens? This is disastrous for the stability of Unicode.
+The Unicode 5.2 form did not have the uraeus. 
+The Database justifies adding the uraeus by the observation that many occurrences have a uraeus, calling
+this "correcting" of the glyph. I don't think the word "correcting" is appropriate if occurrences 
+without uraeus exist, and then the glyph without uraeus would not be incorrect per se.
+Nonetheless this change to the glyph may cause relatively little disruption, provided no one will now consider 
+introducing a new code point for the original form without uraeus.
+<p>
+This identifies a major shortcoming of the kEH_Desc descriptions: a description describes a single 'representative' token that 
+the philologists happened to find, down to tedious detail. The new Unikemet also typically lists only the one function of that
+one token.
+But this fails to capture the type. For example,
+if in the future the intention is that 0x130E8 can be used for the sign with uraeus and the sign without uraeus,
+then currently no documentation exists that expresses this intention. In this sense, this is a step back from the documentation in GEG, 
+which, by being less overspecific about appearance of signs, made it more straightforward for encoders to determine for which purposes to use which signs.
 
 0x130F3
-Unicode 5.2 form did not have the four pieces of grain or fruit. Seems insignificant detail and one could just mention in the description that there is a basket without specifying what is in it.
+Unicode 5.2 form did not have the four pieces of grain or fruit. This seems an insignificant detail and 
+I have no objection to the embellishment of the glyph with the four pieces of grain or fruit. I think though that one should simplify
+the description to just mention that there is a basket, without (over)specifying what is in it.
 
 0x13146 0x13C7C
 It is unclear to me what kind of standard was intended with the original shape of 0x13146, and it seems an insignificant detail. But if one starts introducing multiple code points depending on the choice of standard (cf. 0x13C7C), then it is not clear to me that the change of shape of 0x13146 is within the normal bounds of allowable graphical variation for a given code point, and perhaps a fresh code point would have been warranted.
+<p>
+The Database does not contain a shred of reflection on the fact that the shape of 0x13146 has changed.
 
 0x1314B
-The head of antelope was not previously discernible. Are *two* rudders visible, in both glyphs?
+The head of antelope was not previously discernible. It seems plausible that the sign exists with the head of antelope.
+Nonetheless, it would have been nice to see some reflection in the Database that the glyph has changed.
+If I correctly interpret the very fuzzy images in the TSL:
+<p>
+https://thotsignlist.org/mysign?id=3196
+<p>
+then the sign may occur with and without head of antelope.
+Again, there is the problem that the description specifies the token, not the type.
+<p>
+Are *two* rudders visible, in both glyphs? In that case the description and the glyph are inconsistent.
 
 0x1314F 0x137B8
 For 0x1314F, the sun-disk was removed. This is fine if the sun-disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x137B8 that do have a sun-disk.
+<p>
+The Database does not contain a shred of reflection on the fact that the shape of 0x1314F has changed.
+It does comment that "Jsesh glyph has a circle in crown".
+What evidence justified departing from both the original Unicode 5.2 shape and the JSesh shape?
+If no such evidence exists, then one should have kept the original shape, rather than sacrifice the stability
+of Unicode on a whim for no apparent reason.
 
 0x13233
 Child was given white crown. Bovid lost its horns.
+<p>
+The Database says no token could be found. The default action should then be to keep the shape as it is, rather than
+change the glyph randomly, and sacrifice the stability of Unicode on a whim for no apparent reason.
 
 0x13234
 Child was given white crown.
+<p>
+The Database says no token could be found. The default action should then be to keep the shape as it is, rather than
+change the glyph randomly, and sacrifice the stability of Unicode on a whim for no apparent reason.
 
 0x13235
 Headdress lost the sun-disk.
+<p>
+The Database says "Could not yet locate an example." There cannot therefore have been a justification for changing the shape.
 
 0x13236
 The bow was mirrored.
+The Database aims to motivate the change on the basis of available tokens, but I'm far from convinced.
+It says "I wonder if the bow is ever facing outwards". Roughly the same group above
+the standard (but without standard) is at the extreme right in the photo of:
+<p>
+http://sith.huma-num.fr/karnak/1128
+<p>
+Here the bow is outward, seemingly contradicting the above. 
+Just because you could not find an attestation of the exact Unicode 5.2 glyph within the available time, 
+that doesn't mean the glyph was wrong and that there was a compelling reason to change it.
 
-0x1323C
-The object on the standard changed from looking similar to Y8 to something closer to R28.
+ok 0x1323C
+The object on the standard changed from looking similar to Y8 to something closer to R028.
+As the Database points out, the Unicode 5.2 form differs from what, according to the original Unikemet, should have been
+the source, namely Gardiner (1953). See p. 52 of:
+<p>
+https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
+<p>
+It is hard to escape the conclusion that the shape was incorrectly copied from Gardiner (1953) to the Unicode 5.2 code charts at the time.
+The Unicode 16 shape therefore seems to be an improvement.
+
+0x13332
+The original shape did not have a boss. Here it seems acceptable, though far from necessary, to refine the appearance, since
+Gardiner refers to an occurrence at Medinet Habu where the sign appears to have a boss;
+see Plate 45, column 37 of:
+<p>
+https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip8.pdf
+<p>
+But "in the center" in the description is not accurate. I would write "near the top of the shield".
 
 0x13241
 In the original, the standard was simplified.
+In the Database, I see no reflection on this. The Database has a reference to KIU 1202, which has yet another form of the standard,
+with diagonal bar rather than "a loop under the horizontal beam, running over the vertical pole":
+<p>
+http://sith.huma-num.fr/karnak/1202
+<p>
+It would be fine to normalize glyphs when it comes to the type of standard, and to use a default form of R12 for any signs with
+a standard that is similar to R12. But this is not what was done elsewhere, especially for the extended list. 
+There appears to be no consistent strategy for the treatment of standards.
 
 0x13242
 In the original, the standard was simplified.
+The Database has "Transcription only. Inclusion in core based on principle, not verification with image".
+How then can a change to the glyph be justified?
+
+0x13246
+The standards are different, although both standards are often referred to as instances of R12.
+Also, in the original, the hare had whiskers.
+<p>
+The Database lists both the original shape and the new shape, in different entries, without acknowledging
+that the standard in 0x13246 changed between Unicode 5.2 and Unicode 16. According to the Database the two forms are
+"practically identical". I don't necessarily disagree with this, but if the two forms are practically identical,
+then why was a change needed in the first place? Because an attestation
+could be found for one form and not for the other? Will the shape of 0x13246 change back once the original form is attested?
+<p>
+I detect an eagerness to change glyphs in the code charts for the sake of making changes, not because there is any
+compelling need. Realise that any change has the potential to cause disruption to users.
+<p>
+By the way, there is a token where the standard is somewhere in between the standards above. See 9th column from the left in the photo of:
+<p>
+http://sith.huma-num.fr/karnak/1128
 
 0x13247
-There was no basket in the original shape. I understand the information in the Database to suggest this sign also occurs without basket. It might therefore have been better to keep the sign unchanged, as the original form is not objectively wrong.
+There was no basket in the original shape. 
+As the Database points out, the Unicode 5.2 form differs from what, according to the original Unikemet, should have been
+the source, namely Gardiner (1953). See p. 52 of:
+<p>
+https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
+<p>
+It is hard to escape the conclusion that the shape was incorrectly copied from Gardiner (1953) to the Unicode 5.2 code charts at the time.
+The Unicode 16 shape therefore seems to be an improvement.
+<p>
+However, the "four pieces of grain or fruit" seem overly specific and can
+certainly not be discerned in Gardiner (1953). I would omit this phrase from the description.
 
 0x1324F
-Object on standard changed to a kind of overlay.
+The object on the standard changed to a kind of overlay. 
+The Database notes that a supposed token of this sign has been identified that has "X1 behind what looks like a U8".
+This could be in the second column in the photo of:
+<p>
+http://sith.huma-num.fr/karnak/1128
+<p>
+where X1 is to the left of what looks like U8, so "behind" in terms of reading order.
+(See also the first column, where there is the same combination of X1 and what looks like U8, but without standard.)
+I suspect the new glyph for Unicode 16 was created with the misunderstanding that "behind" meant "overlay".
+<p>
+Assuming that the above text correctly identifies the sign that Gardiner had in mind (which is not at all clear to me), 
+then a redraw of the glyph may be in order. In any case, it should not be an overlay.
 
 0x1325F
-The original shape underspecified which of the signs is on top. It seems fine to me to clarify the desired appearance as is done here.
+The original shape underspecified which of the signs is on top. The new shape specifies that it is the column that is on top.
+I have no objection to the new shape, but
+I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
 
 0x1327F
 The original shape was asymmetric, while the new shape is perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric.
 
 0x1328F
 There was no loop at the front in the original.
+I don't think anyone cares that the glyph is refined. The only suggestion I have is to omit the loop from the description as
+overly precise.
 
 0x132BA
-The two shapes are similar. But I cannot relate the description to the shapes. What is the loop at the back?
+The two shapes are similar. But I cannot relate the description to the shapes. 
+I don't think the tie towards the front should be drawn as one with the outline of the bag.
+What is the "loop at the back"? May the description be overly precise?
 
 0x132BF
 The standard has a different shape.
+The Database does not contain a shred of reflection on the fact that the shape has changed.
 
 0x132C5
-There appears to be a sun-disk on the headdress in the original.
+The headdress lost the sun disk. The Database motivates this by "more often without disk".
+I don't think anyone cares about the change to the glyph. But by the same token, I don't think
+there was ever a compelling need for any change.
 
 0x132E1
-The original shape underspecified which of the signs is on top. It seems fine to me to clarify the desired appearance as is done here. One worry for this case and for related cases is this: if the description mentioning which sign is on top is based on just one occurrence, and if in fact both possibilities exist, then the description is unduly specific. It would then be better to simply say that this is an overlay without specifying which sign is on top.
+The original shape underspecified which of the signs is on top. The new shape specifies that it is the collar that is on top. I have no objection to the new shape, but I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
 
 0x132F7 0x141BF 0x141C0
 In the original shape of 0x132F7, the fringes were not sloping.
 <p>
 Erman and Grapow already listed and contrasted both the non-sloping and the sloping forms (the latter with cross). 
-Many, if not most, dictionaries and grammars use the non-sloping form of S32. 
+The vast majority of dictionaries and grammars use the non-sloping form of S32. 
 One would have to have very good arguments to unceremoniously purge the traditionally used
 non-sloping form by replacing it with the sloping form.
 <p>
 I also don't see how one can argue that 0x141BF and 0x141C0 deserve two independent (core) code points, even though they are basically the same shape apart from aspect ratio, while at the same time treating the non-sloping and sloping forms of S32 as the same shape to justify arbitrarily
 replacing one by the other in the code charts.
+<p>
+The Database does not contain a shred of reflection on the fact that the shape has changed.
