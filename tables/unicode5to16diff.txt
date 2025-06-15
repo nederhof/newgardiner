@@ -1,7 +1,7 @@
 ok 0x13043
 Originally, there was a line representing the ground, and there was no connecting rope. 
 Now there is no line for the ground and there is a rope connecting the two pieces of the hoe. 
-In this instance, the Database seems to offer the adequate justification for a change to a glyph. 
+In this instance, the Database seems to offer adequate justification for a change to a glyph. 
 Both Urk IV 57,3, supposedly the source of the sign according to Gardiner (1928), and the earlier publication by Bouriant it was based on
 (in Recueil de traveaux 12, 1890) have the Unicode 16 form. For the latter, see p. 107 of:
 <p>
@@ -229,7 +229,8 @@ The vast majority of dictionaries and grammars use the non-sloping form of S32.
 One would have to have very good arguments to unceremoniously purge the traditionally used
 non-sloping form by replacing it with the sloping form.
 <p>
-I also don't see how one can argue that 0x141BF and 0x141C0 deserve two independent (core) code points, even though they are basically the same shape apart from aspect ratio, while at the same time treating the non-sloping and sloping forms of S32 as the same shape to justify arbitrarily
+I also don't see how one can argue that 0x141BF and 0x141C0 deserve two independent (core) code points, even though they are basically the same shape apart from aspect ratio of the crossed rectangle, 
+while at the same time treating the non-sloping and sloping forms of S32 as the same shape to justify arbitrarily
 replacing one by the other in the code charts.
 <p>
 The Database does not contain a shred of reflection on the fact that the shape has changed.

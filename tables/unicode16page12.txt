@@ -1,18 +1,39 @@
+0x14041 0x1403F 0x14089
+The "crossbar" in 0x14041 is not depicted like the crossbar in e.g. 0x1403F. Is it that crossbars can look very different?
+Or is the glyph of 0x14041 wrong?
+<p>
+By the way, is a "crossbar" (0x1403F) the same thing as a "crossbeam" (0x14089)? It looks the same. Perhaps the terminology can be made consistent?
+
 0x14042 0x14050
 The description of 0x14042 is not nearly as detailed as some others.  For one thing, it doesn't mention the shapes at the ends of the "crescent moon", which are not like other boats, apart from 0x14050 perhaps, which has "prow and stern curved inwards".
 <p>
 Another thing is that the "back" is apparently at the left, unlike other boats where the back is at the right. Is that intentional?
 
-0x14048
-There appear to be *two* oars/rudders in the glyph.
+0x14043 0x14044
+Where is the "doorway" in the glyph?
+
+0x14045 0x14046
+The glyph seems to suggest a doorway not mentioned in the description.
+
+0x14048 0x14065 0x14067 0x14069 0x1406A 
+The description of 0x14065 mentions a doorway while 0x14048 doesn't. The shape of the shrine looks the same to me though.
+<p>
+There appear to be *two* oars/rudders in the glyphs while the descriptions have "an oar/rudder" or "a rudder".
 
 0x1404D 0x13933
-I don't think there is a doorway in the glyph of 0x1404D.
+I don't see a doorway in the glyph of 0x1404D.
 <p>
 Also, in the vague image I seem to make out the vulture headdress underneath the bovine horns headdress, just like 0x13933. Is that real?
 
+0x1405C
+I cannot make out the ankh sign. Is it not there, or does it vanish within the image resolution?
+
 0x14068 0x1406B 0x1406C
 There is "with an oar/rudder at the back" for 0x14068, there is "with lines crossing the prow" for 0x1406C, and nothing comparable for 0x1406B. Yet the shape looks identical in all three glyphs. For consistency, can we just have "with an oar/rudder at the back/front" for all these cases?
+
+0x14067 0x1406E 
+Why are these not the same sign? "tall" versus "low" is palaeography, and meaningless on the level of Unicode.
+Both signs are functionally equivalent, representing the Henu-bark of Sokar.
 
 0x14070 0x14075
 I don't see the "multiple horizontal lines written over it" in the glyph of 0x14070. Presumably, what was meant is similar to 0x14075.
@@ -60,11 +81,14 @@ Correct "point" to "corner".
 I don't think the shapes in the glyph can be described as triangular.  One end is ever so slightly wider than the other end.
 
 0x14109 0x1410A 0x1410B 0x1410C 0x1410D 0x14110
-In 0x1410B, 0x1410C, 0x1410D the mentioned things are connected by a line at the bottom. The line is thin in 0x1410C while it is thick and prominent in 0x1410B and 0x1410D. By all reasonable measures, the thickness should not matter as to the identity of the sign. Even if the line is drawn as in 0x1410A, it is still just a line. I doubt there are any good reasons for talking about "base" in 0x14109 and 0x1410A while not even mentioning the connecting line in 0x1410B, 0x1410C, 0x1410D. 
+In 0x1410B, 0x1410C, 0x1410D the mentioned things are connected by a line at the bottom. The line is thin in 0x1410C while it is thick and prominent in 0x1410B and 0x1410D. By all reasonable measures, the thickness should not matter as to the character identity. Even if the line is drawn as in 0x1410A, it is still just a line. I doubt there are any good reasons for talking about "base" in 0x14109 and 0x1410A while not even mentioning the connecting line in 0x1410B, 0x1410C, 0x1410D. 
 <p>
 The description of 0x14110 does mention "base", while the glyph has just a thick line, just like 0x1410B and 0x1410D.
 <p>
 My proposal would be to have "on a base" (not "a rectangular base") for all such signs for consistency.
+
+0x1410A
+The pole is not at the bottom of the block in the glyph.
 
 0x1412D
 In the glyph, there are two dots on either side of the fire-drill. Are those supposed to be there?
