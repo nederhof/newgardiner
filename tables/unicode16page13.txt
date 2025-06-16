@@ -1,6 +1,12 @@
 0x14147
 Minor matter but the black blob on the left seems uncharacteristic. May be clockwise / anti-clockwise font-technical issue of an inner curve.
 
+0x141A8
+Correct "sting" to "string".
+
+0x141AB
+Correct "a the top end" to "at the top end".
+
 0x14153 0x132D3
 If you think you can justify having 2 codepoints for these trivial graphical variants, then at the very least you need to have two distinct descriptions.
 
@@ -17,7 +23,7 @@ I don't see a sun disk on either uraeus. (Not that I think one should distinguis
 Correct "with sun disks its head" to "with a sun disk on its head".
 
 0x1418E
-Huh? I see nothing remotely like the description.
+Huh? What face of a human female? I would need to see an image of what this should look like.
 
 0x141AF 0x132EF
 How is there a sickle shape? To me, 0x132EF and 0x141AF look identical except that one is slightly wider than the other, which is generally not a good enough reason to introduce multiple code points.
@@ -29,15 +35,28 @@ differentiated."
 <p>
 This seems to suggest that 0x141AF should not have existed next to 0x132EF.
 
+0x141B6
+I count seven fringes.
+
 0x141BF 0x141C0
-A square is a special case of a rectangle; just saying. The fringes are comparably long, drawn slightly differently but so what?
+A square is a special case of a rectangle such that the width and height are exactly the same. 
+The fringes are comparably long, drawn slightly differently but so what?
 It doesn't seem appropriate to me that such shapes would be distinguished in Unicode (cf. again the Encoding Principles).
 
 0x141D5 0x141D6
-If the circle section is to represent a crescent moon, then the glyph doesn't do a very good of representing this, i.e. it is nothing like N11 as it occurs in most fonts.
+If the circle section is to represent a crescent moon, then the glyph doesn't do a very good job 
+of representing this, i.e. it is nothing like N11 as it occurs in most fonts.
 
 0x141D7
 What is a double crescent moon supposed to look like? Just two circle sections like currently in the glyph?
 
-0x14214 0x14216
-I see no "loop" in 0x14214. If a loop is added, then 0x14214 and 0x14216 become basically the same shape. Not sure how the diagonal part of the standard fits in.
+0x14201
+In the glyph, I see a "boss near the top", not in the center.
+
+0x1420D
+The fletchings don't seem rounded to me. (But who cares. This is palaeography of the one particular token 
+that was found, and is not part of the character identity.)
+
+0x14214 0x14216 0x14217
+I see no "loop" in 0x14214, nor in 0x14217. If a loop is added to 0x14214, 
+then 0x14214 and 0x14216 become basically the same shape. Not sure how the diagonal part of the standard fits in.

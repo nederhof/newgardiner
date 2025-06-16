@@ -33,6 +33,8 @@ There is "with an oar/rudder at the back" for 0x14068, there is "with lines cros
 
 0x14067 0x1406E 
 Why are these not the same sign? "tall" versus "low" is palaeography, and meaningless on the level of Unicode.
+If you ask me as font designer to create glyphs for these two, given the examples in the code charts and the descriptions, 
+I will draw two identical shapes.
 Both signs are functionally equivalent, representing the Henu-bark of Sokar.
 
 0x14070 0x14075

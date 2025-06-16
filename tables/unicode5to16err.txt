@@ -108,9 +108,13 @@ In the Database there is not a shred of an acknowledgement that the shape of 0x1
 The Database does have the shape without inner circle, but in a separate entry, with the comment "Technically the more common form".
 Then what could possibly be the justification for changing the glyph if the Unicode 16 form is less common than the Unicode 5.2 form?
 
-0x13227
-The differences may be insignificant, but it appears to me that most of the description matches the original shape better than the Unicode 16 shape, in particular the orientation of the feather and the "short vertical line". 
+0x13227 0x14256
+The differences of 0x13227 may be insignificant, but it appears to me that most of the description matches the original shape better than the Unicode 16 shape, in particular the orientation of the feather and the "short vertical line". 
 It may be appropriate to revise the glyph, and consult an expert whether the shape is drawn correctly.
+<p>
+It also seems to me that 0x14256 is closer to the new shape of 0x13227 than the new shape of 0x13227 is to the original shape of 0x13227.
+If 0x14256 is so fundamentally different that it warranted a new code point,
+then how can one justify treating the old and new shapes of 0x13227 as interchangeable?
 
 0x13228
 I think the description matches the spear better in the original shape than in the Unicode 16 shape. 

@@ -1,8 +1,19 @@
+0x14231 0x14232
+"sun within a halo" suggests there should be an "inner circle". I don't see that in the glyph. (But frankly, who cares about such fiddly details. Something like "sun encircled by a cobra" is precise enough. Or just N6.)
+
+0x14256 0x14253
+Is the feather "angled forwards" in the glyph of 0x14256? I thought I understood what descriptions generally mean by "angled forwards" (cf. 0x14253) but this isn't it.
+
 0x1425E
 "vertical lines"? I rather see curves, not vertical lines. A matter of loose use of words, or rather a glyph that is incorrect?
 
+0x1425F
+Should that be "with weights"? What are the circles at the right?
+
 0x1429D 0x1429C
-"At the front" in the description of 0x1429D becomes confusing because the sign is mirrored relative to say 0x1429C. Elsewhere in descriptions I have seen use of "left" and "right". I realise the downside of left/right is that strictly speaking this becomes incorrect for right-to-left running text, but the left/right terminology tends to be less ambiguous than front/back when describing signs in the sign list.
+"At the front" in the description of 0x1429D becomes confusing because the sign is mirrored relative to say 0x1429C. 
+(I assume the mirroring is intentional.) 
+Elsewhere in descriptions I have seen use of "left" and "right". I realise the downside of left/right is that strictly speaking this becomes incorrect for right-to-left running text, but the left/right terminology tends to be less ambiguous than front/back when describing signs in the sign list.
 
 0x142AE 0x13349
 In the Unicode 5.2 code charts (not the Unicode 16 code charts), the handle of 0x13349 was already a little below the wood.  Either way, distinguishing these two variants on the basis of how many pixels the handle is below the wood is entirely inappropriate for Unicode.
@@ -16,6 +27,15 @@ Quite! How this then became a new code point, let alone a core sign, is a myster
 0x142C4 0x142C5
 I suspect the "horizontal line on top of the forked drill-bit" should have distinguished these two, but
 it is missing from the glyph of 0x142C5. Without this, the signs are identical for all practical purposes.
+
+0x142C9
+The glyph shows a forked drill-bit, not a round drill-bit. The horizontal line is not on top of the drill-bit but over it.
+
+0x142CA
+In the glyph, the horizontal line is not on top of the drill-bit but over it.
+
+0x142D0
+Where is the "loop" in the glyph? I see two ticks. What is the loop supposed to look like?
 
 0x142DB 0x142DC
 To me, "square" implies 4 corners.  If this was meant to contrast 0x142DB with say 0x142DC, then perhaps replace "square-bottomed" by "flat-bottomed"?

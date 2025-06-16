@@ -34814,7 +34814,7 @@ U+14252	kEH_JSesh	T84
 U+14252	kEH_HG	T84
 U+14253	kEH_Cat	T-13-068
 U+14253	kEH_Core	C
-U+14253	kEH_Desc	An spear, arrow without fletching or a harpoon without handle, written horizontally, on top of a crescent moon shape, connected by four lines, with the point towards the back, in front of a feather (H6), angled forwards on top of a standard with a round top, with outwards angled lines coming from the tip of the pole (R14B), on top of a standard used for carrying religious symbols, with a loop under the horizontal beam, running over the vertical pole.
+U+14253	kEH_Desc	An spear, arrow without fletching or a harpoon without handle, written horizontally, on top of a crescent moon shape, connected by four lines, with the point towards the back, in front of a feather (H6), Angled forwards on top of a standard with a round top, with outwards angled lines coming from the tip of the pole (R14B), on top of a standard used for carrying religious symbols, with a loop under the horizontal beam, running over the vertical pole.
 U+14253	kEH_Func	Logogram (7th nome of Lower Egypt)
 U+14253	kEH_FVal	wꜥ-m-ḥww-ꞽmn.ty
 U+14253	kEH_UniK	HJ T084B
