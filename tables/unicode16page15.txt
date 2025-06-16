@@ -4,6 +4,9 @@ It may be good to clarify that S29 is mirrored horizontally (assuming the glyph 
 0x14324
 In the glyph, there is a stroke under the egg. Whatever that is, can/should that stroke be mentioned in the description?
 
+0x1432F
+In the glyph, it is not "written over" as it is usually interpreted.
+
 0x14352 0x14353 0x14354
 Cannot parse. Probably meant is "tied-off" (double f and hyphen).
 
@@ -12,3 +15,9 @@ Cannot parse "base nearly a point". Perhaps something like "with a pointy base" 
 
 0x143AF
 The image in the code charts seems broken at the spout.
+
+0x143DA
+There appears to be uraeus or head of vulture near headdress. Is that real?
+
+0x143EF
+Remove "with, ".

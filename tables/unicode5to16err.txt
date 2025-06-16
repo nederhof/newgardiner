@@ -115,6 +115,7 @@ It may be appropriate to revise the glyph, and consult an expert whether the sha
 It also seems to me that 0x14256 is closer to the new shape of 0x13227 than the new shape of 0x13227 is to the original shape of 0x13227.
 If 0x14256 is so fundamentally different that it warranted a new code point,
 then how can one justify treating the old and new shapes of 0x13227 as interchangeable?
+There seems to be no consistency in any of this.
 
 0x13228
 I think the description matches the spear better in the original shape than in the Unicode 16 shape. 

@@ -67,6 +67,8 @@ Provisional Unicode 17 code charts:
 
 ## Selected versions of the NewGardiner font
 
+- 3.03 (2025-06-17)
+	- Global overhaul of extended list.
 - 3.02 (2025-06-01)
 	- Revised basic list to make all glyphs no wider or taller than 1 EM.
 	- Minor revisions to extended list.
