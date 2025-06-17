@@ -4,8 +4,28 @@ It may be good to clarify that S29 is mirrored horizontally (assuming the glyph 
 0x14324
 In the glyph, there is a stroke under the egg. Whatever that is, can/should that stroke be mentioned in the description?
 
-0x1432F
-In the glyph, it is not "written over" as it is usually interpreted.
+0x1432F 0x13393
+In the glyph of 0x1432F, it is not "written over" as it is usually interpreted.
+<p>
+Further, the introduction of this code point next to 0x13393, or at all, is poorly justified.
+The database has:
+<p>
+"Seems to occur when the
+text is arranged to fit something as if it is a normal I10. If used in this capacity, it needs to be atomic." 
+<p>
+The "fit something as if [...]" is too vague. Such matters need to be adequately documented.
+Also, because the bounding boxes of the two shapes have roughly the same aspect ratio,
+I cannot imagine that the difference between the shapes matters for the purpose of formatting complex groups, 
+unless the overlay is used in combination with an
+insertion of a big sign in the bottom left corner, in which case the shape of 0x1432F is preferable.
+But as noted before, the implementation can choose an appropriate form of an overlay depending
+on whether there are insertions, obviating the need for 0x1432F (and of 0x13393 for that matter).
+<p>
+Once again, I note that e.g. the flat hare 0x130FA and the flat swallow 0x1316B, which are typically used
+in vertical arrangements, were deprecated because they "only" served to arrange signs in a better way.
+And yet the only justification for the introduction of 0x1432F is that it serves to arrange signs
+in a better way.
+There is no coherent vision behind what was done.
 
 0x14352 0x14353 0x14354
 Cannot parse. Probably meant is "tied-off" (double f and hyphen).

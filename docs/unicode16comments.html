@@ -5244,13 +5244,43 @@ U+142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot.
             <img src="glyphs16/82735.png" class="image16"/>
             <div class="code">1432F</div>
           </td>
+          <td>
+            <img src="glyphs5/78739.png" class="image5"/>
+            <div class="code">13393 (5.2)</div>
+          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+1432F kEH_Desc A cobra in repose (Naja haja) (I10), written over a hobble for cattle without a crossbar (V20).</tt>
+      <br/>
+      <tt>U+13393 kEH_Desc A cobra in repose (Naja haja) (I10), written over a hobble for cattle without a crossbar (V20).</tt>
     </p>
-    <p>In the glyph, it is not "written over" as it is usually interpreted.
+    <p>In the glyph of U+1432F, it is not "written over" as it is usually interpreted.
+</p>
+    <p>
+Further, the introduction of this code point next to U+13393, or at all, is poorly justified.
+The database has:
+</p>
+    <p>
+"Seems to occur when the
+text is arranged to fit something as if it is a normal I10. If used in this capacity, it needs to be atomic." 
+</p>
+    <p>
+The "fit something as if [...]" is too vague. Such matters need to be adequately documented.
+Also, because the bounding boxes of the two shapes have roughly the same aspect ratio,
+I cannot imagine that the difference between the shapes matters for the purpose of formatting complex groups, 
+unless the overlay is used in combination with an
+insertion of a big sign in the bottom left corner, in which case the shape of U+1432F is preferable.
+But as noted before, the implementation can choose an appropriate form of an overlay depending
+on whether there are insertions, obviating the need for U+1432F (and of U+13393 for that matter).
+</p>
+    <p>
+Once again, I note that e.g. the flat hare U+130FA and the flat swallow U+1316B, which are typically used
+in vertical arrangements, were deprecated because they "only" served to arrange signs in a better way.
+And yet the only justification for the introduction of U+1432F is that it serves to arrange signs
+in a better way.
+There is no coherent vision behind what was done.
 </p>
     <table class="glyph_table">
       <tbody>

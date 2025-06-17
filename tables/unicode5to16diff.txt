@@ -158,7 +158,7 @@ then why was a change needed in the first place? Because an attestation
 could be found for one form and not for the other? Will the shape of 0x13246 change back once the original form is attested?
 <p>
 I detect an eagerness to change glyphs in the code charts for the sake of making changes, not because there is any
-compelling need. Realise that any change has the potential to cause disruption to users.
+compelling need. To destroy and remake in one's image is not in the interests of the user community.
 <p>
 By the way, there is a token where the standard is somewhere in between the standards above. See 9th column from the left in the photo of:
 <p>
