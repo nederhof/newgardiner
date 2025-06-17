@@ -54,6 +54,8 @@ Does it taper out towards the top as well? The glyph suggests it mainly tapers o
 0x139BA
 I'm not sure how to interpret "blade upwards". My first hunch would be to interpret it differently from the glyph,
 namely having the blade on top. Why not omit "blade upwards" to avoid the issue?
+<p>
+The Database has a tiny photo, which I interpret more like the description than like the glyph. 
 
 0x139C3 0x139C9 0x139CA
 For all three glyphs, I'm not sure how to see a "loop" in the shapes.  Are the glyphs accurate?

@@ -24,6 +24,11 @@ Correct "with sun disks its head" to "with a sun disk on its head".
 
 0x1418E
 Huh? What face of a human female? I would need to see an image of what this should look like.
+<p>
+The Database has "although this form will suffice for Unicode,
+in reality the sign from the source is a lot more elaborate".
+Then why does the description not describe "this form"? For font designers and encoders alike it creates
+unsolvable problems if example glyphs and descriptions are mutually inconsistent.
 
 0x141AF 0x132EF
 How is there a sickle shape? To me, 0x132EF and 0x141AF look identical except that one is slightly wider than the other, which is generally not a good enough reason to introduce multiple code points.
@@ -34,14 +39,20 @@ The Encoding Principles have under point 2:
 differentiated."
 <p>
 This seems to suggest that 0x141AF should not have existed next to 0x132EF.
+<p>
+The Database has in fact "Not a meaningful variant".
 
 0x141B6
 I count seven fringes.
 
-0x141BF 0x141C0
+0x141BF 0x141C0 0x132F7
 A square is a special case of a rectangle such that the width and height are exactly the same. 
-The fringes are comparably long, drawn slightly differently but so what?
+The fringes of 0x141BF and 0x141C0 are comparably long, drawn slightly differently but so what?
 It doesn't seem appropriate to me that such shapes would be distinguished in Unicode (cf. again the Encoding Principles).
+<p>
+The Database says of 0x141BF that it is "[n]ot a meaningful variant of [0x132F7]"; but note that the shape of
+0x132F7 in Unicode 16 has sloping fringes, whereas the intended shape in Unicode 5.2 is non-sloping.
+I see no reflection in the Database on what the core difference between 0x141BF and 0x141C0 is supposed to be.
 
 0x141D5 0x141D6
 If the circle section is to represent a crescent moon, then the glyph doesn't do a very good job 

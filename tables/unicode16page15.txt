@@ -8,7 +8,7 @@ In the glyph, there is a stroke under the egg. Whatever that is, can/should that
 In the glyph of 0x1432F, it is not "written over" as it is usually interpreted.
 <p>
 Further, the introduction of this code point next to 0x13393, or at all, is poorly justified.
-The database has:
+The Database has:
 <p>
 "Seems to occur when the
 text is arranged to fit something as if it is a normal I10. If used in this capacity, it needs to be atomic." 

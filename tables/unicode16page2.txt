@@ -22,6 +22,8 @@ I would omit the phrase "touching the thighs" altogether.
 
 0x13689
 There is no platform in the glyph.
+<p>
+The Database has a photo of an example, without platform.
 
 0x1368A 0x1368C 0x1368D
 S3 *is* the red crown. This suggests some noun is missing in all three descriptions.
@@ -91,13 +93,17 @@ precise in the first place? Quite adequate would have been "Woman wearing red cr
 As above, the description is overly specific and thereby almost inevitably inconsistent with the glyph in the code charts.
 
 0x13745
-I don't think the object in the glyph can be called simply "rectangular". Perhaps "capital-L shaped"? This is assuming the glyph is accurate. Or is the description accurate?
+I don't think the object in the glyph can be called simply "rectangular". Perhaps "shaped as capital L mirrored horizontally"? 
+This is assuming the glyph is accurate. Or is the description accurate?
 
 0x13747
 The hands in the glyph are not horizontal by any stretch of the imagination. I would leave it at "hand palms downwards", which probably
 implies what was meant.
 <p>
-Further, the glyph does a poor job of depicting that hair is hanging in front of the face. I would like to see a drawing of what this is supposed to look like. Are the eyes and mouth occluded from view by the hair?
+Further, the glyph does a particularly poor job of depicting that hair is hanging in front of the face. 
+For an example, the Database points here (fourth column from the left):
+<p>
+https://www.britishmuseum.org/collection/object/Y_EA10472-5
 
 0x13752
 The beard is missing from the glyph.

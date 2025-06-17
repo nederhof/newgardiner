@@ -10,7 +10,7 @@ The description of 0x14042 is not nearly as detailed as some others.  For one th
 Another thing is that the "back" is apparently at the left, unlike other boats where the back is at the right. Is that intentional?
 
 0x14043 0x14044
-Where is the "doorway" in the glyph?
+Where is the "doorway" in the glyphs?
 
 0x14045 0x14046
 The glyph seems to suggest a doorway not mentioned in the description.

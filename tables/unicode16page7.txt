@@ -7,7 +7,7 @@ and thereby the description may be overspecific. How about just "with horns"?
 "Written over" suggests the jackal occludes view of part of the band. Is it then "band written over jackal"?
 
 0x13B7B
-In the glyph, it appears the mace head is towards the front.
+In the glyph, it appears the mace head is towards the front (but at the back of the head of the jackal).
 
 0x13B88 0x13B89 0x13B8B
 In the Database I find:

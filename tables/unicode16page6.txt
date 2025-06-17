@@ -55,6 +55,8 @@ The glyph will be corrected in Unicode 17.
 
 0x13B0C
 For the left baboon, the left/right arms are reversed in the glyph. You could solve this simply by making the description less specific, say "one arm [...] holding [...] and another arm [...]".
+<p>
+There is a low-resolution in the Database, but it is hard to distinguish the left and right arms of the baboon on the left.
 
 0x13B12
 I think I understand what is meant (something in the vein of "the kind of
@@ -62,4 +64,5 @@ chevaux de frise that typically occurs on top of a wall"), but there are no
 walls in the glyphs. I would just omit "on top of walls".
 
 0x13B19
-The glyph has a base not mentioned in the description. Is that real?
+The glyph has a base not mentioned in the description. The existence of the sign with base is confirmed by 
+examples listed in the Database.

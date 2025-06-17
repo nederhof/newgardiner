@@ -42,6 +42,10 @@ In the glyph, the hand palms are inward or upward, but certainly not outward.
 
 0x13528
 The glyph does not have both knees raised.
+<p>
+The Database has "Attested in TSL, not considered a meaningful variant [of A005A]". What was not a meaningful variant, the
+shape with both knees raised as in the description, or the shape with one knee raised as in the glyph? 
+And why did the sign end up in the core set nonetheless, on the basis of what graphical differences?
 
 ok 0x1352A
 The glyph has four flowers, not three.

@@ -5,15 +5,17 @@ The description does not mention the line coming from the back of the crown in t
 The description does not mention the ankh sign. Is it real at all?
 
 0x13795
-The uraeus in the glyph has been confirmed to be an error.
-This will be solved in Unicode 17.
-But the band around the head with the loop at the back will remain for now.
-I suspect that is an error as well, as it is not mentioned in the description.
+The Database has "If added, it should be redrawn without uraeus and headband."
+The uraeus will be removed in Unicode 17.
+But the band around the head with the loop at the back is still in the draft code charts;
+it will need to be removed as well.
 
 0x137C6 0x137C7
 The description of 0x137C6 does not say the block throne is on a base, 
 unlike the description of 0x137C7.
 Is the description of 0x137C6 wrong in the omission of the base, or is the glyph wrong?
+<p>
+The Database mentions existence of a token with base.
 
 0x137C8
 Correct "hand a" to "hand at".
@@ -33,14 +35,21 @@ The hair in the glyphs of 0x137F5 and 0x137F6 will be corrected to "coif/short h
 ok 0x13802 0x13803
 The hair in the glyph of 0x13803 will be corrected to "long" in Unicode 17.
 
-0x1380B
-There are no (forward curling) horns in the glyph. What should these look like?
+0x1380B 0x13815
+There are no (forward curling) horns in the glyphs.
+<p>
+For both, the Database has "rather hard to see [...] hence it could be called without horns".
+If the horns are there, but are just hard to see, I would normalize the glyph to have them anyway.
 
-0x13813
-The description does not mention the sun disk. Is it real at all?
-
-0x13815
-There are no (forward curling) horns in the glyph. What should these look like?
+0x13813 0x1380D
+The description of 0x13813 does not mention the sun disk.
+The Database has "is a bit small for a sun-disk", further suggesting it might be a cobra.
+But there is a code point 0x1380D specifically for the sign with cobra. So if 0x13813 has a right to exist at all, 
+then it should be with the interpretation of the object on the horns as sun disk. If some day that turns out to be an error
+and the sign with sun disk never actually existed, then too bad.
+<p>
+The main thing is that there is no inconsistency between description and glyph as this makes the job
+of font designers impossible.
 
 0x13817
 The description in the draft Unicode 17 version is inconsistent as to whether there is a lump of clay or a vessel:
@@ -55,7 +64,11 @@ The description could be simplified.
 
 0x1381A
 Unicode 17 will make the glyph consistent with the description by letting the god touch the wall.
+<p>
 But an unresolved issue is that there are no (forward curving) horns in the glyph.
+The Database has "Requires another redraw, withouth the horizontal horns". Why was the glyph redrawn without the horns if the
+description has "with [...] horns"? As above, if the horns were once supposedly there, but are just not easily visible anymore, 
+then I would draw them anyway.
 
 0x1381E
 If the two conical shapes are trees or loafs of bread, then they appear to be on two sticks. Can that be right?
