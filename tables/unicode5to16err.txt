@@ -92,6 +92,16 @@ If anyone feels the need for the other orientation, a variation selector for rot
 Apropos, the Database has the fly with the head up as well, so it is not even clear to me any of the philologists 
 actually wanted to have this sign rotated relative to the original orientation. In the end, the rotation may be due to clerical error.
 
+0x131BA
+I could not care less about the length of the stalk in the glyph. This is a palaeographic detail and unimportant
+at the level of Unicode.
+I do object against the Database not even acknowledging that anything was changed, despite the fact that
+the description above explicitly invalidates the character identity from Unicode 5.2 when the stalk was definitely not long.
+In particular, there is nothing in the Database that suggests that a short stalk was wrong or atypical and therefore needed to be changed into
+a long stalk.
+The original form with the short stalk reappears in a different entry with the comment "Does not seem to be
+a meaningful variant". Ok, but if the difference between the shapes was not significant, why was there any need for the shape to be changed?
+
 0x131C6
 Revert to the shape from Unicode 5.2. The description in fact already correctly reflects the original shape.
 

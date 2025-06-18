@@ -33,9 +33,6 @@ For 0x1306F, the sun-disk was removed. This is fine if the sun-disk in the origi
 <p>
 In the Database I find "redraw of C18G without sun" but without justification.
 
-0x130B9
-It is debatable whether the original shape has the folded piece of cloth on top, or whether the intention was to underspecify which of the two signs is on top. In the latter case, it may be adequate to describe this simply as an overlay of the two signs without specifying which of the two is on top, and leave it to the font designer how to draw this. There are several more such cases.
-
 0x130E8
 The Unicode 5.2 form did not have the uraeus. 
 The Database justifies adding the uraeus by the observation that many occurrences have a uraeus, calling
@@ -191,11 +188,6 @@ I suspect the new glyph for Unicode 16 was created with the misunderstanding tha
 Assuming that the above text correctly identifies the sign that Gardiner had in mind (which is not at all clear to me), 
 then a redraw of the glyph may be in order. In any case, it should not be an overlay.
 
-0x1325F
-The original shape underspecified which of the signs is on top. The new shape specifies that it is the column that is on top.
-I have no objection to the new shape, but
-I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
-
 0x1327F
 The original shape was asymmetric, while the new shape is perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric.
 
@@ -218,9 +210,6 @@ The headdress lost the sun disk. The Database motivates this by "more often with
 I don't think anyone cares about the change to the glyph. But by the same token, I don't think
 there was ever a compelling need for any change.
 
-0x132E1
-The original shape underspecified which of the signs is on top. The new shape specifies that it is the collar that is on top. I have no objection to the new shape, but I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
-
 0x132F7 0x141BF 0x141C0
 In the original shape of 0x132F7, the fringes were not sloping.
 <p>
@@ -234,3 +223,41 @@ while at the same time treating the non-sloping and sloping forms of S32 as the 
 replacing one by the other in the code charts.
 <p>
 The Database does not contain a shred of reflection on the fact that the shape has changed.
+
+0x130B9
+It is debatable whether the original shape has the folded piece of cloth on top, or whether the intention was to underspecify which of the two signs is on top. In the latter case, it may be adequate to describe this simply as an overlay of the two signs without specifying which of the two is on top, and leave it to the font designer how to draw this. There are several more such cases.
+
+0x13155
+As above.
+
+0x13156
+As above.
+
+0x13174
+As above.
+
+0x13175
+As above.
+
+0x131AE
+As above.
+
+0x131B2
+As above.
+
+0x13266
+As above.
+
+0x132A3
+As above.
+
+0x132E1
+As above.
+
+0x13353
+As above.
+
+0x1325F
+The original shape underspecified which of the signs is on top. The new shape specifies that it is the column that is on top.
+I have no objection to the new shape, but
+I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
