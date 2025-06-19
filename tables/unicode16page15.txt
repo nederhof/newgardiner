@@ -2,7 +2,15 @@
 It may be good to clarify that S29 is mirrored horizontally (assuming the glyph is correct).
 
 0x14324
-In the glyph, there is a stroke under the egg. Whatever that is, can/should that stroke be mentioned in the description?
+In the glyph, there is a stroke under the egg, not mentioned in the description.
+The Database refers to p. 80, l. 13 and pl. CXCIII of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara003.pdf
+<p>
+In the photo, the shape in fact occurs twice,
+once as part of running text and once in iconography, and in both cases there is a pronounced stroke under the egg.
+Even if it is unknown what it represents, I would mentioned it in the description, perhaps just 
+in terms of "a stroke under the egg".
 
 0x1432F 0x13393
 In the glyph of 0x1432F, it is not "written over" as it is usually interpreted.

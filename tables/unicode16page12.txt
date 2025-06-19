@@ -98,7 +98,10 @@ The glyph suggests *two* oars/rudders.
 I would not call the mentioned shape in the glyph a "horizontal rectangle". A rectangle consists of straight lines, while the shape is prominently curved. Perhaps say "flat shape inside between prow and stern with vertical lines as internal decoration"?
 
 0x1407C
-In the glyph, I don't really see two loops coming from the lower beam of the sail, more like one and half loops. One of the loops ends at the mast, which does not seem quite consistent with the description. Is it supposed to be drawn as in the glyph?
+In the glyph, I don't really see two loops coming from the lower beam of the sail, more like one and half loops. One of the loops ends at the mast, which does not seem quite consistent with the description.
+The glyph is consistent with the reference pointed to by the Database, p. 134, l. 4 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
 
 0x14084 0x14085
 I suspect "point" is a dutchism. The shape at the bottom right I would call a "corner", not a "point".

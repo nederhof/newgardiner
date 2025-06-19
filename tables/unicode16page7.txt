@@ -8,6 +8,12 @@ and thereby the description may be overspecific. How about just "with horns"?
 
 0x13B7B
 In the glyph, it appears the mace head is towards the front (but at the back of the head of the jackal).
+The Database points to p. 45, l. 3 and pl. 32 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara011.pdf
+<p>
+The transcription seems to confirm the glyph is wrong, and the mace head is on the right. The photo is less clear.
+The transcription also seems to suggest the mace is curved, but this seems less important.
 
 0x13B88 0x13B89 0x13B8B
 In the Database I find:

@@ -22,7 +22,12 @@ Understandably, in the Database we find:
 Was it a mistake then that both 0x13FA1 and 0x13FA2 ended up being added to Unicode as core signs?
 
 0x13FA3
-The glyph and the description don't seem to match. Flat roof? Large doorway?
+The glyph and the description don't seem to match. Flat roof? Where is the large doorway?
+The Database points to p. 122, l. 1 and pl. 74, col. 35 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf
+<p>
+The transcription is like the above glyph. The image is not clear, but at least seems consistent with the transcription.
 
 0x13FA7
 I would make the spike more spiky. Now it just looks like a circle.

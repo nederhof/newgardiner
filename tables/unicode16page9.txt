@@ -84,6 +84,11 @@ In the glyph, the wings are not remotely connected and I would not even say the 
 https://egypt-museum.com/winged-scarab-pectoral-of-tutankhamun/
 <p>
 There is a photo in the Database, but that does not have the "connecting" of the wings either.
+The Database further points to p. 152, l. 12 of:
+<p>
+https://archive.org/details/MMAF25/page/n87/mode/2up
+<p>
+Also this does not have the "circular form". Why then is the description as it is?
 
 0x13E09 0x13E0A
 Correct "at the bottom".

@@ -56,7 +56,7 @@ The glyph will be corrected in Unicode 17.
 0x13B0C
 For the left baboon, the left/right arms are reversed in the glyph. You could solve this simply by making the description less specific, say "one arm [...] holding [...] and another arm [...]".
 <p>
-There is a low-resolution in the Database, but it is hard to distinguish the left and right arms of the baboon on the left.
+There is a low-resolution photo in the Database, but it is hard to distinguish the left and right arms of the baboon on the left.
 
 0x13B12
 I think I understand what is meant (something in the vein of "the kind of

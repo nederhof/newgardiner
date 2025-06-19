@@ -55,16 +55,18 @@ Then why does the description not describe "this form"? For font designers and e
 unsolvable problems if example glyphs and descriptions are mutually inconsistent.
 
 0x141AF 0x132EF
-How is there a sickle shape? To me, 0x132EF and 0x141AF look identical except that one is slightly wider than the other, which is generally not a good enough reason to introduce multiple code points.
+How are there sickle shapes? To me, 0x132EF and 0x141AF look identical except that one is slightly wider than the other, which is generally not a good enough reason to introduce multiple code points.
 <p>
 The Encoding Principles have under point 2:
 <p>
 "Chubby or slender signs are part of this continuum and will not be
 differentiated."
+TSL has one atypical token TSL_3_20841, and I wonder whether that was the one that was thought to have "sickle shapes":
 <p>
-This seems to suggest that 0x141AF should not have existed next to 0x132EF.
+https://thotsignlist.org/mysign?id=5650
 <p>
-The Database has in fact "Not a meaningful variant".
+The Database has "Not a meaningful variant". I would agree. Perhaps TSL_3_20841 is just a one-off, clumsily carved instance of the kilt,
+rather than an independent shape. But then why was it added?
 
 0x141B6
 I count seven fringes.

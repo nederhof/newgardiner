@@ -7,7 +7,7 @@ in the code charts. And anyway, who cares. The character identity could be captu
 <p>
 The Database mentions existence of one very detailed token where the arm is visible and argues that this should be
 made visible in the glyph. But please realise that a character set is a list of types, not a list of tokens. 
-A character is an abstraction of instances, not a facsimile of the most detailed instance of a character that you can find.
+A character is an abstraction of instances, not a facsimile of the most detailed instance of a character that one can find.
 
 0x1386A
 The glyph does suggests a sun disk (in the middle above the horns). This has been confirmed to be an error.
@@ -56,6 +56,7 @@ This does seem to confirm existence of the ankh sign.
 0x138F9 0x138F8
 The "circle" in 0x138F9 looks perfectly identical to the "round vessel" from 0x138F8.
 If it is really just a circle (representing the sun?) and not a round vessel, then make sure it is perfectly round in the glyph.
+Of if an educated guess can be made that it probably was a "round vessel", then amend the description.
 
 0x13903
 Left and right need to be reversed in the description.

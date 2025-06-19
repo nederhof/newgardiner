@@ -48,6 +48,11 @@ I would suggest redrawing both glyphs with a normal standard.
 
 0x13CDD
 The standard in the glyph is not mentioned in the description.
+The Database refers to p. 74, l. 15 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara014.pdf
+<p>
+This has a standard as in the glyph.
 
 0x13CD5 0x13CD6 0x13CD9 13CDA
 None of the descriptions of human-headed birds mention beards. If these are not expected to have beards, or if it doesn't matter, I would suggest omitting them from the glyphs.
