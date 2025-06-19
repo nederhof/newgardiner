@@ -65,7 +65,7 @@ It isn't in Urk I 2,4, and in the photo one cannot even make out the staff:
 <p>
 https://upload.wikimedia.org/wikipedia/commons/0/07/Mastaba_-_tomb_of_Metjen_from_the_Old_Kingdom_04.jpg
 <p>
-If no one can find a reason why the triangular shape should be there, perhaps omit it?
+If no one can find a reason why the triangular shape should be there, perhaps omit it from the glyph?
 
 0x1360B
 Replace "horizontally" by "horizontal" or insert appropriate verb?

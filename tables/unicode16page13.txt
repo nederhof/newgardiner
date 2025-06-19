@@ -15,9 +15,33 @@ As above.
 
 0x1416B
 I cannot match this to the glyph at all. Where is the "an uraeus, with a sun disk on the head"?
+The Database points to p. 169 l. 4 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf
+<p>
+Apart from the two uraei hanging down, there are no additional uraei,
+so I assume the description is wrong.
+<p>
+It is also easy to misinterpret "two ureai hanging downwards from the horns at either side";
+there are examples (at least in iconography) where four uraei in total, two on each side, 
+are hanging from the Atef crowns,
+see e.g. here:
+<p>
+https://www.worldhistory.org/image/2508/tutankhamun--ankhsenamun/
 
 0x1416C
-I don't see a sun disk on either uraeus. (Not that I think one should distinguish signs in Unicode on the basis of such tiny details.)
+I don't see a sun disk on either uraeus in the glyph. The Database points to:
+<p>
+http://sith.huma-num.fr/karnak/4209
+<p>
+The transcription does not have sun disks, while the photo of the heavily eroded inscription could potentially
+be interpreted to have sun disks.
+There is another token that (in normalized transcription) does have sun disks, namely p. 169 l. 3 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf
+<p>
+The main thing is that glyph and description are consistent. Adding sun disks to the
+glyph seems the most appropriate way to achieve this.
 
 0x14179
 Correct "with sun disks its head" to "with a sun disk on its head".
@@ -68,6 +92,21 @@ In the glyph, I see a "boss near the top", not in the center.
 The fletchings don't seem rounded to me. (But who cares. This is palaeography of the one particular token 
 that was found, and is not part of the character identity.)
 
-0x14214 0x14216 0x14217
-I see no "loop" in 0x14214, nor in 0x14217. If a loop is added to 0x14214, 
-then 0x14214 and 0x14216 become basically the same shape. Not sure how the diagonal part of the standard fits in.
+0x14214 0x14217 0x14216
+I see no "loop" in 0x14214, nor in 0x14217.
+For 0x14214 the Database refers to:
+<p>
+http://sith.huma-num.fr/karnak/4205
+<p>
+The inscription is rather eroded, but it seems a reasonable guess to interpret the sign as having
+a "loop" as in the description, rather than a diagonal beam.
+For 0x14217 the Database refers to p. 94, l. 6 of:
+<p>
+https://archive.org/details/MMAF25/page/n59/mode/2up
+<p>
+Here the transcription has a "loop" as well instead of the diagonal beam, confirming the description.
+<p>
+Even before, the Database had for 0x14216: "I am not sure if it is that valuable for Unicode".
+After correcting the glyphs of 0x14214 and 0x14217, 
+0x14216 becomes basically a duplicate of 0x14214, and there should be even less reason for it to
+exist.

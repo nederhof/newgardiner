@@ -14,6 +14,10 @@ Should that be "with weights"? What are the circles at the right?
 "At the front" in the description of 0x1429D becomes confusing because the sign is mirrored relative to say 0x1429C. 
 (I assume the mirroring is intentional.) 
 Elsewhere in descriptions I have seen use of "left" and "right". I realise the downside of left/right is that strictly speaking this becomes incorrect for right-to-left running text, but the left/right terminology tends to be less ambiguous than front/back when describing signs in the sign list.
+<p>
+Apropos, what I find puzzling in this and many other cases is that only negative views are entered in the Database, here
+"variation too limited to be of use for Unicode" and "Not a meaningful variant". And yet it became not only a new code point but
+a core sign?
 
 0x142AE 0x13349
 In the Unicode 5.2 code charts (not the Unicode 16 code charts), the handle of 0x13349 was already a little below the wood.  Either way, distinguishing these two variants on the basis of how many pixels the handle is below the wood is entirely inappropriate for Unicode.
@@ -35,7 +39,12 @@ The glyph shows a forked drill-bit, not a round drill-bit. The horizontal line i
 In the glyph, the horizontal line is not on top of the drill-bit but over it.
 
 0x142D0
-Where is the "loop" in the glyph? I see two ticks. What is the loop supposed to look like?
+The glyph has two ticks, not one tick and one loop as in the description.
+The Database points to p. 119, l. 13 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/MMAF020.pdf
+<p>
+This suggests the tick on the right should be redrawn as a small loop, of roughly the same size.
 
 0x142DB 0x142DC
 To me, "square" implies 4 corners.  If this was meant to contrast 0x142DB with say 0x142DC, then perhaps replace "square-bottomed" by "flat-bottomed"?

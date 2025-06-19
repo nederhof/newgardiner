@@ -577,7 +577,7 @@ It isn't in Urk I 2,4, and in the photo one cannot even make out the staff:
       <a href="https://upload.wikimedia.org/wikipedia/commons/0/07/Mastaba_-_tomb_of_Metjen_from_the_Old_Kingdom_04.jpg">https://upload.wikimedia.org/wikipedia/commons/0/07/Mastaba_-_tomb_of_Metjen_from_the_Old_Kingdom_04.jpg</a>
     </p>
     <p>
-If no one can find a reason why the triangular shape should be there, perhaps omit it?
+If no one can find a reason why the triangular shape should be there, perhaps omit it from the glyph?
 </p>
     <table class="glyph_table">
       <tbody>
@@ -1295,6 +1295,10 @@ The Database mentions existence of a token with base.
             <img src="glyphs16/79893.png" class="image16"/>
             <div class="code">13815</div>
           </td>
+          <td>
+            <img src="glyphs16/79891.png" class="image16"/>
+            <div class="code">13813</div>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -1302,12 +1306,16 @@ The Database mentions existence of a token with base.
       <tt>U+1380B kEH_Desc God, seated, knees up, with covered legs and arms, with the head of a ram, with forward curling horns.</tt>
       <br/>
       <tt>U+13815 kEH_Desc God, seated, knees up, with covered legs and arms, with the head of a ram, with forward curling horns, with a sun disk (N5) on its head, holding a sceptre with a straight shaft, topped with the head of the Seth animal vertically. </tt>
+      <br/>
+      <tt>U+13813 kEH_Desc God, seated, knees up, with covered legs and arms, with the head of a ram with horizontal twisted horns, holding a sceptre with a straight shaft, topped with the head of the Seth animal vertically. </tt>
     </p>
-    <p>There are no (forward curling) horns in the glyphs.
+    <p>There are no (forward curling) horns in the glyphs of U+1380B and U+13815.
 </p>
     <p>
 For both, the Database has "rather hard to see [...] hence it could be called without horns".
 If the horns are there, but are just hard to see, I would normalize the glyph to have them anyway.
+But now the problem is that U+13815 and U+13813 become the same sign apart from the exact shape of the horns, which
+strays well into the domain of palaeography.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -1335,7 +1343,7 @@ then it should be with the interpretation of the object on the horns as sun disk
 and the sign with sun disk never actually existed, then too bad.
 </p>
     <p>
-The main thing is that there is no inconsistency between description and glyph as this makes the job
+In any case, there should be no inconsistency between description and glyph as this makes the job
 of font designers impossible.
 </p>
     <table class="glyph_table">
@@ -1437,6 +1445,13 @@ then I would draw them anyway.
     <p>There is no beard in the glyph.
 The description in the draft Unicode 17 version was changed to start with "God with breast [...]";
 the glyph doesn't clearly show a breast, but it may be a matter of plausible deniability and I care about that less.
+The Database points to p. 68, l. 12 and plate 67 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara011.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara011.pdf</a>
+    </p>
+    <p>
+The transcription has no beard or breast. It would be very hard to recognize these in the photo even if they once existed.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -1663,6 +1678,7 @@ on top of the crown should remain.
       <tt>U+1389F kEH_Desc Goddess, seated, knees up, with covered legs and arms, with a seat (Q1) on her head, holding a holding a tie or strap, used with sandals (ankh-sign, S34), angling forward. </tt>
     </p>
     <p>The ankh sign is not angling forward in the glyph.
+Not sure anyone should care, but description and glyph should be consistent.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -1689,8 +1705,23 @@ on top of the crown should remain.
       <br/>
       <tt>U+138E8 kEH_Desc Goddess, seated on a block throne on a base, wearing the red crown (S3), right arm forward, hand at the hight of the waist, holding a sceptre with a straight shaft, forked bottom and head of the Seth animal (S40), left arm forward, hand on knee.</tt>
     </p>
-    <p>In all three glyphs, the hand on the knee seems to hold an ankh sign as well, not mentioned in the description. Is that real?
-In U+138E8, the forked bottom is not visible in the glyph, so why mention it? Cut-and-paste error, or is the glyph wrong?
+    <p>In all three glyphs, the hand on the knee seems to hold an ankh sign as well, not mentioned in the description.
+For U+138E3 and U+138E4, the Database points to p. 215 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara015.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara015.pdf</a>
+    </p>
+    <p>
+For U+138E3 see l. 4, and for U+138E4 see l. 10. The resolution of the PDF is low, but I would be
+inclined to see an ankh sign in the tokens.
+For U+138E8, the Database points to p. 227, l. 11 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf</a>
+    </p>
+    <p>
+This definitely has an ankh sign.
+The forked bottom mentioned in the description is not visible in the transcription, so this mention should probably be removed.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -1706,7 +1737,13 @@ In U+138E8, the forked bottom is not visible in the glyph, so why mention it? Cu
       <tt>U+138F8 kEH_Desc Goddess, standing, with round vessel with upstanding rim (W24) on her head, right arm forward, hand at the hight of the waist, holding a stem of papyrus with a bud (M131) or flower, of the hight of the woman, vertically, left arm hanging beside the body, holding a tie or strap, used with sandals (ankh-sign, S34), at the loop.</tt>
     </p>
     <p>The ankh sign mentioned in the description is not in the glyph.
-Cut-and-paste error, or is the glyph wrong?
+The Database points to p. 12 of:
+</p>
+    <p>
+      <a href="https://archive.org/details/MMAF23/page/n15/mode/2up">https://archive.org/details/MMAF23/page/n15/mode/2up</a>
+    </p>
+    <p>
+This does seem to confirm existence of the ankh sign.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -1743,8 +1780,15 @@ If it is really just a circle (representing the sun?) and not a round vessel, th
     <p>
       <tt>U+13903 kEH_Desc Goddess, standing, with a flower enclosed by two horns (R20) on her head, right arm forward, hand at the hight of the waist, holding a club, angled forward, with the head of the club on top a vertical stick held by the left hand.</tt>
     </p>
-    <p>Left and right are reversed. Was the description based on right-to-left text? Why not simplify the description,
-say "[...] one hand holding [...] and the other hand holding [...]"?
+    <p>Left and right need to be reversed in the description.
+The token pointed to by the Database confirms this, on p. 355 of:
+</p>
+    <p>
+      <a href="https://archive.org/details/ASAE-40-1-1940/page/n181/mode/2up">https://archive.org/details/ASAE-40-1-1940/page/n181/mode/2up</a>
+    </p>
+    <p>
+Had the description been less specific, the inconsistency would not have occurred.
+Consider for example "[...] one hand holding [...] and the other hand holding [...]".
 </p>
     <table class="glyph_table">
       <tbody>
@@ -1760,7 +1804,13 @@ say "[...] one hand holding [...] and the other hand holding [...]"?
       <tt>U+13904 kEH_Desc Goddess, standing, with a flower enclosed by two horns (R20) on her head, right arm forward, hand at the hight of the waist, holding a club, angled forward, with the head of the club on top a vertical stick held by the left hand, facing a god, standing, with a long curved beard, wearing the Atef crown with horns,  right arm forward, hand at the hight of the waist, holding a club, angled forward, with the head of the club on top a vertical stick held by the left hand, both sticks within an oval of rope.</tt>
     </p>
     <p>For the god, left and right are reversed. 
-Cut-and-paste error in the description? I would be surprised if the image were not symmetric.
+The Database points to p. 186 and plate 175 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara012.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara012.pdf</a>
+    </p>
+    <p>
+Both photo and transcription seem to confirm the glyph and contradict the description.
 Of course, if the description had been less overly specific, then the inconsistency would not have arisen.
 </p>
     <table class="glyph_table">
@@ -1776,7 +1826,16 @@ Of course, if the description had been less overly specific, then the inconsiste
     <p>
       <tt>U+1391D kEH_Desc Goddess, standing, with a palm branch, stripped of leaves and notched on her head (M4), notch forward, right arm forward, hand at the hight of the waist, holding a stem of papyrus with a bud (M131) or flower, of the hight of the woman, vertically, left arm hanging beside the body.</tt>
     </p>
-    <p>The glyph seems to have several "notches" on the palm branch, yet "notch forward" suggests there is only one.
+    <p>The glyph seems to have several "notches" on the palm branch, yet "notch forward" suggests there is precisely one.
+The Database points to p. 351 of:
+</p>
+    <p>
+      <a href="https://archive.org/details/ASAE-40-1-1940/page/n179/mode/2up">https://archive.org/details/ASAE-40-1-1940/page/n179/mode/2up</a>
+    </p>
+    <p>
+This does look like the glyph, and there is no single clear notch.
+The issue would be solved by a description that is less specific. Perhaps write instead
+"with M4 on her head".
 </p>
     <table class="glyph_table">
       <tbody>
@@ -2819,6 +2878,23 @@ impossible to achieve and where it will be impossible for the encoders to know w
     </p>
     <p>There are no visible cartouches in the glyphs. Copy-and-paste error of description or are the glyphs wrong?
 </p>
+    <p>
+For U+13CB6, the Database points to p. 68, l. 8 of:
+</p>
+    <p>
+      <a href="https://archive.org/details/MMAF25/page/n45/mode/2up">https://archive.org/details/MMAF25/page/n45/mode/2up</a>
+    </p>
+    <p>
+If there are cartouches, then they are represented as no more than tiny blobs.
+Also, the token looks closer to U+13CB7 than to U+13CB6, but with smaller sun.
+For U+13CB7, the Database points to p. 35, l. 10 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara013.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara013.pdf</a>
+    </p>
+    <p>
+I don't see cartouches there.
+</p>
     <table class="glyph_table">
       <tbody>
         <tr>
@@ -2833,6 +2909,16 @@ impossible to achieve and where it will be impossible for the encoders to know w
       <tt>U+13CBA kEH_Desc A falcon, with spread wings that angle downwards, without legs, with one handed fans with the top replaced by a feather, written over the wing, angling outwards.</tt>
     </p>
     <p>There are legs in the glyph.
+</p>
+    <p>
+The Database points to p. 65, l. 8 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf</a>
+    </p>
+    <p>
+There are definitely legs in the transcription.
+The description seems to be wrong.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -2869,6 +2955,24 @@ impossible to achieve and where it will be impossible for the encoders to know w
       <tt>U+13CC2 kEH_Desc A falcon, legs drawn towards the body, body nearly horizontal (G158), on top of a standard used for the carrying of religious symbols with the vertical stick at the far side (R92A). </tt>
     </p>
     <p>The standards in the glyphs look like one half of the 'sky' sign, not R92A.
+</p>
+    <p>
+For U+13CC1, the Database points to p. 282, l. 9 and pl. 166, col. 7 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf</a>
+    </p>
+    <p>
+The transcription does seem to suggest that the standard below the falcon looks different from the standards in neighbouring signs.
+However, in the photo, the standards look very similar.
+</p>
+    <p>
+For U+13CC2, the Database points to p. 372, l. 14 and pl. 234, col. 228 of the same publication.
+Here the standard below the falcon looks completely as expected, and suggesting one half of the sky sign is
+unwarranted. 
+</p>
+    <p>
+I would suggest redrawing both glyphs with a normal standard.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3054,9 +3158,25 @@ Another thing is that the glyph does have a "handle" on the arrow/harpoon, contr
       <br/>
       <tt>U+13192 kEH_Desc A horned desert viper (Cerastes cerastes) (I9), coming out of an open rectangle, with the top line shorter than the bottom line.</tt>
     </p>
-    <p>In the glyph of U+13D64, the top and bottom lines have the same length. Copy-and-paste
-error from U+13192 in the description? Or is the glyph wrong?
-One could of course avoid the problem by making the descriptions less precise; just a thought.
+    <p>In the glyph of U+13D64, the top and bottom lines have the same length. 
+The Database points to p. 59 l. 7 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf</a>
+    </p>
+    <p>
+where the top and bottom lines have the same length.
+This is a normalized transcriptions, so this is not necessarily conclusive.
+</p>
+    <p>
+But anyway, who cares?
+No doubt one can find tokens where the lines have the same length and tokens where the lengths clearly differ.
+Conversely, one can find tokens of U+13192 where top and bottom lines have the same length;
+see for example the facsimile on p. 66 (bottom line) of the above publication.
+</p>
+    <p>
+The obvious solution of course is to make descriptions less overly specific.
+A sign list is expected to be a list of types, not a list of tokens.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3457,15 +3577,33 @@ The Database has "I am not certain this [U+13E47] would be a meaningful variant"
             <img src="glyphs16/81480.png" class="image16"/>
             <div class="code">13E48</div>
           </td>
+          <td>
+            <img src="glyphs16/81483.png" class="image16"/>
+            <div class="code">13E4B</div>
+          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+13E48 kEH_Desc A flower, seen seen from above, with seven distinct petals visible inside a wavy circle.</tt>
+      <br/>
+      <tt>U+13E4B kEH_Desc A flower with four petals in a circle.</tt>
     </p>
-    <p>The glyph interprets the sign differently from the description. 
-The glyph has 7 overlapping heart-shaped petals, while the description sees 7 non-overlapping oval-shaped petals surrounded
-by a wavy circle. I assume only one of the two interpretations is correct.
+    <p>The glyph interprets the shape of U+13E48 differently from the description. 
+The glyph is drawn as 7 overlapping heart-shaped petals, while the description sees 7 non-overlapping oval-shaped petals surrounded
+by a wavy circle. From the pointer in the Database:
+</p>
+    <p>
+      <a href="http://sith.huma-num.fr/karnak/4081">http://sith.huma-num.fr/karnak/4081</a>
+    </p>
+    <p>
+I would say the description is right and the glyph is wrong (or at least misleading).
+</p>
+    <p>
+However, the photo shows the token does not have 7 but rather 6 petals, while the transcription has 8 petals! 
+This shows once again that having such overly specific descriptions in UniKemet is untenable.
+In this case, the obvious solution is not to include the exact number of petals in the description.
+Then the question becomes whether U+13E4B deserves an independent code point.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3639,7 +3777,8 @@ violate Point 5 of the Encoding Principles "Signs that exist with and without in
 least make the glyph consistent. There are 9 pieces in the glyph.
 </p>
     <p>
-My preference would be to underspecify the number of pieces. If the number of rows is significant, one can mention that, e.g.:
+My preference would be to underspecify the number of pieces. If the number of rows is significant 
+(and I'm not even convinced of this), one can mention that, e.g.:
 </p>
     <p>
 "A basket with two rows [or layers] of pieces of grain or fruit."
@@ -3682,9 +3821,14 @@ Also related in spirit to Point 5 of the Encoding Principles.
     <p>
       <tt>U+13EEC kEH_Desc A sun-disk with wings at a 90° angle, with an uraeus coming from the sun-disk, filling the space between the two wings.</tt>
     </p>
-    <p>Hm, I would not say "filling the space", assuming the glyph is accurate. If
-the description is accurate, then the uraeus should be bigger and moved closer
-into the bounding box of the two wings. If the glyph is accurate, then how about "in the far corner of the space between the two wings"?
+    <p>The glyph suggests the uraeus is in the far corner away from the wings, with a very long tail.
+However, in the photo of the token pointed to by the Database:
+</p>
+    <p>
+      <a href="http://sith.huma-num.fr/karnak/4225">http://sith.huma-num.fr/karnak/4225</a>
+    </p>
+    <p>
+the uraeus is closer to the center of the space between the wings.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3929,8 +4073,27 @@ Was it a mistake then that both U+13FA1 and U+13FA2 ended up being added to Unic
     <p>
       <tt>U+13FD2 kEH_Desc A double pavilion, with columns topped with a triangle, with two carrying chairs (Q2), facing away from one another; on top of an alabaster basin with a diamond shaped inner marking (W3).</tt>
     </p>
-    <p>I don't see triangles. Redraw needed? What exactly is this supposed to look like? What is the roof like?
+    <p>Because I didn't understand how to interpret "triangles" I consulted the link in the Database to:
 </p>
+    <p>
+      <a href="https://thotsignlist.org/mysign?id=4590">https://thotsignlist.org/mysign?id=4590</a>
+    </p>
+    <p>
+The TSL currently has 8 tokens of O23, only one of them has triangle-shaped capitals.
+This again reveals that a description in UniKemet does not describe a sign, but rather describes one particular, 
+arbitrarily chosen, instance of a sign.
+It makes very little sense to me that a description would be so specific.
+If it is really necessary in Unicode to distinguish columns in pavilions with and without capitals
+(which I already find quite a stretch), then specifying the exact shape of the capitals
+in my opinion goes too far.
+</p>
+    <p>
+Apropos, it shouldn't be hard to find tokens of this sign that have proper capitals that
+don't look like triangles. See for example p. 116 l. 17 of:
+</p>
+    <p>
+      <a href="https://archive.org/details/MMAF13f2/page/n47/mode/2up">https://archive.org/details/MMAF13f2/page/n47/mode/2up</a>
+    </p>
     <table class="glyph_table">
       <tbody>
         <tr>
@@ -3938,19 +4101,24 @@ Was it a mistake then that both U+13FA1 and U+13FA2 ended up being added to Unic
             <img src="glyphs16/81878.png" class="image16"/>
             <div class="code">13FD6</div>
           </td>
-          <td>
-            <img src="glyphs16/81857.png" class="image16"/>
-            <div class="code">13FC1</div>
-          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+13FD6 kEH_Desc A booth with a round roof, supported by two columns resembling a stem of papyrus with a bud (M13), with an abacus; on top of a base (O210A).</tt>
-      <br/>
-      <tt>U+13FC1 kEH_Desc A carrying chair (Q2), written inside a booth or pavillion, with two columns resembing a stem of papyrus with a bud (M13), with a curved roof.</tt>
     </p>
-    <p>The description of U+13FD6 is not at all what the glyph shows. The glyph has the sky sign where I would expect two abaci (one abacus on top of each column, if I understand what an abacus is). Also, there is not one base, but rather two bases, one under each column.  How I interpret the description of U+13FD6 is as U+13FC1 but without the carrying chair.
+    <p>The glyph and the description are at the very least misleading.
+What are supposed to be abaci appear to be drawn as tips of the sky sign.
+Also, there is not one base, but rather two bases, one under each column.
+This is confirmed by the pointer in the Database:
+</p>
+    <p>
+      <a href="http://sith.huma-num.fr/karnak/3552">http://sith.huma-num.fr/karnak/3552</a>
+    </p>
+    <p>
+I suggest making the description less ambiguous with regard to the base(s).
+It is a legitimate question whether presence/absence of abaci is essential to the character identity in Unicode.
+I would ignore them, both in the glyph and in the description.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3965,11 +4133,19 @@ Was it a mistake then that both U+13FA1 and U+13FA2 ended up being added to Unic
     <p>
       <tt>U+13FD7 kEH_Desc A ram (Ovis longipes palaeo-aegyptiacus), standing, without a beard (E11), with a round vessel with an upstanding rim (W24) above its back; written inside a booth consisiting of the sky (N1), supported by two columns resembling a stem of papyrus with a bud (M13), with an abacus; on top of a base (O210A); on a broad base.</tt>
     </p>
-    <p>I would simplify "on top of a base (O210A); on a broad base" to "on top of a broad base (O210A)". Unless I misunderstand what is meant.
+    <p>The token referred to by the Database is on p. 21 of:
 </p>
     <p>
-The abaci are not shown in the glyph. (Why bother mentioning the abaci in the
-first place? It is a tiny detail and likely not essential to the character identity.)
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf</a>
+    </p>
+    <p>
+The "on top of a base (O210A); on a broad base" should probably be "on top of a broad base" if the
+facsimile is accurate. That is, I don't see two bases (one below each column) in addition and on top of the one broad base.
+</p>
+    <p>
+I also don't see abaci in additions to the tips of the sky sign.
+Conversely, could it have been that the tips of the sky sign are the abaci?
+Why bother mentioning the abaci in the first place? It is a tiny detail and likely not essential to the character identity.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4780,7 +4956,24 @@ My proposal would be to have "on a base" (not "a rectangular base") for all such
       <tt>U+1416B kEH_Desc A crown, consisting on three horizontally arranged Atef crowns with a round bulb at the top, and the sun-disk at the base, on top of the horns of a ram, with an uraeus, with a sun disk on the head, facing outwards, at either side of the crown, with two ureai hanging downwards from the horns at either side.</tt>
     </p>
     <p>I cannot match this to the glyph at all. Where is the "an uraeus, with a sun disk on the head"?
+The Database points to p. 169 l. 4 of:
 </p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf</a>
+    </p>
+    <p>
+Apart from the two uraei hanging down, there are no additional uraei,
+so I assume the description is wrong.
+</p>
+    <p>
+It is also easy to misinterpret "two ureai hanging downwards from the horns at either side";
+there are examples (at least in iconography) where four uraei in total, two on each side, 
+are hanging from the Atef crowns,
+see e.g. here:
+</p>
+    <p>
+      <a href="https://www.worldhistory.org/image/2508/tutankhamun--ankhsenamun/">https://www.worldhistory.org/image/2508/tutankhamun--ankhsenamun/</a>
+    </p>
     <table class="glyph_table">
       <tbody>
         <tr>
@@ -4794,7 +4987,22 @@ My proposal would be to have "on a base" (not "a rectangular base") for all such
     <p>
       <tt>U+1416C kEH_Desc A crown, consisting on three horizontally arranged Atef crowns with a round bulb at the top, and the sun-disk at the base, on top of the horns of a ram, with an uraeus, with a sun disk on the head, facing outwards, at either side of the crown.</tt>
     </p>
-    <p>I don't see a sun disk on either uraeus. (Not that I think one should distinguish signs in Unicode on the basis of such tiny details.)
+    <p>I don't see a sun disk on either uraeus in the glyph. The Database points to:
+</p>
+    <p>
+      <a href="http://sith.huma-num.fr/karnak/4209">http://sith.huma-num.fr/karnak/4209</a>
+    </p>
+    <p>
+The transcription does not have sun disks, while the photo of the heavily eroded inscription could potentially
+be interpreted to have sun disks.
+There is another token that (in normalized transcription) does have sun disks, namely p. 169 l. 3 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf</a>
+    </p>
+    <p>
+The main thing is that glyph and description are consistent. Adding sun disks to the
+glyph seems the most appropriate way to achieve this.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4991,12 +5199,12 @@ that was found, and is not part of the character identity.)
             <div class="code">14214</div>
           </td>
           <td>
-            <img src="glyphs16/82454.png" class="image16"/>
-            <div class="code">14216</div>
-          </td>
-          <td>
             <img src="glyphs16/82455.png" class="image16"/>
             <div class="code">14217</div>
+          </td>
+          <td>
+            <img src="glyphs16/82454.png" class="image16"/>
+            <div class="code">14216</div>
           </td>
         </tr>
       </tbody>
@@ -5004,12 +5212,32 @@ that was found, and is not part of the character identity.)
     <p>
       <tt>U+14214 kEH_Desc A shield with a rounded top, with two arrows crossed over it, fletching upwards (T62), on top of a standard used for carrying religious symbols, with a loop under the horizontal beam, running over the vertical pole (R12A).</tt>
       <br/>
-      <tt>U+14216 kEH_Desc A shield with a rounded top, with two arrows crossed over it, fletching upwards (T62), on top of a standard used for carrying religious symbols, with a short vertical pole, with a loop under the horizontal beam, running over the vertical pole (R56).</tt>
-      <br/>
       <tt>U+14217 kEH_Desc A shield with a rounded top, with two arrows crossed over it, arrowheads at the top; on top of a standard used for carrying religious symbols, with a short vertical pole, with a loop under the horizontal beam, running over the vertical pole (R56).</tt>
+      <br/>
+      <tt>U+14216 kEH_Desc A shield with a rounded top, with two arrows crossed over it, fletching upwards (T62), on top of a standard used for carrying religious symbols, with a short vertical pole, with a loop under the horizontal beam, running over the vertical pole (R56).</tt>
     </p>
-    <p>I see no "loop" in U+14214, nor in U+14217. If a loop is added to U+14214, 
-then U+14214 and U+14216 become basically the same shape. Not sure how the diagonal part of the standard fits in.
+    <p>I see no "loop" in U+14214, nor in U+14217.
+For U+14214 the Database refers to:
+</p>
+    <p>
+      <a href="http://sith.huma-num.fr/karnak/4205">http://sith.huma-num.fr/karnak/4205</a>
+    </p>
+    <p>
+The inscription is rather eroded, but it seems a reasonable guess to interpret the sign as having
+a "loop" as in the description, rather than a diagonal beam.
+For U+14217 the Database refers to p. 94, l. 6 of:
+</p>
+    <p>
+      <a href="https://archive.org/details/MMAF25/page/n59/mode/2up">https://archive.org/details/MMAF25/page/n59/mode/2up</a>
+    </p>
+    <p>
+Here the transcription has a "loop" as well instead of the diagonal beam, confirming the description.
+</p>
+    <p>
+Even before, the Database had for U+14216: "I am not sure if it is that valuable for Unicode".
+After correcting the glyphs of U+14214 and U+14217, 
+U+14216 becomes basically a duplicate of U+14214, and there should be even less reason for it to
+exist.
 </p>
     <h2>Page 15</h2>
     <table class="glyph_table">
@@ -5107,6 +5335,11 @@ then U+14214 and U+14216 become basically the same shape. Not sure how the diago
 (I assume the mirroring is intentional.) 
 Elsewhere in descriptions I have seen use of "left" and "right". I realise the downside of left/right is that strictly speaking this becomes incorrect for right-to-left running text, but the left/right terminology tends to be less ambiguous than front/back when describing signs in the sign list.
 </p>
+    <p>
+Apropos, what I find puzzling in this and many other cases is that only negative views are entered in the Database, here
+"variation too limited to be of use for Unicode" and "Not a meaningful variant". And yet it became not only a new code point but
+a core sign?
+</p>
     <table class="glyph_table">
       <tbody>
         <tr>
@@ -5202,7 +5435,14 @@ it is missing from the glyph of U+142C5. Without this, the signs are identical f
     <p>
       <tt>U+142D0 kEH_Desc A drill, with a half-circle handle, with a forwards angled loop and a backwards tick on top of the handle, with a round drill-bit, with a horizontal line above and below the drill-bit.</tt>
     </p>
-    <p>Where is the "loop" in the glyph? I see two ticks. What is the loop supposed to look like?
+    <p>The glyph has two ticks, not one tick and one loop as in the description.
+The Database points to p. 119, l. 13 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/MMAF020.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/MMAF020.pdf</a>
+    </p>
+    <p>
+which shows what the tick and loop should look like.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5343,17 +5583,19 @@ The Database has:
 text is arranged to fit something as if it is a normal I10. If used in this capacity, it needs to be atomic." 
 </p>
     <p>
-The "fit something as if [...]" is too vague. Such matters need to be adequately documented.
-Also, because the bounding boxes of the two shapes have roughly the same aspect ratio,
-I cannot imagine that the difference between the shapes matters for the purpose of formatting complex groups, 
-unless the overlay is used in combination with an
-insertion of a big sign in the bottom left corner, in which case the shape of U+1432F is preferable.
+The "fit something as if [...]" is too vague. What I understand from the pointer in the Database to:
+</p>
+    <p>
+      <a href="http://sith.huma-num.fr/karnak/4225">http://sith.huma-num.fr/karnak/4225</a>
+    </p>
+    <p>
+is that the intended use of U+1432F is with insertion in the bottom left corner.
 But as noted before, the implementation can choose an appropriate form of an overlay depending
 on whether there are insertions, obviating the need for U+1432F (and of U+13393 for that matter).
 </p>
     <p>
 Once again, I note that e.g. the flat hare U+130FA and the flat swallow U+1316B, which are typically used
-in vertical arrangements, were deprecated because they "only" served to arrange signs in a better way.
+with vertical joiners, were deprecated because they "only" served to arrange signs in a better way.
 And yet the only justification for the introduction of U+1432F is that it serves to arrange signs
 in a better way.
 There is no coherent vision behind what was done.

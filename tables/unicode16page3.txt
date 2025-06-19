@@ -35,11 +35,13 @@ The hair in the glyphs of 0x137F5 and 0x137F6 will be corrected to "coif/short h
 ok 0x13802 0x13803
 The hair in the glyph of 0x13803 will be corrected to "long" in Unicode 17.
 
-0x1380B 0x13815
-There are no (forward curling) horns in the glyphs.
+0x1380B 0x13815 0x13813
+There are no (forward curling) horns in the glyphs of 0x1380B and 0x13815.
 <p>
 For both, the Database has "rather hard to see [...] hence it could be called without horns".
 If the horns are there, but are just hard to see, I would normalize the glyph to have them anyway.
+But now the problem is that 0x13815 and 0x13813 become the same sign apart from the exact shape of the horns, which
+strays well into the domain of palaeography.
 
 0x13813 0x1380D
 The description of 0x13813 does not mention the sun disk.
@@ -48,7 +50,7 @@ But there is a code point 0x1380D specifically for the sign with cobra. So if 0x
 then it should be with the interpretation of the object on the horns as sun disk. If some day that turns out to be an error
 and the sign with sun disk never actually existed, then too bad.
 <p>
-The main thing is that there is no inconsistency between description and glyph as this makes the job
+In any case, there should be no inconsistency between description and glyph as this makes the job
 of font designers impossible.
 
 0x13817
@@ -77,6 +79,11 @@ If the two conical shapes are trees or loafs of bread, then they appear to be on
 There is no beard in the glyph.
 The description in the draft Unicode 17 version was changed to start with "God with breast [...]";
 the glyph doesn't clearly show a breast, but it may be a matter of plausible deniability and I care about that less.
+The Database points to p. 68, l. 12 and plate 67 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara011.pdf
+<p>
+The transcription has no beard or breast. It would be very hard to recognize these in the photo even if they once existed.
 
 0x1382A
 The Unicode 17 glyph will be closer to the description by replacing the M16 shape on the head by M15.

@@ -4,15 +4,47 @@ impossible to achieve and where it will be impossible for the encoders to know w
 
 0x13CB4 0x13CB6 0x13CB7
 There are no visible cartouches in the glyphs. Copy-and-paste error of description or are the glyphs wrong?
+<p>
+For 0x13CB6, the Database points to p. 68, l. 8 of:
+<p>
+https://archive.org/details/MMAF25/page/n45/mode/2up
+<p>
+If there are cartouches, then they are represented as no more than tiny blobs.
+Also, the token looks closer to 0x13CB7 than to 0x13CB6, but with smaller sun.
+For 0x13CB7, the Database points to p. 35, l. 10 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara013.pdf
+<p>
+I don't see cartouches there.
 
 0x13CBA
 There are legs in the glyph.
+<p>
+The Database points to p. 65, l. 8 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
+<p>
+There are definitely legs in the transcription.
+The description seems to be wrong.
 
 0x13CBE
 The "one wing forward" is not remotely "horizontal" in the glyph. If the glyph is accurate, I would just say "wings forward, one slanting up and the other slanting down", avoiding also mention of the exact angle. [I'm not sure the word "slanting" is the most fluent English word one could choose.]
 
 0x13CC1 0x13CC2
 The standards in the glyphs look like one half of the 'sky' sign, not R92A.
+<p>
+For 0x13CC1, the Database points to p. 282, l. 9 and pl. 166, col. 7 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf
+<p>
+The transcription does seem to suggest that the standard below the falcon looks different from the standards in neighbouring signs.
+However, in the photo, the standards look very similar.
+<p>
+For 0x13CC2, the Database points to p. 372, l. 14 and pl. 234, col. 228 of the same publication.
+Here the standard below the falcon looks completely as expected, and suggesting one half of the sky sign is
+unwarranted. 
+<p>
+I would suggest redrawing both glyphs with a normal standard.
 
 0x13CDD
 The standard in the glyph is not mentioned in the description.

@@ -31,16 +31,46 @@ I would make the spike more spiky. Now it just looks like a circle.
 In the glyph, I don't see the usual shape of V18.
 
 0x13FD2
-I don't see triangles. Redraw needed? What exactly is this supposed to look like? What is the roof like?
+Because I didn't understand how to interpret "triangles" I consulted the link in the Database to:
+<p>
+https://thotsignlist.org/mysign?id=4590
+<p>
+The TSL currently has 8 tokens of O23, only one of them has triangle-shaped capitals.
+This again reveals that a description in UniKemet does not describe a sign, but rather describes one particular, 
+arbitrarily chosen, instance of a sign.
+It makes very little sense to me that a description would be so specific.
+If it is really necessary in Unicode to distinguish columns in pavilions with and without capitals
+(which I already find quite a stretch), then specifying the exact shape of the capitals
+in my opinion goes too far.
+<p>
+Apropos, it shouldn't be hard to find tokens of this sign that have proper capitals that
+don't look like triangles. See for example p. 116 l. 17 of:
+<p>
+https://archive.org/details/MMAF13f2/page/n47/mode/2up
 
-0x13FD6 0x13FC1 
-The description of 0x13FD6 is not at all what the glyph shows. The glyph has the sky sign where I would expect two abaci (one abacus on top of each column, if I understand what an abacus is). Also, there is not one base, but rather two bases, one under each column.  How I interpret the description of 0x13FD6 is as 0x13FC1 but without the carrying chair.
+0x13FD6
+The glyph and the description are at the very least misleading.
+What are supposed to be abaci appear to be drawn as tips of the sky sign.
+Also, there is not one base, but rather two bases, one under each column.
+This is confirmed by the pointer in the Database:
+<p>
+http://sith.huma-num.fr/karnak/3552
+<p>
+I suggest making the description less ambiguous with regard to the base(s).
+It is a legitimate question whether presence/absence of abaci is essential to the character identity in Unicode.
+I would ignore them, both in the glyph and in the description.
 
 0x13FD7
-I would simplify "on top of a base (O210A); on a broad base" to "on top of a broad base (O210A)". Unless I misunderstand what is meant.
+The token referred to by the Database is on p. 21 of:
 <p>
-The abaci are not shown in the glyph. (Why bother mentioning the abaci in the
-first place? It is a tiny detail and likely not essential to the character identity.)
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
+<p>
+The "on top of a base (O210A); on a broad base" should probably be "on top of a broad base" if the
+facsimile is accurate. That is, I don't see two bases (one below each column) in addition and on top of the one broad base.
+<p>
+I also don't see abaci in additions to the tips of the sky sign.
+Conversely, could it have been that the tips of the sky sign are the abaci?
+Why bother mentioning the abaci in the first place? It is a tiny detail and likely not essential to the character identity.
 
 0x13FEB
 Truncated description.

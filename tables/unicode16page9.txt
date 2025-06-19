@@ -1,7 +1,19 @@
 0x13D64 0x13192
-In the glyph of 0x13D64, the top and bottom lines have the same length. Copy-and-paste
-error from 0x13192 in the description? Or is the glyph wrong?
-One could of course avoid the problem by making the descriptions less precise; just a thought.
+In the glyph of 0x13D64, the top and bottom lines have the same length. 
+The Database points to p. 59 l. 7 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
+<p>
+where the top and bottom lines have the same length.
+This is a normalized transcriptions, so this is not necessarily conclusive.
+<p>
+But anyway, who cares?
+No doubt one can find tokens where the lines have the same length and tokens where the lengths clearly differ.
+Conversely, one can find tokens of 0x13192 where top and bottom lines have the same length;
+see for example the facsimile on p. 66 (bottom line) of the above publication.
+<p>
+The obvious solution of course is to make descriptions less overly specific.
+A sign list is expected to be a list of types, not a list of tokens.
 
 0x13D72
 In the glyph, the cobra is *under* the white crown, not *over*.
@@ -88,10 +100,19 @@ I don't see how anyone can possible justify having the second next to the first.
 <p>
 The Database has "I am not certain this [0x13E47] would be a meaningful variant". Quite.
 
-0x13E48
-The glyph interprets the sign differently from the description. 
-The glyph has 7 overlapping heart-shaped petals, while the description sees 7 non-overlapping oval-shaped petals surrounded
-by a wavy circle. I assume only one of the two interpretations is correct.
+0x13E48 0x13E4B
+The glyph interprets the shape of 0x13E48 differently from the description. 
+The glyph is drawn as 7 overlapping heart-shaped petals, while the description sees 7 non-overlapping oval-shaped petals surrounded
+by a wavy circle. From the pointer in the Database:
+<p>
+http://sith.huma-num.fr/karnak/4081
+<p>
+I would say the description is right and the glyph is wrong (or at least misleading).
+<p>
+However, the photo shows the token does not have 7 but rather 6 petals, while the transcription has 8 petals! 
+This shows once again that having such overly specific descriptions in UniKemet is untenable.
+In this case, the obvious solution is not to include the exact number of petals in the description.
+Then the question becomes whether 0x13E4B deserves an independent code point.
 
 0x13E5E 0x13376
 The way the root of 0x13E5E is drawn does not exactly suggest V9 (0x13376).

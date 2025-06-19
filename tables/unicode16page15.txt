@@ -13,16 +13,16 @@ The Database has:
 "Seems to occur when the
 text is arranged to fit something as if it is a normal I10. If used in this capacity, it needs to be atomic." 
 <p>
-The "fit something as if [...]" is too vague. Such matters need to be adequately documented.
-Also, because the bounding boxes of the two shapes have roughly the same aspect ratio,
-I cannot imagine that the difference between the shapes matters for the purpose of formatting complex groups, 
-unless the overlay is used in combination with an
-insertion of a big sign in the bottom left corner, in which case the shape of 0x1432F is preferable.
+The "fit something as if [...]" is too vague. What I understand from the pointer in the Database to:
+<p>
+http://sith.huma-num.fr/karnak/4225
+<p>
+is that the intended use of 0x1432F is with insertion in the bottom left corner.
 But as noted before, the implementation can choose an appropriate form of an overlay depending
 on whether there are insertions, obviating the need for 0x1432F (and of 0x13393 for that matter).
 <p>
 Once again, I note that e.g. the flat hare 0x130FA and the flat swallow 0x1316B, which are typically used
-in vertical arrangements, were deprecated because they "only" served to arrange signs in a better way.
+with vertical joiners, were deprecated because they "only" served to arrange signs in a better way.
 And yet the only justification for the introduction of 0x1432F is that it serves to arrange signs
 in a better way.
 There is no coherent vision behind what was done.

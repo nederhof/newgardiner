@@ -33,7 +33,8 @@ violate Point 5 of the Encoding Principles "Signs that exist with and without in
 If it is really necessary to have a sign specifically for 2*4 pieces, then at
 least make the glyph consistent. There are 9 pieces in the glyph.
 <p>
-My preference would be to underspecify the number of pieces. If the number of rows is significant, one can mention that, e.g.:
+My preference would be to underspecify the number of pieces. If the number of rows is significant 
+(and I'm not even convinced of this), one can mention that, e.g.:
 <p>
 "A basket with two rows [or layers] of pieces of grain or fruit."
 
@@ -44,9 +45,12 @@ It appears to be overtly paleographic, and such details are lost in ordinary fon
 Also related in spirit to Point 5 of the Encoding Principles.
 
 0x13EEC
-Hm, I would not say "filling the space", assuming the glyph is accurate. If
-the description is accurate, then the uraeus should be bigger and moved closer
-into the bounding box of the two wings. If the glyph is accurate, then how about "in the far corner of the space between the two wings"?
+The glyph suggests the uraeus is in the far corner away from the wings, with a very long tail.
+However, in the photo of the token pointed to by the Database:
+<p>
+http://sith.huma-num.fr/karnak/4225
+<p>
+the uraeus is closer to the center of the space between the wings.
 
 0x13EF8
 Ok, but it is difficult to make out the smallest of the three circles. Perhaps
