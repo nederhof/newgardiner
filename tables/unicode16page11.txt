@@ -1,6 +1,6 @@
 0x13F8E
-One could improve the depiction of the ureaus. 
-Currently, one needs some imagination to see a ureaus in the shape.
+One could improve the depiction of the uraeus. 
+Currently, one needs some imagination to see a uraeus in the shape.
 
 0x13F93
 There is no attempt to specify what the "internal details" consist of. I can understand why, as it would be pretty hard to specify what that even means.  Should any strokes or texture, no matter how insignificant, be seen as "internal detail"? This supports my view that there should not be multiple code points for the same sign with and without "internal details".
@@ -47,6 +47,15 @@ Apropos, it shouldn't be hard to find tokens of this sign that have proper capit
 don't look like triangles. See for example p. 116 l. 17 of:
 <p>
 https://archive.org/details/MMAF13f2/page/n47/mode/2up
+<p>
+Then there are countless other forms, for example where only two of the four columns 
+have capitals (in the shape of "triangles" or otherwise), such as in pl. 218 of:
+<p>
+https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip51.pdf
+<p>
+It is madness to try to capture all cases by separate code points.
+It becomes unavoidable sooner or later to abstract away from tokens, that is,
+to have a single code point that covers multiple tokens that differ in discrete ways.
 
 0x13FD6
 The glyph and the description are at the very least misleading.

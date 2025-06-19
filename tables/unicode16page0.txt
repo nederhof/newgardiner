@@ -11,9 +11,20 @@ Whatever "knees horizontal" is meant to convey, it may already be implied by "kn
 0x13472
 At least one of "hand vertical, hand palm towards the face, in front of the face" seems redundant.
 
-0x13473 0x13462
+0x13473 0x13462 0x13000
 The "left foot horizontal" in the description of 0x13473 suggest its glyph is wrong and should be
 like the position of the feet in 0x13462.
+The Database seems to point in the same direction,
+using a blurry image that may suggest that the left foot is more likely to be horizontal than vertical.
+What this blurry image does not convince me of is that the "right foot [is] in front of the left knee".
+<p>
+More generally, it is not clear to me whether the exact position of the right foot in such signs, 
+a few pixels further to the left or to the right (a non-discrete difference regardless of whether
+the right foot then happens to be in front of the left knee), 
+is ever significant and worth including in the description.
+A case in point may be 0x13462, which seems to be functionally identical to 0x13000.
+Is the one poorly preserved example in the Database the only token that "verifies" the status of 0x13462
+as independent sign rather than a casually carved instance of 0x13000?
 
 0x134A8
 The "front arm" is quite confusing. It is not the arm closest to the reader (I guess) but the arm connected to the shoulder closest to an
@@ -27,18 +38,44 @@ Don't use the expression "facing upwards" where the face is looking downwards. P
 
 0x134C5
 The glyph has the hand palms inward. Is the description wrong or is the glyph wrong?
+The Database points to line 16 of:
+<p>
+https://www.britishmuseum.org/collection/object/Y_EA893
+<p>
+Can anyone really tell the orientation of the hands from this badly carved stela, with a crack
+roughly where the hands are? If not, can the orientation of the hands be omitted from the description as overspecific?
 
 0x134D2
-Is it just a "backward line"? The glyph suggests it is something more (presence of a notch, making this M4).
+Is it just a "backward line"? The glyph suggests it is something more, namely presence of a notch, making this M4.
+The Database points to p. 287, l. 4 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara015.pdf
+<p>
+which does seem to suggest existence of the notch.
 
 0x134D6
 "right arm in forward" should be "in front"?
 
-0x134E4
-The hairstyle in the glyph does not appear to be a coif.
+0x134E4 0x134E3
+The hairstyle in the glyph of 0x134E4 does not appear to be a coif.
+The Database does not contain a reference to a token. In contrast, the Database does 
+contain a reference for 0x134E3, namely pl. 218 and pl. 219 of:
+<p>
+https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip51.pdf
+<p>
+but no hairstyle is mentioned in the description of 0x134E3. 
+It seems inconsistent to be overly specific about hairstyle when the token could not be verified, while
+not specifying the hairstyle at all when a very clear photo is available.
+My preference would be not to specify hairstyles where it does not seem to matter much.
 
 0x13527
 In the glyph, the hand palms are inward or upward, but certainly not outward.
+The Database refers to p. 159, l.12 and pl. 115 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara011.pdf
+<p>
+The transcription certainly has the hand palms inward or upward. The photo is not clear
+enough to tell.
 
 0x13528
 The glyph does not have both knees raised.

@@ -1,8 +1,19 @@
 0x13661
 The hair style is not "short hair/wig" in the glyph.
+The Database refers to p. 17, l. 5 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara015.pdf
+<p>
+where the hair appears to be long.
 
 0x13663
 There is no "loop [...] running over the vertical pole" in the glyph.
+The Database has an image and refers to p. 119, l. 16 of:
+<p>
+https://archive.org/details/MMAF25/page/n71/mode/2up
+<p>
+which both suggest a plain standard consisting of one horizontal beam, one vertical beam,
+and a loop over the vertical beam.
 
 0x13667
 The "long-curved beard" could be brought out better in the glyph.
@@ -22,7 +33,6 @@ I would omit the phrase "touching the thighs" altogether.
 
 0x13689
 There is no platform in the glyph.
-<p>
 The Database has a photo of an example, without platform.
 
 0x1368A 0x1368C 0x1368D

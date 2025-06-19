@@ -8,9 +8,6 @@ Yet, apart from the position of the left arm, the poses in the two glyphs are 10
 If it is necessary to so precisely describe the pose, then at least make sure that the glyphs
 reflect what the descriptions say. My preference would be to make descriptions less precise.
 
-0x13588
-The glyph does not have M2 as it normally looks.
-
 ok 0x1359E
 As the crossed arms are not visible in the glyph, Unicode 17 will change the description to have "hands sticking out".
 
@@ -19,7 +16,14 @@ It is not possible to tell from the glyph which side the speartip is on.
 In Unicode 17, the glyph will more clearly show the speartip to be at the top.
 
 0x135A4
-The "stick" looks more like a mace. If it is just a stick, then the glyph needs redrawing.
+The "stick" looks more like a mace in the glyph.
+The Database refers to:
+<p>
+http://sith.huma-num.fr/karnak/1021
+<p>
+In the photo, the "stick" seems to have a wide bulb at the end. Can an educated guess be made, so
+at least description and glyph can become consistent, either by changing description of changing glyph? 
+Another solution is to make the description broader, say by writing "holding stick or mace".
 
 0x135A5
 Change first full-stop to comma.
@@ -48,7 +52,12 @@ ok 0x135F2
 In Unicode 17, the description is corrected from "with counterweight at the counterweight" to "with counterweight".
 
 0x135F4
-The glyph suggests a uraeus not mentioned in the description. Remove the uraeus from the glyph, or amend the description?
+The glyph suggests a uraeus not mentioned in the description.
+The Database refers to p. 215, l. 10 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara015.pdf
+<p>
+where there is a uraeus.
 
 0x135F9
 Replace "counterweight (S18) at the counterweight" by just "counterweight (S18)".

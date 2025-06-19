@@ -11,9 +11,29 @@ Another thing is that the "back" is apparently at the left, unlike other boats w
 
 0x14043 0x14044
 Where is the "doorway" in the glyphs?
+For 0x14043, the Database refers to:
+<p>
+http://sith.huma-num.fr/karnak/4212
+<p>
+I don't see a doorway there, neither in the transcription nor in the photo.
+For 0x14044, the Database refers to p. 46, l. 11 and pl. 32 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara011.pdf
+<p>
+but that is the wrong sign (0x14045), at least in the transcription and the photo isn't very clear.
 
 0x14045 0x14046
 The glyph seems to suggest a doorway not mentioned in the description.
+For 0x14045, the Database refers to p. 297, l. 8 and pl. 171, col. 10 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf
+<p>
+Here there is a doorway.
+For 0x14046, the Database refers to p. 362, l. 12 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara015.pdf
+<p>
+which also has a doorway.
 
 0x14048 0x14065 0x14067 0x14069 0x1406A 
 The description of 0x14065 mentions a doorway while 0x14048 doesn't. The shape of the shrine looks the same to me though.
@@ -22,11 +42,27 @@ There appear to be *two* oars/rudders in the glyphs while the descriptions have 
 
 0x1404D 0x13933
 I don't see a doorway in the glyph of 0x1404D.
-<p>
 Also, in the vague image I seem to make out the vulture headdress underneath the bovine horns headdress, just like 0x13933. Is that real?
+<p>
+The Database refers to p. 147, l. 2 and pl. CCCCXXXIX of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara005.pdf
+<p>
+I would interpret the photo as showing a large doorway, but it is uncertain
+there is a vulture headdress.
 
 0x1405C
 I cannot make out the ankh sign. Is it not there, or does it vanish within the image resolution?
+<p>
+The Database refers to p. 231, l. 12 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara004.pdf
+<p>
+In the printed transcription, I cannot make out an ankh sign either. This is one of many examples
+that suggest that there is a good case for not encoding lower-level details, that is, not
+mentioning them in the descriptions and not attempting to clearly display them in the glyphs.
+For one thing, this should avoid overinterpretation of photos and normalized transcriptions and hallucinating
+things that might not be real.
 
 0x14068 0x1406B 0x1406C
 There is "with an oar/rudder at the back" for 0x14068, there is "with lines crossing the prow" for 0x1406C, and nothing comparable for 0x1406B. Yet the shape looks identical in all three glyphs. For consistency, can we just have "with an oar/rudder at the back/front" for all these cases?
