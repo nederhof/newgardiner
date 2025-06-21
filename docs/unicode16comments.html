@@ -2320,7 +2320,6 @@ For U+139C9 I'm also not sure how to interpret "angled forwards".
     </p>
     <p>No beards are discernable. But who cares! In any case, make sure there are no inconsistencies between descriptions and glyphs. Not
 mentioning the beards would be one way to achieve that.
-Technically, the standard is not the "default" form of R12, but I don't care much, as long as the glyph is what was intended.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -2439,7 +2438,7 @@ Conversely, 13AAF doesn't look like it has the head of a falcon, and I think nor
 </p>
     <p>
 The glyph of U+13AAE does correspond to JSesh E80A and the glyph of U+13AAF does correspond to JSesh E80, so in 
-this respect, Unikemet appears to be accurate.
+this respect, UniKemet appears to be accurate.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -2591,7 +2590,7 @@ examples listed in the Database.
     <p>
       <tt>U+13B6A kEH_Desc The head of a bovid (ox) with outwards curving horns, with a short vertical stroke under the chin (beard?).</tt>
     </p>
-    <p>The glyph has inward curving horns. As I commented elsewhere for U+130FE, the evidence in the TSL shows that
+    <p>The glyph has inwards curving horns. As I commented elsewhere for U+130FE, the evidence in the TSL shows that
 the curvature of horns is highly variable in actual inscriptions, 
 and thereby the description may be overspecific. How about just "with horns"?
 </p>
@@ -2735,7 +2734,7 @@ Moreover, for U+13B88 and U+13B8B, "written over" suggests the mouth occludes vi
     <p>
       <tt>U+13BB3 kEH_Desc A tongue, with the stroke at the back vertical.</tt>
     </p>
-    <p class="done">The "vertical" does not appear accurate. In Unicode 17, the Unikemet description will be adjusted to have "pointing upwards".
+    <p class="done">The "vertical" does not appear accurate. In Unicode 17, the UniKemet description will be adjusted to have "pointing upwards".
 </p>
     <table class="glyph_table">
       <tbody>
@@ -2836,7 +2835,7 @@ helps no one, and is only a nuisance for standardization.
       </tbody>
     </table>
     <p/>
-    <p>The draft Unikemet file has currently "A leg bone with heat, angled with the bone forward, with a piece of meat missing at the front."
+    <p>The draft UniKemet file has currently "A leg bone with heat, angled with the bone forward, with a piece of meat missing at the front."
 Correct "heat" to "meat"?
 </p>
     <table class="glyph_table">
@@ -2888,7 +2887,7 @@ Correct "heat" to "meat"?
       <br/>
       <tt>U+13C4C kEH_Desc Three gray herons (Ardea cinerea), overlapping each other.</tt>
     </p>
-    <p class="done">In Unicode 17, the Unikemet description of U+13C4C will be clarified to mention the presence of lappets.
+    <p class="done">In Unicode 17, the UniKemet description of U+13C4C will be clarified to mention the presence of lappets.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3337,7 +3336,7 @@ The Database refers to p. 36, l. 13 and pl. 27, col. 66. of:
     <p>
 The transcription has a sun disk, but it would be hard to confirm its existence in the photo.
 So it may be best to leave underspecified whether there is a sun disk.
-The problem is now that many other descriptions in Unikemet are overspecific and would mention the sun disk
+The problem is now that many other descriptions in UniKemet are overspecific and would mention the sun disk
 if it is visible in the inscription. I think the only viable way forward is to remove extraneous detail from
 the descriptions, so the sign list becomes an actual list of signs rather than a list of tokens.
 </p>
@@ -5231,8 +5230,17 @@ There is another token that (in normalized transcription) does have sun disks, n
       <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf</a>
     </p>
     <p>
+An example of this crown with sun disks, albeit from iconography, is in Fig. 21 of:
+</p>
+    <p>
+      <a href="https://archiv.ub.uni-heidelberg.de/propylaeumdok/2891/1/Beinlich_Faiyum_2013.pdf">https://archiv.ub.uni-heidelberg.de/propylaeumdok/2891/1/Beinlich_Faiyum_2013.pdf</a>
+    </p>
+    <p>
 The main thing is that glyph and description are consistent. Adding sun disks to the
-glyph seems the most appropriate way to achieve this.
+glyph seems the most straightforward way to achieve this in this instance.
+But more generally, one should seriously consider not encoding low-level details at all, i.e. not
+mentioning them in descriptions and not trying to visibly render them in glyphs, to circumvent
+problems that are inherently unsolvable.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5319,7 +5327,13 @@ rather than an independent shape. But then why was it added?
     <p>
       <tt>U+141B6 kEH_Desc A horizontal strip of cloth with six fringes.</tt>
     </p>
-    <p>I count seven fringes in the glyph.
+    <p>I count seven fringes in the glyph. The most obvious solution is to abstract away from the exact number.
+The description could have "with six or more fringes". That there is a code point specifically for
+five fringes is already far-fetched.
+</p>
+    <p>
+One cannot keep extending the sign list as if it were a list of tokens. A sign list is a list of types,
+a type being an abstraction of one or more tokens.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5528,6 +5542,13 @@ exist.
       <tt>U+1425E kEH_Desc A long oval net, resembling a loop with vertical lines inside it, with ties at the front which curve outwards and backwards.</tt>
     </p>
     <p>"vertical lines"? I rather see curves, not vertical lines. A matter of loose use of words, or rather a glyph that is incorrect?
+The Database refers to p. 34, l. 14 of:
+</p>
+    <p>
+      <a href="https://archive.org/details/MMAF25/page/n29/mode/2up">https://archive.org/details/MMAF25/page/n29/mode/2up</a>
+    </p>
+    <p>
+Here there are vertical lines, but the net is not long.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5802,7 +5823,7 @@ The Database refers to p. 80, l. 13 and pl. CXCIII of:
     <p>
 In the photo, the shape in fact occurs twice,
 once as part of running text and once in iconography, and in both cases there is a pronounced stroke under the egg.
-Even if it is unknown what it represents, I would mentioned it in the description, perhaps just 
+Even if it is unknown what it represents, I would mention it in the description, perhaps just 
 in terms of "a stroke under the egg".
 </p>
     <table class="glyph_table">

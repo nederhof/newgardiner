@@ -6,6 +6,11 @@ Is the feather "angled forwards" in the glyph of 0x14256? I thought I understood
 
 0x1425E
 "vertical lines"? I rather see curves, not vertical lines. A matter of loose use of words, or rather a glyph that is incorrect?
+The Database refers to p. 34, l. 14 of:
+<p>
+https://archive.org/details/MMAF25/page/n29/mode/2up
+<p>
+Here there are vertical lines, but the net is not long.
 
 0x1425F
 Should that be "with weights"? What are the circles at the right?

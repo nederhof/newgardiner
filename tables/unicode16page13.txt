@@ -40,8 +40,15 @@ There is another token that (in normalized transcription) does have sun disks, n
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf
 <p>
+An example of this crown with sun disks, albeit from iconography, is in Fig. 21 of:
+<p>
+https://archiv.ub.uni-heidelberg.de/propylaeumdok/2891/1/Beinlich_Faiyum_2013.pdf
+<p>
 The main thing is that glyph and description are consistent. Adding sun disks to the
-glyph seems the most appropriate way to achieve this.
+glyph seems the most straightforward way to achieve this in this instance.
+But more generally, one should seriously consider not encoding low-level details at all, i.e. not
+mentioning them in descriptions and not trying to visibly render them in glyphs, to circumvent
+problems that are inherently unsolvable.
 
 0x14179
 Correct "with sun disks its head" to "with a sun disk on its head".
@@ -69,7 +76,12 @@ The Database has "Not a meaningful variant". I would agree. Perhaps TSL_3_20841 
 rather than an independent shape. But then why was it added?
 
 0x141B6
-I count seven fringes in the glyph.
+I count seven fringes in the glyph. The most obvious solution is to abstract away from the exact number.
+The description could have "with six or more fringes". That there is a code point specifically for
+five fringes is already far-fetched.
+<p>
+One cannot keep extending the sign list as if it were a list of tokens. A sign list is a list of types,
+a type being an abstraction of one or more tokens.
 
 0x141BF 0x141C0 0x132F7
 A square is a special case of a rectangle such that the width and height are exactly the same. 
