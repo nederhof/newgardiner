@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Differences Unicode 5.2 / Unicode 16</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+
+<h1>Corruption of the basic sign list of Egyptian hieroglyphs in Unicode 16</h1>
+<div class="author">Mark-Jan Nederhof (University of St Andrews)</div>
+<section class="abstract">
+<h2>Abstract</h2>
+Unicode 5.2 introduced a first batch of 1071 Egyptian hieroglyphs.
+Unicode 16 introduced 3995 further hieroglyphs. In the process however, some of the original 1071 signs were corrupted.
+This document aims to identify all differences between Unicode 5.2 and Unicode 16, and focusses on the corrections
+needed to restore the basic list to its original intentions.
+</section>
+
+<h2>Unicode 5.2</h2>
+
+In preparation for the list of Egyptian hieroglyphs in Unicode 5.2 (released in 2009),
+a database called UniKemet was created, published in 2006 as pp. 33-51 of:
+<p>
+<a href="https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf">https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf</a>
+<p>
+This database rigorously linked all the hieroglyphs
+either to publications from the Griffith Institute, mainly the grammar by Alan Gardiner, 
+or to the Hieratische Paläographie of Georg Möller.
+Note that each row lists the exact source as well as the page number.
+The sources include Gardiner's grammar, and a number of ancillary documents, which were made
+publicly available:
+<p>
+<a href="https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf">https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf</a>
+</p>
+Gardiner's grammar provides extensive information about the signs, together with bibliographic references, 
+and also the ancillary documents provide,
+albeit to varying degrees, information about many additional signs. Some signs are linked to
+particular inscriptions listed in the Griffith Institute Topographical Bibliography (GITB), which allows
+these signs to be studied in context.
+<p>
+The signs were given Unicode names that were similar to the names used by Gardiner. However, all numbers were padded
+with zeros to make 3-digit numbers; for example, Gardiner's A1 became A001. 
+One rationale was to avoid any clash with sign names used by disparate
+sign lists, such as various editions of the Manuel de Codage and Hieroglyphica, and the sign list of the JSesh hieroglyphic editor.
+A related rationale was to avoid any suggestion that the Unicode signs stood for anything 
+other than the signs from the publications of Gardiner and Möller, and in case of doubt about appearance or function,
+one would have to consult these publications and not others.
+
+<h2>Unicode 16</h2>
+
+For the development of the extended sign list of Unicode 16, two databases were used,
+one of which happens to be also named UniKemet:
+<p>
+<a href="https://www.unicode.org/Public/UCD/latest/ucd/Unikemet.txt">https://www.unicode.org/Public/UCD/latest/ucd/Unikemet.txt</a>
+<p>
+and the other will be referred to henceforth as the Database:
+<p>
+<a href="https://www.unicode.org/L2/L2023/23109-n5215-database.pdf">https://www.unicode.org/L2/L2023/23109-n5215-database.pdf</a>
+<p>
+Surprisingly however, none of the information from the original UniKemet was included, 
+and it is unclear whether the work was done with any awareness that that earlier database 
+rigorously tied code points to sources.
+On the contrary, it seems the glyphs in the code charts were taken
+as mere suggestions, and new signs were arbitrarily assigned to old code points while old signs moved to new code points.
+<p>
+It was never announced beforehand that changes to the basic list would be made, and the changes were
+never discussed outside narrow circles.
+In particular, there was no consultation of the user community of the basic list, some of whom had
+spent over a decade encoding texts and developing teaching materials with that list.
+The only way one could find out that there had been any changes at all was to look closely at the Unicode 16 code charts.
+<p>
+This has thrown the user community into turmoil. Encodings produced in the past 15 years may no longer be 
+valid, as old code points now stand for different signs, and the intended signs have moved to different code points. 
+Hieroglyphic fonts created in the past 15 years are now inconsistent with the current code charts and recalling and updating all those 
+fonts would be impossible.
+<p>
+When I spotted the first instances of corruption of the basic list, I flagged these up, and some fixes are now scheduled
+for Unicode 17. However, I did not realize until very recently just how many code points had been affected,
+after a systematic comparison of Unicode 5.2 and Unicode 16:
+<p>
+<a href="https://nederhof.github.io/newgardiner/unicode5to16compare0.html">https://nederhof.github.io/newgardiner/unicode5to16compare0.html</a>
+<p>
+Although in some instances the changes are harmless and do not require any fixes, there are many other cases where
+code points were given entirely different identities, without any justification whatsoever in the Database.
+In order to limit the harm, those code points need to be restored to their original intentions as soon as possible,
+ideally in Unicode 17, so that the corruption can remain limited to only one Unicode release.
+<p>
+This document contains a snapshot of:
+<p>
+<a href="https://nederhof.github.io/newgardiner/unicode5to16corruption.html">https://nederhof.github.io/newgardiner/unicode5to16corruption.html</a>
+</p>
+<p>
+which will be updated as soon as there are new developments.
+Listed below are all discrepancies between Unicode 5.2 and Unicode 16 that I have been able to identify,
+divided into apparent errors and other noteworthy differences. 
+I'm also listing cases where the Unicode 16 glyph is correct but the UniKemet documentation is inaccurate.
+Where two glyphs are given for the same code point, the first is from Unicode 5.2 and the second is from Unicode 16. The glyphs were automatically extracted from the official PDF code charts. Lines in blue starting with code point and kEH_Desc are descriptions copied verbatim from 
+UniKemet. Comments in green indicate that the issues were resolved.
+</p>
+
+  </body>   
+</html>

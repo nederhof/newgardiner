@@ -8,10 +8,22 @@ Both Urk IV 57,3, supposedly the source of the sign according to Gardiner (1928)
 https://digi.ub.uni-heidelberg.de/diglit/rectrav1892/0117/image,info
 
 ok 0x1304F
-Hands were oriented outward, now inward. This may be a legitimate improvement since it has long been argued that the shape with outward handpalms was plain wrong and does not occur in real inscriptions. The supposed source is GITB 801-626-810, but this does not
-show the inscription itself. See p. 36 of:
+Hands were oriented outwards, now inwards. 
+The supposed source is GITB 801-626-810, but this does not have the sign:
 <p>
 http://www.griffith.ox.ac.uk/gri/s14.pdf
+<p>
+This leaves us without any reliable information about the intended character identity of this code point.
+It does not seem entirely far-fetched though to assume the intended sign is the same as:
+<p>
+https://thotsignlist.org/mysign?id=883
+<p>
+in which case, the hands are inwards, provided the blurry photos are interpreted correctly.
+Another occurrence is on p. 134, l. 14 and pl. DCCCLXXXIV of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara009.pdf
+<p>
+The transcription has the hands inward, but the photo is again too blurry to be sure about the orientation of the hands.
 
 0x13057 0x136D7 0x136D9
 For 0x13057, there was a uraeus in the original, now there is not. 
@@ -23,7 +35,8 @@ https://archive.org/details/ASAE-42-1943/page/n251/mode/2up
 <p>
 My hunch is that if the uraeus had existed, it would not have been visible in the transcription anyway.
 <p>
-Considering 0x136D7 and 0x136D9, which do have uraei, is it not plausible that the original shape might have existed? If so far no token of 0x13057 was located with uraeus, then what are you going to do if you do find such a token, introduce a new code point for it? This is disastrous for the stability of Unicode.
+Considering 0x136D7 and 0x136D9, which do have uraei, is it not plausible that the original shape might have existed? If so far no token of 0x13057 was located with uraeus, then what if such a token will eventually be found? Will a new code point be introduced for it? 
+This is disastrous for the stability of Unicode.
 Would it not have been safer to introduce a new code point for the shape without uraeus? 
 It is not like new code points were used sparingly; a staggering number of new code points were introduced for
 barely distinguishable variants of the heron alone.
@@ -42,12 +55,13 @@ Nonetheless this change to the glyph may cause relatively little disruption, pro
 introducing a new code point for the original form without uraeus.
 <p>
 This identifies a major shortcoming of the kEH_Desc descriptions: a description describes a single 'representative' token that 
-the philologists happened to find, down to tedious detail. The new Unikemet also typically lists only the one function of that
+the philologists happened to find, down to minute detail. The new UniKemet also typically lists only the one function of that
 one token.
 But this fails to capture the type. For example,
 if in the future the intention is that 0x130E8 can be used for the sign with uraeus and the sign without uraeus,
 then currently no documentation exists that expresses this intention. In this sense, this is a step back from the documentation in GEG, 
-which, by being less overspecific about appearance of signs, made it more straightforward for encoders to determine for which purposes to use which signs.
+which, by being less overspecific about appearance of signs, made it clear to encoders 
+that signs could be used for a range of graphical variants.
 
 0x130F3
 Unicode 5.2 form did not have the four pieces of grain or fruit. This seems an insignificant detail and 
@@ -60,13 +74,13 @@ It is unclear to me what kind of standard was intended with the original shape o
 The Database does not contain a shred of reflection on the fact that the shape of 0x13146 has changed.
 
 0x1314B
-The head of antelope was not previously discernible. It seems plausible that the sign exists with the head of antelope.
-Nonetheless, it would have been nice to see some reflection in the Database that the glyph has changed.
+The head of antelope was not previously discernible.
 If I correctly interpret the very fuzzy images in the TSL:
 <p>
 https://thotsignlist.org/mysign?id=3196
 <p>
 then the sign may occur with and without head of antelope.
+Nonetheless, it would have been nice to see some acknowledgement in the Database that the glyph has changed.
 Again, there is the problem that the description specifies the token, not the type.
 <p>
 Are *two* rudders visible, in both glyphs? In that case the description and the glyph are inconsistent.
@@ -106,12 +120,12 @@ the standard (but without standard) is at the extreme right in the photo of:
 http://sith.huma-num.fr/karnak/1128
 <p>
 Here the bow is outward, seemingly contradicting the above. 
-Just because you could not find an attestation of the exact Unicode 5.2 glyph within the available time, 
+Just because one could not find an attestation of the exact Unicode 5.2 glyph within the available time, 
 that doesn't mean the glyph was wrong and that there was a compelling reason to change it.
 
 ok 0x1323C
 The object on the standard changed from looking similar to Y8 to something closer to R028.
-As the Database points out, the Unicode 5.2 form differs from what, according to the original Unikemet, should have been
+As the Database points out, the Unicode 5.2 form differs from what, according to the original UniKemet, should have been
 the source, namely Gardiner (1953). See p. 52 of:
 <p>
 https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
@@ -130,14 +144,15 @@ But "in the center" in the description is not accurate. I would write "near the 
 
 0x13241
 In the original, the standard was simplified.
-In the Database, I see no reflection on this. The Database has a reference to KIU 1202, which has yet another form of the standard,
-with diagonal bar rather than "a loop under the horizontal beam, running over the vertical pole":
+In the Database, I see no reflection on this. The Database has a reference to:
 <p>
 http://sith.huma-num.fr/karnak/1202
 <p>
+which has yet another form of the standard,
+with diagonal bar rather than "a loop under the horizontal beam, running over the vertical pole".
 It would be fine to normalize glyphs when it comes to the type of standard, and to use a default form of R12 for any signs with
 a standard that is similar to R12. But this is not what was done elsewhere, especially for the extended list. 
-There appears to be no consistent strategy for the treatment of standards.
+There appears to have been no consistent strategy for the treatment of standards.
 
 0x13242
 In the original, the standard was simplified.
@@ -163,7 +178,7 @@ http://sith.huma-num.fr/karnak/1128
 
 0x13247
 There was no basket in the original shape. 
-As the Database points out, the Unicode 5.2 form differs from what, according to the original Unikemet, should have been
+As the Database points out, the Unicode 5.2 form differs from what, according to the original UniKemet, should have been
 the source, namely Gardiner (1953). See p. 52 of:
 <p>
 https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
@@ -186,7 +201,7 @@ where X1 is to the left of what looks like U8, so "behind" in terms of reading o
 I suspect the new glyph for Unicode 16 was created with the misunderstanding that "behind" meant "overlay".
 <p>
 Assuming that the above text correctly identifies the sign that Gardiner had in mind (which is not at all clear to me), 
-then a redraw of the glyph may be in order. In any case, it should not be an overlay.
+then a redrawing of the glyph may be in order. In any case, it should not be an overlay.
 
 0x1327F
 The original shape was asymmetric, while the new shape is perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric.
@@ -225,7 +240,10 @@ replacing one by the other in the code charts.
 The Database does not contain a shred of reflection on the fact that the shape has changed.
 
 0x130B9
-It is debatable whether the original shape has the folded piece of cloth on top, or whether the intention was to underspecify which of the two signs is on top. In the latter case, it may be adequate to describe this simply as an overlay of the two signs without specifying which of the two is on top, and leave it to the font designer how to draw this. There are several more such cases.
+It is debatable whether the original shape has the folded piece of cloth on top, or whether the intention was to underspecify which of the two signs is on top. In the latter case, it may be adequate to describe this simply as an overlay of the two signs without specifying which of the two is on top, and leave it to the font designer how to draw this. By the same reasoning, 
+the current glyph in Unicode 16 can also remain as it is, as one allowable graphical realization of the underlying sign.
+<p>
+There are several more such cases below.
 
 0x13155
 As above.

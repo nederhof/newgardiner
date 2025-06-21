@@ -74,12 +74,21 @@ I will draw two identical shapes.
 Both signs are functionally equivalent, representing the Henu-bark of Sokar.
 
 0x14070 0x14075
-I don't see the "multiple horizontal lines written over it" in the glyph of 0x14070. Presumably, what was meant is similar to 0x14075.
+Missing from the glyph are the "multiple horizontal lines written over it" in the glyph of 0x14070. What was meant is similar to 0x14075.
+This is confirmed by the pointer in the Database to pl. 53,A of:
 <p>
-I also think that the internal lines of the shrine and the lines of the sledge should not have been drawn as one and running over the boat/ship, if I understand the description correctly.
+https://archive.org/details/sethos4/page/52/mode/2up
+<p>
+Further, the internal lines of the shrine and the lines of the sledge should not have been drawn as one and running over the boat/ship,
+and they should be vertical, not diagonal.
 
 0x14074
 The shape of the sledge as described ("four vertical lines between two horizontal lines") does not at all correspond to the glyph.
+The Database refers to p.  238, l. 5 and pl. 138 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf
+<p>
+This confirms the shape as in the glyph. It seems to me the description needs revision.
 
 0x14076 0x14077
 It is hard to imagine a more blatant, more literal violation of Point 5 of the

@@ -7,33 +7,39 @@ Considering the hairstyles, 0x1303A was misplaced at 0x1355D. This will be solve
 0x13055
 In the original shape, the hair is not long. The Database has
 "Nederhof example is a different sign though [...]". Different from what? Also, it is not my example, it is *the* example that was *the*
-justification to introduce this code point in Unicode 5.2 in the first place.
-The only ground truth in determining what a code point should stand for is the original Unikemet database 
+justification for introducing this code point in Unicode 5.2 in the first place.
+The only ground truth in determining what a code point should stand for is the original UniKemet database 
 used to compile the Unicode 5.2 basic list. See p. 34 of:
 <p>
 https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf
 <p>
-It defines B005A as the sign in GITB 804-013-500, found on p. 19 of:
+It defines B005A as the sign in GITB 804-013-500:
 <p>
 http://www.griffith.ox.ac.uk/gri/8rel100.pdf
 <p>
-In the transcription the hair is definitely not long. Unless you argue that the mentioned tomb relief was misread,
-and no one is arguing that, the hair should be short in the code charts.
-<p>
-(In fact, the Database confirms that the sign in Page-Gasser & Wiese (1997)
+In the transcription the hair is definitely not long. Unless one argues that the mentioned tomb relief was misread,
+and no one has argued that so far, the hair should be short in the code charts.
+In fact, the Database confirms that the sign in Page-Gasser & Wiese (1997)
 has "short hair". One could argue that "no female features" might be a reason to adjust the glyph with regard to the original, 
-but since there is no doubt the sign represents a female, who cares to what extent the "female features" are accentuated in the glyph.)
+but since there is no doubt the sign represents a female, who cares to what extent the "female features" are accentuated in the glyph.
 
 0x130C1
 These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG, and are in fact found in the same line (top line of p. 458). 
-In 2006-2009, there were discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not you agree now this was the right decision at the time
+In 2006-2009, there were discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not one agrees now this was the right decision at the time
 should be irrelevant. Code charts should not be changed without a compelling reason.
 
 0x130FE
-The description suggests outward curving horns, unlike the Unicode 5.2 and Unicode 16 shapes. Some of the tokens in the TSL have outward curving horns and some have inward curving horns. Does it make sense to specify the curvature in the description when the curvature is so variable in actual inscriptions? How about just "with horns"?
+The description suggests outwards curving horns, unlike the Unicode 5.2 and Unicode 16 shapes. 
+Some of the tokens in the TSL have outwards curving horns and some have inwards curving horns:
+<p>
+https://thotsignlist.org/mysign?id=2871
+<p>
+Does it make sense to specify the curvature in the description when the curvature is so variable in actual inscriptions? I propose
+to change the description to just have "with horns"?
 
 ok 0x130F9 0x13ABE
-The original shape of 0x130F9 unmistakably had whiskers. This will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130F9 and 0x13ABE from Unicode 16.
+The original shape of 0x130F9 unmistakably had whiskers. This will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130F9 and 0x13ABE from Unicode 16. (There is no need though to make the length of the whiskers as exaggerated as they are currently
+in 0x13ABE.)
 
 ok 0x130FA
 In the original shape, the hare has whiskers. Moreover, the difference between 0x130FA and 0x130F9 should be in the height, while the width should be roughly the same, i.e. 0x130FA is flatter than 0x130F9. See Gardiner (1957) for the typographical motivation. Both issues will be solved in Unicode 17.
@@ -76,14 +82,14 @@ The width of 0x1316B should be the same as that of 0x1316A, but the height shoul
 
 0x131A6 0x13DEE
 In 2006-2009, there were protracted discussions about what the most appropriate orientation of 0x131A6 was for Unicode, since both orientations occur in GEG (p. 477 versus p. 545), and since the sign was taken from iconography and is not attested in actual running text.
-However, in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2, fixed formally by letting Unikemet
+In consultation with Egyptologists it was decided to opt for the form in Unicode 5.2, fixed formally by letting UniKemet
 link the code point to the occurrence on p. 477 as opposed to the occurrence on p. 545.
 This was motivated by similar signs (like the newly introduced 0x13DEE) that have the head up as well.
 For more information, see pp. 8 and 39 of:
 <p>
 https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf
 <p>
-Whether or not you now agree this was the right decision at the time, 
+Whether or not one now agrees this was the right decision at the time, 
 having studied (or not) the arguments laid out by Egyptologists in 2006-2009, 
 all this should be irrelevant. 
 The glyph should not change on a whim relative to what it has been for the past 15 years since Unicode 5.2. 
@@ -93,7 +99,7 @@ Apropos, the Database has the fly with the head up as well, so it is not even cl
 actually wanted to have this sign rotated relative to the original orientation. In the end, the rotation may be due to clerical error.
 
 0x131BA
-I could not care less about the length of the stalk in the glyph. This is a palaeographic detail and unimportant
+I couldn't care less about the length of the stalk in the glyph. This is a palaeographic detail and unimportant
 at the level of Unicode.
 I do object against the Database not even acknowledging that anything was changed, despite the fact that
 the description above explicitly invalidates the character identity from Unicode 5.2 when the stalk was definitely not long.
@@ -101,6 +107,9 @@ In particular, there is nothing in the Database that suggests that a short stalk
 a long stalk.
 The original form with the short stalk reappears in a different entry with the comment "Does not seem to be
 a meaningful variant". Ok, but if the difference between the shapes was not significant, why was there any need for the shape to be changed?
+<p>
+My proposal is to delete "long" from the description. Ideally one would also make the stalk a little shorter than the Unicode 16 form
+but it could be a little longer than the Unicode 5.2 form.
 
 0x131C6
 Revert to the shape from Unicode 5.2. The description in fact already correctly reflects the original shape.
@@ -112,7 +121,10 @@ Because the original shape did not fix which sign was on top, I would prefer for
 a phrase other than "written over". Perhaps "overlaid with"?
 
 0x131F4 0x131F6 0x13EDE 0x13EDF 0x13EE0
-There is no inner circle in the original shape of 0x131F4. One may argue this is an insignificant detail. But if one then introduces multiple code points 0x131F6 and 0x13EDE for the same sign with and without inner circle, and similarly 0x13EDF and 0x13EE0, then one simultaneously suggests that the inner circle is important and that the inner circle is not important. See also the Encoding Principles, which more often than not are divorced from what was actually done.
+There is no inner circle in the original shape of 0x131F4. One may argue this is an insignificant detail. But if one then introduces multiple code points 0x131F6 and 0x13EDE for the same sign with and without inner circle, and similarly 0x13EDF and 0x13EE0, then one simultaneously suggests that the inner circle is important and that the inner circle is not important. See also Point 5 of
+the Encoding Principles, which more often than not are divorced from what was actually done:
+<p>
+https://www.unicode.org/reports/tr57/tr57-4.html#EncodingPrinciples
 <p>
 In the Database there is not a shred of an acknowledgement that the shape of 0x131FA changed from Unicode 5.2 to Unicode 16. 
 The Database does have the shape without inner circle, but in a separate entry, with the comment "Technically the more common form".
@@ -149,11 +161,11 @@ http://sith.huma-num.fr/karnak/1128
 (Incidentally, this has a token closer to the original Unicode 5.2 form of 0x1324A than to the Unicode 16 form of 0x13CA7.)
 <p>
 The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16. I would then make 
-0x13CA7 non-core, as it will then get to harbour an unattested shape.
+0x13CA7 non-core, as it will then get to harbor an unattested shape.
 
 0x1326E
 The description of the shape of the roof matches the original shape but not the new shape.
-In the new shape the roof is symmetric, rather sloping downwards towards the back, as I would understand it.
+In the new shape the roof is symmetric, rather than sloping downwards towards the back, as I would understand it.
 
 0x13271
 In the original, the sides were more oblique than vertical.
@@ -171,7 +183,7 @@ The original shape (without circle) was misplaced at 0x13FDC. The only reasonabl
 The Database has a link to TSL_1_4521_01, where one finds both the shape with circle and the shape without circle. There are two
 tokens without circle and one token with circle. The only thing this tells us is that the sign occurs both without circle
 and with circle. It does not in any way tell us that the originally intended shape
-of 0x13277 in Unicode 5.2 should have a circle. The only ground truth in this respect is the original Unikemet, which 
+of 0x13277 in Unicode 5.2 should have a circle. The only ground truth in this respect is the original UniKemet, which 
 defines O025A to be the shape that occurs on p. 246 of Gardiner (1931) and on p. 4 of Gardiner (1953) and that
 very clearly has no circle. Cf. p. 42 of:
 <p>
@@ -207,7 +219,7 @@ In any case, the glyph should be consistent with the description. In the new sha
 The description matches the original shape but not the new shape. In the new shape the mace is over the cobras.
 
 0x1331C 0x131C5 0x131D5
-In the original code charts, the handle most certainly does not resemble M13 (0x131C5), If anything, it looks closer to 0x131D5.  I do not mind much if the glyph in the code charts currently has that shape, as the shape of the handle seems a minor detail. But by putting "with a handle resembling ..." in the description you suggest that M13 is an essential part of the character identity of 0x1331C, whereas (as far as I know) scimitars do not generally have a handle resembling M13. The Database does not motivate departing from the original shape. 
+In the original code charts, the handle most certainly does not resemble M13 (0x131C5), If anything, it looks closer to 0x131D5.  I do not mind much if the glyph in the code charts currently has that shape, as the shape of the handle seems a minor detail. But by putting "with a handle resembling ..." in the description, one is suggesting that M13 is an essential part of the character identity of 0x1331C, whereas (as far as I know) scimitars do not generally have a handle resembling M13. The Database does not motivate departing from the original shape. 
 The TSL has one single token of T016A (without citation!), which is rather blurry and does not seem to suggest M13 at all:
 <p>
 https://thotsignlist.org/mysign?id=5850
@@ -226,7 +238,7 @@ By plausible deniability one could argue the new shape underspecifies which sign
 It is unclear to me whether the original shape of 0x13341 is closer to its new shape, or whether it rather corresponds to 0x1429C. The original shape had a pronounced circle, like 0x1429C, while the new shape has more of a bulb. Does it even make sense to have two code points here?
 
 0x1334C 0x1334B 0x142B7 0x142B8
-The original shape of 0x1334C has a horizontal line on the top, so the new shape is wrong. By the original Unikemet from 2006,
+The original shape of 0x1334C has a horizontal line on the top, so the new shape is wrong. By the original UniKemet from 2006,
 0x1334C stands for "a later form of U23" (Gardiner 1931) as found on the 26th Dyn. sarcophagus of Ankhnesneferibra (BM EA32).
 See p. 45 of:
 <p>
@@ -238,7 +250,7 @@ https://www.britishmuseum.org/collection/object/Y_EA32?selectedImageId=149561300
 <p>
 There is most definitely a line on the top.
 <p>
-The Database provides no evidence of having even consulted the original Unikemet.
+The Database provides no evidence of having even consulted the original UniKemet.
 Instead, the Database
 refers to the Pyramid of Unas, which is off by 2 millennia so this is unlikely to be relevant to 0x1334C. It is unclear to me how other newly introduced code points for hair-pins are supposed to relate to the original shape of 0x1334C, or even how to characterize the difference between 0x1334C and usual hairpin 0x1334B. It becomes an exercise in futility if new code points are introduced for barely distinguishable shapes, as if those are meaningful for Unicode, while exact specifications of existing code points are ignored to reuse these code points
 for totally different things. One either takes the character identities of code points seriously, or one does not, in which case why do we even bother with Unicode?

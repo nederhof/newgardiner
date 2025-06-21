@@ -2631,7 +2631,21 @@ The Database points to p. 45, l. 3 and pl. 32 of:
     </p>
     <p>
 The transcription seems to confirm the glyph is wrong, and the mace head is on the right. The photo is less clear.
-The transcription also seems to suggest the mace is curved, but this seems less important.
+The transcription also seems to suggest the mace is curved, but this is less important, as it may be an idiosyncrasy
+of the token rather than a feature of the type.
+</p>
+    <p>
+By the way, this example also shows why it never made any sense to treat overlays with "non-compositional" meaning any differently from
+overlays with "compositional" meaning. With the overlay control, the graphical form would have been determined by the encoder, who could
+if necessary use the mirroring control or variation selectors for rotation to choose an appropriate orientation of the mace. The Database
+suggests that there are several variants of this sign, and one probably wouldn't want to introduce code points for all of them.
+</p>
+    <p>
+The term "compositionality" is problematic for Ancient Egyptian anyway. There are many examples where a combination of
+two signs combined with a simple vertical or horizontal joiner has a meaning that is not a composition 
+of the meanings of the constituent signs.
+There is no shortage of (non-overlaid) hieroglyphs, and we won't run out of new signs to add anytime soon, 
+so why add more signs than necessary?
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3270,7 +3284,6 @@ see for example the facsimile on p. 66 (bottom line) of the above publication.
 </p>
     <p>
 The obvious solution of course is to make descriptions less overly specific.
-A sign list is expected to be a list of types, not a list of tokens.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3315,7 +3328,18 @@ A sign list is expected to be a list of types, not a list of tokens.
     <p>
       <tt>U+13DA5 kEH_Desc A cobra with the head of a female, with a coiled tail, wearing a headdress consisting of the horns of a ram with two plumes on top of it (S62).</tt>
     </p>
-    <p>In the glyph there is a sun disk on the headdress. Is that real?
+    <p>In the glyph there is a sun disk on the headdress, not mentioned in the description.
+The Database refers to p. 36, l. 13 and pl. 27, col. 66. of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf</a>
+    </p>
+    <p>
+The transcription has a sun disk, but it would be hard to confirm its existence in the photo.
+So it may be best to leave underspecified whether there is a sun disk.
+The problem is now that many other descriptions in Unikemet are overspecific and would mention the sun disk
+if it is visible in the inscription. I think the only viable way forward is to remove extraneous detail from
+the descriptions, so the sign list becomes an actual list of signs rather than a list of tokens.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3474,6 +3498,13 @@ is characterized by particular fins, then U+13DD3 deserves to be characterized b
       <tt>U+13DD4 kEH_Desc A fish, with its tail orientated downwards (K4A), on top of standard used for carrying religious symbols, with a loop under the horizontal beam, running over the vertical pole (R12A).</tt>
     </p>
     <p>The glyph does not have the "loop under the horizontal beam".
+The Database refers to:
+</p>
+    <p>
+      <a href="http://sith.huma-num.fr/karnak/4205">http://sith.huma-num.fr/karnak/4205</a>
+    </p>
+    <p>
+The transcription and photo seem to confirm the loop (rather than the diagonal beam).
 </p>
     <table class="glyph_table">
       <tbody>
@@ -3861,6 +3892,19 @@ Is a redraw needed?
 Also, does adding U+13EAB next to U+131E7 not
 violate Point 5 of the Encoding Principles "Signs that exist with and without inner detailing will be included with the inner detailing"?
 </p>
+    <p>
+It is unclear to me what the point was of this sign. The Database has a reference to:
+</p>
+    <p>
+      <a href="https://www.britishmuseum.org/collection/object/Y_EA828">https://www.britishmuseum.org/collection/object/Y_EA828</a>
+    </p>
+    <p>
+which to me seems to have the string nearer to the top of the bundle than to the bottom.
+Another example in the Database has the string half-way the bundle.
+But who cares about the exact position of the string anyway.
+This may be a typical case of overspecificity of the description, which then inevitably results 
+in inconsistencies. 
+</p>
     <table class="glyph_table">
       <tbody>
         <tr>
@@ -4083,7 +4127,8 @@ Point 5 of the Encoding Principles actually suggests the same.
     <p>The two listed functions happen to be different, but unless the two functions are actually tied to the width difference, then this is not a meaningful distinction for Unicode, and consistency between fonts will be impossible to achieve.
 </p>
     <p>
-In the Database I see a comment "I am not sure the variation between the O16 variants (broad vs less broad) is meaninful enough to include in Unicode", but also "Seems too numerous to leave out". I understand the first, but the second is moot. I'm sure that you will be able to find lots of occurrences of the flat N025A next to the tall N25 (the "foreign land" sign) in encodings, but that doesn't mean that N25 and N025A have independent character identities. If you believe that N025A (U+1320A) was made Legacy for good reasons (and I would agree), then why should U+13F98 and U+13F99 both exist as core signs in Unicode?
+In the Database I see a comment "I am not sure the variation between the O16 variants (broad vs less broad) is meaninful enough to include in Unicode", but also "Seems too numerous to leave out". The first comment is more than reasonable, but the second comment is moot. 
+I'm sure that you will be able to find lots of occurrences of the flat N025A next to the tall N25 (the "foreign land" sign) in encodings, but that doesn't mean that N25 and N025A have independent character identities. If you believe that N025A (U+1320A) was made Legacy for good reasons (and I would agree), then why should U+13F98 and U+13F99 both exist as core signs in Unicode?
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4762,10 +4807,15 @@ Both signs are functionally equivalent, representing the Henu-bark of Sokar.
       <br/>
       <tt>U+14075 kEH_Desc A moon-sickle shaped boat with an higher prow than stern, with the head of an antilope (F81) on top of the prow, with a downwards line with multiple horizontal lines written over it coming from the head, on top of a sledge represented by four vertical lines between two horizontal lines, with a falcon with spread wings, on top of a low cone shape inside the boat/ship, embracing the cone with its wings, with an oar/rudder at the back.</tt>
     </p>
-    <p>I don't see the "multiple horizontal lines written over it" in the glyph of U+14070. Presumably, what was meant is similar to U+14075.
+    <p>Missing from the glyph are the "multiple horizontal lines written over it" in the glyph of U+14070. What was meant is similar to U+14075.
+This is confirmed by the pointer in the Database to pl. 53,A of:
 </p>
     <p>
-I also think that the internal lines of the shrine and the lines of the sledge should not have been drawn as one and running over the boat/ship, if I understand the description correctly.
+      <a href="https://archive.org/details/sethos4/page/52/mode/2up">https://archive.org/details/sethos4/page/52/mode/2up</a>
+    </p>
+    <p>
+Further, the internal lines of the shrine and the lines of the sledge should not have been drawn as one and running over the boat/ship,
+and they should be vertical, not diagonal.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4781,6 +4831,13 @@ I also think that the internal lines of the shrine and the lines of the sledge s
       <tt>U+14074 kEH_Desc A moon-sickle shaped boat with an higher prow than stern, with the head of an antilope (F81) on top of the prow, on top of a sledge represented by four vertical lines between two horizontal lines, with a falcon with spread wings, on top of a low cone shape inside the boat/ship, embracing the cone with its wings, with an oar/rudder at the back.</tt>
     </p>
     <p>The shape of the sledge as described ("four vertical lines between two horizontal lines") does not at all correspond to the glyph.
+The Database refers to p.  238, l. 5 and pl. 138 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf</a>
+    </p>
+    <p>
+This confirms the shape as in the glyph. It seems to me the description needs revision.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5262,7 +5319,7 @@ rather than an independent shape. But then why was it added?
     <p>
       <tt>U+141B6 kEH_Desc A horizontal strip of cloth with six fringes.</tt>
     </p>
-    <p>I count seven fringes.
+    <p>I count seven fringes in the glyph.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5695,7 +5752,17 @@ U+142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot.
     <p>
       <tt>U+142FC kEH_Desc The head of a human man, seen in profile, with a short straight beard (D1), on top of a tall potter's wheel.</tt>
     </p>
-    <p>There is no discernible beard in the glyph. Why not omit it from the description if it does not matter?
+    <p>There is no discernible beard in the glyph. 
+The Database refers to p. 138, l. 8 and pl. DLXVII of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara006.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara006.pdf</a>
+    </p>
+    <p>
+It would be impossible to see a beard in the coarse font of the inscription and in the blurry
+photo (at least in the online PDF).
+Where does the idea come from that there is a beard?
+There would not have been a problem had undue specificity in the description been avoided.
 </p>
     <h2>Page 16</h2>
     <table class="glyph_table">
@@ -5711,7 +5778,7 @@ U+142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot.
     <p>
       <tt>U+14322 kEH_Desc A loop of cord with the ends upwards (V6), combined with a folded piece of cloth (S29).</tt>
     </p>
-    <p>It may be good to clarify that S29 is mirrored horizontally (assuming the glyph is correct).
+    <p>It may be good to clarify that S29 is mirrored horizontally.
 </p>
     <table class="glyph_table">
       <tbody>

@@ -1,5 +1,5 @@
 0x13B6A
-The glyph has inward curving horns. As I commented elsewhere for 0x130FE, the evidence in the TSL shows that
+The glyph has inwards curving horns. As I commented elsewhere for 0x130FE, the evidence in the TSL shows that
 the curvature of horns is highly variable in actual inscriptions, 
 and thereby the description may be overspecific. How about just "with horns"?
 
@@ -13,7 +13,19 @@ The Database points to p. 45, l. 3 and pl. 32 of:
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara011.pdf
 <p>
 The transcription seems to confirm the glyph is wrong, and the mace head is on the right. The photo is less clear.
-The transcription also seems to suggest the mace is curved, but this seems less important.
+The transcription also seems to suggest the mace is curved, but this is less important, as it may be an idiosyncrasy
+of the token rather than a feature of the type.
+<p>
+By the way, this example also shows why it never made any sense to treat overlays with "non-compositional" meaning any differently from
+overlays with "compositional" meaning. With the overlay control, the graphical form would have been determined by the encoder, who could
+if necessary use the mirroring control or variation selectors for rotation to choose an appropriate orientation of the mace. The Database
+suggests that there are several variants of this sign, and one probably wouldn't want to introduce code points for all of them.
+<p>
+The term "compositionality" is problematic for Ancient Egyptian anyway. There are many examples where a combination of
+two signs combined with a simple vertical or horizontal joiner has a meaning that is not a composition 
+of the meanings of the constituent signs.
+There is no shortage of (non-overlaid) hieroglyphs, and we won't run out of new signs to add anytime soon, 
+so why add more signs than necessary?
 
 0x13B88 0x13B89 0x13B8B
 In the Database I find:
@@ -44,7 +56,7 @@ Moreover, for 0x13B88 and 0x13B8B, "written over" suggests the mouth occludes vi
 "sun disks" ? I only see one sun disk in the middle. Are the uraei to have sun disks instead? The glyph doesn't have these. Is the sun disk in the middle correct? That is not mentioned in the description.
 
 ok 0x13BB3
-The "vertical" does not appear accurate. In Unicode 17, the Unikemet description will be adjusted to have "pointing upwards".
+The "vertical" does not appear accurate. In Unicode 17, the UniKemet description will be adjusted to have "pointing upwards".
 
 0x13BB9
 It is difficult to recognize what the glyph is meant to depict. In Unicode 17, the glyph will be improved on the basis of a photo of
@@ -88,7 +100,7 @@ ok 0x13BE1
 In Unicode 17, the description will clarify that the flowers on the left are like M13 and the flower on the right are like M127.
 
 0x13BF9
-The draft Unikemet file has currently "A leg bone with heat, angled with the bone forward, with a piece of meat missing at the front."
+The draft UniKemet file has currently "A leg bone with heat, angled with the bone forward, with a piece of meat missing at the front."
 Correct "heat" to "meat"?
 
 0x13BFB
@@ -98,7 +110,7 @@ ok 0x13C1F
 In Unicode 16, the glyph looks like a 45° rotation. Unicode 17 will correct the rotation of the glyph to 90°.
 
 ok 0x13C4B 0x13C4C
-In Unicode 17, the Unikemet description of 0x13C4C will be clarified to mention the presence of lappets.
+In Unicode 17, the UniKemet description of 0x13C4C will be clarified to mention the presence of lappets.
 
 0x13C58 0x13C59
 In Unicode 17, the description of 0x13C59 will be corrected to omit "and a lappet".

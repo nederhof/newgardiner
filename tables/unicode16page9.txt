@@ -13,7 +13,6 @@ Conversely, one can find tokens of 0x13192 where top and bottom lines have the s
 see for example the facsimile on p. 66 (bottom line) of the above publication.
 <p>
 The obvious solution of course is to make descriptions less overly specific.
-A sign list is expected to be a list of types, not a list of tokens.
 
 0x13D72
 In the glyph, the cobra is *under* the white crown, not *over*.
@@ -22,7 +21,16 @@ In the glyph, the cobra is *under* the white crown, not *over*.
 The mention of the forked base is strange, as the base is not visible.
 
 0x13DA5
-In the glyph there is a sun disk on the headdress. Is that real?
+In the glyph there is a sun disk on the headdress, not mentioned in the description.
+The Database refers to p. 36, l. 13 and pl. 27, col. 66. of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf
+<p>
+The transcription has a sun disk, but it would be hard to confirm its existence in the photo.
+So it may be best to leave underspecified whether there is a sun disk.
+The problem is now that many other descriptions in UniKemet are overspecific and would mention the sun disk
+if it is visible in the inscription. I think the only viable way forward is to remove extraneous detail from
+the descriptions, so the sign list becomes an actual list of signs rather than a list of tokens.
 
 0x13DA8
 Font-technical issue at face of falcon, clockwise/counter-clockwise?
@@ -63,6 +71,11 @@ is characterized by particular fins, then 0x13DD3 deserves to be characterized b
 
 0x13DD4
 The glyph does not have the "loop under the horizontal beam".
+The Database refers to:
+<p>
+http://sith.huma-num.fr/karnak/4205
+<p>
+The transcription and photo seem to confirm the loop (rather than the diagonal beam).
 
 0x13DD7 0x13DD8
 As above. One description subsumes the other. The functions are identical.

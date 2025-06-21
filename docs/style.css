@@ -24,6 +24,23 @@ h2 {
 	margin-bottom: 16px;
 }
 
+.author {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.abstract {
+	background: #f8f8f8;
+	border-left: 4px solid #ccc;
+	padding: 1em;
+	margin-bottom: 2em;
+}
+.abstract h2 {
+	margin-top: 0;
+}
+
 .navigation {
 	text-align: center;
 	margin: 20px 0;

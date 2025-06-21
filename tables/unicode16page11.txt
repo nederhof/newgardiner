@@ -9,7 +9,8 @@ Point 5 of the Encoding Principles actually suggests the same.
 0x13F98 0x13F99
 The two listed functions happen to be different, but unless the two functions are actually tied to the width difference, then this is not a meaningful distinction for Unicode, and consistency between fonts will be impossible to achieve.
 <p>
-In the Database I see a comment "I am not sure the variation between the O16 variants (broad vs less broad) is meaninful enough to include in Unicode", but also "Seems too numerous to leave out". I understand the first, but the second is moot. I'm sure that you will be able to find lots of occurrences of the flat N025A next to the tall N25 (the "foreign land" sign) in encodings, but that doesn't mean that N25 and N025A have independent character identities. If you believe that N025A (0x1320A) was made Legacy for good reasons (and I would agree), then why should 0x13F98 and 0x13F99 both exist as core signs in Unicode?
+In the Database I see a comment "I am not sure the variation between the O16 variants (broad vs less broad) is meaninful enough to include in Unicode", but also "Seems too numerous to leave out". The first comment is more than reasonable, but the second comment is moot. 
+I'm sure that you will be able to find lots of occurrences of the flat N025A next to the tall N25 (the "foreign land" sign) in encodings, but that doesn't mean that N25 and N025A have independent character identities. If you believe that N025A (0x1320A) was made Legacy for good reasons (and I would agree), then why should 0x13F98 and 0x13F99 both exist as core signs in Unicode?
 
 0x13FA1 0x13FA2
 This distinction is so silly that even the number of vertical lines in the

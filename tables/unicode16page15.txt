@@ -1,5 +1,5 @@
 0x14322
-It may be good to clarify that S29 is mirrored horizontally (assuming the glyph is correct).
+It may be good to clarify that S29 is mirrored horizontally.
 
 0x14324
 In the glyph, there is a stroke under the egg, not mentioned in the description.

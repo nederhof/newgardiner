@@ -10,7 +10,6 @@ There is no beard in the two glyphs. But who cares whether there is a beard. Thi
 0x13A74
 No beards are discernable. But who cares! In any case, make sure there are no inconsistencies between descriptions and glyphs. Not
 mentioning the beards would be one way to achieve that.
-Technically, the standard is not the "default" form of R12, but I don't care much, as long as the glyph is what was intended.
 
 ok 0x13A81
 The glyph depicts the jackal over the sedge, not the sedge over the jackal.
@@ -32,7 +31,7 @@ I don't think that the glyph of 13AAE has the head of a jackal. The beak looks m
 Conversely, 13AAF doesn't look like it has the head of a falcon, and I think normally a griffin has the head of a falcon. Are the descriptions reversed?
 <p>
 The glyph of 0x13AAE does correspond to JSesh E80A and the glyph of 0x13AAF does correspond to JSesh E80, so in 
-this respect, Unikemet appears to be accurate.
+this respect, UniKemet appears to be accurate.
 
 ok 0x13AB4
 The blade in the glyph is toward the front.

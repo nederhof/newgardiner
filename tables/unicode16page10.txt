@@ -28,6 +28,16 @@ The "near the bottom of the bundle" of 0x13EAB doesn't seem to match the glyph.
 <p>
 Also, does adding 0x13EAB next to 0x131E7 not
 violate Point 5 of the Encoding Principles "Signs that exist with and without inner detailing will be included with the inner detailing"?
+<p>
+It is unclear to me what the point was of this sign. The Database has a reference to:
+<p>
+https://www.britishmuseum.org/collection/object/Y_EA828
+<p>
+which to me seems to have the string nearer to the top of the bundle than to the bottom.
+Another example in the Database has the string half-way the bundle.
+But who cares about the exact position of the string anyway.
+This may be a typical case of overspecificity of the description, which then inevitably results 
+in inconsistencies. 
 
 0x13EB2
 If it is really necessary to have a sign specifically for 2*4 pieces, then at

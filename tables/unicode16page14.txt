@@ -60,4 +60,12 @@ Again, is the vertical line in 0x142F7 supposed to be interrupted at the base? T
 0x142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot. It looks more like U22 (0x1334A).
 
 0x142FC
-There is no discernible beard in the glyph. Why not omit it from the description if it does not matter?
+There is no discernible beard in the glyph. 
+The Database refers to p. 138, l. 8 and pl. DLXVII of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara006.pdf
+<p>
+It would be impossible to see a beard in the coarse font of the inscription and in the blurry
+photo (at least in the online PDF).
+Where does the idea come from that there is a beard?
+There would not have been a problem had undue specificity in the description been avoided.
