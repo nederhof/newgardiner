@@ -237,6 +237,10 @@ By plausible deniability one could argue the new shape underspecifies which sign
 0x13341 0x1429C
 It is unclear to me whether the original shape of 0x13341 is closer to its new shape, or whether it rather corresponds to 0x1429C. The original shape had a pronounced circle, like 0x1429C, while the new shape has more of a bulb. Does it even make sense to have two code points here?
 
+0x1334B
+In isolation, I would have thought little of this slight change of shape, but see the below. It looks like the
+shape that should have been at 0x1334C has been misplaced at 0x1334B.
+
 0x1334C 0x1334B 0x142B7 0x142B8
 The original shape of 0x1334C has a horizontal line on the top, so the new shape is wrong. By the original UniKemet from 2006,
 0x1334C stands for "a later form of U23" (Gardiner 1931) as found on the 26th Dyn. sarcophagus of Ankhnesneferibra (BM EA32).
