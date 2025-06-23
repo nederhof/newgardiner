@@ -33,15 +33,18 @@ Again, many examples in the TSL seem to suggest the feet are vertical rather tha
 including at least TSL_3_14385, TSL_3_17746, TSL_3_23102, TSL_3_25540. In other words, the
 Unicode 5.2 form appears to be reasonably representative,
 and one would need very good arguments not to revert to the Unicode 5.2 form.
+<p>
+One could perhaps omit specification of the orientation of the hand in the description, 
+and one may avoid clearly depicting the orientation of the hand in the glyph, thereby not committing to one view or another.
 
-0x13023
+ok 0x13023
 The orientation of the hands differs.
 The Database does not address, let alone justify, the change.
 The tokens in the TSL are not clear enough to tell:
 <p>
 https://thotsignlist.org/mysign?id=492
 <p>
-This said, I cannot tell from the print in GEG either what the orientation of the hands is.
+This said, I cannot tell from the printed form in GEG either what the orientation of the hands is.
 Everything else being equal, the usual reading as classifier "turning away" seems to favour
 the orientation of the hands as in Unicode 16, and there may not be a compelling reason to revert to Unicode 5.2.
 
