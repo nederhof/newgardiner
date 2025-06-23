@@ -37,8 +37,13 @@ and one would need very good arguments not to revert to the Unicode 5.2 form.
 0x13023
 The orientation of the hands differs.
 The Database does not address, let alone justify, the change.
-In the absence of further evidence, I would omit mention of the orientation of the hands from the description.
-I'm not too bothered about the glyph.
+The tokens in the TSL are not clear enough to tell:
+<p>
+https://thotsignlist.org/mysign?id=492
+<p>
+This said, I cannot tell from the print in GEG either what the orientation of the hands is.
+Everything else being equal, the usual reading as classifier "turning away" seems to favour
+the orientation of the hands as in Unicode 16, and there may not be a compelling reason to revert to Unicode 5.2.
 
 ok 0x1304F
 Hands were oriented outwards, now inwards. 
@@ -347,7 +352,7 @@ and could have more or fewer graphical features than any particular known token.
 Third, it is underappreciated that the main purpose of a glyph in a normalized font is to communicate the identity
 of a sign to the reader. Everyone would immediately recognize the form with the internal details as Aa31, as it appears like that
 in almost every printed and digital sign list. 
-Even in the TSL does the normalized font display Aa31 with internal details.
+Even the normalized font of the TSL displays Aa31 with internal details.
 Leaving out the internal details from Aa31 in Unicode fonts will cause unnecessary confusion to users.
 I'm also reminded of Point 5 of the Encoding Principles:
 <p>
