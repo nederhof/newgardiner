@@ -9,6 +9,14 @@
   <body>
 
 <h1>Corruption of the basic sign list of Egyptian hieroglyphs in Unicode 16</h1>
+<div class="author">Mark-Jan Nederhof (University of St Andrews)</div>
+<section class="abstract">
+<h2>Abstract</h2>
+Unicode 5.2 introduced a first batch of 1071 Egyptian hieroglyphs.
+Unicode 16 introduced 3995 further hieroglyphs. In the process however, some of the original 1071 signs were corrupted.
+This document aims to identify all differences between Unicode 5.2 and Unicode 16, and focusses on the corrections
+needed to restore the basic list to its original intentions.
+</section>
 
 <h2>Unicode 5.2</h2>
 
@@ -17,10 +25,11 @@ a database called UniKemet was created, published in 2006 as pp. 33-51 of:
 <p>
 <a href="https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf">https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf</a>
 <p>
-This database rigorously linked the relevant hieroglyphs
-either to publications from the Griffith Institute or to the Hieratische Paläographie of Georg Möller.
+This database rigorously linked all the hieroglyphs
+either to publications from the Griffith Institute, mainly the grammar by Alan Gardiner, 
+or to the Hieratische Paläographie of Georg Möller.
 Note that each row lists the exact source as well as the page number.
-The sources from the Griffith Institute include Gardiner's grammar, and a number of ancillary documents, which were made
+The sources include Gardiner's grammar, and a number of ancillary documents, which were made
 publicly available:
 <p>
 <a href="https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf">https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf</a>
@@ -51,21 +60,39 @@ and the other will be referred to henceforth as the Database:
 <a href="https://www.unicode.org/L2/L2023/23109-n5215-database.pdf">https://www.unicode.org/L2/L2023/23109-n5215-database.pdf</a>
 <p>
 Surprisingly however, none of the information from the original UniKemet was included, 
-and it is unclear whether the recent work was done with any awareness that that earlier database 
+and it is unclear whether the work was done with any awareness that that earlier database 
 rigorously tied code points to sources.
 On the contrary, it seems the glyphs in the code charts were taken
 as mere suggestions, and new signs were arbitrarily assigned to old code points while old signs moved to new code points.
+<p>
+It was never announced beforehand that changes to the basic list would be made, and the changes were
+never discussed outside narrow circles.
+In particular, there was no consultation of the user community of the basic list, some of whom had
+spent over a decade encoding texts and developing teaching materials with that list.
+The only way one could find out that there had been any changes at all was to look closely at the Unicode 16 code charts.
 <p>
 This has thrown the user community into turmoil. Encodings produced in the past 15 years may no longer be 
 valid, as old code points now stand for different signs, and the intended signs have moved to different code points. 
 Hieroglyphic fonts created in the past 15 years are now inconsistent with the current code charts and recalling and updating all those 
 fonts would be impossible.
 <p>
+When I spotted the first instances of corruption of the basic list, I flagged these up, and some fixes are now scheduled
+for Unicode 17. However, I did not realize until very recently just how many code points had been affected,
+after a systematic comparison of Unicode 5.2 and Unicode 16:
+<p>
+<a href="https://nederhof.github.io/newgardiner/unicode5to16compare0.html">https://nederhof.github.io/newgardiner/unicode5to16compare0.html</a>
+<p>
 Although in some instances the changes are harmless and do not require any fixes, there are many other cases where
 code points were given entirely different identities, without any justification whatsoever in the Database.
 In order to limit the harm, those code points need to be restored to their original intentions as soon as possible,
 ideally in Unicode 17, so that the corruption can remain limited to only one Unicode release.
 <p>
+This document contains a snapshot of:
+<p>
+<a href="https://nederhof.github.io/newgardiner/unicode5to16corruption.html">https://nederhof.github.io/newgardiner/unicode5to16corruption.html</a>
+</p>
+<p>
+which will be updated as soon as there are new developments.
 Listed below are all discrepancies between Unicode 5.2 and Unicode 16 that I have been able to identify,
 divided into apparent errors and other noteworthy differences. 
 I'm also listing cases where the Unicode 16 glyph is correct but the UniKemet documentation is inaccurate.

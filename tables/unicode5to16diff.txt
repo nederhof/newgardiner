@@ -7,6 +7,39 @@ Both Urk IV 57,3, supposedly the source of the sign according to Gardiner (1928)
 <p>
 https://digi.ub.uni-heidelberg.de/diglit/rectrav1892/0117/image,info
 
+0x13008
+The Database has "I am rather doubtful if this grapheme actually exists"  
+but fails to address the link in the original UniKemet from 2006 to GITB 804-005-650
+where the exact Unicode 5.2 glyph is found, with feet that are vertical rather than horizontal:
+<p>
+http://www.griffith.ox.ac.uk/gri/8rel100.pdf
+<p>
+Either way, no justification was offered for the change of the position of the feet; see also above for 0x13007.
+One would have to have very good arguments not to revert to the Unicode 5.2 form.
+
+0x1300A
+There are two differences, the orientation of the hands, and the orientation of the feet.
+<p>
+As for the hands, the Database has a comment "IT IS A FISTED HAND, not a handpalm oriented inwardly", which
+already contradicts the description. In the TSL:
+<p>
+https://thotsignlist.org/mysign?id=895
+<p>
+there are at least two occurrences where the hand palm (not a fist) to me appears to be very clearly oriented outwards:
+namely TSL_3_22086 and TSL_3_17746. Some other tokens are not clear enough to be sure.
+<p>
+As to the orientation of the feet, the Database does not even mention that there was a change relative to Unicode 5.2.
+Again, many examples in the TSL seem to suggest the feet are vertical rather than horizontal,
+including at least TSL_3_14385, TSL_3_17746, TSL_3_23102, TSL_3_25540. In other words, the
+Unicode 5.2 form appears to be reasonably representative,
+and one would need very good arguments not to revert to the Unicode 5.2 form.
+
+0x13023
+The orientation of the hands differs.
+The Database does not address, let alone justify, the change.
+In the absence of further evidence, I would omit mention of the orientation of the hands from the description.
+I'm not too bothered about the glyph.
+
 ok 0x1304F
 Hands were oriented outwards, now inwards. 
 The supposed source is GITB 801-626-810, but this does not have the sign:
@@ -111,6 +144,12 @@ Headdress lost the sun-disk.
 <p>
 The Database says "Could not yet locate an example." There cannot therefore have been a justification for changing the shape.
 
+0x1323B
+In the original, the feather was not angled backwards.
+I'm not concerned about the glyph, but the description seems overspecific, unless you can make
+a case that the angle of the feather is an integral element of the character identity that
+Gardiner missed.
+
 0x13236
 The bow was mirrored.
 The Database aims to motivate the change on the basis of available tokens, but I'm far from convinced.
@@ -132,6 +171,14 @@ https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
 <p>
 It is hard to escape the conclusion that the shape was incorrectly copied from Gardiner (1953) to the Unicode 5.2 code charts at the time.
 The Unicode 16 shape therefore seems to be an improvement.
+
+0x1324E
+I would not be concerned about the slight change to the glyph, 
+if it were not for UniKemet descriptions elsewhere
+that explicitly specify whether a knife has a triangular or a rounded blade.
+If it is felt to be important whether a knife has a triangular or a rounded blade, 
+then I would not expect for the shape of a blade in the code charts to
+arbitrarily change, especially if the Database says "Could not yet locate a token".
 
 0x13332
 The original shape did not have a boss. Here it seems acceptable, though far from necessary, to refine the appearance, since
@@ -245,6 +292,9 @@ the current glyph in Unicode 16 can also remain as it is, as one allowable graph
 <p>
 There are several more such cases below.
 
+0x13138
+As above.
+
 0x13155
 As above.
 
@@ -279,3 +329,39 @@ As above.
 The original shape underspecified which of the signs is on top. The new shape specifies that it is the column that is on top.
 I have no objection to the new shape, but
 I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
+
+0x1342D
+In general, with how much detail a sign is represented is unimportant, as long as the sign is recognized.
+But, first, the extended list often introduced multiple code points 
+for signs with and without internal details. So apparently, in those cases internal details were important enough to warrant multiple
+code points. But internal details were apparently so unimportant that it was fine to
+unceremoniously purge them from 0x1342D, a well-known sign that appears with these internal details
+in almost every printed and digital sign list. At the very least, this lacks consistency.
+<p>
+Second, just because within the available time no token of Aa31 could be identified with visible diagonal strokes,
+that does not mean that no such tokens exist. 
+Moreover, a sign list is not a list of tokens, it is a list of types.
+A type (sign) is an abstraction of potentially many tokens, rather than a facsimile of one particular token,
+and could have more or fewer graphical features than any particular known token.
+<p>
+Third, it is underappreciated that the main purpose of a glyph in a normalized font is to communicate the identity
+of a sign to the reader. Everyone would immediately recognize the form with the internal details as Aa31, as it appears like that
+in almost every printed and digital sign list. 
+Even in the TSL does the normalized font display Aa31 with internal details.
+Leaving out the internal details from Aa31 in Unicode fonts will cause unnecessary confusion to users.
+I'm also reminded of Point 5 of the Encoding Principles:
+<p>
+https://www.unicode.org/reports/tr57/tr57-4.html#EncodingPrinciples
+<p>
+which has "inner detailing [...] helps in avoiding confusion". This is one of the Encoding Principles that makes sense.
+<p>
+I don't see any downsides to keeping the internal details either.
+The devil's advocate would say that a student would be misled into thinking that
+any token of Aa31 in a real inscription must have all the internal details
+that the normalized glyph has. But even a beginning student would know that this is not how the writing system works.
+<p>
+It appears that the unannounced revision of the basic sign list that no one asked for
+was guided by an eagerness to destroy and remake in one's image,
+from the perspective of palaeographic special interests,
+rather than by any considerations about the
+continuity of Unicode or what would be best for typical users.

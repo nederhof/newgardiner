@@ -1,3 +1,7 @@
+0x13007
+The "knees down" seems to accurately describe the original form, but not the Unicode 16 form that UniKemet normally
+describes as "seated on heel". Revert the glyph to the Unicode 5.2 form and make it consistent with the description.
+
 0x13017 0x134CD
 The staff in the original shape of 0x13017 already had a slight backward angle, unlike the Unicode 16 form, where the staff is perfectly vertical. This will be solved in Unicode 17 by redrawing 0x13017 to have the staff at a backward angle, like in the original shape. But note that then 0x13017 and 0x134CD will differ by no more than the exact degree of the angle, which seems an inappropriately small graphical distinction for the purposes of Unicode.
 
@@ -22,10 +26,16 @@ and no one has argued that so far, the hair should be short in the code charts.
 In fact, the Database confirms that the sign in Page-Gasser & Wiese (1997)
 has "short hair". One could argue that "no female features" might be a reason to adjust the glyph with regard to the original, 
 but since there is no doubt the sign represents a female, who cares to what extent the "female features" are accentuated in the glyph.
+<p>
+To be clear, I suspect the length of the hair is not part of the character identity, in which case
+the description could omit mention of the length of the hair and leave it to the font to decide. 
+But if the Database now argues there are two different signs,
+then the question which of those two signs is the one that is represented by 0x13055 is unambiguously answered by the
+original UniKemet database.
 
 0x130C1
 These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG, and are in fact found in the same line (top line of p. 458). 
-In 2006-2009, there were discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not one agrees now this was the right decision at the time
+In 2005-2009, there were discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not one agrees now this was the right decision at the time
 should be irrelevant. Code charts should not be changed without a compelling reason.
 
 0x130FE
@@ -81,7 +91,7 @@ ok 0x1316B 0x1316A
 The width of 0x1316B should be the same as that of 0x1316A, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.
 
 0x131A6 0x13DEE
-In 2006-2009, there were protracted discussions about what the most appropriate orientation of 0x131A6 was for Unicode, since both orientations occur in GEG (p. 477 versus p. 545), and since the sign was taken from iconography and is not attested in actual running text.
+In 2005-2009, there were protracted discussions about what the most appropriate orientation of 0x131A6 was for Unicode, since both orientations occur in GEG (p. 477 versus p. 545), and since the sign was taken from iconography and is not attested in actual running text.
 In consultation with Egyptologists it was decided to opt for the form in Unicode 5.2, fixed formally by letting UniKemet
 link the code point to the occurrence on p. 477 as opposed to the occurrence on p. 545.
 This was motivated by similar signs (like the newly introduced 0x13DEE) that have the head up as well.
@@ -90,7 +100,7 @@ For more information, see pp. 8 and 39 of:
 https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf
 <p>
 Whether or not one now agrees this was the right decision at the time, 
-having studied (or not) the arguments laid out by Egyptologists in 2006-2009, 
+having studied (or not) the arguments laid out by Egyptologists in 2005-2009, 
 all this should be irrelevant. 
 The glyph should not change on a whim relative to what it has been for the past 15 years since Unicode 5.2. 
 If anyone feels the need for the other orientation, a variation selector for rotation can be used.
@@ -108,7 +118,7 @@ a long stalk.
 The original form with the short stalk reappears in a different entry with the comment "Does not seem to be
 a meaningful variant". Ok, but if the difference between the shapes was not significant, why was there any need for the shape to be changed?
 <p>
-My proposal is to delete "long" from the description. Ideally one would also make the stalk a little shorter than the Unicode 16 form
+So delete "long" from the description. Ideally one would also make the stalk a little shorter than the Unicode 16 form
 but it could be a little longer than the Unicode 5.2 form.
 
 0x131C6
@@ -201,6 +211,19 @@ shape of 0x13277.
 0x1329F
 The new shape is mirrored. Since there is a mirroring control, there is no reasonable justification for this, even if the sign normally occurs the other way around.
 
+0x132B1
+I don't mind the slight change of shape. But the "circular" in the description is overly specific.
+The Database refers to p. 89, l. 2 of:
+<p>
+https://archive.org/details/MMAF25/page/n69/mode/2up
+<p>
+where admittedly the transcription has round items. But a cursory glance at R2 variants similar to 0x132B1 in the TSL:
+<p>
+https://thotsignlist.org/mysign?id=5320
+<p>
+shows us that the objects are not generally circular. I would even omit the exact number "three", because you will no doubt
+find tokens with say four items.
+
 0x132BC 0x14107
 The original shape of 0x132BC was misplaced at 0x14107. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
 <p>
@@ -259,8 +282,28 @@ Instead, the Database
 refers to the Pyramid of Unas, which is off by 2 millennia so this is unlikely to be relevant to 0x1334C. It is unclear to me how other newly introduced code points for hair-pins are supposed to relate to the original shape of 0x1334C, or even how to characterize the difference between 0x1334C and usual hairpin 0x1334B. It becomes an exercise in futility if new code points are introduced for barely distinguishable shapes, as if those are meaningful for Unicode, while exact specifications of existing code points are ignored to reuse these code points
 for totally different things. One either takes the character identities of code points seriously, or one does not, in which case why do we even bother with Unicode?
 
+0x1334D
+The original shape had a round drill-bit.
+The Database does not acknowledge that the shape of the drill-bit has changed, let alone offer a
+justification for the change other than that JSesh happens to use a different form.
+Given the many instances of round drill-bits among several newly introduced glyphs, it is
+uncontroversial that round drill-bits are very frequent in this and similar signs, and so there is no
+rational basis for changing the Unicode form as it has existed for the past 15 years.
+<p>
+The phrase "a horizontal line on top of" is used elsewhere in UniKemet to mean something different from what is in the glyph.
+What is in the glyph would elsewhere in UniKemet be phrased as "a horizontal line over";
+cf. the descriptions of 0x142C7 and 0x142CB.
+
 0x1335A
 The description matches the original shape but not the new shape. In the new shape the spindle is over the viper.
+
+0x1335D
+The original did not depict the plummet as a heart.
+I have no objection to the glyph being represented with greater clarity, but
+is it part of the character identity that the plummet resembles a heart?
+The Database has "only one token comes close, and it still lacks the heart", so I assume the answer is no.
+It seems therefore better to leave out details that may well be hallucinated or uncharacteristic for the sign.
+I propose simplifying both glyph and description.
 
 0x13393
 Apart from plausible deniability (see above), the description matches the original shape but not the new shape. It would be better to revert to the Unicode 5.2 shape.
