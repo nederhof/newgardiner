@@ -72,6 +72,7 @@ However, the orientation of the hands was apparantly important enough to disting
 0x137E9 and 0x137EA and give them separate code points. (All these signs seem to be functionally 
 indistinguishable: ḥḥ, "million".)
 So what is it? Is the orientation of the hands important, or is it not important?
+There seems to be a total lack of consistency running through the entire Unicode 16 set.
 
 0x13057 0x136D7 0x136D9
 For 0x13057, there was a uraeus in the original, now there is not. 

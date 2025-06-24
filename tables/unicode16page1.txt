@@ -10,6 +10,9 @@ reflect what the descriptions say. My preference would be to make descriptions l
 
 ok 0x1359E
 As the crossed arms are not visible in the glyph, Unicode 17 will change the description to have "hands sticking out".
+The glyph is consistent with the reference from the Database, pl. XI, 5th column from the right in:
+<p>
+https://archive.org/details/MIFAO15/page/n15/mode/2up
 
 ok 0x135A1
 It is not possible to tell from the glyph which side the speartip is on.
