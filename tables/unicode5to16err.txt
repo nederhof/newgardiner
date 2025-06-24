@@ -75,7 +75,7 @@ One remaining issue is that the original shape didn't have the diamond marking. 
 Neither transcription nor photo in the above link show the diamond marking.
 The Database mentions another token and adds "nor is the diamond shape in the W3 that clear". This suggests to me 
 that there was considerable doubt whether the diamond marking was correct to begin with. It might be safest to revert to
-the Unicode 5.2 entirely and also remove the diamond marking.
+the Unicode 5.2 shape entirely and also remove the diamond marking.
 
 0x13108 0x13B83
 The original shape was misplaced at 0x13B83. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
@@ -99,7 +99,10 @@ The description of 0x1315D does not match the images. The original shape has a s
 It is by no more than a few black pixels, but it is unmistakable that the original shape was meant to exhibit a lappet. In other words, the shape of 0x13163 was misplaced at 0x13C4A. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
 
 0x13164
-Give the shape a lappet to revert to Unicode 5.2.
+Give the shape a lappet to revert to Unicode 5.2. 
+However, the description does not need to have "with lappet", because that is a low-level palaeographic detail 
+that is inappropriate for Unicode.
+This code point should thereby cover both tokens with lappet and without lappet.
 
 ok 0x13169 0x13168
 The width of 0x13169 should be the same as that of 0x13168, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.

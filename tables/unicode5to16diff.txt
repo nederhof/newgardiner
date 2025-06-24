@@ -28,7 +28,7 @@ https://thotsignlist.org/mysign?id=895
 there are at least two occurrences where the hand palm (not a fist) to me appears to be very clearly oriented outwards:
 namely TSL_3_22086 and TSL_3_17746. Some other tokens are not clear enough to be sure.
 <p>
-As to the orientation of the feet, the Database does not even mention that there was a change relative to Unicode 5.2.
+As for the feet, the Database does not even mention that there was a change relative to Unicode 5.2.
 Again, many examples in the TSL seem to suggest the feet are vertical rather than horizontal,
 including at least TSL_3_14385, TSL_3_17746, TSL_3_23102, TSL_3_25540. In other words, the
 Unicode 5.2 form appears to be reasonably representative,
@@ -156,7 +156,7 @@ The Database says "Could not yet locate an example." There cannot therefore have
 In the original, the feather was not angled backwards.
 I'm not concerned about the glyph, but the description seems overspecific, unless you can make
 a case that the angle of the feather is an integral element of the character identity that
-Gardiner missed.
+Gardiner overlooked.
 
 0x13236
 The bow was mirrored.
