@@ -31,6 +31,13 @@ Change first full-stop to comma.
 ok 0x135B5
 Unicode 17 will correct the glyph to have a triangle, consistent with the description,
 where the Unicode 16 glyph suggested a cross.
+<p>
+The Database points to pl. 600b of:
+<p>
+https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip94.pdf
+<p>
+The sign itself is far too small to see this clearly, but one can make an educated guess that the object on the rope
+has the same shape as what is depicted in the neighboring iconography.
 
 0x135D3
 Correct "holding and axe" to "holding an axe".
@@ -93,3 +100,7 @@ Correct "the the" to "to the".
 ok 0x1363E
 The glyph lacks a beard.
 In Unicode 17, the glyph will have a beard, consistent with the description.
+<p>
+The Database points to the TSL:
+<p>
+https://thotsignlist.org/mysign?id=794

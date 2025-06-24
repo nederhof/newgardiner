@@ -88,6 +88,13 @@ ok 0x1352A
 The glyph has four flowers, not three.
 To avoid inconsistency between description and glyph, the
 description in Unicode 17 will have "several papyrus flowers".
+<p>
+For the record, the reference the Database points to does seem to depict four flowers, cf. p. 388 of:
+<p>
+https://archive.org/details/ASAE-40-1-1940/page/n197/mode/2up
+<p>
+The "back straight" does not seem accurate. A clear case of an overspecific description to the point
+of hallucinating what is not there.
 
 ok 0x1352C
 The description in Unicode 17 will be corrected to have "left knee raised", consistent with the glyph.

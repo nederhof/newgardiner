@@ -48,23 +48,30 @@ This said, I cannot tell from the printed form in GEG either what the orientatio
 Everything else being equal, the usual reading as classifier "turning away" seems to favour
 the orientation of the hands as in Unicode 16, and there may not be a compelling reason to revert to Unicode 5.2.
 
-ok 0x1304F
-Hands were oriented outwards, now inwards. 
+0x1304F 0x137E9 0x137EA
+The hands of 0x1304F were oriented outwards, now inwards. 
 The supposed source is GITB 801-626-810, but this does not have the sign:
 <p>
 http://www.griffith.ox.ac.uk/gri/s14.pdf
 <p>
-This leaves us without any reliable information about the intended character identity of this code point.
-It does not seem entirely far-fetched though to assume the intended sign is the same as:
+This makes it hard to confirm the orientation of the hands.
+A similar sign is:
 <p>
 https://thotsignlist.org/mysign?id=883
 <p>
-in which case, the hands are inwards, provided the blurry photos are interpreted correctly.
+but there the hands are oriented inwards, provided the blurry photos are interpreted correctly.
 Another occurrence is on p. 134, l. 14 and pl. DCCCLXXXIV of:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara009.pdf
 <p>
 The transcription has the hands inward, but the photo is again too blurry to be sure about the orientation of the hands.
+<p>
+Now, one could argue that the orientation of the hands is not important, and so we can simply
+replace the old glyph by the new glyph.
+However, the orientation of the hands was apparantly important enough to distinguish
+0x137E9 and 0x137EA and give them separate code points. (All these signs seem to be functionally 
+indistinguishable: ḥḥ, "million".)
+So what is it? Is the orientation of the hands important, or is it not important?
 
 0x13057 0x136D7 0x136D9
 For 0x13057, there was a uraeus in the original, now there is not. 
