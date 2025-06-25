@@ -18,7 +18,7 @@ Either way, no justification was offered for the change of the position of the f
 One would have to have very good arguments not to revert to the Unicode 5.2 form.
 
 0x1300A
-There are two differences, the orientation of the hands, and the orientation of the feet.
+There are two differences, the orientation of the hands, and the orientation of the left foot.
 <p>
 As for the hands, the Database has a comment "IT IS A FISTED HAND, not a handpalm oriented inwardly", which
 already contradicts the description. In the TSL:
@@ -28,8 +28,8 @@ https://thotsignlist.org/mysign?id=895
 there are at least two occurrences where the hand palm (not a fist) to me appears to be very clearly oriented outwards:
 namely TSL_3_22086 and TSL_3_17746. Some other tokens are not clear enough to be sure.
 <p>
-As for the feet, the Database does not even mention that there was a change relative to Unicode 5.2.
-Again, many examples in the TSL seem to suggest the feet are vertical rather than horizontal,
+As for the left foot, the Database does not even mention that there was a change relative to Unicode 5.2.
+Again, many examples in the TSL seem to suggest the left foot is vertical rather than horizontal,
 including at least TSL_3_14385, TSL_3_17746, TSL_3_23102, TSL_3_25540. In other words, the
 Unicode 5.2 form appears to be reasonably representative,
 and one would need very good arguments not to revert to the Unicode 5.2 form.
