@@ -5,7 +5,9 @@ impossible to achieve and where it will be impossible for encoders to decide whi
 The Database writes that the cone in 0x13C9D should be drawn to be small "to distinguish it from" 0x13C9F.
 This proves my point. If you need to resort to emphasizing, if not exaggerating, size differences in the normalized font in order
 to be able to argue that the two shapes are actually different signs to begin with, then you are just 
-inflating the number of code points for the sake of having a lot of code points. The two shapes are functionally equivalent: nb, "lord".
+inflating the number of code points for the sake of having a lot of code points, or for
+the sake of creating palaeographically precise facsimiles for individual tokens. 
+The two shapes are functionally equivalent: nb, "lord".
 I would challenge anyone to look at the photo of the cited token of 0x13C9D in:
 <p>
 http://sith.huma-num.fr/karnak/977
