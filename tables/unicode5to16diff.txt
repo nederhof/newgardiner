@@ -174,7 +174,10 @@ the standard (but without standard) is at the extreme right in the photo of:
 <p>
 http://sith.huma-num.fr/karnak/1128
 <p>
-Here the bow is outward, seemingly contradicting the above. 
+Here the bow is outward, seemingly contradicting the above. See also:
+<p>
+https://en.wikipedia.org/wiki/Ta-Seti#/media/File:Nomelist_(Sesostris_I.)_1up.jpg
+<p>
 Just because one could not find an attestation of the exact Unicode 5.2 glyph within the available time, 
 that doesn't mean the glyph was wrong and that there was a compelling reason to change it.
 

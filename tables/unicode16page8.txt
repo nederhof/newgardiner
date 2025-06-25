@@ -1,6 +1,20 @@
 0x13C9D 0x13C9F
 This may be one of the cases where consistency between different fonts will be
-impossible to achieve and where it will be impossible for the encoders to know which code point to choose.  The "teardrop sized perch with the point down" *is* an upside down cone. One shape is marginally thinner and longer than the other, that's all.
+impossible to achieve and where it will be impossible for encoders to decide which code point to choose.  The "teardrop sized perch with the point down" *is* an upside down cone. One shape is marginally thinner and longer than the other, that's all.
+<p>
+The Database writes that the cone in 0x13C9D should be drawn to be small "to distinguish it from" 0x13C9F.
+This proves my point. If you need to resort to emphasizing, if not exaggerating, size differences in the normalized font in order
+to be able to argue that the two shapes are actually different signs to begin with, then you are just 
+inflating the number of code points for the sake of having a lot of code points. The two shapes are functionally equivalent: nb, "lord".
+I would challenge anyone to look at the photo of the cited token of 0x13C9D in:
+<p>
+http://sith.huma-num.fr/karnak/977
+<p>
+and the photo of the cited token of 0x13C9F in:
+<p>
+https://thotsignlist.org/mysign?id=3557
+<p>
+and argue that had it not been for the way these two tokens have been transcribed, they would still deem these to be two distinct signs. 
 
 0x13CB4 0x13CB6 0x13CB7
 There are no visible cartouches in the glyphs. Copy-and-paste error of description or are the glyphs wrong?
