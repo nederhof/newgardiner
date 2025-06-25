@@ -56,6 +56,12 @@ There is no beard in the glyph.
 
 0x136B9
 There is no beard in the glyph. I don't think the hairstyle in the glyph is a "coif".
+The Database points to the TSL, and I think meant is:
+<p>
+https://thotsignlist.org/mysign?id=7045
+<p>
+I don't think the transcription there shows a beard and a coif and 
+in the photo it is impossible to see anything.
 
 0x136C6 0x136C7
 In the glyph of 0x136C7, there is something that looks like a headrest, not mentioned in the description,
@@ -79,6 +85,12 @@ Remove "a" from "with a leonid legs".
 In the glyph of 0x136FF, the hands don't appear to be "in a clapping motion". I imagine that for this, 
 one would at least have to have the hand palms directed towards one another,
 as they are in 0x13736 for example.
+The Database points to p. 3 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendera014.pdf
+<p>
+The photo shows an orientation of the hands that much more convincingly suggests clapping, *not*
+with the hand palms upward as in the glyph.
 
 0x13700 0x13701 0x13703 0x13704
 In all four glyphs, only one lower leg is visible. But why on earth should we care whether 
