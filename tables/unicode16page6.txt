@@ -67,13 +67,13 @@ conflicting information, and at this point I'm more than fed up.
 If it really mattered how many knives there are, where these knives are positioned on the
 body of the animal, whether the knives are angled forwards or backwards, 
 and on which side the blades are,
-then the philologists wouldn't have given us so much inaccurate information.
-On the level of Unicode, if never made the slightest sense anyway 
-to encode such palaeographic details, and anyone by now should be convinced
-that we cannot continue with this nonsense.
+then the philologists would have provided accurate and consistent information from the start.
+On the level of Unicode, it never made the slightest sense anyway 
+to encode such palaeographic details, and given that after almost a year we've still not converged
+should convince anyone by now that we cannot continue with this nonsense.
 <p>
-The description for this sign should be something like "A butchered bovid without head or legs with knives".
-That's all that is needed to define its character identity.
+All one needs to specify the identity of this sign is something like "Torso of butchered bovid with knives".
+Anything more than this serves no reasonable purpose.
 
 ok 0x13B39 0x13B58
 To distinguish the two glyphs, the description of 0x13B58 in Unicode 17 will be amended to have "without horns".

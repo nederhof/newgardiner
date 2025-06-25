@@ -140,6 +140,13 @@ a meaningful variant". Ok, but if the difference between the shapes was not sign
 <p>
 So delete "long" from the description. Ideally one would also make the stalk a little shorter than the Unicode 16 form
 but it could be a little longer than the Unicode 5.2 form.
+<p>
+I'm also reminded that the extended sign list introduced multiple code points 0x13C9D and 0x13C9F for a falcon
+on a low cone and a falcon on a high cone. Similarly, separate code points 0x13A01 and 0x13A02
+were introduced for a hand holding a long stick and a hand holding a short stick. Etc.
+So apparently, it is important how big something is. But it is apparently not important anymore when it comes to 
+existing code points, and no one thought twice about replacing the short stalk by the long stalk?
+There seems to be a total lack of consistency running through the entire Unicode 16 set.
 
 0x131C6
 Revert to the shape from Unicode 5.2. The description in fact already correctly reflects the original shape.
