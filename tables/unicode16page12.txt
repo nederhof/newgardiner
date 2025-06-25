@@ -50,6 +50,20 @@ https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara005.pdf
 <p>
 I would interpret the photo as showing a large doorway, but it is uncertain
 there is a vulture headdress.
+<p>
+I think that doorways should not be mentioned in the descriptions of facades,
+as they are an overly palaeographic detail irrelevant on the level of Unicode,
+especially if a facade is a secondary item in a larger graphical composition,
+e.g. a facade on a boat.
+The fact that there are so many cases where description and glyph are inconsistent when it comes
+to absence/presence of doorways confirms this. If the philologists couldn't be bothered half the
+time to correctly specify whether there is or is not a doorway, then 
+apparently it doesn't matter and it isn't part of the identities of signs anyway.
+The same could be said about sun disks on uraei, and about hairstyles for most "men" signs,
+ankh signs in certain circumstances (see below), and so on.
+A fair amount of pointless work would immediately fall away and make life easier
+for sign list developers, for font designers, and last but not least for encoders.
+What has been done for Unicode 16 is not sustainable.
 
 0x1405C
 I cannot make out the ankh sign. Is it not there, or does it vanish within the image resolution?
@@ -117,6 +131,13 @@ I suspect "point" is a dutchism. The shape at the bottom right I would call a "c
 
 0x14086
 I see no "cross-beam over the sail" in the glyph. I think I see a cross-beam over the mast, *below* the sail. If the cross-beam is over the sail as in the description, what exactly is this supposed to look like?
+<p>
+In the Database I find comments "For Unicode, I would argue
+to only include P5, not any of the many variants (which will be covered in TSL)" and "(P5) will be sufficient for Unicode".
+The fact that there are now unresolved issues for 0x14086 and for several other "sail" signs vindicates these comments.
+Graphical variants that differ in no more than minute details cause endless inconsistencies and misery for
+font designers and encoders alike. I don't understand why this sign was included despite these comments in the Database
+arguing against it.
 
 0x14088
 Hm, here I don't see a "point" (corner), but rather a short "distinct" beam at the bottom of the sail extending to the right, and a sail between the two "distinct" beams.
@@ -139,6 +160,12 @@ My proposal would be to have "on a base" (not "a rectangular base") for all such
 
 0x1410A
 The pole is not at the bottom of the block in the glyph.
+<p>
+This is a typical case where, if we are not to lose our sanity and blow up the sign list by
+gazillions more of uninteresting graphical variants, we should make
+the description broader. We could allow a pole on top of the block *or* at the bottom of the block,
+we could omit mention of the angle of the feather, etc.
+That is, we should be moving towards an actual sign list rather than a token list.
 
 0x1412D
 In the glyph, there are two dots on either side of the fire-drill. Are those supposed to be there?
