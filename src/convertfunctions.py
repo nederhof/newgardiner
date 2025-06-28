@@ -3,6 +3,10 @@ from unikemet import read_unikemet
 from unifunctions import UniTranscriptions, UniDescriptions, \
 	UniTransliterations, UniTranslations, UniExamples, UniFunction, UniFunctions
 
+# UNIKEMET = '../tables/Unikemet-16.0.0.txt'
+UNIKEMET = '../tables/Unikemet16revised.txt'
+DRAFT_OUT = '../tables/draftfunctions.txt'
+
 # Remove leading/trailing spaces.
 # Then remove one outer bracket pair if present.
 def strip_all(s):
@@ -68,6 +72,7 @@ def phon_class(val, sem):
 		empty_desc(), al(val), tr(sem), empty_ex())])
 
 def phon(val, sem):
+	val = val.replace('&', '/')
 	return UniFunctions([UniFunction(empty_hi(), 'Phonemogram', \
 		empty_desc(), al(val), tr(sem), empty_ex())])
 
@@ -122,8 +127,7 @@ def gather_converted(code, old_func, old_val, new_func, gathered):
 	gathered.append({'code': code, 'old_func': old_func, 'old_val': old_val, 'new_func': new_func})
 
 def extract_functions():
-	# tables = read_unikemet('../tables/Unikemet-16.0.0.txt')
-	tables = read_unikemet('../tables/Unikemet16revised.txt')
+	tables = read_unikemet(UNIKEMET)
 	cat = tables['cat']
 	func = tables['func']
 	fval = tables['fval']
@@ -257,12 +261,16 @@ def extract_functions():
 		print('Unexpected function:', f)
 	return converted
 
+def write_converted(converted):
+	with open(DRAFT_OUT, 'w', encoding='utf-8') as f:
+		for conv in converted:
+			code = conv['code']
+			f.write(f'U+{code:X} FUN {conv["old_func"]}\n')
+			if conv['old_val']:
+				f.write(f'U+{code:X} VAL {conv["old_val"]}\n')
+			f.write(f'U+{code:X} NEW {conv["new_func"]}\n')
+			f.write('--\n')
+
 if __name__ == '__main__':
 	converted = extract_functions()
-	for conv in converted:
-		code = conv['code']
-		print(f'U+{code:X} FUN', conv['old_func'])
-		if conv['old_val']:
-			print(f'U+{code:X} VAL', conv['old_val'])
-		print(f'U+{code:X} NEW', conv['new_func'])
-		print('--')
+	write_converted(converted)

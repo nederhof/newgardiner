@@ -1,5 +1,7 @@
 import re
 
+TESTSUITE = '../tables/functionstestsuite.txt'
+
 FUNCTION_STRING = r'[A-Z][^|":\s]+'
 TRANSCRIPTION_STRING = r'[\U00013000-\U000143FF\s/]*'
 DESCRIPTION_STRING = r'[^\|"]+'
@@ -183,6 +185,6 @@ def test_regex(filename):
 				print('Cannot parse:', line)
 
 if __name__ == '__main__':
-	test_parsing('functionstestsuite.txt')
-	test_regex('functionstestsuite.txt')
+	test_parsing(TESTSUITE)
+	test_regex(TESTSUITE)
 	print(FUNCTIONS_OPT)
