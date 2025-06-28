@@ -1,0 +1,23 @@
+Classifier "human being"
+Classifier "eating, drinking, hunger, thirst"
+Classifier "feat" / "veneration"
+Classifier "enemy (classifier for the name of Xerxes Ḫšryš)"
+Classifier s: man
+Logogram mḥwn: Mehun (divinity)
+Classifier "personal names" | Logogram =j: I
+𓀀𓐰𓏥 Classifier/logogram rḥw: men
+Classifier "enemy" [𓋴𓃀𓇋𓀏 sbꞽ: rebel; 𓐍𓐱𓏏𓐰𓆑𓀏 ḫftꞽ: enemy]
+Classifier/logogram ḫr: fall [𓐍𓐰𓂋𓀒 / 𓀒 ḫrw: fallen (conquered enemy)]
+Phonemogram ḏ
+Phono-Repeater jk
+Interpretant r
+Phonemogram ḏ/ḏḥ
+Logogram j: first person singular
+Logogram z(j): man
+Morphemogram t: female
+Pictogram ḥtr.wy: span
+Radicogram šms: to follow
+Logogram/Phonemogram: oil, unguent
+Logogram/Phonemogram: great one (female)
+Logogram/Phonemogram: lord, in nb.ty, the two lords Horus and Seth
+Classifier "bread" / "Festival" | Phonemogram t | Logogram t: bread | Phono-repeater sn / fḳꜣ
