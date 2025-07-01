@@ -184,7 +184,7 @@ If it is felt to be important whether a knife has a triangular or a rounded blad
 then I would not expect for the shape of a blade in the code charts to
 arbitrarily change, especially if the Database says "Could not yet locate a token".
 
-0x13332
+0x13332 0x14201
 The original shape did not have a boss. Here it seems acceptable, though far from necessary, to refine the appearance, since
 Gardiner refers to an occurrence at Medinet Habu where the sign appears to have a boss;
 see Plate 45, column 37 of:
@@ -192,6 +192,11 @@ see Plate 45, column 37 of:
 https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip8.pdf
 <p>
 But "in the center" in the description is not accurate. I would write "near the top of the shield".
+<p>
+Another thought is that if presence or absence of the loop on top is important enough to distinguish 0x13332 and 0x14201,
+then how can presence or absence of the boss in 0x13332 be so unimportant that both forms can be represented 
+by the same code point? Once one goes down the path of making hard-core palaeographic
+distinctions, there is no stopping the unbridled proliferation of code points.
 
 0x13241
 In the original, the standard was simplified.
@@ -255,8 +260,8 @@ Assuming that the above text correctly identifies the sign that Gardiner had in 
 then a redrawing of the glyph may be in order. In any case, it should not be an overlay.
 
 0x1327F
-The original shape was asymmetric, while the new shape is almost perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric. If you would ever wish to use the mirroring control with this sign, then you had better make sure the sign
-is overtly asymmetric.
+The original shape was asymmetric, while the new shape is almost perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric. If one would ever wish to use the mirroring control with this sign, 
+then one had better make sure the sign is clearly asymmetric.
 
 0x1328F
 There was no loop at the front in the original.
