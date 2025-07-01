@@ -255,8 +255,8 @@ Assuming that the above text correctly identifies the sign that Gardiner had in 
 then a redrawing of the glyph may be in order. In any case, it should not be an overlay.
 
 0x1327F
-The original shape was asymmetric, while the new shape is almost perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric. If you would ever wish to use the mirroring control with this sign, then you had better made sure the sign
-was overtly asymmetric.
+The original shape was asymmetric, while the new shape is almost perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric. If you would ever wish to use the mirroring control with this sign, then you had better make sure the sign
+is overtly asymmetric.
 
 0x1328F
 There was no loop at the front in the original.
