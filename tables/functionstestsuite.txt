@@ -8,7 +8,6 @@ Classifier "personal names" | Logogram =j: I
 𓀀𓐰𓏥 Classifier/logogram rḥw: men
 Classifier "enemy" [𓋴𓃀𓇋𓀏 sbꞽ: rebel; 𓐍𓐱𓏏𓐰𓆑𓀏 ḫftꞽ: enemy]
 Classifier/logogram ḫr: fall [𓐍𓐰𓂋𓀒 / 𓀒 ḫrw: fallen (conquered enemy)]
-Phonemogram ḏ
 Phono-Repeater jk
 Interpretant r
 Phonemogram ḏ/ḏḥ

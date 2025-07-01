@@ -74,22 +74,6 @@ indistinguishable: ḥḥ, "million".)
 So what is it? Is the orientation of the hands important, or is it not important?
 There seems to be a total lack of consistency running through the entire Unicode 16 set.
 
-0x13057 0x136D7 0x136D9
-For 0x13057, there was a uraeus in the original, now there is not. 
-The Database motivates this by asserting that the uraeus was a mistake 
-because it is not in Gardiner's source (Ann 42, 479). However, the font used
-therein is extremely coarse:
-<p>
-https://archive.org/details/ASAE-42-1943/page/n251/mode/2up
-<p>
-My hunch is that if the uraeus had existed, it would not have been visible in the transcription anyway.
-<p>
-Considering 0x136D7 and 0x136D9, which do have uraei, is it not plausible that the original shape might have existed? If so far no token of 0x13057 was located with uraeus, then what if such a token will eventually be found? Will a new code point be introduced for it? 
-This is disastrous for the stability of Unicode.
-Would it not have been safer to introduce a new code point for the shape without uraeus? 
-It is not like new code points were used sparingly; a staggering number of new code points were introduced for
-barely distinguishable variants of the heron alone.
-
 0x1306F 0x1375D
 For 0x1306F, the sun-disk was removed. This is fine if the sun-disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x1375D with sun-disk.
 <p>
