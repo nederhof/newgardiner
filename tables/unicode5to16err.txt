@@ -53,13 +53,17 @@ I would further note that queen Tiye (in whose cartouche
 <p>
 https://egypt-museum.com/fragment-of-a-queen/
 <p>
+https://en.wikipedia.org/wiki/Colossal_statue_of_Amenhotep_III_and_Tiye
+<p>
+https://en.wikipedia.org/wiki/Tiye#/media/File:Granite_Head_of_Queen_Tiye.jpg
+<p>
 In fact, I found the exact same cartouche containing 0x13057 several times *with* uraeus. 
 See Plates 9, 10, 24, 26, 42, 49, 51, 56, 57, 66 of
 the publication of the tomb of Kheruef:
 <p>
 https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip102.pdf
 <p>
-Unless one wants to argue that all these occurrences were misread, the code charts need to be restored to let 0x13057
+Unless one wants to argue that all these occurrences were misread, the code charts should be restored to let 0x13057
 have a uraeus.
 <p>
 This example also shows why the "revision" of the basic list was so fundamentally flawed in its approach: 

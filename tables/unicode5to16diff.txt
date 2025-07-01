@@ -44,9 +44,10 @@ The tokens in the TSL are not clear enough to tell:
 <p>
 https://thotsignlist.org/mysign?id=492
 <p>
-This said, I cannot tell from the printed form in GEG either what the orientation of the hands is.
-Everything else being equal, the usual reading as classifier "turning away" seems to favour
-the orientation of the hands as in Unicode 16, and there may not be a compelling reason to revert to Unicode 5.2.
+This said, by applying a magnifying glass to GEG, I would be more inclined to see the orientation as
+in Unicode 16.
+Everything else being equal, the usual reading as classifier "turning away" also seems to favour
+the orientation of the hands as in Unicode 16. Therefore, no further action is required.
 
 0x1304F 0x137E9 0x137EA
 The hands of 0x1304F were oriented outwards, now inwards. 
@@ -68,7 +69,7 @@ The transcription has the hands inward, but the photo is again too blurry to be 
 <p>
 Now, one could argue that the orientation of the hands is not important, and so we can simply
 replace the old glyph by the new glyph.
-However, the orientation of the hands was apparantly important enough to distinguish
+However, the orientation of the hands was apparently important enough to distinguish
 0x137E9 and 0x137EA and give them separate code points. (All these signs seem to be functionally 
 indistinguishable: ḥḥ, "million".)
 So what is it? Is the orientation of the hands important, or is it not important?
@@ -254,7 +255,8 @@ Assuming that the above text correctly identifies the sign that Gardiner had in 
 then a redrawing of the glyph may be in order. In any case, it should not be an overlay.
 
 0x1327F
-The original shape was asymmetric, while the new shape is perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric.
+The original shape was asymmetric, while the new shape is almost perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric. If you would ever wish to use the mirroring control with this sign, then you had better made sure the sign
+was overtly asymmetric.
 
 0x1328F
 There was no loop at the front in the original.
