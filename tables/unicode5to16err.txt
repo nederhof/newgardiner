@@ -43,7 +43,7 @@ https://archive.org/details/ASAE-42-1943/page/n251/mode/2up
 <p>
 My hunch is that if the uraeus had existed, it would not have been visible in the transcription anyway.
 Considering 0x136D7 and 0x136D9, which do have uraei, it was never implausible that the original shape might have existed,
-and if a code point was specifically needed for the shape without uraei, a new code point should have been introduced.
+and if a code point was specifically needed for the shape without uraeus, a new code point should have been introduced.
 It is not like new code points were used sparingly; a staggering number of new code points were introduced for
 barely distinguishable variants of the heron alone.
 <p>
@@ -53,7 +53,8 @@ I would further note that queen Tiye (in whose cartouche
 <p>
 https://egypt-museum.com/fragment-of-a-queen/
 <p>
-In fact, I found the exact same cartouche several times *with* uraeus. See Plates 9, 10, 24, 26, 42, 49, 51, 56, 57, 66 of
+In fact, I found the exact same cartouche containing 0x13057 several times *with* uraeus. 
+See Plates 9, 10, 24, 26, 42, 49, 51, 56, 57, 66 of
 the publication of the tomb of Kheruef:
 <p>
 https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip102.pdf
@@ -68,7 +69,7 @@ in the code charts. In Gardiner's original sign list, the shapes were abstractio
 not facsimiles of arbitrarily chosen tokens.
 I think more generally that the latest developments threated to undermine the usefulness
 of a sign list of hieroglyphs in Unicode, by overemphasizing fine-grained palaeographic distinctions, 
-some of which may even be halucinated and only exist in normalized fonts.
+some of which may even be hallucinated and only exist in normalized fonts.
 
 0x130C1
 These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG, and are in fact found in the same line (top line of p. 458). 
