@@ -154,8 +154,14 @@ http://sith.huma-num.fr/karnak/1400
 <p>
 http://sith.huma-num.fr/karnak/1517
 <p>
-The proposal to move this glyph to another code point, despite it having been at 0x1315D from Unicode 5.2 until (and including) Unicode 16,
-seems to have no other intent than to create maximal chaos and confusion, causing many existing encodings to lose their validity overnight.
+Here another one:
+<p>
+https://www.metmuseum.org/art/collection/search/544826
+<p>
+The unconscionable proposal to move this extremely common glyph to another code point, 
+despite it having been at 0x1315D from Unicode 5.2 until (and including) Unicode 16,
+seems to have been designed with no other purpose than to sow maximal chaos and confusion, 
+causing many existing encodings to lose their validity overnight.
 It would be enough to undermine users' trust in Unicode forever.
 
 0x13163 0x13C4A

@@ -275,11 +275,13 @@ I don't think the tie towards the front should be drawn as one with the outline 
 What is the "loop at the back"? May the description be overly precise?
 
 0x132BF
-The standard has a different shape.
+The standard has a different shape. Before it had a horizontal beam, now it has a rounded top.
 The Database does not contain a shred of reflection on the fact that the shape has changed.
 No doubt the Unicode 16 form exists, but so does the Unicode 5.2 form, for example here:
 <p>
 https://www.metmuseum.org/art/collection/search/546944
+<p>
+https://blogs.bl.uk/.a/6a00d8341c464853ef02e860ece6b0200b-pi
 <p>
 One would have to have very good arguments not to revert to the Unicode 5.2 form. That one happened
 to stumble upon a token of the Unicode 16 form first is not a good enough argument.
