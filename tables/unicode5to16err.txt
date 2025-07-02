@@ -135,7 +135,28 @@ less pointed teeth. Gardiner (1957) characterizes the sign as "lower jaw-bone of
 I don't see the original shape of 0x13112 anywhere in the Database, and there doesn't seem to be even a shred of an acknowledgement that the shape changed from Unicode 5.2 to Unicode 16, let alone a justification for the change.
 
 0x1315D 0x13C5D
-The description of 0x1315D does not match the images. The original shape has a standard closer to R92A. So if a graphical variant is needed with R12, then it should be at a new code point, so here that would be 0x13C5D. In other words, flip the ancillary documentation and give 0x13C5D the R12 shape. The draft Unicode 17 code charts have this the wrong way around. I hope this can still be corrected.
+The glyphs of 0x1315D in Unicode 5.2 and Unicode 16 are virtually the same, and also the glyph at 0x13C5D is basically
+the same. The standard in all three corresponds to JSesh R92A, which has the vertical beam near the right end, 
+and does not have objects attached to the left end. 
+The R12 standard looks very different, with the vertical beam roughly in the middle, and objects attached
+to the left end.
+This means the description of 0x1315D currently does not match the glyph.
+<p>
+If a graphical variant is needed with R12,
+then it should be at a new code point, and the newest code point here is 0x13C5D. In other words, 
+flip the ancillary documentation and give 0x13C5D the R12 standard. The draft Unicode 17 code charts have this the wrong way around,
+with 0x1315D being given a glyph it has never had before, and the original glyph being misplaced at 0x13C5D.
+This would be disastrous, all the more as the original glyph with R92A is extremely common. Some examples from the Karnak site alone:
+<p>
+http://sith.huma-num.fr/karnak/1307
+<p>
+http://sith.huma-num.fr/karnak/1400
+<p>
+http://sith.huma-num.fr/karnak/1517
+<p>
+The proposal to move this glyph to another code point, despite it having been at 0x1315D from Unicode 5.2 until (and including) Unicode 16,
+seems to have no other intent than to create maximal chaos and confusion, causing many existing encodings to lose their validity overnight.
+It would be enough to undermine users' trust in Unicode forever.
 
 0x13163 0x13C4A
 It is by no more than a few black pixels, but it is unmistakable that the original shape was meant to exhibit a lappet. In other words, the shape of 0x13163 was misplaced at 0x13C4A. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
