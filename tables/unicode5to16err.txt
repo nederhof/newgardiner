@@ -276,6 +276,13 @@ https://thotsignlist.org/mysign?id=4552
 both the normalized glyph and some (but admittedly not all) of the tokens have oblique sides.
 If the TSL does not provide convincing evidence to motivate changing the sides from oblique to vertical, 
 then I don't think anything else will.
+<p>
+To be clear, we shouldn't even be talking about whether an angle is 90 degrees or 89 degrees.
+That is not a meaningful distinction for Unicode. The issue is that the UniKemet documentation of the extended list
+makes a fuss about whether sides of "building" signs are either vertical or oblique, suggesting that the distinction is binary.
+If anything, the tokens available for 0x13271 show that such a binary distinction is an illusion.
+For any such sign, one will be able to find tokens with slightly different angles, some of which might be almost perfectly 90 degrees,
+others will be visibly smaller. But by any reasonable measure it is still the same sign.
 
 0x13277 0x13FDC
 The original shape (without circle) was misplaced at 0x13FDC. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
