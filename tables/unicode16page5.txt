@@ -59,4 +59,11 @@ The Database has a tiny photo, which I interpret more like the description than 
 
 0x139C3 0x139C9 0x139CA
 For all three glyphs, I'm not sure how to see a "loop" in the shapes.  Are the glyphs accurate?
-For 0x139C9 I'm also not sure how to interpret "angled forwards".
+For 0x139C9 I'm also not sure how to interpret "angled forwards"; to me it looks like the other two (but
+the angle is probably a palaeographic detail that deserves to be ignored anyway).
+<p>
+For 0x139C3, the database has a pointer to p. 187, pl. 11, second line of register of:
+<p>
+https://ia601708.us.archive.org/24/items/egyptology-archive-vol.-4-1933/EGYPTOLOGY%20ARCHIVE%20Vol.%204%20%281933%29.pdf
+<p>
+At least that seems to be consistent with the glyph.
