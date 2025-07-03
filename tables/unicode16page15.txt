@@ -1,7 +1,7 @@
-0x14322
-It may be good to clarify that S29 is mirrored horizontally.
+ok 0x14322
+In Unicode 17 it will be clarified that S29 is mirrored horizontally.
 
-0x14324
+ok 0x14324
 In the glyph, there is a stroke under the egg, not mentioned in the description.
 The Database refers to p. 80, l. 13 and pl. CXCIII of:
 <p>
@@ -9,8 +9,8 @@ https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara003.pdf
 <p>
 In the photo, the shape in fact occurs twice,
 once as part of running text and once in iconography, and in both cases there is a pronounced stroke under the egg.
-Even if it is unknown what it represents, I would mention it in the description, perhaps just 
-in terms of "a stroke under the egg".
+<p>
+From Unicode 17, this is addressed by adding "stroke shaped like an eyebrow" to the description.
 
 0x1432F 0x13393
 In the glyph of 0x1432F, it is not "written over" as it is usually interpreted.
@@ -34,15 +34,6 @@ with vertical joiners, were deprecated because they "only" served to arrange sig
 And yet the only justification for the introduction of 0x1432F is that it serves to arrange signs
 in a better way.
 There is no coherent vision behind what was done.
-
-0x14352 0x14353 0x14354
-Cannot parse. Probably meant is "tied-off" (double f and hyphen).
-
-0x14367
-Cannot parse "base nearly a point". Perhaps something like "with a pointy base" is better?
-
-0x143AF
-The image in the code charts seems broken at the spout.
 
 0x143DA
 There appears to be uraeus or head of vulture near headdress. Is that real?
