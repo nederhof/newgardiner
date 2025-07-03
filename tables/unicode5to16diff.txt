@@ -285,6 +285,8 @@ https://blogs.bl.uk/.a/6a00d8341c464853ef02e860ece6b0200b-pi
 <p>
 One would have to have very good arguments not to revert to the Unicode 5.2 form. That one happened
 to stumble upon a token of the Unicode 16 form first is not a good enough argument.
+In any case "with a rounded top" is not part of the character identity of this code point as introduced in Unicode 5.2
+and should not be in the description.
 
 0x132C5
 The headdress lost the sun disk. The Database motivates this by "more often without disk".

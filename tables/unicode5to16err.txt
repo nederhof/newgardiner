@@ -92,6 +92,10 @@ to change the description to just have "with horns"?
 ok 0x130F9 0x13ABE
 The original shape of 0x130F9 unmistakably had whiskers. This will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130F9 and 0x13ABE from Unicode 16. (There is no need though to make the length of the whiskers as exaggerated as they are currently
 in 0x13ABE.)
+<p>
+Of course, it was blatant nonsense to attempt to distinguish hares with and without whiskers in the first place.
+It is like wanting to distinguish an instance of A1 carved with less detail than usual so it becomes difficult to make out the nose.
+It is not like there were hares in Ancient Egypt without whiskers.
 
 ok 0x130FA
 In the original shape, the hare has whiskers. Moreover, the difference between 0x130FA and 0x130F9 should be in the height, while the width should be roughly the same, i.e. 0x130FA is flatter than 0x130F9. See Gardiner (1957) for the typographical motivation. Both issues will be solved in Unicode 17.
