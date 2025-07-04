@@ -163,7 +163,7 @@ Here another one:
 <p>
 https://www.metmuseum.org/art/collection/search/544826
 <p>
-The unconscionable proposal to move this extremely common glyph to another code point, 
+The unconscionable proposal, without any rational justification, to move this extremely common glyph to another code point, 
 despite it having been at 0x1315D from Unicode 5.2 until (and including) Unicode 16,
 seems to have been designed with no other purpose than to sow maximal chaos and confusion, 
 causing many existing encodings to lose their validity overnight.
