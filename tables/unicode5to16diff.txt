@@ -199,7 +199,7 @@ then how can presence or absence of the boss in 0x13332 be so unimportant that b
 by the same code point? Once one goes down the path of making hard-core palaeographic
 distinctions, there is no stopping the unbridled proliferation of code points.
 
-0x13241
+0x13241 0x13F14 0x13F15 0x13F1D 0x13F1E
 In the original, the standard was simplified.
 In the Database, I see no reflection on this. The Database has a reference to:
 <p>
@@ -208,7 +208,8 @@ http://sith.huma-num.fr/karnak/1202
 which has yet another form of the standard,
 with diagonal bar rather than "a loop under the horizontal beam, running over the vertical pole".
 It would be fine to normalize glyphs when it comes to the type of standard, and to use a default form of R12 for any signs with
-a standard that is similar to R12. But this is not what was done elsewhere, especially for the extended list. 
+a standard that is similar to R12. But this is not what was done elsewhere, especially for the extended list
+(cf. 0x13F14 versus 0x13F15, 0x13F1D versus 0x13F1E).
 There appears to have been no consistent strategy for the treatment of standards.
 
 0x13242
