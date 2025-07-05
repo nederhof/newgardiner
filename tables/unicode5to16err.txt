@@ -323,7 +323,8 @@ The original shape of 0x132BC was misplaced at 0x14107. The only reasonable solu
 <p>
 There is no justification in the Database for changing the shape of 0x132BC other than the comment
 that Hieroglyphica/JSesh happens to have another shape. 
-The Database has "only(?) attested in Gardiner" suggesting that the original shape is a rare, anomalous form of the cloth-on-pole-on-block,
+The Database has "only(?) attested in Gardiner" suggesting that the original shape is a rare, anomalous form of the 
+cloth-on-pole-and-butchers-block,
 and therefore somehow deserves to be moved to another code point, although I cannot follow that reasoning at all
 (frequency and code points are unrelated concepts).
 But there is a photo of a token in the Database, and it didn't take me long to find another occurrence on the web:
@@ -341,7 +342,7 @@ A good example is:
 <p>
 https://journals.ekb.eg/article_402870_007f1ac8fd3d7458010f289771ab1391.pdf
 <p>
-The transcription has the sign with "pole-over-block", but the photo seems to suggest "pole-on-block" upon closer inspection.
+The transcription has the sign with "pole-over-block", but upon closer inspection the photo seems to suggest "pole-on-block".
 <p>
 Altogether, it doesn't appear this is a rare sign at all, and if ever special treatment is warranted for rare signs, 
 then this does not apply here.
