@@ -46,7 +46,7 @@ The Database further refers to pl. DCXXXII of:
 https://www.ifao.egnet.net/uploads/publications/enligne/MMAF031.pdf
 <p>
 But I cannot make out anything there.
-For the purposes of Unicode, encoding the orientation of knives is blatant nonsense anyway, 
+For the purposes of Unicode, encoding the orientation of knives is nonsense anyway, 
 and the philologists cannot tell us with certainty which is which,
 so at this point I no longer care.
 
