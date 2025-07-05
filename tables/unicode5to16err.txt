@@ -346,7 +346,7 @@ The transcription has the sign with "pole-over-block", but upon closer inspectio
 <p>
 Altogether, it doesn't appear this is a rare sign at all, and if ever special treatment is warranted for rare signs, 
 then this does not apply here. In any case, moving a sign creates severe disruption to fonts and to encoders, and next to
-these disadvantages there are absolutely no advantages of any kind.
+these disadvantages, there are absolutely no advantages of any kind.
 
 0x132F6
 The description matches the original shape but not the new shape. In the new shape the piece of cloth is over the sickle.
