@@ -80,7 +80,7 @@ For 0x1306F, the sun-disk was removed. This is fine if the sun-disk in the origi
 <p>
 In the Database I find "redraw of C18G without sun" but without justification.
 
-0x130E8
+ok 0x130E8
 The Unicode 5.2 form did not have the uraeus. 
 The Database justifies adding the uraeus by the observation that many occurrences have a uraeus, calling
 this "correcting" of the glyph. I don't think the word "correcting" is appropriate if occurrences 
