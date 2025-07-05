@@ -33,38 +33,21 @@ But if the Database now argues there are two different signs,
 then the question which of those two signs is the one that is represented by 0x13055 is unambiguously answered by the
 original UniKemet database.
 
-0x13057 0x136D7 0x136D9
+0x13057
 For 0x13057, there was a uraeus in the original, now there is not. 
 The Database motivates this by asserting that the uraeus was a mistake 
-because it is not in Gardiner's source (Ann 42, 479). However, the font used
-therein is extremely coarse:
+because it is not in Gardiner's source (Ann 42, 479), from the tomb of Kheruef. However, 
+the reason why no uraeus is visible in that publication is simply because the font used
+therein is too coarse to see such details.
 <p>
 https://archive.org/details/ASAE-42-1943/page/n251/mode/2up
 <p>
-My hunch is that if the uraeus had existed, it would not have been visible in the transcription anyway.
-Considering 0x136D7 and 0x136D9, which do have uraei, it was never implausible that the original shape might have existed,
-and if a code point was specifically needed for the shape without uraeus, a new code point should have been introduced.
-It is not like new code points were used sparingly; a staggering number of new code points were introduced for
-barely distinguishable variants of the heron alone.
-<p>
-It would be interesting to trace back the transcription of this token to Erman. 
-I would further note that queen Tiye (in whose cartouche
-0x13057 appears) is often depicted with uraeus (or vulture headdress):
-<p>
-https://egypt-museum.com/fragment-of-a-queen/
-<p>
-https://en.wikipedia.org/wiki/Colossal_statue_of_Amenhotep_III_and_Tiye
-<p>
-https://en.wikipedia.org/wiki/Tiye#/media/File:Granite_Head_of_Queen_Tiye.jpg
-<p>
-In fact, I found the exact same cartouche containing 0x13057 several times *with* uraeus. 
-See Plates 9, 10, 24, 26, 42, 49, 51, 56, 57, 66 of
-the publication of the tomb of Kheruef:
+If we look at the corresponding facsimile in Plate 56 of the following publication we do see the uraeus:
 <p>
 https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip102.pdf
 <p>
-Unless one wants to argue that all these occurrences were misread, the code charts should be restored to let 0x13057
-have a uraeus.
+This sign in the cartouche of queen Tiye consistently has the ureaus in that same tomb.
+See also Plates 9, 10, 24, 26, 42, 49, 51, 57, 66.
 <p>
 This example also shows why the "revision" of the basic list was so fundamentally flawed in its approach: 
 Gardiner's sign list was treated
@@ -73,7 +56,7 @@ in the code charts. In Gardiner's original sign list, the shapes were abstractio
 not facsimiles of arbitrarily chosen tokens.
 I think more generally that the latest developments threated to undermine the usefulness
 of a sign list of hieroglyphs in Unicode, by overemphasizing fine-grained palaeographic distinctions, 
-some of which may even be hallucinated and only exist in normalized fonts.
+some of which may not be real and only exist in normalized fonts.
 
 0x130C1
 These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG, and are in fact found in the same line (top line of p. 458). 
@@ -92,11 +75,6 @@ to change the description to just have "with horns"?
 ok 0x130F9 0x13ABE
 The original shape of 0x130F9 unmistakably had whiskers. This will be solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130F9 and 0x13ABE from Unicode 16. (There is no need though to make the length of the whiskers as exaggerated as they are currently
 in 0x13ABE.)
-<p>
-Of course, it was blatant nonsense to begin with to attempt to distinguish hares with and without whiskers.
-It is like wanting to distinguish an instance of A1 carved with less detail than usual so it became difficult to make out the nose,
-or with more detail than usual so one could distinguish the eyebrows.
-There wasn't a special breed of hares in Ancient Egypt that lacked whiskers, was there?
 
 ok 0x130FA
 In the original shape, the hare has whiskers. Moreover, the difference between 0x130FA and 0x130F9 should be in the height, while the width should be roughly the same, i.e. 0x130FA is flatter than 0x130F9. See Gardiner (1957) for the typographical motivation. Both issues will be solved in Unicode 17.
@@ -163,9 +141,10 @@ Here another one:
 <p>
 https://www.metmuseum.org/art/collection/search/544826
 <p>
-The unconscionable proposal, without any rational justification, to move this extremely common glyph to another code point, 
+Moving this extremely common glyph to another code point, 
 despite it having been at 0x1315D from Unicode 5.2 until (and including) Unicode 16,
-seems to have been designed with no other purpose than to sow maximal chaos and confusion, 
+and without any rational justification,
+will do nothing but sow chaos and confusion, 
 causing many existing encodings to lose their validity overnight.
 It would be enough to undermine users' trust in Unicode forever.
 
@@ -220,7 +199,7 @@ on a low cone and a falcon on a high cone. Similarly, separate code points 0x13A
 were introduced for a hand holding a long stick and a hand holding a short stick. Etc.
 So apparently, it is important how big something is. But it is apparently not important anymore when it comes to 
 existing code points, and no one thought twice about replacing the short stalk by the long stalk?
-There seems to be a total lack of consistency running through the entire Unicode 16 set.
+There seems to be a lack of consistency running through the entire Unicode 16 set.
 
 0x131C6
 Revert to the shape from Unicode 5.2. The description in fact already correctly reflects the original shape.
@@ -290,7 +269,7 @@ then I don't think anything else will.
 <p>
 To be clear, we shouldn't even be talking about whether an angle is 90 degrees or 89 degrees.
 That is not a meaningful distinction for Unicode. The issue is that the UniKemet documentation of the extended list
-makes a fuss about whether sides of "building" signs are either vertical or oblique, suggesting that the distinction is binary.
+consistently makes a binary distinction whether sides of "building" signs are either vertical or oblique.
 If anything, the tokens available for 0x13271 show that such a binary distinction is an illusion.
 For any such sign, one will be able to find tokens with slightly different angles, some of which might be almost perfectly 90 degrees,
 others will be visibly smaller. But by any reasonable measure it is still the same sign.
@@ -397,7 +376,7 @@ The Database does not acknowledge that the shape of the drill-bit has changed, l
 justification for the change other than that JSesh happens to use a different form.
 Given the many instances of round drill-bits among several newly introduced glyphs, it is
 uncontroversial that round drill-bits are very frequent in this and similar signs, and so there is no
-rational basis for changing the Unicode form as it has existed for the past 15 years.
+rational basis for changing the Unicode form as it has existed since Unicode 5.2.
 <p>
 The phrase "a horizontal line on top of" is used elsewhere in UniKemet to mean something different from what is in the glyph.
 What is in the glyph would elsewhere in UniKemet be phrased as "a horizontal line over";

@@ -56,9 +56,9 @@ as they are an overly palaeographic detail irrelevant on the level of Unicode,
 especially if a facade is a secondary item in a larger graphical composition,
 e.g. a facade on a boat.
 The fact that there are so many cases where description and glyph are inconsistent when it comes
-to absence/presence of doorways confirms this. If the philologists couldn't be bothered half the
-time to correctly specify whether there is or is not a doorway, then 
-apparently it doesn't matter and it isn't part of the identities of signs anyway.
+to absence/presence of doorways confirms this. If half the time it couldn't be correctly specified 
+whether there is or is not a doorway, then 
+apparently it doesn't matter that much and it isn't part of the identities of signs anyway.
 The same could be said about sun disks on uraei, and about hairstyles for most "men" signs,
 ankh signs in certain circumstances (see below), and so on.
 A fair amount of pointless work would immediately fall away and make life easier
