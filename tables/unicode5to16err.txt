@@ -319,7 +319,7 @@ that Hieroglyphica/JSesh happens to have another shape.
 The Database has "only(?) attested in Gardiner" suggesting that the original shape is a rare, anomalous form of the cloth-on-pole-on-block,
 and therefore somehow deserves to be moved to another code point, although I cannot follow that reasoning at all
 (frequency and code points are unrelated concepts).
-But there is a photo of a token in the Database, and it look me only a short while to find another occurrence on the web:
+But there is a photo of a token in the Database, and it didn't take me long to find another occurrence on the web:
 <p>
 https://mnamon.sns.it/index.php?page=Immagini&id=32&img=5&lang=en
 <p>
@@ -327,7 +327,10 @@ Another one possibly on p. 211 of:
 <p>
 https://www.journals.uchicago.edu/doi/epdfplus/10.1086/671433
 <p>
-It doesn't appear this is a rare sign at all, and special treatment if ever special treatment is warranted for rare signs, 
+I have found more potential tokens, but often the issue is that in some texts the internal decoration of the butchers block 
+takes the form of a single vertical line. It is then a matter of subjective judgement whether the thickness or position of that line 
+differs enough from the pole to be seen as two different things.
+Altogether, it doesn't appear this is a rare sign at all, and special treatment if ever special treatment is warranted for rare signs, 
 does not apply here.
 
 0x132F6
