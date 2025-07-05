@@ -2,7 +2,7 @@
 The "knees down" seems to accurately describe the original form, but not the Unicode 16 form that UniKemet normally
 describes as "seated on heel". Revert the glyph to the Unicode 5.2 form and make it consistent with the description.
 
-0x13017 0x134CD
+ok 0x13017 0x134CD
 The staff in the original shape of 0x13017 already had a slight backward angle, unlike the Unicode 16 form, where the staff is perfectly vertical. This will be solved in Unicode 17 by redrawing 0x13017 to have the staff at a backward angle, like in the original shape. But note that then 0x13017 and 0x134CD will differ by no more than the exact degree of the angle, which seems an inappropriately small graphical distinction for the purposes of Unicode.
 
 ok 0x1303A 0x1355D
@@ -147,6 +147,13 @@ and without any rational justification,
 will do nothing but sow chaos and confusion, 
 causing many existing encodings to lose their validity overnight.
 It would be enough to undermine users' trust in Unicode forever.
+<p>
+In the case of 0x132BC and 0x14107 below, 
+the Database seems to hint at a rationale for moving a glyph to a new code point because the glyph might
+be less frequent than another graphical variant. (I don't follow the reasoning, but let's assume that for now.)
+Here, it seems to be the exact opposite. The variant with R92A is far more frequent than the variant with R12,
+and yet there is supposedly a reason to move it to a new code point?
+I'm puzzled what one hopes to achieve with this.
 
 0x13163 0x13C4A
 It is by no more than a few black pixels, but it is unmistakable that the original shape was meant to exhibit a lappet. In other words, the shape of 0x13163 was misplaced at 0x13C4A. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
