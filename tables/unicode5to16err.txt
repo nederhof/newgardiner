@@ -38,7 +38,7 @@ For 0x13057, there was a uraeus in the original, now there is not.
 The Database motivates this by asserting that the uraeus was a mistake 
 because it is not in Gardiner's source (Ann 42, 479), from the tomb of Kheruef. However, 
 the reason why no uraeus is visible in that publication is simply because the font used
-therein is too coarse to see such details.
+therein is too coarse to see such details:
 <p>
 https://archive.org/details/ASAE-42-1943/page/n251/mode/2up
 <p>
@@ -46,7 +46,7 @@ If we look at the corresponding facsimile in Plate 56 of the following publicati
 <p>
 https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip102.pdf
 <p>
-This sign in the cartouche of queen Tiye consistently has the ureaus in that same tomb.
+This sign in the cartouche of queen Tiye consistently has the uraeus in that same tomb.
 See also Plates 9, 10, 24, 26, 42, 49, 51, 57, 66.
 <p>
 This example also shows why the "revision" of the basic list was so fundamentally flawed in its approach: 
