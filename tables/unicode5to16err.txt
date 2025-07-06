@@ -118,18 +118,12 @@ less pointed teeth. Gardiner (1957) characterizes the sign as "lower jaw-bone of
 I don't see the original shape of 0x13112 anywhere in the Database, and there doesn't seem to be even a shred of an acknowledgement that the shape changed from Unicode 5.2 to Unicode 16, let alone a justification for the change.
 
 0x1315D 0x13C5D
-The glyphs of 0x1315D in Unicode 5.2 and Unicode 16 are virtually the same, and also the glyph at 0x13C5D is basically
-the same. The standard in all three corresponds to JSesh R92A, which has the vertical beam near the right end, 
-and does not have objects attached to the left end. 
-The R12 standard looks very different, with the vertical beam roughly in the middle, and objects attached
-to the left end.
-This means the description of 0x1315D currently does not match the glyph.
-<p>
-If a graphical variant is needed with R12,
-then it should be at a new code point, and the newest code point here is 0x13C5D. In other words, 
-flip the ancillary documentation and give 0x13C5D the R12 standard. The draft Unicode 17 code charts have this the wrong way around,
-with 0x1315D being given a glyph it has never had before, and the original glyph being misplaced at 0x13C5D.
-This would be disastrous, all the more as the original glyph with R92A is extremely common. Some examples from the Karnak site alone:
+The glyphs of 0x1315D in Unicode 5.2 and Unicode 16 are virtually the same, and also the glyph at 0x13C5D looks very similar.
+There is only a slight difference in that the vertical beam for 0x1315D is almost at the right end and the vertical beam for
+0x13C5D is perfectly at the right end. The standard with the vertical beam perfectly at the right end is also known as
+JSesh R92A.
+Transcription practices don't seem to distinguish between "almost at the right end" and "perfectly at the right end".
+For example, all of the tokens at:
 <p>
 http://sith.huma-num.fr/karnak/1307
 <p>
@@ -137,21 +131,29 @@ http://sith.huma-num.fr/karnak/1400
 <p>
 http://sith.huma-num.fr/karnak/1517
 <p>
-Here another one:
+have a shape closer to 0x13C5D in the photo but a shape closer to 0x1315D in the transcription.
 <p>
-https://www.metmuseum.org/art/collection/search/544826
+After querying whether 0x13C5D needs to exist at all next to 0x1315D, because they seem to be indistinguishable
+for all practical purposes, there was the unexpected move to drastically change the glyph of 0x1315D by giving it a literal
+R12 standard as in the description, that is, a standard with the vertical beam roughly in the middle, and objects attached
+to the left end, and this is the form currently in the draft charts.
+This seems to be a much less common form for Thot-on-standard, 
+even though it is the logo of the Thot Sign List. Most tokens seem to have a plain horizontal beam with attached objects and 
+with the vertical beam perfectly or almost at the right end:
 <p>
-Moving this extremely common glyph to another code point, 
-despite it having been at 0x1315D from Unicode 5.2 until (and including) Unicode 16,
-and without any rational justification,
-will do nothing but sow chaos and confusion, 
+https://thotsignlist.org/mysign?id=3456
+<p>
+This change will effectively make encoders use 0x13C5D for the common shape that has formerly been at 
+0x1315D from Unicode 5.2 until (and including) Unicode 16.
+In this case as in other cases, moving or effectively moving glyphs to other code points 
+does nothing but sow chaos and confusion,                                                                                  
 causing many existing encodings to lose their validity overnight.
-It would be enough to undermine users' trust in Unicode forever.
+It would be enough to undermine users' trust in Unicode forever. 
 <p>
 In the case of 0x132BC and 0x14107 below, 
-the Database seems to hint at a rationale for moving a glyph to a new code point because the glyph might
+the Database seems to hint at a rationale for moving a glyph to a new code point because that glyph might
 be less frequent than another graphical variant. (I don't follow the reasoning, but let's assume that for now.)
-Here, it seems to be the exact opposite. The variant with R92A is far more frequent than the variant with R12,
+Here, it seems to be the exact opposite. The variant with R92A is more frequent by far than the variant with the literal R12,
 and yet there is supposedly a reason to move it to a new code point?
 I'm puzzled what one hopes to achieve with this.
 
@@ -159,7 +161,8 @@ I'm puzzled what one hopes to achieve with this.
 It is by no more than a few black pixels, but it is unmistakable that the original shape was meant to exhibit a lappet. In other words, the shape of 0x13163 was misplaced at 0x13C4A. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
 
 0x13164
-Give the shape a lappet to revert to Unicode 5.2. 
+Again, it is unmistakable that the original shape exhibited a lappet.
+Ideally, one would revert to Unicode 5.2 and give the shape a lappet.
 However, the description does not need to have "with lappet", because that is a low-level palaeographic detail 
 that is inappropriate for Unicode.
 This code point should thereby cover both tokens with lappet and without lappet.
@@ -321,13 +324,12 @@ find tokens with say four items.
 0x132BC 0x14107
 The original shape of 0x132BC was misplaced at 0x14107. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
 <p>
-There is no justification in the Database for changing the shape of 0x132BC other than the comment
-that Hieroglyphica/JSesh happens to have another shape. 
+There is no justification in the Database for changing the shape of 0x132BC.
 The Database has "only(?) attested in Gardiner" suggesting that the original shape is a rare, anomalous form of the 
 cloth-on-pole-and-butchers-block,
 and therefore somehow deserves to be moved to another code point, although I cannot follow that reasoning at all
 (frequency and code points are unrelated concepts).
-But there is a photo of a token in the Database, and it didn't take me long to find another occurrence on the web:
+But there is a photo of a token in the Database, and it didn't take me long to find another occurrence:
 <p>
 https://mnamon.sns.it/index.php?page=Immagini&id=32&img=5&lang=en
 <p>
@@ -344,7 +346,8 @@ https://journals.ekb.eg/article_402870_007f1ac8fd3d7458010f289771ab1391.pdf
 <p>
 The transcription has the sign with "pole-over-block", but upon closer inspection the photo seems to suggest "pole-on-block".
 <p>
-Altogether, it doesn't appear this is a rare sign at all, and if ever special treatment is warranted for rare signs, 
+Altogether, it doesn't appear this is a rare sign at all, on the contrary,
+and if ever special treatment is warranted for rare signs, 
 then this does not apply here. In any case, moving a sign creates severe disruption to fonts and to encoders, and next to
 these disadvantages, there are absolutely no advantages of any kind.
 
