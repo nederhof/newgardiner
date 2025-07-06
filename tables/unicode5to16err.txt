@@ -247,7 +247,7 @@ Apropos, the Database refers to:
 <p>
 http://sith.huma-num.fr/karnak/1585
 <p>
-The spear there is like in the Unicode 5.2 form.
+The spear there is like in the Unicode 5.2 form, although the harpoon is more like the Unicode 16 form.
 
 0x1324A 0x13CA7
 The original shape of 0x1324A was misplaced at 0x13CA7. The original and current shapes of 0x1324A are not even remotely the same sign.
