@@ -9,6 +9,7 @@ ERR_SOURCE = '../tables/unicode5to16err.txt'
 DIFF_SOURCE = '../tables/unicode5to16diff.txt'
 PREFIX_FILE = '../tables/corruptionprefix.html'
 PREFIX_FILE_STANDALONE = '../tables/corruptionprefixstandalone.html'
+SUFFIX_FILE = '../tables/corruptionsuffix.html'
 TARGET_DIR = '../docs/'
 TARGET_FILE = TARGET_DIR + 'unicode5to16corruption.html'
 TARGET_FILE_STANDALONE = TARGET_DIR + 'standalonecorruption.html'
@@ -126,7 +127,7 @@ def make_page(tables):
 		make_difference(body, diff, tables, code_points)
 	return html, code_points
 
-def make_extended_page(tables, prefix_file):
+def make_extended_page(tables, prefix_file, suffix_file):
 	html, code_points = make_page(tables)
 	if False:
 		first_h1 = html.find('.//h1')
@@ -135,19 +136,24 @@ def make_extended_page(tables, prefix_file):
 		first_p.getparent().remove(first_p)
 	with open(prefix_file, 'r') as f:
 		prefix_tree = etree.HTML(f.read())
+	with open(suffix_file, 'r') as f:
+		suffix_tree = etree.HTML(f.read())
 	prefix_elems = prefix_tree.find('.//body')
+	suffix_elems = suffix_tree.find('.//body')
 	target_body = html.find('.//body')
 	for elem in reversed(list(prefix_elems)):
 		target_body.insert(0, copy.deepcopy(elem))
+	for elem in list(suffix_elems):
+		target_body.append(copy.deepcopy(elem))
 	return html, code_points
 
-def write_extended_page(tables, prefix_file, target_file):
-	html, _ = make_extended_page(tables, prefix_file)
+def write_extended_page(tables, prefix_file, suffix_file, target_file):
+	html, _ = make_extended_page(tables, prefix_file, suffix_file)
 	html_string = etree.tostring(html, pretty_print=True, doctype='<!DOCTYPE html>', encoding='unicode')
 	with open(target_file, 'w', encoding='utf-8') as f:
 		f.write(html_string)
 
 if __name__ == '__main__':
 	tables = read_unikemet(UNIKEMET)
-	write_extended_page(tables, PREFIX_FILE, TARGET_FILE)
-	write_extended_page(tables, PREFIX_FILE_STANDALONE, TARGET_FILE_STANDALONE)
+	write_extended_page(tables, PREFIX_FILE, SUFFIX_FILE, TARGET_FILE)
+	write_extended_page(tables, PREFIX_FILE_STANDALONE, SUFFIX_FILE, TARGET_FILE_STANDALONE)

@@ -1,0 +1,90 @@
+<h2>Why moving signs between code points is harmful</h2>
+
+Since Unicode 5.2, released in 2009, a large variety of fonts, tools, encodings, data bases, and teaching materials
+have been created
+that all assume the signs as assigned to code points in Unicode 5.2. 
+There are more than half a dozen publicly released hieroglyphic fonts by now, and possibly more that
+were not publicly released.
+Many encodings of texts have been created with tools that use one of these fonts.
+These fonts and these encodings may be 
+distributed and redistributed on the web, without any central control.
+<p>
+Now suppose a sign is moved to a different code point, and the old code point is given a new sign. 
+It then immediately becomes uncertain what the intention is of that old code point.
+For a new encoding, it depends on the encoder, who needs to make sure they use an up-to-date version of a
+hieroglyphic text processing tool. In turn it depends on the developer of that tool, 
+who has to make sure they have an up-to-date version of the font.
+In turn it depends on the font creator, who has to check an up-to-date version of the Unicode code charts
+for any changes. (With the sign list now having grown from formerly just over 1000 signs to about 5000 signs,
+this is quite a challenge in itself.)
+Any existing encoding immediately loses its validity, as the code points will no longer reflect 
+the intentions of the encoder. The encoder will need to revisit their encodings and make corrections.
+Also databases and teaching materials need to be updated. This is the most optimistic case, assuming the encoders and
+creators of databases and teaching material are still available to make the necessary updates.
+<p>
+Naively one could argue that the date of creation of an encoding determines how code points are to be
+interpreted. If it was created before the change was made, then it is the original interpretation of the code points.
+If it was created one or two years after the change to the code charts, after hopefully all fonts and tools had been
+updated (which may be overly optimistic), then it is the new interpretation of the code points.
+The problem is that one cannot see from an encoding when it was created. A web page containing hieroglyphic
+encodings created in the past does not have a special label saying "this page was created before 2024 when the Unicode
+sign list was upended".
+<p>
+In the Database, there appear to be vague references to some graphical variants being less common than others
+and I'm guessing (and no more than guessing) 
+that the underlying assumption was that Gardiner chose a rare or atypical graphical variant to represent a
+grapheme, and that is why in the past when the code point was used, the
+encoder "really" intended the more common variant. I don't think that holds up to scrutiny.
+In the case of the pole-on-block versus pole-over-block for example (see U+132BC above), I strongly
+suspect the evidence was misinterpreted. Moreover, second-guessing the "real" intentions of
+some hypothetical encoder in the past is a precarious undertaking. One cannot know under what circumstances
+existing encodings were created. Some graphical variants may be more common for some periods than for others.
+And perhaps the encoder intend to digitize Gardiner's grammar rather than encode a randomly chosen
+inscription from a random period, and so definitely intended Gardiner's glyphs and not the new glyphs assigned to the 
+old code points.
+<p>
+One more problem that arises when signs are moved may have been overlooked.
+Consider a line in the UniKemet database like:
+<blockquote>
+U+143C7 kEH_JSesh   X4E
+</blockquote>
+This means that JSesh X4E is tied to code point U+143C7.  This JSesh X4E is not some platonic idea of a character that could have different graphical realizations, it is one concrete glyph that exists in the font of the JSesh editor. (It is ironic that JSesh names are now treated as more immutable than Unicode code points, even though in the decades of JSesh's existence, I suspect the font has been subjected to many rounds of improvements and I have no idea whether X4E is the same glyph as it was 5 years ago or will be in 5 years from now. But this aside.)
+<p>
+What to do if the JSesh X4E glyph moves to a different code point, say in Unicode 25 ? The obvious answer is: the kEH_JSesh X4E entry will move with the glyph to the new code point.
+<p>
+Now consider UniKemet names. These must similarly stand for glyphs, not for code points or abstract platonic ideas of characters. In fact, just like JSesh names stand for glyphs in JSesh encodings, UniKemet names are used to denote glyphs in <a href="https://mjn.host.cs.st-andrews.ac.uk/egyptian/res/">RES hieroglyphic encodings</a>, albeit without zero padding. 
+To be consistent, if the glyph that used to be at U+132BC is moved to U+14107, then we should change:
+<blockquote>
+U+132BC kEH_UniK    R010A
+</blockquote>
+to:
+<blockquote>
+U+14107 kEH_UniK    R010A
+</blockquote>
+Currently, if I look in the UniKemet database under U+14107 I see nothing of the sort. It was given a fresh, unrelated UniKemet name R010H and there is nothing that reminds us that the reason this glyph was introduced in Unicode in the first place was because of Gardiner (1928), who called it R10*. It is ironic that the UniKemet database links code points to various sign lists, but not to Gardiner's sources that were the primary reason for their existence.
+But if we update the UniKemet database to link U+14107 to the glyph R010A, then we still have the Unicode name "EGYPTIAN HIEROGLYPH R010A" immutably (!) linked to U+132BC.  In other words, the Unicode names and the UniKemet names will now start to diverge, and this will be for just a handful of signs, while for the majority of the 1072 basic signs, the Unicode names and UniKemet names perfectly align. For the sake of completeness these are the moved code points:
+<table>
+<tbody>
+<tr><th>old</th><th>new</th></tr>
+<tr><td>U+13108</td><td>U+13B83</td></tr>
+<tr><td>U+13163</td><td>U+13C4A</td></tr>
+<tr><td>U+1324A</td><td>U+13CA7</td></tr>
+<tr><td>U+13277</td><td>U+13FDC</td></tr>
+<tr><td>U+132BC</td><td>U+14107</td></tr>
+</tbody>
+</table>
+and then there are two more special cases that are less clear-cut:
+<table>
+<tbody>
+<tr><th>old</th><th>new</th></tr>
+<tr><td>U+1315D</td><td>U+13C5D</td></tr>
+<tr><td>U+1334C</td><td>U+1334B</td></tr>
+</tbody>
+</table>
+<p>
+The divergence of UniKemet names from Unicode names would add one more naming headache to the various other naming headaches that already exist.
+<p>
+Moving signs to other code points has many disadvantages due to existing encodings, existing databases, existing fonts, and existing hieroglyphic processing tools. All of these disadvantages are severe and will continue to haunt the user community for years to come. The above naming issue is one more such disadvantage. On the flip side, there are no advantages. All perceived advantages of moving signs do not hold
+up to scrutiny and are outweighed by far by the severe disadvantages.
+<p>
+Why not reverse course while we still can?

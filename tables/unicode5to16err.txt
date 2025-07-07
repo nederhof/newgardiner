@@ -162,10 +162,10 @@ It is by no more than a few black pixels, but it is unmistakable that the origin
 
 0x13164
 Again, it is unmistakable that the original shape exhibited a lappet.
-Ideally, one would revert to Unicode 5.2 and give the shape a lappet.
-However, the description does not need to have "with lappet", because that is a low-level palaeographic detail 
-that is inappropriate for Unicode.
-This code point should thereby cover both tokens with lappet and without lappet.
+Ideally, one would revert to Unicode 5.2 and give the shape a lappet. However this case is of lesser importance.
+The lappet is a low-level palaeographic detail 
+that is of little relevance to Unicode anyway. The description does not need to have "with lappet",
+and the code point should cover both tokens with lappet and without lappet.
 
 ok 0x13169 0x13168
 The width of 0x13169 should be the same as that of 0x13168, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.
@@ -384,6 +384,11 @@ It is unclear to me whether the original shape of 0x13341 is closer to its new s
 0x1334B
 In isolation, I would have thought little of this slight change of shape, but see the below. It looks like the
 shape that should have been at 0x1334C has been misplaced at 0x1334B.
+<p>
+The Database has "Redraw based on Gardiner". Great, but which sign from Gardiner? The original glyph is not at all like the new glyph,
+and the old glyph reasonably accurately mimics the printed GEG.
+By the way, I would not characterize the original shape as in the above description: what is between the two lines does not
+form a clean oval. 
 
 0x1334C 0x1334B 0x142B7 0x142B8
 The original shape of 0x1334C has a horizontal line on the top, so the new shape is wrong. By the original UniKemet from 2006,

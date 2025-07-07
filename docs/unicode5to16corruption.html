@@ -136,10 +136,10 @@ be less frequent than another graphical variant. (I don't follow the reasoning, 
 Here, it seems to be the exact opposite. The variant with R92A is more frequent by far than the variant with the literal R12,
 and yet there is supposedly a reason to move it to a new code point?
 I'm puzzled what one hopes to achieve with this.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78179.png" class="image5"/><img src="glyphs16/78179.png" class="image16"/><div class="code">13163</div></td><td><img src="glyphs16/80970.png" class="image16"/><div class="code">13C4A</div></td></tr></tbody></table><p><tt>U+13163 kEH_Desc A gray heron (Ardea cinerea).</tt><br/><tt>U+13C4A kEH_Desc A gray heron (Ardea cinerea) with a lappet.</tt></p><p>It is by no more than a few black pixels, but it is unmistakable that the original shape was meant to exhibit a lappet. In other words, the shape of U+13163 was misplaced at U+13C4A. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78180.png" class="image5"/><img src="glyphs16/78180.png" class="image16"/><div class="code">13164</div></td></tr></tbody></table><p><tt>U+13164 kEH_Desc A gray heron (Ardea cinerea), legs drawn towards the body, seated on a pole, held upright through ropes (R91).</tt></p><p>Again, it is unmistakable that the original shape exhibited a lappet.
-Ideally, one would revert to Unicode 5.2 and give the shape a lappet.
-However, the description does not need to have "with lappet", because that is a low-level palaeographic detail 
-that is inappropriate for Unicode.
-This code point should thereby cover both tokens with lappet and without lappet.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78185.png" class="image5"/><img src="glyphs16/78185.png" class="image16"/><div class="code">13169</div></td><td><img src="glyphs16/78184.png" class="image16"/><div class="code">13168</div></td></tr></tbody></table><p><br/><tt>U+13168 kEH_Desc A swallow (Hirundo rustica savignii).</tt></p><p class="done">The width of U+13169 should be the same as that of U+13168, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78187.png" class="image5"/><img src="glyphs16/78187.png" class="image16"/><div class="code">1316B</div></td><td><img src="glyphs16/78186.png" class="image16"/><div class="code">1316A</div></td></tr></tbody></table><p><br/><tt>U+1316A kEH_Desc A house sparrow (Passer domesticus niloticus).</tt></p><p class="done">The width of U+1316B should be the same as that of U+1316A, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78246.png" class="image5"/><img src="glyphs16/78246.png" class="image16"/><div class="code">131A6</div></td><td><img src="glyphs16/81390.png" class="image16"/><div class="code">13DEE</div></td></tr></tbody></table><p><br/><tt>U+13DEE kEH_Desc A fly.</tt></p><p>In 2005-2009, there were protracted discussions about what the most appropriate orientation of U+131A6 was for Unicode, since both orientations occur in GEG (p. 477 versus p. 545), and since the sign was taken from iconography and is not attested in actual running text.
+Ideally, one would revert to Unicode 5.2 and give the shape a lappet. However this case is of lesser importance.
+The lappet is a low-level palaeographic detail 
+that is of little relevance to Unicode anyway. The description does not need to have "with lappet",
+and the code point should cover both tokens with lappet and without lappet.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78185.png" class="image5"/><img src="glyphs16/78185.png" class="image16"/><div class="code">13169</div></td><td><img src="glyphs16/78184.png" class="image16"/><div class="code">13168</div></td></tr></tbody></table><p><br/><tt>U+13168 kEH_Desc A swallow (Hirundo rustica savignii).</tt></p><p class="done">The width of U+13169 should be the same as that of U+13168, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78187.png" class="image5"/><img src="glyphs16/78187.png" class="image16"/><div class="code">1316B</div></td><td><img src="glyphs16/78186.png" class="image16"/><div class="code">1316A</div></td></tr></tbody></table><p><br/><tt>U+1316A kEH_Desc A house sparrow (Passer domesticus niloticus).</tt></p><p class="done">The width of U+1316B should be the same as that of U+1316A, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This will be corrected in Unicode 17.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78246.png" class="image5"/><img src="glyphs16/78246.png" class="image16"/><div class="code">131A6</div></td><td><img src="glyphs16/81390.png" class="image16"/><div class="code">13DEE</div></td></tr></tbody></table><p><br/><tt>U+13DEE kEH_Desc A fly.</tt></p><p>In 2005-2009, there were protracted discussions about what the most appropriate orientation of U+131A6 was for Unicode, since both orientations occur in GEG (p. 477 versus p. 545), and since the sign was taken from iconography and is not attested in actual running text.
 In consultation with Egyptologists it was decided to opt for the form in Unicode 5.2, fixed formally by letting UniKemet
 link the code point to the occurrence on p. 477 as opposed to the occurrence on p. 545.
 This was motivated by similar signs (like the newly introduced U+13DEE) that have the head up as well.
@@ -208,7 +208,10 @@ In any case, the glyph should be consistent with the description. In the new sha
 If anything, it looks closer to U+131D5.  I do not mind much if the glyph in the code charts currently has that shape, as the shape of the handle seems a minor detail. But by putting "with a handle resembling ..." in the description, one is suggesting that M13 is an essential part of the character identity of U+1331C, whereas (as far as I know) scimitars do not generally have a handle resembling M13. The Database does not motivate departing from the original shape. 
 The TSL has one single token of T016A (without citation!), which is rather blurry and does not seem to suggest M13 at all:</p><p><a href="https://thotsignlist.org/mysign?id=5850">https://thotsignlist.org/mysign?id=5850</a></p><p>Various examples taken from iconography are here:</p><p><a href="https://www.reddit.com/r/Cowofgold_Essays/comments/zcfv4z/the_khopesh_of_ancient_egypt/">https://www.reddit.com/r/Cowofgold_Essays/comments/zcfv4z/the_khopesh_of_ancient_egypt/</a></p><p>I don't see the shape of M13 in any of them.
 I would simply omit "with a handle resembling a stem of papyrus with a bud (M13)" as overspecific.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78639.png" class="image5"/><img src="glyphs16/78639.png" class="image16"/><div class="code">1332F</div></td></tr></tbody></table><p/><p>By plausible deniability one could argue the new shape underspecifies which sign is on top. But in Unicode 16, the shapes of overlays generally commit to one or the other. It would be better therefore to revert to the Unicode 5.2 shape.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78657.png" class="image5"/><img src="glyphs16/78657.png" class="image16"/><div class="code">13341</div></td><td><img src="glyphs16/82588.png" class="image16"/><div class="code">1429C</div></td></tr></tbody></table><p><tt>U+13341 kEH_Desc A plough, with a cross-bar and two vertical lines on the end of the long beam.</tt><br/><tt>U+1429C kEH_Desc A plough, with a cross-bar and two vertical lines on the long beam, without a circle at the front of the long beam.</tt></p><p>It is unclear to me whether the original shape of U+13341 is closer to its new shape, or whether it rather corresponds to U+1429C. The original shape had a pronounced circle, like U+1429C, while the new shape has more of a bulb. Does it even make sense to have two code points here?</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78667.png" class="image5"/><img src="glyphs16/78667.png" class="image16"/><div class="code">1334B</div></td></tr></tbody></table><p><tt>U+1334B kEH_Desc A hair-pin or burin, with a horizontal line above and below the oval of the pin.</tt></p><p>In isolation, I would have thought little of this slight change of shape, but see the below. It looks like the
-shape that should have been at U+1334C has been misplaced at U+1334B.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78668.png" class="image5"/><img src="glyphs16/78668.png" class="image16"/><div class="code">1334C</div></td><td><img src="glyphs16/78667.png" class="image16"/><div class="code">1334B</div></td><td><img src="glyphs16/82615.png" class="image16"/><div class="code">142B7</div></td><td><img src="glyphs16/82616.png" class="image16"/><div class="code">142B8</div></td></tr></tbody></table><p><tt>U+1334C kEH_Desc A hair-pin or burin, without the horizontal line on the top.</tt><br/><tt>U+1334B kEH_Desc A hair-pin or burin, with a horizontal line above and below the oval of the pin.</tt><br/><tt>U+142B7 kEH_Desc A hair-pin or burin, with a horizontal line above and below the circle of the pin.</tt><br/><tt>U+142B8 kEH_Desc A hair-pin or burin, with a horizontal line under the oval of the pin, and a triangular shape on top of the oval.</tt></p><p>The original shape of U+1334C has a horizontal line on the top, so the new shape is wrong. By the original UniKemet from 2006,
+shape that should have been at U+1334C has been misplaced at U+1334B.</p><p>The Database has "Redraw based on Gardiner". Great, but which sign from Gardiner? The original glyph is not at all like the new glyph,
+and the old glyph reasonably accurately mimics the printed GEG.
+By the way, I would not characterize the original shape as in the above description: what is between the two lines does not
+form a clean oval.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78668.png" class="image5"/><img src="glyphs16/78668.png" class="image16"/><div class="code">1334C</div></td><td><img src="glyphs16/78667.png" class="image16"/><div class="code">1334B</div></td><td><img src="glyphs16/82615.png" class="image16"/><div class="code">142B7</div></td><td><img src="glyphs16/82616.png" class="image16"/><div class="code">142B8</div></td></tr></tbody></table><p><tt>U+1334C kEH_Desc A hair-pin or burin, without the horizontal line on the top.</tt><br/><tt>U+1334B kEH_Desc A hair-pin or burin, with a horizontal line above and below the oval of the pin.</tt><br/><tt>U+142B7 kEH_Desc A hair-pin or burin, with a horizontal line above and below the circle of the pin.</tt><br/><tt>U+142B8 kEH_Desc A hair-pin or burin, with a horizontal line under the oval of the pin, and a triangular shape on top of the oval.</tt></p><p>The original shape of U+1334C has a horizontal line on the top, so the new shape is wrong. By the original UniKemet from 2006,
 U+1334C stands for "a later form of U23" (Gardiner 1931) as found on the 26th Dyn. sarcophagus of Ankhnesneferibra (BM EA32).
 See p. 45 of:</p><p><a href="https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf">https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf</a></p><p>See the bottom-left corner of the image in the link below, where it reads at the end of the column "n mr=s n [...]".</p><p><a href="https://www.britishmuseum.org/collection/object/Y_EA32?selectedImageId=1495613001">https://www.britishmuseum.org/collection/object/Y_EA32?selectedImageId=1495613001</a></p><p>There is most definitely a line on the top.</p><p>The Database provides no evidence of having even consulted the original UniKemet.
 Instead, the Database
@@ -366,5 +369,95 @@ that the normalized glyph has. But even a beginning student would know that this
 was guided by an eagerness to destroy and remake in one's image,
 from the perspective of palaeographic special interests,
 rather than by any considerations about the
-continuity of Unicode or what would be best for typical users.</p></body>
+continuity of Unicode or what would be best for typical users.</p><h2>Why moving signs between code points is harmful</h2>
+
+Since Unicode 5.2, released in 2009, a large variety of fonts, tools, encodings, data bases, and teaching materials
+have been created
+that all assume the signs as assigned to code points in Unicode 5.2. 
+There are more than half a dozen publicly released hieroglyphic fonts by now, and possibly more that
+were not publicly released.
+Many encodings of texts have been created with tools that use one of these fonts.
+These fonts and these encodings may be 
+distributed and redistributed on the web, without any central control.
+<p>
+Now suppose a sign is moved to a different code point, and the old code point is given a new sign. 
+It then immediately becomes uncertain what the intention is of that old code point.
+For a new encoding, it depends on the encoder, who needs to make sure they use an up-to-date version of a
+hieroglyphic text processing tool. In turn it depends on the developer of that tool, 
+who has to make sure they have an up-to-date version of the font.
+In turn it depends on the font creator, who has to check an up-to-date version of the Unicode code charts
+for any changes. (With the sign list now having grown from formerly just over 1000 signs to about 5000 signs,
+this is quite a challenge in itself.)
+Any existing encoding immediately loses its validity, as the code points will no longer reflect 
+the intentions of the encoder. The encoder will need to revisit their encodings and make corrections.
+Also databases and teaching materials need to be updated. This is the most optimistic case, assuming the encoders and
+creators of databases and teaching material are still available to make the necessary updates.
+</p><p>
+Naively one could argue that the date of creation of an encoding determines how code points are to be
+interpreted. If it was created before the change was made, then it is the original interpretation of the code points.
+If it was created one or two years after the change to the code charts, after hopefully all fonts and tools had been
+updated (which may be overly optimistic), then it is the new interpretation of the code points.
+The problem is that one cannot see from an encoding when it was created. A web page containing hieroglyphic
+encodings created in the past does not have a special label saying "this page was created before 2024 when the Unicode
+sign list was upended".
+</p><p>
+In the Database, there appear to be vague references to some graphical variants being less common than others
+and I'm guessing (and no more than guessing) 
+that the underlying assumption was that Gardiner chose a rare or atypical graphical variant to represent a
+grapheme, and that is why in the past when the code point was used, the
+encoder "really" intended the more common variant. I don't think that holds up to scrutiny.
+In the case of the pole-on-block versus pole-over-block for example (see U+132BC above), I strongly
+suspect the evidence was misinterpreted. Moreover, second-guessing the "real" intentions of
+some hypothetical encoder in the past is a precarious undertaking. One cannot know under what circumstances
+existing encodings were created. Some graphical variants may be more common for some periods than for others.
+And perhaps the encoder intend to digitize Gardiner's grammar rather than encode a randomly chosen
+inscription from a random period, and so definitely intended Gardiner's glyphs and not the new glyphs assigned to the 
+old code points.
+</p><p>
+One more problem that arises when signs are moved may have been overlooked.
+Consider a line in the UniKemet database like:
+</p><blockquote>
+U+143C7 kEH_JSesh   X4E
+</blockquote>
+This means that JSesh X4E is tied to code point U+143C7.  This JSesh X4E is not some platonic idea of a character that could have different graphical realizations, it is one concrete glyph that exists in the font of the JSesh editor. (It is ironic that JSesh names are now treated as more immutable than Unicode code points, even though in the decades of JSesh's existence, I suspect the font has been subjected to many rounds of improvements and I have no idea whether X4E is the same glyph as it was 5 years ago or will be in 5 years from now. But this aside.)
+<p>
+What to do if the JSesh X4E glyph moves to a different code point, say in Unicode 25 ? The obvious answer is: the kEH_JSesh X4E entry will move with the glyph to the new code point.
+</p><p>
+Now consider UniKemet names. These must similarly stand for glyphs, not for code points or abstract platonic ideas of characters. In fact, just like JSesh names stand for glyphs in JSesh encodings, UniKemet names are used to denote glyphs in <a href="https://mjn.host.cs.st-andrews.ac.uk/egyptian/res/">RES hieroglyphic encodings</a>, albeit without zero padding. 
+To be consistent, if the glyph that used to be at U+132BC is moved to U+14107, then we should change:
+</p><blockquote>
+U+132BC kEH_UniK    R010A
+</blockquote>
+to:
+<blockquote>
+U+14107 kEH_UniK    R010A
+</blockquote>
+Currently, if I look in the UniKemet database under U+14107 I see nothing of the sort. It was given a fresh, unrelated UniKemet name R010H and there is nothing that reminds us that the reason this glyph was introduced in Unicode in the first place was because of Gardiner (1928), who called it R10*. It is ironic that the UniKemet database links code points to various sign lists, but not to Gardiner's sources that were the primary reason for their existence.
+But if we update the UniKemet database to link U+14107 to the glyph R010A, then we still have the Unicode name "EGYPTIAN HIEROGLYPH R010A" immutably (!) linked to U+132BC.  In other words, the Unicode names and the UniKemet names will now start to diverge, and this will be for just a handful of signs, while for the majority of the 1072 basic signs, the Unicode names and UniKemet names perfectly align. For the sake of completeness these are the moved code points:
+<table>
+<tbody>
+<tr><th>old</th><th>new</th></tr>
+<tr><td>U+13108</td><td>U+13B83</td></tr>
+<tr><td>U+13163</td><td>U+13C4A</td></tr>
+<tr><td>U+1324A</td><td>U+13CA7</td></tr>
+<tr><td>U+13277</td><td>U+13FDC</td></tr>
+<tr><td>U+132BC</td><td>U+14107</td></tr>
+</tbody>
+</table>
+and then there are two more special cases that are less clear-cut:
+<table>
+<tbody>
+<tr><th>old</th><th>new</th></tr>
+<tr><td>U+1315D</td><td>U+13C5D</td></tr>
+<tr><td>U+1334C</td><td>U+1334B</td></tr>
+</tbody>
+</table>
+<p>
+The divergence of UniKemet names from Unicode names would add one more naming headache to the various other naming headaches that already exist.
+</p><p>
+Moving signs to other code points has many disadvantages due to existing encodings, existing databases, existing fonts, and existing hieroglyphic processing tools. All of these disadvantages are severe and will continue to haunt the user community for years to come. The above naming issue is one more such disadvantage. On the flip side, there are no advantages. All perceived advantages of moving signs do not hold
+up to scrutiny and are outweighed by far by the severe disadvantages.
+</p><p>
+Why not reverse course while we still can?
+</p></body>
 </html>
