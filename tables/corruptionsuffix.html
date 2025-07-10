@@ -30,6 +30,10 @@ The problem is that one cannot see from an encoding when it was created. A web p
 encodings created in the past does not have a special label saying "this page was created before 2024 when the Unicode
 sign list was upended".
 <p>
+In short, if the aim is to be able to distinguish two glyphs, which are not to be confused
+any more in future encodings, then the first step should <b>not</b> be to assign one glyph to the code point that 
+used to belong to the other, as this creates the confusion that one aimed to remove.
+<p>
 In the Database, there appear to be vague references to some graphical variants being less common than others
 and I'm guessing (and no more than guessing) 
 that the underlying assumption was that Gardiner chose a rare or atypical graphical variant to represent a
@@ -37,9 +41,9 @@ grapheme, and that is why in the past when the code point was used, the
 encoder "really" intended the more common variant. I don't think that holds up to scrutiny.
 In the case of the pole-on-block versus pole-over-block for example (see U+132BC above), I strongly
 suspect the evidence was misinterpreted. Moreover, second-guessing the "real" intentions of
-some hypothetical encoder in the past is a precarious undertaking. One cannot know under what circumstances
+some hypothetical encoder of some hypothetical inscription in the past is a precarious undertaking. One cannot know under what circumstances
 existing encodings were created. Some graphical variants may be more common for some periods than for others.
-And perhaps the encoder intend to digitize Gardiner's grammar rather than encode a randomly chosen
+And perhaps the encoder intended to digitize Gardiner's grammar rather than encode a randomly chosen
 inscription from a random period, and so definitely intended Gardiner's glyphs and not the new glyphs assigned to the 
 old code points.
 <p>

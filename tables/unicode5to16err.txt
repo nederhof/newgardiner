@@ -49,29 +49,28 @@ https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip102.pdf
 This sign in the cartouche of queen Tiye consistently has the uraeus in that same tomb.
 See also Plates 9, 10, 24, 26, 42, 49, 51, 57, 66.
 So the Database is incorrect where it says "Gardiner added an uraeus, the token his sign is based on 
-(which is the one encoded in TSL) does not actually have the uraeus, so the addition is erronious to begin with"; 
-the uraeus has always been there.
+(which is the one encoded in TSL) does not actually have the uraeus, so the addition is erronious to begin with".
+The uraeus has always been there.
 As to the TSL:
 <p>
 https://thotsignlist.org/mysign?id=1197
 <p>
-I see one encoding for queen Tiye (TSL_3_22183), but it is not the one that Gardiner referred to,
-and with the blurry photo of this worn inscription, one can debate whether there
-might once have been a uraeus.
-It appears to be a typical case of confirmation bias to take a single token for queen Tiye
-ignoring all the others, classify and transcribe it in the TSL 
+I find one encoding for queen Tiye (TSL_3_22183), but it is not the one that Gardiner refers to,
+and with the blurry photo of this eroded inscription, one can debate whether traces of a uraeus might be visible.
+It appears to be a classical case of confirmation bias to take a single token for queen Tiye,
+overlooking a dozen others, classify and transcribe it in the TSL 
 as not
 having a uraeus because one cannot make out a uraeus in that single photo, and then to refer to the TSL as
 evidence that the sign does not have a uraeus.
 <p>
-Especially when it comes to glyphs that have been used for 15 years or more in 
-encodings, tools, databases, and teaching materials, and where severe disruption is caused by any changes,
+Especially when it comes to glyphs that have already been used for 15 years or more in 
+encodings, fonts, tools, databases, and teaching materials, and where severe disruption is caused by any changes,
 the bar should be far higher. There should be more thorough analysis, documentation and justification. And above all,
-there should be more transparency. The default should be to leave things as they are unless there are compelling
-reasons to make changes.
+there should be more transparency. The default should be to leave things as they are unless there are clearly articulated 
+and convincing reasons to make changes.
 <p>
 The uraeus suggests royalty (personal communication wth Peter Dils), and so the change
-of the glyph affected an important clue to the interpretation of the sign (Gardiner has "names of queens").
+of the glyph affected an important clue to the interpretation of the sign (Gardiner has "Det. of names of queens").
 
 0x130C1
 These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG, and are in fact found in the same line (top line of p. 458). 
