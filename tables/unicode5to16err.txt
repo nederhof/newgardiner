@@ -50,12 +50,12 @@ This sign in the cartouche of queen Tiye consistently has the uraeus in that sam
 See also Plates 9, 10, 24, 26, 42, 49, 51, 57, 66.
 So the Database is incorrect where it says "Gardiner added an uraeus, the token his sign is based on 
 (which is the one encoded in TSL) does not actually have the uraeus, so the addition is erronious to begin with".
-The uraeus has always been there.
+The uraeus wasn't added by Gardiner, it has always been there.
 As to the TSL:
 <p>
 https://thotsignlist.org/mysign?id=1197
 <p>
-I find one encoding for queen Tiye (TSL_3_22183), but it is not the one that Gardiner refers to,
+I find one token for queen Tiye (TSL_3_22183), but it is not the one that Gardiner refers to,
 and with the blurry photo of this eroded inscription, one can debate whether traces of a uraeus might be visible.
 It appears to be a classical case of confirmation bias to take a single token for queen Tiye,
 overlooking a dozen others, classify and transcribe it in the TSL 
