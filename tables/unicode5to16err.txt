@@ -58,7 +58,19 @@ https://thotsignlist.org/mysign?id=1197
 I see one encoding for queen Tiye (TSL_3_22183), but it is not the one that Gardiner referred to,
 and with the blurry photo of this worn inscription, one can debate whether there
 might once have been a uraeus.
-The uraeus also suggests royalty (personal communication wth Peter Dils), and so the change
+It appears to be a typical case of confirmation bias to take a single token for queen Tiye
+ignoring all the others, classify and transcribe it in the TSL 
+as not
+having a uraeus because one cannot make out a uraeus in that single photo, and then to refer to the TSL as
+evidence that the sign does not have a uraeus.
+<p>
+Especially when it comes to glyphs that have been used for 15 years or more in 
+encodings, tools, databases, and teaching materials, and where severe disruption is caused by any changes,
+the bar should be far higher. There should be more thorough analysis, documentation and justification. And above all,
+there should be more transparency. The default should be to leave things as they are unless there are compelling
+reasons to make changes.
+<p>
+The uraeus suggests royalty (personal communication wth Peter Dils), and so the change
 of the glyph affected an important clue to the interpretation of the sign (Gardiner has "names of queens").
 
 0x130C1
