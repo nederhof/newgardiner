@@ -86,7 +86,8 @@ The Database justifies adding the uraeus by the observation that many occurrence
 this "correcting" of the glyph. I don't think the word "correcting" is appropriate if occurrences 
 without uraeus exist, and then the glyph without uraeus would not be incorrect per se.
 Nonetheless this change to the glyph may cause relatively little disruption, provided no one will now consider 
-introducing a new code point for the original form without uraeus.
+introducing a new code point for the original form without uraeus, as this would create yet another case of a misplaced
+sign, which is to be avoided at all costs.
 <p>
 This identifies a major shortcoming of the kEH_Desc descriptions: a description describes a single 'representative' token that 
 the philologists happened to find, down to minute detail. The new UniKemet also typically lists only the one function of that
@@ -94,8 +95,8 @@ one token.
 But this fails to capture the type. For example,
 if in the future the intention is that 0x130E8 can be used for the sign with uraeus and the sign without uraeus,
 then currently no documentation exists that expresses this intention. In this sense, this is a step back from the documentation in GEG, 
-which, by being less overspecific about appearance of signs, made it clear to encoders 
-that signs could be used for a range of graphical variants.
+which, by being less overspecific about appearances of signs, avoided the suggestion that signs could only be used for tokens
+with narrowly defined graphical attributes.
 
 0x130F3
 Unicode 5.2 form did not have the four pieces of grain or fruit. This seems an insignificant detail and 

@@ -58,9 +58,8 @@ https://thotsignlist.org/mysign?id=1197
 I find one token for queen Tiye (TSL_3_22183), but it is not the one that Gardiner refers to,
 and with the blurry photo of this eroded inscription, one can debate whether traces of a uraeus might be visible.
 It appears to be a classical case of confirmation bias to take a single token for queen Tiye,
-overlooking a dozen others, classify and transcribe it in the TSL 
-as not
-having a uraeus because one cannot make out a uraeus in that single photo, and then to refer to the TSL as
+after overlooking a dozen others, classify and transcribe it in the TSL 
+as not having a uraeus because one cannot make out a uraeus in that single photo, and then to refer to the TSL as
 evidence that the sign does not have a uraeus.
 <p>
 Especially when it comes to glyphs that have already been used for 15 years or more in 
@@ -151,7 +150,7 @@ After querying whether 0x13C5D needs to exist at all next to 0x1315D, because th
 for all practical purposes, there was the unexpected move to drastically change the glyph of 0x1315D by giving it a literal
 R12 standard as in the description, that is, a standard with the vertical beam roughly in the middle, and objects attached
 to the left end, and this is the form currently in the draft charts.
-This seems to be a much less common form for Thot-on-standard, 
+This seems to be a much less common form for ibis-on-standard, 
 even though it is the logo of the Thot Sign List. Most tokens seem to have a plain horizontal beam with attached objects and 
 with the vertical beam perfectly or almost at the right end:
 <p>
@@ -319,8 +318,14 @@ Gardiner (1931) gives us some indication about the function of the sign:
 the TSL to cover both the circled and the uncircled forms, and so also this offers no justification for changing the
 shape of 0x13277.
 
-0x1329F
-The new shape is mirrored. Since there is a mirroring control, there is no reasonable justification for this, even if the sign normally occurs the other way around.
+0x1329F 0x1406E 0x1406F
+The new shape of 0x1329F is mirrored. Since there is a mirroring control, there is no reasonable justification for this, even if the sign normally occurs the other way around.
+<p>
+One may take the position that the original glyph must have been an error because prow and stern are reversed relative to the more common
+orientation of boats. 
+However, there are also examples in the extended list where the orientation of boats is not as expected; cf. 0x1406E and 0x1406F.
+The Database has "it probably exists somewhere, but I have no idea where".
+It therefore seems to me that a rational basis is missing for jumping to the conclusion that the glyph must have been an error.
 
 0x132B1
 I don't mind the slight change of shape. But the "circular" in the description is overly specific.
@@ -426,7 +431,7 @@ for totally different things. One either takes the character identities of code 
 The original shape had a round drill-bit.
 The Database does not acknowledge that the shape of the drill-bit has changed, let alone offer a
 justification for the change other than that JSesh happens to use a different form.
-Given the many instances of round drill-bits among several newly introduced glyphs, it is
+Given the many instances of round drill-bits among several newly introduced glyphs in the extended list, it is
 uncontroversial that round drill-bits are very frequent in this and similar signs, and so there is no
 rational basis for changing the Unicode form as it has existed since Unicode 5.2.
 <p>
