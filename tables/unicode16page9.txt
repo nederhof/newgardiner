@@ -134,8 +134,9 @@ It was not dictated by evidence in the form of extant inscriptions, and not even
 normalized transcriptions. It so happens that someone at some point drew the glyph with 7 petals, 
 and the number 7 was then given a status it doesn't deserve.
 Claims that an (over)emphasis on (arbitrary) details is somehow more "scientific" should not be readily accepted.
-<p
-In this case, the obvious solution is not to include the exact number of petals in the description.
+<p>
+Changing 7 to 6 in the description won't change anything if next week another token is found which actually has 7 petals.
+The one obvious solution is not to include the exact number of petals in the description.
 Then the question becomes whether 0x13E4B deserves an independent code point.
 
 0x13E5E 0x13376
