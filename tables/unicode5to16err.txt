@@ -321,21 +321,21 @@ shape of 0x13277.
 0x1329F 0x1406E 0x1406F 0x1406A 0x1406B
 The new shape of 0x1329F is mirrored. Since there is a mirroring control character, 
 there is no reasonable justification for this, even if the sign often occurs the other way around.
-Existing encodings containing this sign from the past 15 years, no matter the orientation, 
+Each and every existing encoding containing this sign from the past 15 years, no matter the orientation, 
 will now have become invalid overnight due to this change.
 <p>
 Apparently the position was taken that the original glyph must have been an error because prow and stern 
 are reversed relative to the more common orientation of boats. 
 However, there are several examples of boats in the extended list where the orientation is not as expected either; 
 e.g. 0x1406E versus 0x1406F and 0x1406A versus 0x1406B. It seems to happen particularly often in the writing of ḫntj, "sail south", that
-prow and stern are reversed. It is extremely unlikely that Gardiner made a mistake being ignorant of
+prow and stern are reversed. It is extremely unlikely that Gardiner made a mistake due to being ignorant of
 the difference between prow and stern, and it is far more likely that he needed this glyph for an inscription
 where the boat was genuinely oriented as it was in Unicode 5.2.
 <p>
 Now one may take the position that the orientation of boats should be normalized to have the prow always
-at the left, but then this seems inconsistent with what was done for the extended list.
+at the left, but then this is inconsistent with what was done elsewhere for the extended list.
 The Database has "it probably exists somewhere, but I have no idea where", which rules out that
-this matter was sufficiently analyzed to justify making such a disruptive change.
+this matter was sufficiently analyzed to justify the disruption that this matter caused.
 
 0x132B1
 I don't mind the slight change of shape. But the "circular" in the description is overly specific.
@@ -347,7 +347,7 @@ where admittedly the transcription has round items. But a cursory glance at R2 v
 <p>
 https://thotsignlist.org/mysign?id=5320
 <p>
-shows us that the objects are not generally circular. I would even omit the exact number "three", because you will no doubt
+shows us that the objects are not generally circular. I would even omit the exact number "three", because one will no doubt
 find tokens with say four items.
 
 0x132BC 0x14107
