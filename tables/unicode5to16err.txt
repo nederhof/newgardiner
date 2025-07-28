@@ -328,7 +328,7 @@ Apparently the position was taken that the original glyph must have been an erro
 are reversed relative to the more common orientation of boats. 
 However, there are several examples of boats in the extended list where the orientation is not as expected either; 
 e.g. 0x1406E versus 0x1406F and 0x1406A versus 0x1406B. It seems to happen particularly often in the writing of ḫntj, "sail south", that
-prow and stern are reversed. It is extremely unlikely that Gardiner made a mistake due to being ignorant of
+prow and stern are reversed. It is unimaginable that Gardiner (1928) made a mistake due to being ignorant of
 the difference between prow and stern, and it is far more likely that he needed this glyph for an inscription
 where the boat was genuinely oriented as it was in Unicode 5.2.
 <p>
