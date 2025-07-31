@@ -101,5 +101,67 @@ In the end, there is also the general Encoding Stability policy of Unicode:
 <p>
 No doubt one can cite rare examples from the long history of Unicode where this policy was violated due
 to exceptional circumstances and significant overriding concerns.
-But for the cases listed above, there are no exceptional circumstances or overriding concerns,
-and all of this was entirely avoidable.
+But for the cases listed above, 
+there are no exceptional circumstances or overriding concerns,
+and all of this was entirely unnecessary.
+
+<h2>Atomic glyphs of overlays</h2>
+
+In the case of, for example, U+130C1 (forearm and leg overlayed; see above), 
+one will find inscriptions where the forearm is depicted as being over the leg, 
+inscriptions where the leg is depicted as being over the forearm, as well 
+as inscriptions where the "z-order" is indeterminate, that is, where 
+the curves of the forearm and leg simply cross one another.
+This is a palaeographic matter, and therefore Unicode appropriately does not attempt to
+encode these different graphical realizations, 
+and the single code point U+130C1 is meant to cover all three cases.
+<p>
+Nonetheless, there are advantages to keeping the z-order of glyphs 
+in the code charts of such composite
+glyphs unchanged (in the absence of any compelling reasons for any change). 
+This has to do with hieroglyphic processing
+tools that are built on top of the Unicode sign list 
+and that provide support for a more faithful specification of the positioning of
+signs in a hieroglyphic inscription than would ever be possible in Unicode. One example is
+<a href="https://mjn.host.cs.st-andrews.ac.uk/egyptian/res/">RES</a>
+mentioned before. It allows scaling of signs, fine-tuning of distances between signs, 
+arbitrary degrees of rotation, and so on.
+RES also allows specification of z-order of overlays in the case of compositional encoding. 
+The reason RES can do this is because its three implementations are in general-purpose
+programming languages (C, Java, JavaScript), in which one can implement graphical algorithms
+that are beyond the power of typical Unicode technology such as OpenType.
+For example, the Unicode 5.2 glyph of U+130C1 can be expressed in RES as:
+<blockquote>
+stack[on](D36,D58)
+</blockquote>
+whereas its Unicode 16 glyph corresponds to:
+<blockquote>
+stack[under](D36,D58)
+</blockquote>
+The indeterminate form, where conceptually the two signs have the same z-order, 
+is expressed by:
+<blockquote>
+stack(D36,D58)
+</blockquote>
+Because U+130C1 has an individual name D59 for the atomically encoded overlay, derived from the
+UniKemet names of the Unicode 5.2 set, the first of these could alternatively be encoded as:
+<blockquote>
+D59
+</blockquote>
+Regrettably, with a font created according to the Unicode 16 code charts,
+D59 has now become equivalent to stack[under](D36,D58) instead.
+It is likely that some RES encodings created in the past will thereby have become 
+inconsistent with the intentions of the encoders.
+<p>
+I don't see any downsides to reverting to the Unicode 5.2 forms for composite signs, 
+all the more as the Database seems to suggest that the choice between the variant graphical 
+realizations with different z-orders is arbitrary, implying that 
+there was never any compelling reason to depart from the Unicode 5.2 forms to begin with,
+and composite signs such as U+130C1 were declared "Legacy" in favour of compositional
+encoding using the OVERLAY control.
+<p>
+Incidentally, the reason why RES was designed on top of Unicode was because at the time
+it was anticipated that Unicode would provide better stability than the various versions
+of the Manuel de Codage signs lists and the Hieroglyphica and their implementations
+in various tools. The trust that I placed in Unicode at the time
+was that it would not fundamentally change glyphs without at least very compelling reasons.
