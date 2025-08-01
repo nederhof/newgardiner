@@ -122,8 +122,8 @@ glyphs unchanged (in the absence of any compelling reasons for any change).
 This has to do with hieroglyphic processing
 tools that are built on top of the Unicode sign list 
 and that provide support for a more faithful specification of the positioning of
-signs in a hieroglyphic inscription than would ever be possible in Unicode. One example is
-<a href="https://mjn.host.cs.st-andrews.ac.uk/egyptian/res/">RES</a>
+signs in a hieroglyphic inscription than would ever be possible in Unicode. I'm in particular referring to
+<a href="https://mjn.host.cs.st-andrews.ac.uk/egyptian/res/">RES</a>, which was
 mentioned before. It allows scaling of signs, fine-tuning of distances between signs, 
 arbitrary degrees of rotation, and so on.
 RES also allows specification of z-order of overlays in the case of compositional encoding. 
@@ -150,18 +150,29 @@ D59
 </blockquote>
 Regrettably, with a font created according to the Unicode 16 code charts,
 D59 has now become equivalent to stack[under](D36,D58) instead.
-It is likely that some RES encodings created in the past will thereby have become 
+It is very likely that some RES encodings created in the past will thereby have become 
 inconsistent with the intentions of the encoders.
 <p>
 I don't see any downsides to reverting to the Unicode 5.2 forms for composite signs, 
-all the more as the Database seems to suggest that the choice between the variant graphical 
-realizations with different z-orders is arbitrary, implying that 
-there was never any compelling reason to depart from the Unicode 5.2 forms to begin with,
-and composite signs such as U+130C1 were declared "Legacy" in favour of compositional
-encoding using the OVERLAY control.
+all the more as the Database offers no evidence in favour of any of
+the variant graphical realizations with different z-orders, implying that 
+there was never any compelling reason to depart from the Unicode 5.2 forms to begin with.
+Moreover, composite signs such as U+130C1 were declared "Legacy" in favour of compositional
+encoding using the OVERLAY control, and therefore the glyphs of such signs will not affect
+future users who intend to avoid legacy signs altogether.
 <p>
-Incidentally, the reason why RES was designed on top of Unicode was because at the time
+Incidentally, the motivation for RES was to address the problem that
+the longevity of hieroglyphic encodings is very limited with
+traditional means, and changing to a different font, 
+changing to a different tool, or even changing to a different version of the same tool
+often meant that an existing encoding lost its validity.
+This has arguably plagued the field for decades. For background see
+<a href="https://mjn.host.cs.st-andrews.ac.uk/publications/2013b.pdf">The Manuel de Codage encoding of hieroglyphs impedes development of corpora</a> and
+<a href="https://mjn.host.cs.st-andrews.ac.uk/publications/2021a.pdf">Formatting of Ancient Egyptian hieroglyphic text</a>.
+<p>
+The reason why RES was designed on top of Unicode was because at the time
 it was anticipated that Unicode would provide better stability than the various versions
 of the Manuel de Codage signs lists and the Hieroglyphica and their implementations
 in various tools. The trust that I placed in Unicode at the time
-was that it would not fundamentally change glyphs without at least very compelling reasons.
+was that it would not fundamentally change characters without compelling reasons at the very least,
+in the light of Unicode's stability policies.
