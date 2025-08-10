@@ -248,8 +248,8 @@ The Unicode 16 shape therefore seems to be an improvement.
 However, the "four pieces of grain or fruit" seem overly specific and can
 certainly not be discerned in Gardiner (1953). I would omit this phrase from the description.
 
-0x1324F
-The object on the standard changed to a kind of overlay. 
+0x1324F 0x13F0F 0x13F11
+In 0x1324F, the object on the standard changed to a kind of overlay. 
 The Database notes that a supposed token of this sign has been identified that has "X1 behind what looks like a U8".
 This could be in the second column in the photo of:
 <p>
@@ -261,6 +261,11 @@ I suspect the new glyph for Unicode 16 was created with the misunderstanding tha
 <p>
 Assuming that the above text correctly identifies the sign that Gardiner had in mind (which is not at all clear to me), 
 then a redrawing of the glyph may be in order. In any case, it should not be an overlay.
+<p>
+Another concern is that for similar cases elsewhere, multiple code points were introduced, such as for
+0x13F0F and 0x13F11, which are alternative writings of the 14th nome of UE. 
+What then justifies confusing two alternative writings of the 22nd node of UE, with and without X1?
+There is no consistency to be found.
 
 0x1327F
 The original shape was asymmetric, while the new shape is almost perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric. If one would ever wish to use the mirroring control with this sign, 
