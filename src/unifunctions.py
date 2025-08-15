@@ -51,7 +51,6 @@ class UniTransliterations:
 		return UniTransliterations(s.strip() if s is not None else '')
 
 	def __str__(self):
-		# return '/'.join(self.transliterations)
 		return self.transliterations
 
 class UniTranslations:

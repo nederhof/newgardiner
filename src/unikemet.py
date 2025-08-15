@@ -5,6 +5,39 @@ from collections import defaultdict
 BASIC_START = 0x13000
 BASIC_END = 0x1342F
 
+UNI_CATEGORIES = ['A','B','C','D','E','F','G','H','I', \
+    'K','L','M','N','NL','NU','O','P','Q','R','S','T',\
+	'U','V','W','X','Y','Z','Aa']
+
+def name_breakup(name):
+	match = re.match('^([A-IK-Z]?|NL|NU|Aa)([0-9]{1,3})([a-z]{0,2})$', name)
+	if match:
+		cat = match.group(1)
+		num = int(match.group(2))
+		suf = match.group(3)
+		return cat, num, suf
+	else:
+		print('Cannot process', name)
+		exit(0)
+
+def cat_index(cat):
+	return UNI_CATEGORIES.index(cat)
+
+class CHAR_SORTER:
+	def __init__(self):
+		UNIKEMET = '../tables/Unikemet16revised.txt'
+		self.char_to_name = tables = read_unikemet(UNIKEMET)['unik']
+
+	def parts(self, ch):
+		name = self.char_to_name[ch]
+		return name_breakup(name)
+
+	def sort(self, chars):
+		parts = [(ch, *self.parts(ch)) for ch in chars]
+		parts.sort(key=lambda elem: (cat_index(elem[1]), elem[2], \
+			len(elem[3]), elem[3]))
+		return [p[0] for p in parts]
+
 def simplify_unikemet_name(name):
 	name = name.replace('HJ ', '')
 	match = re.match('^([A-IK-Z]?|NL|NU|AA)([0-9]{3})([A-Z]{0,2})$', name)
