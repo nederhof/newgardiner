@@ -181,15 +181,47 @@ in various tools. The trust that I placed in Unicode at the time
 was that it would not fundamentally change characters without compelling reasons at the very least,
 in the light of Unicode's stability policies. I would also expect a careful analysis of the disruption
 that any changes cause, weighing these against any perceived advantages of these changes.
+
+<h2>Closing comments</h2>
+
+I've been accused of holding the view that glyphs in the code charts should remain 100% immutable
+under all circumstances.
+If this were true, this could be used as a lazy argument to dismiss everything I've written here.
+However, this is a gross mischaracterization and misses the nuances of the discussion
+above.
+I do not oppose changes, I oppose changes whose disadvantages for typical users far outweigh 
+the advantages (if there are any). 
+Moreover, much of my criticism of the extended list concerns an overemphasis
+on palaeographic details, which is quite the opposite of claiming that each minute detail
+of each glyph is significant. I think in particular that the extended list has been created 
+with too little awareness of the potential variability of glyphs in different fonts.
+There are cases where subtle differences in appearance are encoded in multiple code points
+when such differences are likely to vanish within the margins of this variability,
+and thereby become meaningless on the level of Unicode. 
+This is not because any font is "wrong", but
+because the exact angle of a staff held by an old man (cf. 0x13017 and 0x134CD)
+or the exact relative sizes of elements within a complex glyph 
+(cf. 0x13A01 versus 0x13A02, 0x13C9D versus 0x13C9F, 0x13F98 versus 0x13F99, 0x14027 versus 0x14028, 0x14067 versus 0x1406E, etc.)
+would not normally be reproduced exactly by the creator of a new font.
 <p>
-The view has been attributed to me that glyphs in the code charts should be 100% immutable.
-If this were true, this could be used as argument to dismiss everything I've written here.
-However, this is a gross mischaracterization and misses the many nuances of the discussion.
+It should here be understood that Unicode is not a tool like JSesh that has a fixed font.
+There are currently more than half a dozen publicly available fonts for the basic list,
+and within the next few years some of these wil doubtless also have the extended set.
+This means one cannot expect to see the exact same glyphs regardless of the tool or the 
+platform one is using. For a Unicode sign list to be practicable,
+two conditions must therefore be satisfied:
+<uL>
+<li> The glyphs in the code charts plus ancillary documentation should provide enough
+guidance for font creators to know how to correctly draw glyphs.
+<li> There should not be multiple code points for the same underlying grapheme when
+the code charts and the ancillary documentation cannot reasonably and unambiguously
+distinguish them.
+</ul>
 <p>
 I would also again warn against confusing Ancient Egyptian with any other writing system.
 Just because a certain approach to developing CJK character sets worked well in the past doesn't
 mean the same approach would work well or at all for Ancient Egyptian. Just because certain
-changes to CJK code charts didn't cause disruption for users doesn't
+changes to CJK code charts didn't cause disruption to users doesn't
 mean that any changes to code charts of hieroglyphs don't cause disruption.
 Ancient Egyptian has its own peculiarities, which should be carefully considered when maintaining
 existing code points and when introducing new code points.
