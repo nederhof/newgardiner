@@ -205,11 +205,11 @@ or the exact relative sizes of elements within a complex glyph
 would not normally be reproduced exactly by the creator of a new font.
 <p>
 It should here be understood that Unicode is not a tool like JSesh that has a fixed font.
-There are currently more than half a dozen publicly available fonts for the basic list,
+There are currently more than half a dozen publicly available Unicode fonts for the basic list,
 and within the next few years some of these wil doubtless also have the extended set.
 This means one cannot expect to see the exact same glyphs regardless of the tool or the 
 platform one is using. For a Unicode sign list to be practicable,
-two conditions must therefore be satisfied:
+at least two conditions must therefore be satisfied:
 <uL>
 <li> The glyphs in the code charts plus ancillary documentation should provide enough
 guidance for font creators to know how to correctly draw glyphs.
@@ -225,3 +225,23 @@ changes to CJK code charts didn't cause disruption to users doesn't
 mean that any changes to code charts of hieroglyphs don't cause disruption.
 Ancient Egyptian has its own peculiarities, which should be carefully considered when maintaining
 existing code points and when introducing new code points.
+<p>
+Lastly, I want to address the claim that Unicode cannot become a tool for Egyptological research 
+unless the sign list of hieroglyphs encodes arbitrarily small palaeographic details.
+The reasoning goes that such details could potentially
+convey information that is relevant for dating or for otherwise analyzing the 
+extra-linguistic properties of an inscription, and therefore one cannot afford to abstract 
+away from those details.
+However, if one takes that position to its logical extreme, then encoding an inscription 
+would be akin to producing a facsimile, with each element of the encoding representing a token
+rather than a type, as each nuance of the appearance of a token
+could potentially carry additional information.
+This however would hinder rather than help most types of research including
+palaeographic research. In particular, most research questions involving hieroglyphic texts
+require the ability to find occurrences of signs and this becomes difficult if a sign
+is represented not by one code point, but by dozens of code points for minor graphical
+variants.
+Moreover, once graphical variants become near indistinguishable, the choice
+between one code point and another becomes arbitrary, which introduces noise
+into the process of encoding. Noise is not information and generally makes
+it harder to answer research questions.
