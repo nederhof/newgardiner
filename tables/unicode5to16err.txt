@@ -479,5 +479,16 @@ Apart from plausible deniability (see above), the new shape, unlike the descript
 I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
 
 0x13427
-Even though these are insignificant graphical variants, code charts should not be changed without a good reason. Unless a compelling case can be made that the "thin triangle" over the moon cannot occur in real inscriptions, revert to the Unicode 5.2 form and change the
-description accordingly.
+The original glyph had triangle-over-moon while the new form has moon-over-triangle.
+This may have been motivated by a single token in the TSL that has moon-over-triangle:
+<p>
+https://thotsignlist.org/mysign?id=987
+<p>
+No doubt one will also find examples of triangle-over-moon, and I don't
+see a compelling reason why the glyph should have changed.
+Nonetheless, this sign differs from some other cases discussed here in that it cannot 
+reasonably be obtained using the OVERLAY control, and therefore the kinds of problems discussed 
+in the dedicated section below on overlays do not arise here.
+However, the description ("moon [...] written over [...] triangle") should in any case be made
+less specific so it does not explicitly contradict the original glyph, which should
+remain an acceptable alternative graphical realization of this code point.

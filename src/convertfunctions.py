@@ -265,10 +265,10 @@ def write_converted(converted):
 	with open(DRAFT_OUT, 'w', encoding='utf-8') as f:
 		for conv in converted:
 			code = conv['code']
-			f.write(f'U+{code:X} FUN {conv["old_func"]}\n')
+			f.write(f'U+{code:X}\tFUN\t{conv["old_func"]}\n')
 			if conv['old_val']:
-				f.write(f'U+{code:X} VAL {conv["old_val"]}\n')
-			f.write(f'U+{code:X} NEW {conv["new_func"]}\n')
+				f.write(f'U+{code:X}\tVAL\t{conv["old_val"]}\n')
+			f.write(f'U+{code:X}\tNEW\t{conv["new_func"]}\n')
 			f.write('--\n')
 
 if __name__ == '__main__':

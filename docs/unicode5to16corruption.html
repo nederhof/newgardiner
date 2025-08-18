@@ -250,8 +250,15 @@ It seems therefore better to leave out details that may well be hallucinated or 
 I propose simplifying both glyph and description.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78739.png" class="image5"/><img src="glyphs16/78739.png" class="image16"/><div class="code">13393</div></td></tr></tbody></table><p><tt>U+13393 kEH_Desc A cobra in repose (Naja haja) (I10), written over a hobble for cattle without a crossbar (V20).</tt></p><p>Apart from plausible deniability (see above), the description matches the original shape but not the new shape. It would be better to revert to the Unicode 5.2 shape.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78748.png" class="image5"/><img src="glyphs16/78748.png" class="image16"/><div class="code">1339C</div></td></tr></tbody></table><p><tt>U+1339C kEH_Desc A forearm, with the palm of the hand facing upwards (D36), written over a wick of twisted flax, consisting of three loops (V28).</tt></p><p>Apart from plausible deniability (see above), the new shape, unlike the description, suggests the wick is over the arm. Make the new shape consistent with the description.
 I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78750.png" class="image5"/><img src="glyphs16/78750.png" class="image16"/><div class="code">1339E</div></td></tr></tbody></table><p><tt>U+1339E kEH_Desc A swab made from a hank of fibre with two loops (V29), written over a wickerwork basket with a handle, orientated with the handle to the back (V31).</tt></p><p>Even though these are insignificant graphical variants, code charts should not be changed without a good reason. Unless a compelling case can be made that the basket over the hank of fibre cannot occur in real inscriptions, revert to the Unicode 5.2 form and change the
 description accordingly.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78875.png" class="image5"/><img src="glyphs16/78875.png" class="image16"/><div class="code">1341B</div></td></tr></tbody></table><p><tt>U+1341B kEH_Desc A representation of two ribs, top line curving downwards.</tt></p><p>The description matches the original shape but not the new shape. Correct the new shape to have the top line curve downwards.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78884.png" class="image5"/><img src="glyphs16/78884.png" class="image16"/><div class="code">13424</div></td></tr></tbody></table><p><tt>U+13424 kEH_Desc A forearm, with the palm of the hand facing upwards (D36), written over an object consisting of a horizontal rectangle with a triangular indentation at the bottom, with a vertical line on top of it, connected through a triangle (Aa21).</tt></p><p>Apart from plausible deniability (see above), the new shape, unlike the description, suggests the object is over the arm. Make the new shape consistent with the description.
-I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78887.png" class="image5"/><img src="glyphs16/78887.png" class="image16"/><div class="code">13427</div></td></tr></tbody></table><p><tt>U+13427 kEH_Desc A crescent moon shape written over a thin triangle, point downwards.</tt></p><p>Even though these are insignificant graphical variants, code charts should not be changed without a good reason. Unless a compelling case can be made that the "thin triangle" over the moon cannot occur in real inscriptions, revert to the Unicode 5.2 form and change the
-description accordingly.</p><h2>Other noteworthy differences (maybe not errors?)</h2><table class="glyph_table"><tbody><tr><td><img src="glyphs5/77891.png" class="image5"/><img src="glyphs16/77891.png" class="image16"/><div class="code">13043</div></td></tr></tbody></table><p><tt>U+13043 kEH_Desc Man, standing, back bend forward, both arms toward the front, holding a hoe with a rope connecting the two pieces (U6), with the forward piece at the level of the feet.</tt></p><p class="done">Originally, there was a line representing the ground, and there was no connecting rope. 
+I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.</p><table class="glyph_table"><tbody><tr><td><img src="glyphs5/78887.png" class="image5"/><img src="glyphs16/78887.png" class="image16"/><div class="code">13427</div></td></tr></tbody></table><p><tt>U+13427 kEH_Desc A crescent moon shape written over a thin triangle, point downwards.</tt></p><p>The original glyph had triangle-over-moon while the new form has moon-over-triangle.
+This may have been motivated by a single token in the TSL that has moon-over-triangle:</p><p><a href="https://thotsignlist.org/mysign?id=987">https://thotsignlist.org/mysign?id=987</a></p><p>No doubt one will also find examples of triangle-over-moon, and I don't
+see a compelling reason why the glyph should have changed.
+Nonetheless, this sign differs from some other cases discussed here in that it cannot 
+reasonably be obtained using the OVERLAY control, and therefore the kinds of problems discussed 
+in the dedicated section below on overlays do not arise here.
+However, the description ("moon [...] written over [...] triangle") should in any case be made
+less specific so it does not explicitly contradict the original glyph, which should
+remain an acceptable alternative graphical realization of this code point.</p><h2>Other noteworthy differences (maybe not errors?)</h2><table class="glyph_table"><tbody><tr><td><img src="glyphs5/77891.png" class="image5"/><img src="glyphs16/77891.png" class="image16"/><div class="code">13043</div></td></tr></tbody></table><p><tt>U+13043 kEH_Desc Man, standing, back bend forward, both arms toward the front, holding a hoe with a rope connecting the two pieces (U6), with the forward piece at the level of the feet.</tt></p><p class="done">Originally, there was a line representing the ground, and there was no connecting rope. 
 Now there is no line for the ground and there is a rope connecting the two pieces of the hoe. 
 In this instance, the Database seems to offer adequate justification for a change to a glyph. 
 Both Urk IV 57,3, supposedly the source of the sign according to Gardiner (1928), and the earlier publication by Bouriant it was based on
@@ -503,7 +510,7 @@ I won't be told by anyone who never used the basic list in Unicode
 for their own work and who has no stake in the stability of the basic list that this was all
 perfectly normal and acceptable.
 
-</p><h2>Atomic glyphs of overlays</h2>
+</p><h2 id="overlays">Atomic glyphs of overlays</h2>
 
 In the case of, for example, U+130C1 (forearm and leg overlayed; see above), 
 one will find inscriptions where the forearm is depicted as being over the leg, 
@@ -644,5 +651,34 @@ Noise is not information and generally makes it harder to answer research questi
 (See also my <a href="unicode16comments.html">comments on Unicode 16</a>
 for examples of palaeographic details that turned out to be arbitrary and that did not deserve
 to be elevated to the formal status they were given.)
+</p><p>
+Overall, the developments in Unicode 16 seem to lack a direction and purpose.
+On the one hand, there seems to have been the pressure from the side of the 
+Unicode Consortium to introduce
+large numbers of new code points all at once, which necessarily went at the expense of
+quality. Only so much could reasonably be achieved in such a short time frame for so many signs,
+even by a highly dedicated team of domain experts.
+One justification that has been given for this push for quantity over quality
+is that urgently needed digitization projects cannot continue until the
+Unicode sign list of hieroglyphs is "complete". (The notion of "completeness" is questionable
+to say the least when dealing with an open-ended writing system, but this aside.)
+</p><p>
+On the other hand, what was actually done for the basic and extended lists
+to some extent moves away from the above stated aims.
+For one thing, the basic list from Unicode 5.2 was adequate for digitizing any publication
+from the Griffith Institute that used Gardiner's font. With the "revision" of
+the basic list in Unicode 16, this has become more problematic. 
+If the aim is to increase the <i>coverage</i> of the sign list, allowing a larger
+proportion of inscriptions, published or unpublished, to be digitized, then
+one should <b>not</b> unduly restrict the applicability of each code point
+through a narrow definition that seems to characterize an individual token rather than a
+type. But exactly this was done in Unicode 16, not just for the extended list
+but also for the basic list. Several code points in the range of the Unicode 5.2
+hieroglyphs are now so narrowly (re)defined that they no long cover the signs from
+Gardiner's grammar.
+</p><p>
+The central question is what one aims to achieve, to increase the 
+coverage of the sign list to allow digitization of a larger proportion of
+texts, or to make Unicode a tool for gathering palaeographic data.
 </p></body>
 </html>

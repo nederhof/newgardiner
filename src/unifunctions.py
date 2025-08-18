@@ -141,6 +141,9 @@ class UniFunction:
 		return join_spaced(join_spaced(self.transcriptions, self.function_name, \
 			self.descriptions, self.transliterations) + str(self.translations), self.examples)
 
+	def to_html(self):
+		return '<li>' + '</li>'
+
 class UniFunctions:
 	def __init__(self, functions):
 		self.functions = functions
@@ -150,7 +153,10 @@ class UniFunctions:
 		return UniFunctions([UniFunction.from_string(part) for part in s.split('|') if part.strip()])
 
 	def __str__(self):
-		return ' | '.join([str(f) for f in self.functions])
+		return ' | '.join(str(f) for f in self.functions)
+
+	def to_html(self):
+		return '<ul>' + ''.join(f.to_html() for f in self.functions) + '</ul>'
 
 def test_parsing(filename):
 	with open(filename, 'r') as f:
