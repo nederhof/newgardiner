@@ -332,6 +332,10 @@ prow and stern are reversed. It is unimaginable that Gardiner (1928) made a mist
 the difference between prow and stern, and it is far more likely that he needed this glyph for an inscription
 where the boat was genuinely oriented as it was in Unicode 5.2.
 <p>
+The reversal of boats is also discussed in Section 40 of Fischer's "The Orientation Of Hieroglyphs":
+<p>
+https://archive.org/details/TheOrientationOfHieroglyphs/page/n143/mode/2up
+<p>
 Now one may take the position that the orientation of boats should be normalized to have the prow always
 at the left, but then this is inconsistent with what was done elsewhere for the extended list.
 The Database has "it probably exists somewhere, but I have no idea where", which rules out that

@@ -31,7 +31,7 @@ class UniDescriptions:
 		for d in descriptions:
 			if not re.fullmatch(rf'{DESCRIPTION_STRING}', d):
 				print('Not allowable description:', d)
-		self.descriptions = descriptions
+		self.descriptions = [d.replace('&', '/') for d in descriptions]
 
 	@classmethod
 	def from_string(cls, s):
@@ -44,7 +44,7 @@ class UniTransliterations:
 	def __init__(self, transliterations):
 		if not re.fullmatch(rf'{TRANSLITERATION_STRING}', transliterations):
 			print('Not allowable transliterations:', transliterations)
-		self.transliterations = transliterations
+		self.transliterations = transliterations.replace('&', '/')
 
 	@classmethod
 	def from_string(cls, s):
@@ -53,11 +53,17 @@ class UniTransliterations:
 	def __str__(self):
 		return self.transliterations
 
+	def to_html(self):
+		if self.transliterations:
+			return '<i>' + self.transliterations + '</i>'
+		else:
+			return ''
+
 class UniTranslations:
 	def __init__(self, translations):
 		if not re.fullmatch(rf'{TRANSLATION_STRING}', translations):
 			print('Not allowable translations:', translations)
-		self.translations = translations
+		self.translations = translations.replace('&', '/')
 
 	@classmethod
 	def from_string(cls, s):
@@ -65,6 +71,12 @@ class UniTranslations:
 
 	def __str__(self):
 		return ': ' + self.translations if self.translations != '' else ''
+
+	def to_html(self):
+		if self.translations:
+			return '"' + self.translations + '"'
+		else:
+			return ''
 
 class UniExample:
 	def __init__(self, transcriptions, transliterations, translations):
@@ -142,7 +154,11 @@ class UniFunction:
 			self.descriptions, self.transliterations) + str(self.translations), self.examples)
 
 	def to_html(self):
-		return '<li>' + '</li>'
+		fun = '<b>' + self.function_name + '</b>'
+		desc = self.descriptions
+		als = self.transliterations.to_html()
+		trs = self.translations.to_html()
+		return '<li>' + join_spaced(fun, desc, als, trs) + '</li>'
 
 class UniFunctions:
 	def __init__(self, functions):
