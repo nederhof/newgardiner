@@ -360,6 +360,22 @@ I have no objection to the new shape, but
 I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
 
 0x1342D
+The internal detail in the form of diagonal lines was removed.
+The only justification I can piece together
+is that no diagonal lines happened to be discernible in any of the
+6 (!) tokens in the TSL, which may have been from after the Old Kingdom.
+The Database has "Agreed, TSL without strokes only [...] OK
+form vs. later form". There is no doubt though that the sign occurs in the Old Kingdom with diagonal strokes.
+(Gardiner explicitly intended the sign to represent the "O.K. form", so I don't see why
+considerations about later forms are even relevant.)
+E.g. there are two occurrences of Aa31 with diagonal strokes on p. 129 of:
+<p>
+https://gizamedia.rc.fas.harvard.edu/images/MFA-images/Giza/GizaImage/full/library/hassan_giza_6_3.pdf
+<p>
+One more, very clear and unambiguous, occurrence is in Plate 30b of:
+<p> 
+https://archive.org/details/historyofgizanec0000geor/page/590/mode/2up
+<p>
 In general, with how much detail a sign is represented is unimportant, as long as the sign is recognized.
 But, first, the extended list often introduced multiple code points 
 for signs with and without internal details. So apparently, in those cases internal details were important enough to warrant multiple
@@ -367,8 +383,8 @@ code points. But internal details were apparently so unimportant that it was fin
 unceremoniously purge them from 0x1342D, a well-known sign that appears with these internal details
 in almost every printed and digital sign list. At the very least, this lacks consistency.
 <p>
-Second, just because within the available time no token of Aa31 could be identified with visible diagonal strokes,
-that does not mean that no such tokens exist. 
+Second, if perhaps no tokens of Aa31 with discernible diagonal strokes were present in the TSL at the time,
+then that does not mean that no such tokens exist. 
 Moreover, a sign list is not a list of tokens, it is a list of types.
 A type (sign) is an abstraction of potentially many tokens, rather than a facsimile of one particular token,
 and could have more or fewer graphical features than any particular known token.
@@ -386,7 +402,7 @@ which has "inner detailing [...] helps in avoiding confusion". This is one of th
 <p>
 I don't see any downsides to keeping the internal details either.
 The devil's advocate would say that a student would be misled into thinking that
-any token of Aa31 in a real inscription must have all the internal details
+any token of Aa31 in a real inscription from any period must have all the internal details
 that the normalized glyph has. But even a beginning student would know that this is not how the writing system works.
 <p>
 It appears that the unannounced revision of the basic sign list that no one asked for
