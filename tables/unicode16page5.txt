@@ -12,41 +12,8 @@ I'm not sure that the line of eye-paint in the glyph can be called "wavy". Nor a
 hard-core palaeographers. Omit "wavy" from the description?
 
 ok 0x13989 0x1398A 0x1398B
-In Unicode 17, the V-shaped patterns in 0x1398A and 0x1398B will be corrected to be triangles like in 0x13989, 
+In Unicode 17, the V-shaped patterns in 0x1398A and 0x1398B have been corrected to be triangles like in 0x13989, 
 consistent with the descriptions.
-
-0x130AB 0x139FE 0x139FF
-Treating 0x139FE and 0x139FF as distinct from 0x130AB strays well into the realm of
-palaeography, which is normally considered to be outside the scope of Unicode.
-The Database mentions for both 0x139FE and 0x139FF "Exists, but would already be covered by [...] 0x130AB", but offers
-no further justification why these two became core signs nonetheless.
-<p>
-For 0x139FF in particular, it seems hard to defend the length of the thumb as a reason to introduce a new code point.
-For 0x139FE, I don't really consider the thumb to be "upward" any more than in 0x130AB; one slightly more obvious
-graphical difference is that the egg is held at an angle in 0x139FE, but the description does not
-mention the angle of the egg as significant.
-It would be hard to argue moreover that the hieroglyphic depiction of an "egg" and an "oval" are distinct.
-Functionally, the signs are equivalent.
-
-0x13A01 0x13A02
-Again, it would be hard to argue that the distinction between these two is anything other than palaeographic.
-
-ok 0x13A13
-In the glyph, the angle is not exactly 90°. In Unicode 17, the description will be adjusted to have "roughly 90°".
-
-ok 0x13A20
-The glyph may be misunderstood as an overlay of "hills" N26 and "leg" D58. 
-In Unicode 17, the glyph will be drawn differently to bring out U28 more clearly.
-
-ok 0x13A2A
-In the glyph, the vertical part of the standard looks like a leg of an animal, and there appears to be a loop at the right. 
-Both were confirmed to be errors. In Unicode 17, the glyph will be corrected to have a plain standard with a diagonal beam.
-
-0x13A5C
-The loop around the neck in the glyph is an error. In Unicode 17, this will be removed.
-The description has "four pieces" while the glyph has three. A clear case of an overly specific
-description leading to avoidable problems. I suggesting omitting (at least) "four pieces of" in the description;
-"a basket with grain or fruit" is specific enough.
 
 0x139B2
 Does it taper out towards the top as well? The glyph suggests it mainly tapers out towards the top in fact. Not sure we should care about the exact shape. The main issue is that the shape is an oar, or more precisely, the blade of an oar (I think).
@@ -67,3 +34,38 @@ For 0x139C3, the Database has a pointer to p. 187, pl. 11, second line of regist
 https://ia601708.us.archive.org/24/items/egyptology-archive-vol.-4-1933/EGYPTOLOGY%20ARCHIVE%20Vol.%204%20%281933%29.pdf
 <p>
 At least that seems to be consistent with the glyph.
+
+0x130AB 0x139FE 0x139FF
+Treating 0x139FE and 0x139FF as distinct from 0x130AB strays well into the realm of
+palaeography, which is normally considered to be outside the scope of Unicode.
+The Database mentions for both 0x139FE and 0x139FF "Exists, but would already be covered by [...] 0x130AB", but offers
+no further justification why these two became core signs nonetheless.
+<p>
+For 0x139FF in particular, it seems hard to defend the length of the thumb as a reason to introduce a new code point.
+For 0x139FE, I don't really consider the thumb to be "upward" any more than in 0x130AB; one slightly more obvious
+graphical difference is that the egg is held at an angle in 0x139FE, but the description does not
+mention the angle of the egg as significant.
+It would be hard to argue moreover that the hieroglyphic depiction of an "egg" and an "oval" are distinct.
+Functionally, the signs are equivalent.
+
+0x13A01 0x13A02
+Again, it would be hard to argue that the distinction between these two is anything other than palaeographic.
+
+ok 0x13A13
+In the glyph, the angle is not exactly 90°. In Unicode 17, the description has been adjusted to have "roughly 90°".
+
+ok 0x13A20
+The glyph may be misunderstood as an overlay of "hills" N26 and "leg" D58. 
+In Unicode 17, the glyph has been drawn differently to bring out U28 more clearly.
+
+0x13A2A
+In the glyph, the vertical part of the standard looks like a leg of an animal, and there appears to be a loop at the right. 
+Both were confirmed to be errors. In Unicode 17, the glyph has been corrected 
+to have (more or less) a plain standard with a diagonal beam. What looks strange to me though is
+that the vertical beam of the standard is curved.
+
+0x13A5C
+The loop around the neck in the glyph is an error. In Unicode 17, this has been removed.
+The description has "four pieces" while the glyph has three. A clear case of an overly specific
+description leading to avoidable problems. I suggesting omitting (at least) "four pieces of" in the description;
+"a basket with grain or fruit" is specific enough.

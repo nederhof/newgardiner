@@ -7,7 +7,8 @@ By the way, is a "crossbar" (0x1403F) the same thing as a "crossbeam" (0x14089)?
 0x14042 0x14050
 The description of 0x14042 is not nearly as detailed as some others.  For one thing, it doesn't mention the shapes at the ends of the "crescent moon", which are not like other boats, apart from 0x14050 perhaps, which has "prow and stern curved inwards".
 <p>
-Another thing is that the "back" is apparently at the left, unlike other boats where the back is at the right. Is that intentional?
+Another thing is that the "back" is at the left, unlike other boats where the back is at the right. 
+It would be good to write in descriptions where prow and stern appear reversed.
 
 0x14043 0x14044
 Where is the "doorway" in the glyphs?

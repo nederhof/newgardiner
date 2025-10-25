@@ -5,7 +5,7 @@ The Database points to p. 59 l. 7 of:
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
 <p>
 where the top and bottom lines have the same length.
-This is a normalized transcriptions, so this is not necessarily conclusive.
+This is a normalized transcription, so this is not necessarily conclusive.
 <p>
 But anyway, who cares?
 No doubt one can find tokens where the lines have the same length and tokens where the lengths clearly differ.
@@ -49,7 +49,7 @@ identical and as close as say the hare from the flat hare in appearance), then "
 is insufficient to distinguish 0x13DB1 from 0x13DB2. In the glyph, the coils are about half the height of the head. If this is accurate, then I would write "about half the height" rather than "lower than".
 
 0x13DB6
-In the glyph, the "hole" unmistakably looks like one end of the pt sign. Is that intentional?
+In the glyph, the "hole" looks like one end of the pt sign, but that is misleading.
 See:
 <p>
 https://thotsignlist.org/mysign?id=36

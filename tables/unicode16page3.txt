@@ -6,7 +6,7 @@ The description does not mention the ankh sign. Is it real at all?
 
 0x13795
 The Database has "If added, it should be redrawn without uraeus and headband."
-The uraeus will be removed in Unicode 17.
+The uraeus has been removed in Unicode 17.
 But the band around the head with the loop at the back is still in the draft code charts;
 it will need to be removed as well.
 
@@ -24,13 +24,13 @@ Correct "hand a" to "hand at".
 The description does not mention the ankh sign. Is it real at all?
 
 ok 0x137E9 0x137EA
-The hair in the glyph of 0x137EA will be corrected to a "coif" in Unicode 17.
+The hair in the glyph of 0x137EA has been corrected to a "coif" in Unicode 17.
 
 0x137F3
 Correct "stripped of leaved" to "stripped of leaves".
 
 ok 0x137F5 0x137F6 0x137F7
-The hair in the glyphs of 0x137F5 and 0x137F6 will be corrected to "coif/short hair" in Unicode 17, 
+The hair in the glyphs of 0x137F5 and 0x137F6 have been corrected to "coif/short hair" in Unicode 17, 
 to make them more like the "coif/short hair" in 0x137F7.
 For 0x137F5, the Database points to p. 353, l. 10 and pl. 226, col. 84 of:
 <p>
@@ -43,14 +43,14 @@ palaeographic features that may not even be real, and/or that scholars disagree 
 (the Database has in the same entry: "I do not agree with the long wig").
 
 0x13802 0x13803
-The hair in the glyph of 0x13803 will be corrected to "long" in Unicode 17 to make it more like
+The hair in the glyph of 0x13803 has been "corrected" to "long" in Unicode 17 to make it more like
 the long hair in 0x13802.
 For 0x13803, the Database points to p. 159, l. 11 of:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
 <p>
-The hair in the transcription looks exactly like the glyph above. It may well be that the glyph was correct after all
-and the description was wrong.
+The hair in the transcription looks exactly like the glyph above. 
+It may well be that the glyph was correct after all and the description was wrong.
 <p>
 All of this would have been avoided had the descriptions not been this absurdly specific.
 
@@ -73,7 +73,7 @@ In any case, there should be no inconsistency between description and glyph as t
 of font designers impossible.
 
 0x13817
-The description in the draft Unicode 17 version is inconsistent as to whether there is a lump of clay or a vessel:
+The description in the Unicode 17 version is inconsistent as to whether there is a lump of clay or a vessel:
 it has both "with a lump of clay on it" and "hands at the vessel".
 
 0x13818
@@ -84,7 +84,7 @@ Again, in the glyph, the left hand is not at the top of the potter's wheel, it i
 The description could be simplified.
 
 0x1381A
-Unicode 17 will make the glyph consistent with the description by letting the god touch the wall.
+Unicode 17 made the glyph consistent with the description by letting the god touch the wall.
 <p>
 But an unresolved issue is that there are no (forward curving) horns in the glyph.
 The Database has "Requires another redraw, withouth the horizontal horns". Why was the glyph redrawn without the horns if the
@@ -105,9 +105,9 @@ https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara011.pdf
 The transcription has no beard or breast. It would be very hard to recognize these in the photo even if they once existed.
 
 0x1382A
-The Unicode 17 glyph will be closer to the description by replacing the M16 shape on the head by M15.
+The Unicode 17 glyph has been made more like the description by replacing the M16 shape on the head by M15.
 But there is no beard in the glyph.
-The description in the draft Unicode 17 version was changed to start with "God with breast [...]";
+The description in Unicode 17 was changed to start with "God with breast [...]";
 the glyph doesn't clearly show a breast, but it may be a matter of plausible deniability and I care about that less.
 <p>
 It is not clear in the glyph that the lines below the mat connect to the flowers, rather than to the waterpots.
@@ -116,7 +116,7 @@ But one often sees that the lines above and below the mat do not connect. See fo
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara004.pdf
 
 ok 0x13794 0x136AE
-These two are duplicates. This will be solved in Unicode 17 by making 0x136AE non-core.
+These two are duplicates. This has been solved in Unicode 17 by making 0x136AE non-core.
 
 0x13835 0x13836
 In both cases, the final "on top of a base" repeats earlier information and should be removed.

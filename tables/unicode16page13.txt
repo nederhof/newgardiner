@@ -1,11 +1,8 @@
 0x14147
 Minor matter but the black blob on the left seems uncharacteristic. May be clockwise / anti-clockwise font-technical issue of an inner curve.
 
-0x141A8
-Correct "sting" to "string".
-
 0x141AB
-Correct "a the top end" to "at the top end".
+Correct "a the top ends" to "at the top ends".
 
 0x14153 0x132D3
 If you think you can justify having 2 codepoints for these trivial graphical variants, then at the very least you need to have two distinct descriptions.

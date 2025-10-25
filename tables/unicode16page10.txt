@@ -62,10 +62,6 @@ http://sith.huma-num.fr/karnak/4225
 <p>
 the uraeus is closer to the center of the space between the wings.
 
-0x13EF8
-Ok, but it is difficult to make out the smallest of the three circles. Perhaps
-a slight improvement to the glyph might be made to bring out all three circles clearly.
-
 0x13F03
 In the glyph, there are *four* horizontal lines, not three. Now, I'm not saying that counting lines is a good thing. My suggestion in keeping with other descriptions in this family of signs would be in the first instance (but see below):
 <p>

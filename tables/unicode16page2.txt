@@ -24,7 +24,7 @@ Apropos, I don't think "long-curved" is English. Perhaps replace hyphen with com
 ok 0x1366D
 The glyph suggests an object held in the left hand.
 This was confirmed to be an error.
-The Unicode 17 glyph will no longer depict the object.
+In Unicode 17 the glyph no longer depicts the object.
 
 0x13680
 In the glyph, the heels are not strictly touching the thighs, but who cares! 
@@ -42,7 +42,7 @@ ok 0x1369F 0x136A0
 The extended list aimed to distinguish between gods (to be systematically depicted with curved beards) and kings 
 (to be systematically depicted with straight beards). However, more often than
 not, the glyphs in Unicode 16 are inconsistent with this principle, as exemplified above.
-Unicode 17 will correct many god and king signs.
+Unicode 17 corrected many god and king signs.
 
 0x136AD 0x136AC
 Minor issue, but 0x136AD does not have the same variant of R12 as 0x136AC.
@@ -61,17 +61,17 @@ The Database points to the TSL, and I think meant is:
 https://thotsignlist.org/mysign?id=7045
 <p>
 I don't think the transcription there shows a beard and a coif and 
-in the photo it is impossible to see anything.
+from the photo it is impossible to tell.
 
 0x136C6 0x136C7
 In the glyph of 0x136C7, there is something that looks like a headrest, not mentioned in the description,
 although the description does mention a "long straight beard", which might have been misinterpreted as
 headrest when the glyph was created.
-The headrest was confirmed to be an error, and will be removed from the glyph in Unicode 17.
+The headrest was confirmed to be an error, and was removed from the glyph in Unicode 17.
 But now the Unicode 17 glyph also doesn't have a beard, whereas the beard is still mentioned
 in the description.
 <p>
-Further, what appears to be a uraeus in 0x136C6 is reportedly an error and will be removed in Unicode 17.
+Further, what appears to be a uraeus in 0x136C6 is reportedly an error and was removed in Unicode 17.
 The description of 0x136C7 in Unicode 17 still mentions a uraeus, while
 the glyph of 0x136C7 in Unicode 17 no longer depicts a uraeus. It needs to be double-checked
 with the philologists what the intention was.
@@ -98,7 +98,7 @@ one or two legs are visible and whether the legs are separated (unless we are en
 which are outside the domain of Unicode)? I would suggest omitting "lower legs separated".
 
 ok 0x13714
-The glyph depicts only one arm. In Unicode 17, the description will be corrected to "arm raised in front".
+The glyph depicts only one arm. In Unicode 17, the description has been corrected to "arm raised in front".
 
 0x13717
 I would leave it at "hand palms upwards". The "hands horizontal" is not consistent with the glyph and that the hands are "half-way" horizontal is already implied by "hand palms upwards".

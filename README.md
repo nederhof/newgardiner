@@ -67,6 +67,9 @@ Provisional Unicode 17 code charts:
 
 ## Selected versions of the NewGardiner font
 
+- 3.04 (2025-10-25)
+	- Check of basic list against Unicode 5.2.
+	- Some revisions of extended list.
 - 3.03 (2025-06-17)
 	- Global overhaul of extended list.
 - 3.02 (2025-06-01)

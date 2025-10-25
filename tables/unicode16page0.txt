@@ -55,6 +55,8 @@ which does seem to suggest existence of the notch.
 
 0x134D6
 "right arm in forward" should be "in front"?
+<p>
+The left hand seems to be holding a piece of cloth. Is that real or copying error from the usual A21?
 
 0x134E4 0x134E3
 The hairstyle in the glyph of 0x134E4 does not appear to be a coif.
@@ -84,24 +86,25 @@ The Database has "Attested in TSL, not considered a meaningful variant [of A005A
 shape with both knees raised as in the description, or the shape with one knee raised as in the glyph? 
 And why did the sign end up in the core set nonetheless, on the basis of what graphical differences?
 
-ok 0x1352A
+0x1352A
 The glyph has four flowers, not three.
 To avoid inconsistency between description and glyph, the
-description in Unicode 17 will have "several papyrus flowers".
+description in Unicode 17 has "several papyrus flowers".
 <p>
 For the record, the reference the Database points to does seem to depict four flowers, cf. p. 388 of:
 <p>
 https://archive.org/details/ASAE-40-1-1940/page/n197/mode/2up
 <p>
-The "back straight" does not seem accurate. A clear case of an overspecific description to the point
-of hallucinating what is not there.
+The "back straight" is not accurate with regard to the facsimile. 
+It appears the description is overspecific to the point
+of hallucinating what is not there. Or alternatively, the glyph in some arbitrary font was overinterpreted.
 
 ok 0x1352C
-The description in Unicode 17 will be corrected to have "left knee raised", consistent with the glyph.
+The description in Unicode 17 has been corrected to have "left knee raised", consistent with the glyph.
 
 0x13541
-The latest draft description is:
+The description in Unicode 17 is:
 <p>
-"Man, standing, back bent forwards, arms raised on either side of the body, bent at the elbow, hands at the height of the shoulders, holding an oar with both hands at 45° with the blade downwards."
+"Man, standing, back bent forwards, arms raised on either side of the body, bent at the elbow, hands at the height of the shoulders, holding an oar with both hands at 45 degree with the blade downwards."
 <p>
 If the oar is at 45 degrees, and the hands are both on the oar, then the hands cannot both be at the height of the shoulders. I think the description tries to be overly precise, to the point of no longer making sense. I would omit "hands at the height of the shoulders".

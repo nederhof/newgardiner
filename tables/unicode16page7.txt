@@ -56,10 +56,11 @@ Moreover, for 0x13B88 and 0x13B8B, "written over" suggests the mouth occludes vi
 "sun disks" ? I only see one sun disk in the middle. Are the uraei to have sun disks instead? The glyph doesn't have these. Is the sun disk in the middle correct? That is not mentioned in the description.
 
 ok 0x13BB3
-The "vertical" does not appear accurate. In Unicode 17, the UniKemet description will be adjusted to have "pointing upwards".
+The "vertical" does not appear accurate. In Unicode 17, the UniKemet description has been adjusted to have "pointing upwards".
 
 0x13BB9
-It is difficult to recognize what the glyph is meant to depict. In Unicode 17, the glyph will be improved on the basis of a photo of
+It is difficult to recognize what the glyph is meant to depict. 
+In Unicode 17, the glyph has been improved on the basis of a photo of
 two tokens, but it remains difficult to recognize all the mentioned elements from the description.
 My suggestion would be to adjust the description to something shorter and less specific like "Stylized bent leg of a bovid".
 
@@ -97,26 +98,22 @@ arbitrarily pick one or the other code point for the same sign. This
 helps no one, and is only a nuisance for standardization.
 
 ok 0x13BE1
-In Unicode 17, the description will clarify that the flowers on the left are like M13 and the flower on the right are like M127.
-
-0x13BF9
-The draft UniKemet file has currently "A leg bone with heat, angled with the bone forward, with a piece of meat missing at the front."
-Correct "heat" to "meat"?
+From Unicode 17, the description clarifies that there are two distinct types of buds.
 
 0x13BFB
 Correct "of" to "off"?
 
 ok 0x13C1F
-In Unicode 16, the glyph looks like a 45° rotation. Unicode 17 will correct the rotation of the glyph to 90°.
+In Unicode 16, the glyph looks like a 45° rotation. Unicode 17 corrected the rotation of the glyph to 90°.
 
 ok 0x13C4B 0x13C4C
-In Unicode 17, the UniKemet description of 0x13C4C will be clarified to mention the presence of lappets.
+In Unicode 17, the UniKemet description of 0x13C4C was clarified to mention the presence of lappets.
 
 0x13C58 0x13C59
-In Unicode 17, the description of 0x13C59 will be corrected to omit "and a lappet".
+In Unicode 17, the description of 0x13C59 was corrected to omit "and a lappet".
 I don't know why the description of 0x13C58 still has "straight feather" when the feather in the glyph is not straight.
 I would simply omit "straight" as insignificant palaeographic detail.
 
 0x13C5A
 As herons generally have two feathers, there is not enough information to distinguish this from other heron signs.
-In Unicode 17, the description will be completed to "A gray heron (Ardea cinerea) with a downward curve tip at the beak and two feathers on its head". But please correct "curve" to "curved" or even better "with the tip of the beak curved downward".
+In Unicode 17, the description was completed to "A gray heron (Ardea cinerea) with a downward curve tip at the beak and two feathers on its head". But please correct "curve" to "curved" or even better "with the tip of the beak curved downward".

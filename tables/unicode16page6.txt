@@ -13,18 +13,14 @@ mentioning the beards would be one way to achieve that.
 
 ok 0x13A81
 The glyph depicts the jackal over the sedge, not the sedge over the jackal.
-The glyph will be corrected in Unicode 17.
+The glyph has been corrected in Unicode 17.
 
 ok 0x13A9F 0x13AA0 0x13AA1
 In all three glyphs, the *left* paw is raised.
-The glyphs will be corrected in Unicode 17.
+The glyphs has been corrected in Unicode 17.
 
 0x13AA5
 In the glyph, it is the left front leg that is raised. But who cares! Changing the description to "one front leg raised" would solve the issue.
-
-0x13ACC 0x13AD8 0x13AE3 0x13B05
-In all four glyphs, the blade is not triangular but rounded. But who cares what the shape of the blade is.
-I would simply omit "triangular", thereby removing the inconsistencies between descriptions and glyphs.
 
 0x13AAE 0x13AAF
 I don't think that the glyph of 13AAE has the head of a jackal. The beak looks more like a falcon (although there are ears). 
@@ -35,7 +31,7 @@ this respect, UniKemet appears to be accurate.
 
 0x13AB4
 The blade in the glyph is toward the front.
-The glyph will be "corrected" in Unicode 17.
+The glyph has been "corrected" in Unicode 17.
 However, the Database refers to p. 22, l. 11 of:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/MMAF024.pdf
@@ -45,18 +41,40 @@ The Database further refers to pl. DCXXXII of:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/MMAF031.pdf
 <p>
-But I cannot make out anything there.
+But I cannot make out the orientation there.
 For the purposes of Unicode, encoding the orientation of knives is nonsense anyway, 
-and the philologists cannot tell us with certainty which is which,
+and the philologists apparently cannot tell us with certainty which is which,
 so at this point I no longer care.
+
+0x13ACC 0x13AD8 0x13AE3 0x13B05
+In all four glyphs, the blade is not triangular but rounded. But who cares what the shape of the blade is.
+I would simply omit "triangular", thereby removing the inconsistencies between descriptions and glyphs.
+
+ok 0x13AE9
+In the glyph, the tail is not folded under the rear.
+The glyph has been corrected in Unicode 17.
+
+0x13B0C
+For the left baboon, the left/right arms are reversed in the glyph. You could solve this simply by making the description less specific, say "one arm [...] holding [...] and another arm [...]".
+<p>
+There is a low-resolution photo in the Database, but it is hard to distinguish the left and right arms of the baboon on the left.
+
+0x13B12
+I think I understand what is meant (something in the vein of "the kind of
+chevaux de frise that typically occurs on top of a wall"), but there are no
+walls in the glyphs. I would just omit "on top of walls".
 
 ok 0x13B0E
 There are two horizontal strokes in the glyph.
-The glyph will be corrected in Unicode 17.
+The glyph has been corrected to have a single stroke in Unicode 17.
+
+0x13B19
+The glyph has a base not mentioned in the description. The existence of the sign with base is confirmed by 
+examples listed in the Database.
 
 0x13B3B
 In the glyph, the top knife has the blade forward.
-The glyph will be "corrected" in Unicode 17.
+The glyph has been "corrected" in Unicode 17.
 However, after double-checking the link in the Database myself, p. 198, nr. 21 of:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
@@ -76,22 +94,4 @@ All one needs to specify the identity of this sign is something like "Torso of b
 Anything more than this serves no reasonable purpose.
 
 ok 0x13B39 0x13B58
-To distinguish the two glyphs, the description of 0x13B58 in Unicode 17 will be amended to have "without horns".
-
-ok 0x13AE9
-In the glyph, the tail is not folded under the rear.
-The glyph will be corrected in Unicode 17.
-
-0x13B0C
-For the left baboon, the left/right arms are reversed in the glyph. You could solve this simply by making the description less specific, say "one arm [...] holding [...] and another arm [...]".
-<p>
-There is a low-resolution photo in the Database, but it is hard to distinguish the left and right arms of the baboon on the left.
-
-0x13B12
-I think I understand what is meant (something in the vein of "the kind of
-chevaux de frise that typically occurs on top of a wall"), but there are no
-walls in the glyphs. I would just omit "on top of walls".
-
-0x13B19
-The glyph has a base not mentioned in the description. The existence of the sign with base is confirmed by 
-examples listed in the Database.
+To distinguish the two glyphs, the description of 0x13B58 in Unicode 17 was amended to have "without horns".

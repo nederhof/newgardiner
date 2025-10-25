@@ -198,7 +198,7 @@ def check_omitted(tables):
 		print('Omitted not noncores', diff2)
 
 if __name__ == '__main__':
-	tables = read_unikemet('../tables/Unikemet-16.0.0.txt')
+	tables = read_unikemet('../tables/Unikemet-17.0.0.txt')
 	check_unikemet_unique(tables)
 	check_unikemet_basic_list(tables)
 	check_core_descriptions(tables)

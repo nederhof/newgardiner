@@ -9,14 +9,15 @@ If it is necessary to so precisely describe the pose, then at least make sure th
 reflect what the descriptions say. My preference would be to make descriptions less precise.
 
 ok 0x1359E
-As the crossed arms are not visible in the glyph, Unicode 17 will change the description to have "hands sticking out".
+As the crossed arms are not visible in the glyph, the description in Unicode 17 has been adjusted to have
+"hands sticking out".
 The glyph is consistent with the reference from the Database, pl. XI, 5th column from the right in:
 <p>
 https://archive.org/details/MIFAO15/page/n15/mode/2up
 
 ok 0x135A1
 It is not possible to tell from the glyph which side the speartip is on.
-In Unicode 17, the glyph will more clearly show the speartip to be at the top.
+From Unicode 17, the glyph more clearly shows the speartip to be at the top.
 
 0x135A4
 The "stick" looks more like a mace in the glyph.
@@ -24,15 +25,21 @@ The Database refers to:
 <p>
 http://sith.huma-num.fr/karnak/1021
 <p>
-In the photo, the "stick" seems to have a wide bulb at the end. Can an educated guess be made, so
-at least description and glyph can become consistent, either by changing description of changing glyph? 
+In the photo, the "stick" indeed seems to have a wide bulb at the end. Can an educated guess be made, so
+at least description and glyph can become consistent, either by changing description or changing glyph? 
 Another solution is to make the description broader, say by writing "holding stick or mace".
+<p>
+The "to slightly beyond the hand" does not accurately describes the photo; the stick/mace does not
+extend beyond the hand. And the end of the stick/mace is not near the head, although it is near the crown
+on top of the head.
+A typical case of overinterpreting the normalized glyph of the transcription, and moreover
+the description is overly specific by any reasonable measure.
 
 0x135A5
 Change first full-stop to comma.
 
 ok 0x135B5
-Unicode 17 will correct the glyph to have a triangle, consistent with the description,
+Unicode 17 corrected the glyph to have a triangle, consistent with the description,
 where the Unicode 16 glyph suggested a cross.
 <p>
 The Database points to pl. 600b of:
@@ -57,9 +64,6 @@ The glyph suggests a uraeus not mentioned in the description. Remove the uraeus 
 
 0x135EE
 Replace "counterweight (S18) at the counterweight" by just ""counterweight (S18)"
-
-ok 0x135F2
-In Unicode 17, the description is corrected from "with counterweight at the counterweight" to "with counterweight".
 
 0x135F4
 The glyph suggests a uraeus not mentioned in the description.
@@ -97,12 +101,9 @@ Correct "heels touching ties" to "heels touching thighs".
 But I would omit this phrase altogether as overly precise (and in similar cases often
 inconsistent with the glyph in the code charts).
 
-0x13639
-Correct "the the" to "to the".
-
 ok 0x1363E
 The glyph lacks a beard.
-In Unicode 17, the glyph will have a beard, consistent with the description.
+From Unicode 17, the glyph has a beard, consistent with the description.
 <p>
 The Database points to the TSL:
 <p>

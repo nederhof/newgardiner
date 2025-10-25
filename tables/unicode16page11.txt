@@ -122,7 +122,7 @@ I would make the spike more spiky because currently it doesn't look like a spike
 If it is really necessary to distinguish these, then in 0x13294 and 0x14010, at least specify *two* angled lines. Perhaps for 0x14011 one could replace "multiple" by "more than 4".
 
 0x14014
-The glyph doesn't correspond well to the description. Consider the bottom horizontal line in the middle, which is too high.
+The glyph doesn't match the description very well. Consider the bottom horizontal line in the middle, which is too high.
 
 0x14027 0x14028
 Why is this not the same sign (with two different but related functions)?

@@ -1,5 +1,5 @@
 ok 0x13860 0x13861
-The hair in the glyph of 0x13860 is not long (like it is in 0x13861). This will be corrected in Unicode 17.
+The hair in the glyph of 0x13860 is not long (like it is in 0x13861). This has been corrected in Unicode 17.
 
 0x13865
 No arm is visible in the glyph. My suggestion is to replace "arm forward, forearm following the angle of the upper leg, hand on the knee, horizontally, handpalm up, supporting" by simply "holding". Overly precise descriptions tend to be inconsistent with the glyphs
@@ -10,7 +10,7 @@ made visible in the glyph. But please realise that a character set is a list of 
 A character is an abstraction of instances, not a facsimile of the most detailed instance of a character that one can find.
 
 0x1386A
-The glyph does suggests a sun disk (in the middle above the horns). This has been confirmed to be an error.
+The glyph does suggest a sun disk (in the middle above the horns). This has been confirmed to be an error.
 In Unicode 17 one of the circles on the crown will be removed, but it is regrettably the wrong circle; the circle
 on top of the crown should remain.
 
@@ -91,7 +91,7 @@ For both signs, I think goddess and god are both holding ankh signs in the glyph
 I also think the goddess has the vulture headdress; is that real?
 
 ok 0x1393F
-The glyph has the handpalm inward. This will be corrected in Unicode 17.
+The glyph has the handpalm inward. This has been corrected in Unicode 17.
 
 0x13955
 Correct "an coif" to "and coif". Is the ankh sign in the glyph real?
