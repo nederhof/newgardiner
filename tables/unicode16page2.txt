@@ -129,10 +129,13 @@ at the lower-front corner; not at all like the proportions in the current glyph.
 The hands in the glyph are not horizontal by any stretch of the imagination. I would leave it at "hand palms downwards", which probably
 implies what was meant.
 <p>
-Further, the glyph does a particularly poor job of depicting that hair is hanging in front of the face. 
+Further, the glyph does a particularly poor job of depicting that her hair is hanging down.
 For an example, the Database points here (fourth column from the left):
 <p>
 https://www.britishmuseum.org/collection/object/Y_EA10472-5
+<p>
+There is another example of a woman bending down with hair hanging down in the iconography in the upper left corner.
+In both cases, the hands are not horizontal by any stretch of the imagination.
 
 0x13752 0x13754
 For each, the beard is missing from the glyph.
