@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Legacy characters</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1>Legacy characters in the basic list (Unicode 17)</h1>
+    <p>A number of characters from the basic list are marked as L(egacy) in Unikemet.
+The types below are indications of why these characters were declared to be legacy, 
+and a possible replacement string.
+By no means should users feel compelled to
+avoid these characters in new encodings, despite loud voices
+that do not represent the user community as a whole.
+Many of the so-called legacy characters still have legitimate uses, and for a few, 
+it makes no sense at all that they were declared to be legacy.
+For example, compositional encodings of U+13152 and U+131A5 will never give a
+satisfactory appearance. There are no viable alterative encodings of U+131E2 and U+13403 at all, 
+and the proposed alternative encoding of U+131E1 is too convoluted to be taken seriously.
+Moreover, it very much depends on the application to what extent so-called legacy characters ought to 
+be replaced by other character sequences to achieve the desired form of normalization.
+Considerations that may be valid for one specific group of users of the sign list should 
+not be allowed to cause problems for all other users.
+</p>
+    <p>Users should also approach the following with caution:</p>
+    <p>
+      <a href="https://www.unicode.org/L2/L2025/25110-egyptian.pdf">https://www.unicode.org/L2/L2025/25110-egyptian.pdf</a>
+    </p>
+    <p>This contains blatantly incorrect information, such as use of controls that violates the agreed syntax.</p>
+    <p>Lastly, it should not be overlooked that the extended list contains far too many barely 
+distinguishable graphical variants, as well as many compositional signs that could have been
+expressed in terms of existing signs and control characters. Should users now feel compelled by
+the Unicode Consortium to normalize their encodings, while at the same time the Unicode Consortium
+introduces new signs that achieve the exact opposite? I don't think so.</p>
+    <h2>Types</h2>
+    <table>
+      <tbody>
+        <tr>
+          <th>aspect</th>
+          <td>differs from other sign in aspect ratio</td>
+        </tr>
+        <tr>
+          <th>repetition</th>
+          <td>repetition of one and the same graphical element</td>
+        </tr>
+        <tr>
+          <th>transform</th>
+          <td>transformed version of other sign (by mirroring and/or rotation)</td>
+        </tr>
+        <tr>
+          <th>variant</th>
+          <td>other kind of graphical variant</td>
+        </tr>
+        <tr>
+          <th>overlay</th>
+          <td>composition with overlay</td>
+        </tr>
+        <tr>
+          <th>insertion</th>
+          <td>composition with insertion</td>
+        </tr>
+        <tr>
+          <th>tabular</th>
+          <td>composition with horizontal and vertical joiners</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Some signs that are a repetition of one and the same graphical element can also be
+obtained as mirroring and/or rotation of another composed sign.
+The reason this type has been introduced is that some users may wish to normalize
+signs with regard to mirroring and/or rotation, except if the sign is say a plural determinative.</p>
+    <h2>Characters</h2>
+    <table>
+      <thead>
+        <tr>
+          <th class="label">legacy</th>
+          <th class="label"/>
+          <th class="label">type</th>
+          <th class="label">alternative</th>
+          <th class="label"/>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>U+1305D</th>
+          <td class="glyph">𓁝</td>
+          <td>transform</td>
+          <td>U+1305C U+13440</td>
+          <td class="glyph">𓁜𓑀</td>
+        </tr>
+        <tr>
+          <th>U+1305E</th>
+          <td class="glyph">𓁞</td>
+          <td>transform</td>
+          <td>U+1305B U+13440</td>
+          <td class="glyph">𓁛𓑀</td>
+        </tr>
+        <tr>
+          <th>U+1306A</th>
+          <td class="glyph">𓁪</td>
+          <td>transform</td>
+          <td>U+13069 U+13440</td>
+          <td class="glyph">𓁩𓑀</td>
+        </tr>
+        <tr>
+          <th>U+1306C</th>
+          <td class="glyph">𓁬</td>
+          <td>transform</td>
+          <td>U+1306B U+13440</td>
+          <td class="glyph">𓁫𓑀</td>
+        </tr>
+        <tr>
+          <th>U+13092</th>
+          <td class="glyph">𓂒</td>
+          <td>aspect</td>
+          <td>U+13091</td>
+          <td class="glyph">𓂑</td>
+        </tr>
+        <tr>
+          <th>U+13097</th>
+          <td class="glyph">𓂗</td>
+          <td>insertion</td>
+          <td>U+13093 U+1343A U+1335B</td>
+          <td class="glyph">𓂓𓐺𓍛</td>
+        </tr>
+        <tr>
+          <th>U+130B9</th>
+          <td class="glyph">𓂹</td>
+          <td>overlay</td>
+          <td>U+130B8 U+13436 U+132F4</td>
+          <td class="glyph">𓂸𓐶𓋴</td>
+        </tr>
+        <tr>
+          <th>U+130C1</th>
+          <td class="glyph">𓃁</td>
+          <td>overlay</td>
+          <td>U+1309D U+13436 U+130C0</td>
+          <td class="glyph">𓂝𓐶𓃀</td>
+        </tr>
+        <tr>
+          <th>U+130FA</th>
+          <td class="glyph">𓃺</td>
+          <td>aspect</td>
+          <td>U+130F9</td>
+          <td class="glyph">𓃹</td>
+        </tr>
+        <tr>
+          <th>U+1310C</th>
+          <td class="glyph">𓄌</td>
+          <td>aspect</td>
+          <td>U+1310B</td>
+          <td class="glyph">𓄋</td>
+        </tr>
+        <tr>
+          <th>U+13118</th>
+          <td class="glyph">𓄘</td>
+          <td>transform</td>
+          <td>U+13117 U+13440</td>
+          <td class="glyph">𓄗𓑀</td>
+        </tr>
+        <tr>
+          <th>U+13133</th>
+          <td class="glyph">𓄳</td>
+          <td>transform</td>
+          <td>U+13132 U+FE01</td>
+          <td class="glyph">𓄲︁</td>
+        </tr>
+        <tr>
+          <th>U+13134</th>
+          <td class="glyph">𓄴</td>
+          <td>transform</td>
+          <td>U+13132 U+13440</td>
+          <td class="glyph">𓄲𓑀</td>
+        </tr>
+        <tr>
+          <th>U+13135</th>
+          <td class="glyph">𓄵</td>
+          <td>transform</td>
+          <td>U+13132 U+FE01 U+13440</td>
+          <td class="glyph">𓄲︁𓑀</td>
+        </tr>
+        <tr>
+          <th>U+13137</th>
+          <td class="glyph">𓄷</td>
+          <td>transform</td>
+          <td>U+13136 U+13440</td>
+          <td class="glyph">𓄶𓑀</td>
+        </tr>
+        <tr>
+          <th>U+13138</th>
+          <td class="glyph">𓄸</td>
+          <td>overlay</td>
+          <td>U+13132 U+13436 U+132F4</td>
+          <td class="glyph">𓄲𓐶𓋴</td>
+        </tr>
+        <tr>
+          <th>U+1313A</th>
+          <td class="glyph">𓄺</td>
+          <td>repetition</td>
+          <td>U+13139 U+13431 U+13139 U+13431 U+13139</td>
+          <td class="glyph">𓄹𓐱𓄹𓐱𓄹</td>
+        </tr>
+        <tr>
+          <th>U+1313B</th>
+          <td class="glyph">𓄻</td>
+          <td>repetition</td>
+          <td>U+13139 U+13430 U+13139 U+13430 U+13139</td>
+          <td class="glyph">𓄹𓐰𓄹𓐰𓄹</td>
+        </tr>
+        <tr>
+          <th>U+1313C</th>
+          <td class="glyph">𓄼</td>
+          <td>transform</td>
+          <td>U+13139 U+FE01</td>
+          <td class="glyph">𓄹︁</td>
+        </tr>
+        <tr>
+          <th>U+13141</th>
+          <td class="glyph">𓅁</td>
+          <td>overlay</td>
+          <td>U+1313F U+13436 U+13333</td>
+          <td class="glyph">𓄿𓐶𓌳</td>
+        </tr>
+        <tr>
+          <th>U+13152</th>
+          <td class="glyph">𓅒</td>
+          <td>tabular</td>
+          <td>U+13D04 U+13431 U+13198</td>
+          <td class="glyph">𓴄𓐱𓆘</td>
+        </tr>
+        <tr>
+          <th>U+13155</th>
+          <td class="glyph">𓅕</td>
+          <td>overlay</td>
+          <td>U+1309E U+13436 U+13153</td>
+          <td class="glyph">𓂞𓐶𓅓</td>
+        </tr>
+        <tr>
+          <th>U+13156</th>
+          <td class="glyph">𓅖</td>
+          <td>overlay</td>
+          <td>U+1309D U+13436 U+13153</td>
+          <td class="glyph">𓂝𓐶𓅓</td>
+        </tr>
+        <tr>
+          <th>U+13157</th>
+          <td class="glyph">𓅗</td>
+          <td>overlay</td>
+          <td>U+1308B U+13436 U+13153</td>
+          <td class="glyph">𓂋𓐶𓅓</td>
+        </tr>
+        <tr>
+          <th>U+13169</th>
+          <td class="glyph">𓅩</td>
+          <td>aspect</td>
+          <td>U+13168</td>
+          <td class="glyph">𓅨</td>
+        </tr>
+        <tr>
+          <th>U+1316B</th>
+          <td class="glyph">𓅫</td>
+          <td>aspect</td>
+          <td>U+1316A</td>
+          <td class="glyph">𓅪</td>
+        </tr>
+        <tr>
+          <th>U+13172</th>
+          <td class="glyph">𓅲</td>
+          <td>insertion</td>
+          <td>U+13171 U+13433 U+133CF</td>
+          <td class="glyph">𓅱𓐳𓏏</td>
+        </tr>
+        <tr>
+          <th>U+13174</th>
+          <td class="glyph">𓅴</td>
+          <td>overlay</td>
+          <td>U+1309D U+13436 U+13171</td>
+          <td class="glyph">𓂝𓐶𓅱</td>
+        </tr>
+        <tr>
+          <th>U+13175</th>
+          <td class="glyph">𓅵</td>
+          <td>overlay</td>
+          <td>U+1309E U+13436 U+13171</td>
+          <td class="glyph">𓂞𓐶𓅱</td>
+        </tr>
+        <tr>
+          <th>U+13176</th>
+          <td class="glyph">𓅶</td>
+          <td>overlay</td>
+          <td>U+13171 U+13436 U+13333</td>
+          <td class="glyph">𓅱𓐶𓌳</td>
+        </tr>
+        <tr>
+          <th>U+13196</th>
+          <td class="glyph">𓆖</td>
+          <td>insertion</td>
+          <td>U+13193 U+13433 U+13437 U+133CF U+13430 U+13200 U+13438</td>
+          <td class="glyph">𓆓𓐳𓐷𓏏𓐰𓈀𓐸</td>
+        </tr>
+        <tr>
+          <th>U+131A5</th>
+          <td class="glyph">𓆥</td>
+          <td>tabular</td>
+          <td>U+13437 U+131D3 U+13430 U+133CF U+13438 U+13431 U+13437 U+131A4 U+13430 U+133CF U+13438</td>
+          <td class="glyph">𓐷𓇓𓐰𓏏𓐸𓐱𓐷𓆤𓐰𓏏𓐸</td>
+        </tr>
+        <tr>
+          <th>U+131AA</th>
+          <td class="glyph">𓆪</td>
+          <td>transform</td>
+          <td>U+131A9 U+13440</td>
+          <td class="glyph">𓆩𓑀</td>
+        </tr>
+        <tr>
+          <th>U+131AE</th>
+          <td class="glyph">𓆮</td>
+          <td>overlay</td>
+          <td>U+131AD U+13436 U+131B1</td>
+          <td class="glyph">𓆭𓐶𓆱</td>
+        </tr>
+        <tr>
+          <th>U+131AF</th>
+          <td class="glyph">𓆯</td>
+          <td>overlay</td>
+          <td>U+13191 U+13436 U+131AD</td>
+          <td class="glyph">𓆑𓐶𓆭</td>
+        </tr>
+        <tr>
+          <th>U+131B2</th>
+          <td class="glyph">𓆲</td>
+          <td>overlay</td>
+          <td>U+13153 U+13436 U+131B1</td>
+          <td class="glyph">𓅓𓐶𓆱</td>
+        </tr>
+        <tr>
+          <th>U+131C6</th>
+          <td class="glyph">𓇆</td>
+          <td>overlay</td>
+          <td>U+13193 U+13436 U+131C5</td>
+          <td class="glyph">𓆓𓐶𓇅</td>
+        </tr>
+        <tr>
+          <th>U+131D8</th>
+          <td class="glyph">𓇘</td>
+          <td>overlay</td>
+          <td>U+1309D U+13436 U+131D7</td>
+          <td class="glyph">𓂝𓐶𓇗</td>
+        </tr>
+        <tr>
+          <th>U+131E1</th>
+          <td class="glyph">𓇡</td>
+          <td>repetition</td>
+          <td>U+131E0 U+FE00 U+13440</td>
+          <td class="glyph">𓇠︀𓑀</td>
+        </tr>
+        <tr>
+          <th>U+131E2</th>
+          <td class="glyph">𓇢</td>
+          <td>repetition</td>
+          <td></td>
+          <td class="glyph"></td>
+        </tr>
+        <tr>
+          <th>U+13202</th>
+          <td class="glyph">𓈂</td>
+          <td>insertion</td>
+          <td>U+13200 U+13439 U+13283</td>
+          <td class="glyph">𓈀𓐹𓊃</td>
+        </tr>
+        <tr>
+          <th>U+1320A</th>
+          <td class="glyph">𓈊</td>
+          <td>aspect</td>
+          <td>U+13209</td>
+          <td class="glyph">𓈉</td>
+        </tr>
+        <tr>
+          <th>U+13215</th>
+          <td class="glyph">𓈕</td>
+          <td>variant</td>
+          <td>U+13214</td>
+          <td class="glyph">𓈔</td>
+        </tr>
+        <tr>
+          <th>U+13251</th>
+          <td class="glyph">𓉑</td>
+          <td>insertion</td>
+          <td>U+13250 U+1343B U+132F9</td>
+          <td class="glyph">𓉐𓐻𓋹</td>
+        </tr>
+        <tr>
+          <th>U+13252</th>
+          <td class="glyph">𓉒</td>
+          <td>insertion</td>
+          <td>U+13250 U+1343B U+13309</td>
+          <td class="glyph">𓉐𓐻𓌉</td>
+        </tr>
+        <tr>
+          <th>U+13256</th>
+          <td class="glyph">𓉖</td>
+          <td>transform</td>
+          <td>U+13255 U+13440</td>
+          <td class="glyph">𓉕𓑀</td>
+        </tr>
+        <tr>
+          <th>U+1325E</th>
+          <td class="glyph">𓉞</td>
+          <td>insertion</td>
+          <td>U+13257 U+13439 U+133CF</td>
+          <td class="glyph">𓉗𓐹𓏏</td>
+        </tr>
+        <tr>
+          <th>U+1325F</th>
+          <td class="glyph">𓉟</td>
+          <td>overlay</td>
+          <td>U+1325E U+13436 U+1327B</td>
+          <td class="glyph">𓉞𓐶𓉻</td>
+        </tr>
+        <tr>
+          <th>U+13260</th>
+          <td class="glyph">𓉠</td>
+          <td>insertion</td>
+          <td>U+13F60 U+13439 U+133CF</td>
+          <td class="glyph">𓽠𓐹𓏏</td>
+        </tr>
+        <tr>
+          <th>U+13261</th>
+          <td class="glyph">𓉡</td>
+          <td>insertion</td>
+          <td>U+13257 U+FE01 U+13440 U+13439 U+13143</td>
+          <td class="glyph">𓉗︁𓑀𓐹𓅃</td>
+        </tr>
+        <tr>
+          <th>U+13262</th>
+          <td class="glyph">𓉢</td>
+          <td>insertion</td>
+          <td>U+13257 U+13439 U+132F9</td>
+          <td class="glyph">𓉗𓐹𓋹</td>
+        </tr>
+        <tr>
+          <th>U+13263</th>
+          <td class="glyph">𓉣</td>
+          <td>insertion</td>
+          <td>U+13257 U+FE01 U+13440 U+13439 U+131A4</td>
+          <td class="glyph">𓉗︁𓑀𓐹𓆤</td>
+        </tr>
+        <tr>
+          <th>U+13264</th>
+          <td class="glyph">𓉤</td>
+          <td>insertion</td>
+          <td>U+1326C U+13439 U+13077</td>
+          <td class="glyph">𓉬𓐹𓁷</td>
+        </tr>
+        <tr>
+          <th>U+13266</th>
+          <td class="glyph">𓉦</td>
+          <td>overlay</td>
+          <td>U+13265 U+13436 U+1309D</td>
+          <td class="glyph">𓉥𓐶𓂝</td>
+        </tr>
+        <tr>
+          <th>U+13270</th>
+          <td class="glyph">𓉰</td>
+          <td>variant</td>
+          <td>U+1326F</td>
+          <td class="glyph">𓉯</td>
+        </tr>
+        <tr>
+          <th>U+1327C</th>
+          <td class="glyph">𓉼</td>
+          <td>transform</td>
+          <td>U+1327B U+FE00</td>
+          <td class="glyph">𓉻︀</td>
+        </tr>
+        <tr>
+          <th>U+1327E</th>
+          <td class="glyph">𓉾</td>
+          <td>repetition</td>
+          <td>U+1327D U+13431 U+1327D U+13431 U+1327D U+13431 U+1327D</td>
+          <td class="glyph">𓉽𓐱𓉽𓐱𓉽𓐱𓉽</td>
+        </tr>
+        <tr>
+          <th>U+13298</th>
+          <td class="glyph">𓊘</td>
+          <td>transform</td>
+          <td>U+13299 U+13440</td>
+          <td class="glyph">𓊙𓑀</td>
+        </tr>
+        <tr>
+          <th>U+132A3</th>
+          <td class="glyph">𓊣</td>
+          <td>overlay</td>
+          <td>U+1309D U+13436 U+132A2</td>
+          <td class="glyph">𓂝𓐶𓊢</td>
+        </tr>
+        <tr>
+          <th>U+132A5</th>
+          <td class="glyph">𓊥</td>
+          <td>overlay</td>
+          <td>U+13191 U+13436 U+132A4</td>
+          <td class="glyph">𓆑𓐶𓊤</td>
+        </tr>
+        <tr>
+          <th>U+132DF</th>
+          <td class="glyph">𓋟</td>
+          <td>overlay</td>
+          <td>U+130C0 U+13436 U+132DE</td>
+          <td class="glyph">𓃀𓐶𓋞</td>
+        </tr>
+        <tr>
+          <th>U+132E0</th>
+          <td class="glyph">𓋠</td>
+          <td>overlay</td>
+          <td>U+132DE U+13436 U+13309</td>
+          <td class="glyph">𓋞𓐶𓌉</td>
+        </tr>
+        <tr>
+          <th>U+132E1</th>
+          <td class="glyph">𓋡</td>
+          <td>overlay</td>
+          <td>U+132DE U+13436 U+13300</td>
+          <td class="glyph">𓋞𓐶𓌀</td>
+        </tr>
+        <tr>
+          <th>U+132F1</th>
+          <td class="glyph">𓋱</td>
+          <td>variant</td>
+          <td>U+132F0</td>
+          <td class="glyph">𓋰</td>
+        </tr>
+        <tr>
+          <th>U+132F5</th>
+          <td class="glyph">𓋵</td>
+          <td>overlay</td>
+          <td>U+13191 U+13436 U+132F4</td>
+          <td class="glyph">𓆑𓐶𓋴</td>
+        </tr>
+        <tr>
+          <th>U+132F6</th>
+          <td class="glyph">𓋶</td>
+          <td>overlay</td>
+          <td>U+132F4 U+13436 U+13333</td>
+          <td class="glyph">𓋴𓐶𓌳</td>
+        </tr>
+        <tr>
+          <th>U+132FB</th>
+          <td class="glyph">𓋻</td>
+          <td>variant</td>
+          <td>U+132FA</td>
+          <td class="glyph">𓋺</td>
+        </tr>
+        <tr>
+          <th>U+1330C</th>
+          <td class="glyph">𓌌</td>
+          <td>overlay</td>
+          <td>U+13193 U+13436 U+13309</td>
+          <td class="glyph">𓆓𓐶𓌉</td>
+        </tr>
+        <tr>
+          <th>U+1330D</th>
+          <td class="glyph">𓌍</td>
+          <td>overlay</td>
+          <td>U+13309 U+13436 U+13437 U+13193 U+13430 U+13193 U+13438</td>
+          <td class="glyph">𓌉𓐶𓐷𓆓𓐰𓆓𓐸</td>
+        </tr>
+        <tr>
+          <th>U+1332D</th>
+          <td class="glyph">𓌭</td>
+          <td>overlay</td>
+          <td>U+132F4 U+13436 U+1332B</td>
+          <td class="glyph">𓋴𓐶𓌫</td>
+        </tr>
+        <tr>
+          <th>U+1332F</th>
+          <td class="glyph">𓌯</td>
+          <td>overlay</td>
+          <td>U+132F4 U+13436 U+1332E</td>
+          <td class="glyph">𓋴𓐶𓌮</td>
+        </tr>
+        <tr>
+          <th>U+13335</th>
+          <td class="glyph">𓌵</td>
+          <td>insertion</td>
+          <td>U+13333 U+13432 U+13079</td>
+          <td class="glyph">𓌳𓐲𓁹</td>
+        </tr>
+        <tr>
+          <th>U+13336</th>
+          <td class="glyph">𓌶</td>
+          <td>insertion</td>
+          <td>U+13333 U+13432 U+13419</td>
+          <td class="glyph">𓌳𓐲𓐙</td>
+        </tr>
+        <tr>
+          <th>U+13337</th>
+          <td class="glyph">𓌷</td>
+          <td>aspect</td>
+          <td>U+13336</td>
+          <td class="glyph">𓌶</td>
+        </tr>
+        <tr>
+          <th>U+13339</th>
+          <td class="glyph">𓌹</td>
+          <td>transform</td>
+          <td>U+13338 U+FE03</td>
+          <td class="glyph">𓌸︃</td>
+        </tr>
+        <tr>
+          <th>U+1333A</th>
+          <td class="glyph">𓌺</td>
+          <td>transform</td>
+          <td>U+13338 U+FE03 U+13440</td>
+          <td class="glyph">𓌸︃𓑀</td>
+        </tr>
+        <tr>
+          <th>U+1333B</th>
+          <td class="glyph">𓌻</td>
+          <td>transform</td>
+          <td>U+13338 U+FE06</td>
+          <td class="glyph">𓌸︆</td>
+        </tr>
+        <tr>
+          <th>U+13353</th>
+          <td class="glyph">𓍓</td>
+          <td>overlay</td>
+          <td>U+13351 U+13436 U+133F2</td>
+          <td class="glyph">𓍑𓐶𓏲</td>
+        </tr>
+        <tr>
+          <th>U+1335A</th>
+          <td class="glyph">𓍚</td>
+          <td>overlay</td>
+          <td>U+13191 U+13436 U+13359</td>
+          <td class="glyph">𓆑𓐶𓍙</td>
+        </tr>
+        <tr>
+          <th>U+1339C</th>
+          <td class="glyph">𓎜</td>
+          <td>overlay</td>
+          <td>U+1309D U+13436 U+1339B</td>
+          <td class="glyph">𓂝𓐶𓎛</td>
+        </tr>
+        <tr>
+          <th>U+1339E</th>
+          <td class="glyph">𓎞</td>
+          <td>overlay</td>
+          <td>U+1339D U+13436 U+133A1</td>
+          <td class="glyph">𓎝𓐶𓎡</td>
+        </tr>
+        <tr>
+          <th>U+133A0</th>
+          <td class="glyph">𓎠</td>
+          <td>aspect</td>
+          <td>U+1339F</td>
+          <td class="glyph">𓎟</td>
+        </tr>
+        <tr>
+          <th>U+133A2</th>
+          <td class="glyph">𓎢</td>
+          <td>transform</td>
+          <td>U+133A1 U+13440</td>
+          <td class="glyph">𓎡𓑀</td>
+        </tr>
+        <tr>
+          <th>U+133B2</th>
+          <td class="glyph">𓎲</td>
+          <td>aspect</td>
+          <td>U+133B1</td>
+          <td class="glyph">𓎱</td>
+        </tr>
+        <tr>
+          <th>U+133B9</th>
+          <td class="glyph">𓎹</td>
+          <td>transform</td>
+          <td>U+133B8 U+13440</td>
+          <td class="glyph">𓎸𓑀</td>
+        </tr>
+        <tr>
+          <th>U+133C0</th>
+          <td class="glyph">𓏀</td>
+          <td>tabular</td>
+          <td>U+1339B U+13440 U+13431 U+133BF U+13430 U+13283</td>
+          <td class="glyph">𓎛𓑀𓐱𓎿𓐰𓊃</td>
+        </tr>
+        <tr>
+          <th>U+133CD</th>
+          <td class="glyph">𓏍</td>
+          <td>repetition</td>
+          <td>U+133CC U+13431 U+133CC U+13431 U+133CC</td>
+          <td class="glyph">𓏌𓐱𓏌𓐱𓏌</td>
+        </tr>
+        <tr>
+          <th>U+133D7</th>
+          <td class="glyph">𓏗</td>
+          <td>variant</td>
+          <td>U+133D6</td>
+          <td class="glyph">𓏖</td>
+        </tr>
+        <tr>
+          <th>U+133DC</th>
+          <td class="glyph">𓏜</td>
+          <td>transform</td>
+          <td>U+133DB U+FE02</td>
+          <td class="glyph">𓏛︂</td>
+        </tr>
+        <tr>
+          <th>U+133DF</th>
+          <td class="glyph">𓏟</td>
+          <td>transform</td>
+          <td>U+133DE U+13440</td>
+          <td class="glyph">𓏞𓑀</td>
+        </tr>
+        <tr>
+          <th>U+133E9</th>
+          <td class="glyph">𓏩</td>
+          <td>repetition</td>
+          <td>U+133E8 U+FE01</td>
+          <td class="glyph">𓏨︁</td>
+        </tr>
+        <tr>
+          <th>U+133EB</th>
+          <td class="glyph">𓏫</td>
+          <td>repetition</td>
+          <td>U+133E5 U+FE00</td>
+          <td class="glyph">𓏥︀</td>
+        </tr>
+        <tr>
+          <th>U+133EC</th>
+          <td class="glyph">𓏬</td>
+          <td>repetition</td>
+          <td>U+133E7 U+FE00</td>
+          <td class="glyph">𓏧︀</td>
+        </tr>
+        <tr>
+          <th>U+13403</th>
+          <td class="glyph">𓐃</td>
+          <td>repetition</td>
+          <td></td>
+          <td class="glyph"></td>
+        </tr>
+        <tr>
+          <th>U+13414</th>
+          <td class="glyph">𓐔</td>
+          <td>transform</td>
+          <td>U+13413 U+13440</td>
+          <td class="glyph">𓐓𓑀</td>
+        </tr>
+        <tr>
+          <th>U+13424</th>
+          <td class="glyph">𓐤</td>
+          <td>overlay</td>
+          <td>U+1309D U+13436 U+13423</td>
+          <td class="glyph">𓂝𓐶𓐣</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

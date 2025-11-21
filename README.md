@@ -59,6 +59,7 @@ Critiques of Unicode 16:
 - [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare0.html)
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 - [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
+- [Legacy characters in Unicode 17](https://nederhof.github.io/newgardiner/legacy.html)
 
 <!--
 Provisional Unicode 17 code charts:
@@ -70,7 +71,7 @@ Provisional Unicode 17 code charts:
 ## Selected versions of the NewGardiner font
 
 - 3.04 (2025-10-25)
-	- Check of basic list against Unicode 5.2.
+	- Checked basic list against Unicode 5.2.
 	- Some revisions of extended list.
 - 3.03 (2025-06-17)
 	- Global overhaul of extended list.
