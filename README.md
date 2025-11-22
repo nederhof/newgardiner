@@ -59,7 +59,7 @@ Critiques of Unicode 16:
 - [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare0.html)
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 - [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
-- [Legacy characters in Unicode 17](https://nederhof.github.io/newgardiner/legacy.html)
+- [Legacy characters](https://nederhof.github.io/newgardiner/legacy.html)
 
 <!--
 Provisional Unicode 17 code charts:
