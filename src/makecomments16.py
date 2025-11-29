@@ -118,6 +118,8 @@ def make_page(comment_pages, tables):
 	h1.text = title.text
 	p = etree.SubElement(body, 'p')
 	p.text = 'The glyphs of the extended list were automatically extracted from the official PDF code charts of Unicode 16. For the basic list, the glyphs are from the code charts of Unicode 5.2. Lines in blue starting with code point and kEH_Desc are descriptions copied verbatim from Unikemet. Comments in green indicate that the issues were resolved.'
+	copyr = etree.SubElement(body, 'p')
+	copyr.text = 'Glyphs are Copyright © 1991-2025 Unicode, Inc.'
 	code_points = set()
 	for comment_page in comment_pages:
 		h2 = etree.SubElement(body, 'h2')

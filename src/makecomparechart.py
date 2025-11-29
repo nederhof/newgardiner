@@ -73,6 +73,8 @@ def generate_page(page_num, previous_page, next_page, page_start, page_end):
 		next_button = etree.SubElement(navigation, 'a', {'href': page_filename(next_page), 'class': 'button'})
 		next_button.text = '➡'
 	generate_table(body, page_start, page_end)
+	copyr = etree.SubElement(body, 'p')
+	copyr.text = 'Glyphs are Copyright © 1991-2025 Unicode, Inc.'
 	html_string = etree.tostring(html, pretty_print=True, doctype='<!DOCTYPE html>', encoding='unicode')
 	with open(page_path(page_num), 'w', encoding='utf-8') as f:
 		f.write(html_string)

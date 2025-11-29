@@ -114,6 +114,8 @@ def make_page(tables):
 		h1.text = title.text
 		p = etree.SubElement(body, 'p')
 		p.text = 'Where two glyphs are given for the same code point, the first is from Unicode 5.2 and the second is from Unicode 16. The glyphs were automatically extracted from the official PDF code charts. Lines in blue starting with code point and kEH_Desc are descriptions copied verbatim from Unikemet. Comments in green indicate that the issues were resolved.'
+	copyr = etree.SubElement(body, 'p')
+	copyr.text = 'Glyphs are Copyright © 1991-2025 Unicode, Inc.'
 	h2 = etree.SubElement(body, 'h2')
 	h2.text = 'Apparent errors'
 	code_points = set()
