@@ -102,9 +102,9 @@ The glyph depicts only one arm. In Unicode 17, the description has been correcte
 
 0x13717
 I would leave it at "hand palms upwards". The "hands horizontal" is not consistent with the glyph and that the hands are "half-way" horizontal is already implied by "hand palms upwards".
-You are doing a grave disservice to users of Unicode by feeding them inconsistent information.
-In particular, you are making the job of font designers impossible.
-If you cannot ensure that the glyph in the code charts
+A grave disservice is done to users of Unicode by feeding them inconsistent information.
+In particular, the job of font designers is made impossible.
+If one cannot ensure that the glyph in the code charts
 is consistent with the description, then there is no point making the description so specific.
 
 0x1373F

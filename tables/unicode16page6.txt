@@ -55,7 +55,7 @@ In the glyph, the tail is not folded under the rear.
 The glyph has been corrected in Unicode 17.
 
 0x13B0C
-For the left baboon, the left/right arms are reversed in the glyph. You could solve this simply by making the description less specific, say "one arm [...] holding [...] and another arm [...]".
+For the left baboon, the left/right arms are reversed in the glyph. One could solve this simply by making the description less specific, say "one arm [...] holding [...] and another arm [...]".
 <p>
 There is a low-resolution photo in the Database, but it is hard to distinguish the left and right arms of the baboon on the left.
 
