@@ -1,8 +1,6 @@
 # NewGardiner font of Egyptian Hieroglyphs
 
-This TrueType font was created at the [University of St Andrews](https://www.st-andrews.ac.uk/)
-using [FontForge](https://fontforge.org/en-US/).
-It is released under the SIL OFL 1.1 license.
+This TrueType font was created at the [University of St Andrews](https://www.st-andrews.ac.uk/) using [FontForge](https://fontforge.org/en-US/). It is released under the SIL OFL 1.1 license.
 
 It includes:
 
@@ -12,27 +10,15 @@ It includes:
 - Default glyphs for the 38 control characters introduced in Unicode 12 (2019) and Unicode 15 (2022).
 - Various ligatures and auxiliary signs for the implementation of [HieroJax](https://github.com/nederhof/hierojax).
 
-From the extended list only the **core** signs are included in the font. 
-The 568 **non-core** signs are unverified and undocumented, and are thereby
-pointless and were introduced in Unicode for all the wrong reasons (don't ask). 
-In the font, the non-core signs have placeholder glyphs **nc**. A handful of non-core signs that were drawn by mistake are
-kept in a separate font.
+From the extended list only the **core** signs are included in the font. The 568 **non-core** signs are unverified and undocumented, and are thereby pointless and were introduced in Unicode for all the wrong reasons (don't ask). In the font, the non-core signs have placeholder glyphs **nc**. A handful of non-core signs that were drawn by mistake are kept in a separate font.
 
 View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/page0.html).
 
 ## Warning
 
-There are countless unresolved issues in the extended list, such as inconsistencies between code charts and descriptions, and
-inconsistencies between the new signs and the published encoding principles.
-This font inevitably suffers from these issues as well and should therefore be considered as no more than a preliminary attempt 
-to create a font covering the core signs.
+There are countless unresolved issues in the extended list, such as inconsistencies between code charts and descriptions, and inconsistencies between the new signs and the published encoding principles. This font inevitably suffers from these issues as well and should therefore be considered as no more than a preliminary attempt to create a font covering the core signs.
 
-Particularly egregious is that several signs from the basic list were misplaced to
-new code points, while new shapes were assigned to old code points, without
-any documented justification or open discussion.
-Obviously this is unacceptable, as it invalidated overnight any encodings that were compiled in the past 16 years. 
-The basic list needs to be restored to what it was in Unicode 5.2 as soon as possible.
-A stable situation may however not exist until Unicode 18.
+Particularly egregious is that several signs from the basic list were misplaced to new code points, while new shapes were assigned to old code points, without any documented justification or open discussion. Obviously this is unacceptable, as it invalidated overnight any encodings that were compiled in the past 16 years. The basic list needs to be restored to what it was in Unicode 5.2 as soon as possible. At this time however, I'm not hopeful that reason will prevail. Apparently, criticism is not appreciated.
 
 ## Links
 
@@ -70,6 +56,9 @@ Provisional Unicode 17 code charts:
 
 ## Selected versions of the NewGardiner font
 
+- 3.05 (2025-12-13)
+	- Added one ligature.
+	- A few minor revisions.
 - 3.04 (2025-10-25)
 	- Checked basic list against Unicode 5.2.
 	- Some revisions of extended list.
@@ -90,4 +79,3 @@ Provisional Unicode 17 code charts:
 	- Redesign of categories A, B, C.
 - 1.00 (2009-01-07)
 	- Initial release of the 1071 signs in the basic list.
-

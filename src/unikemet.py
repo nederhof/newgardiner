@@ -24,9 +24,8 @@ def cat_index(cat):
 	return UNI_CATEGORIES.index(cat)
 
 class CharSorter:
-	def __init__(self):
-		UNIKEMET = '../tables/Unikemet16revised.txt'
-		self.char_to_name = tables = read_unikemet(UNIKEMET)['unik']
+	def __init__(self, filename):
+		self.char_to_name = tables = read_unikemet(filename)['unik']
 
 	def parts(self, ch):
 		name = self.char_to_name[ch]

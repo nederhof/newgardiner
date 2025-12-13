@@ -135,8 +135,8 @@ normalized transcriptions. It so happens that someone at some point drew the gly
 and the number 7 was then elevated to a status it doesn't deserve.
 Claims that an (over)emphasis on (arbitrary) details is somehow more "scientific" should not be readily accepted.
 <p>
-Changing 7 to 6 in the description won't change anything if the week after 
-a token is found which actually has 7 petals.
+Changing 7 to 6 in the description won't solve the issue, because the week after 
+a token may be found which actually has 7 petals.
 The one obvious solution is not to include the exact number of petals in the description.
 Then the question becomes whether 0x13E4B deserves an independent code point.
 
