@@ -27,7 +27,13 @@ http://sith.huma-num.fr/karnak/4225
 <p>
 is that the intended use of 0x1432F is with insertion in the bottom left corner.
 But as noted before, the implementation can choose an appropriate form of an overlay depending
-on whether there are insertions, obviating the need for 0x1432F (and of 0x13393 for that matter).
+on whether there are insertions, obviating the need for 0x1432F (and of 0x13393 for that matter). See:
+<p>
+https://nederhof.github.io/hierojax/ligaturelist.html
+<p>
+and
+<p>
+https://nederhof.github.io/hierojax/insertionlist.html
 <p>
 Once again, I note that e.g. the flat hare 0x130FA and the flat swallow 0x1316B, which are typically used
 with vertical joiners, were deprecated because they "only" served to arrange signs in a better way.

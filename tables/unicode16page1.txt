@@ -63,7 +63,7 @@ Does the description need to be this precise?
 The glyph suggests a uraeus not mentioned in the description. Remove the uraeus from the glyph, or amend the description?
 
 0x135EE
-Replace "counterweight (S18) at the counterweight" by just ""counterweight (S18)"
+Replace "counterweight (S18) at the counterweight" by just ""counterweight (S18)".
 
 0x135F4
 The glyph suggests a uraeus not mentioned in the description.
