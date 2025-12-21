@@ -109,12 +109,15 @@ Correct "at the bottom".
 0x13E20 0x13E27
 Overtly violates Point 5 of the Encoding Principles "Signs that exist with and without inner detailing will be included with the inner detailing".
 
+0x13E35
+In UniKemet correct "kEH_JSesh M8i" to "kEH_JSesh M8I".
+
 0x13E41 0x13E42
 Apart from the violation of Point 5 of the Encoding Principles, the description of
 0x13E42 is inaccurate. At best, correct 0x13E42 to "without".
 
 0x13E44 0x13E47
-I don't see how anyone can possible justify having the second next to the first. For similar cases of trivial graphical variants in the basic list, there was apparently a decision to make one of them Legacy. I see no consistency. The two shapes are functionally equivalent.
+I don't see how anyone can possibly justify having the second next to the first. For similar cases of trivial graphical variants in the basic list, there was apparently a decision to make one of them Legacy. I see no consistency. The two shapes are functionally equivalent.
 <p>
 The Database has "I am not certain this [0x13E47] would be a meaningful variant". Quite.
 

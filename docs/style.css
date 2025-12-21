@@ -82,7 +82,7 @@ table {
 table th, table td {
 	border: 1px solid #000000;
 	text-align: center;
-	vertical-align: top;
+	vertical-align: bottom;
 	padding: 8px;
 }
 
@@ -102,6 +102,11 @@ tt {
 .glyph {
 	font-family: Hieroglyphic;
 	font-size: 30px;
+}
+
+.noncore {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .code {

@@ -1,3 +1,6 @@
+0x14220
+In UniKemet correct "kEH_JSesh Aa18a" to "kEH_JSesh Aa18A".
+
 0x14231 0x14232
 "sun within a halo" suggests there should be an "inner circle". I don't see that in the glyph. (But frankly, who cares about such fiddly details. Something like "sun encircled by a cobra" is precise enough. Or just N6.)
 

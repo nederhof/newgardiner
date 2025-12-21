@@ -89,13 +89,6 @@ The Database says of 0x141BF that it is "[n]ot a meaningful variant of [0x132F7]
 0x132F7 in Unicode 16 has sloping fringes, whereas the intended shape in Unicode 5.2 is non-sloping.
 I see no reflection in the Database on what the core difference between 0x141BF and 0x141C0 is supposed to be.
 
-0x141D5 0x141D6
-If the circle section is to represent a crescent moon, then the glyph doesn't do a very good job 
-of representing this, i.e. it is nothing like N11 as it occurs in most fonts.
-
-0x141D7
-What is a double crescent moon supposed to look like? Just two circle sections like currently in the glyph?
-
 0x14201
 In the glyph, I see a "boss near the top", not in the center.
 

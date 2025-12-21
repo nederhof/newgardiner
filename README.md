@@ -10,7 +10,9 @@ It includes:
 - Default glyphs for the 38 control characters introduced in Unicode 12 (2019) and Unicode 15 (2022).
 - Various ligatures and auxiliary signs for the implementation of [HieroJax](https://github.com/nederhof/hierojax).
 
-From the extended list only the **core** signs are included in the font. The 568 **non-core** signs are unverified and undocumented, and are thereby pointless and were introduced in Unicode for all the wrong reasons (don't ask). In the font, the non-core signs have placeholder glyphs **nc**. A handful of non-core signs that were drawn by mistake are kept in a separate font.
+From the extended list only the **core** signs are included in the font. The 568 **non-core** signs are unverified and undocumented, and are thereby pointless and were introduced in Unicode for all the wrong reasons (don't ask). A handful of non-core signs that were drawn by mistake are kept in a separate font.
+
+**Do not ask me to add non-core signs. I cannot draw something if I don't know what that something is.**
 
 View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/page0.html).
 
@@ -56,6 +58,8 @@ Provisional Unicode 17 code charts:
 
 ## Selected versions of the NewGardiner font
 
+- 3.06 (2025-12-21)
+	- Placeholder glyphs for non-core signs removed.
 - 3.05 (2025-12-13)
 	- Added one ligature.
 	- A few minor revisions.

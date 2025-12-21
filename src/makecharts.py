@@ -1,7 +1,11 @@
 from lxml import etree
 import os
 
+NONCORE_FILE = '../tables/noncore.csv'
 TARGET_DIR = '../docs/'
+
+with open(NONCORE_FILE, 'r') as f:
+	noncores = [int(line, 16) for line in f]
 
 def page_filename(page_num):
 	return f'page{page_num}.html'
@@ -29,8 +33,12 @@ def generate_table(body, page_start, page_end):
 			code_point = page_start + col * num_rows + row
 			if code_point < page_end:
 				td = etree.SubElement(tr, 'td')
-				div_glyph = etree.SubElement(td, 'div', {'class': 'glyph'})
-				div_glyph.text = chr(code_point)
+				if code_point in noncores:
+					div_noncore = etree.SubElement(td, 'div', {'class': 'noncore'})
+					div_noncore.text = 'NC'
+				else:
+					div_glyph = etree.SubElement(td, 'div', {'class': 'glyph'})
+					div_glyph.text = chr(code_point)
 				div_code = etree.SubElement(td, 'div', {'class': 'code'})
 				div_code.text = f'{code_point:X}'
 			else:
