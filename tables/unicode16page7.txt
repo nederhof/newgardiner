@@ -86,7 +86,7 @@ Much more common examples are U+1312A and U+1312B and U+13257
 but separate code points for those for the purpose of insertions were not introduced.
 <p>
 See how HieroJax handles these, by selecting appropriate glyphs
-depending on insertion:
+depending on insertion, including for 0x13125:
 <p>
 https://nederhof.github.io/hierojax/insertionlist.html
 <p>
