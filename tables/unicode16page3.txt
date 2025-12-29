@@ -42,8 +42,9 @@ It becomes an exercise in futility if we expect Unicode to encode
 palaeographic features that may not even be real, and/or that scholars disagree on
 (the Database has in the same entry: "I do not agree with the long wig").
 
-0x13784 0x1378B
+ok 0x13784 0x1378B
 Name clash in Unicode 17: both have kEH_UniK that is C022Q.
+In the next release, 0x1378B will be renamed to C022R.
 
 0x13802 0x13803
 The hair in the glyph of 0x13803 has been "corrected" to "long" in Unicode 17 to make it more like
