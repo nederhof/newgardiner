@@ -44,5 +44,12 @@ There is no coherent vision behind what was done.
 0x143DA
 There appears to be uraeus or head of vulture near headdress. Is that real?
 
+0x143E8
+Unikemet-17 has kEH_Desc "Four horizontal strokes arranged vertically."
+I cannot find any trace of this sign in the Database. In the Database,
+Z-01-033 stands for a single horizontal stroke. I don't see an occurrence of a sign
+with five horizontal strokes in the Database, but there is an occurrence of a sign with four horizontal strokes 
+(Z-01-036).
+
 0x143EF
 Remove "with, ".
