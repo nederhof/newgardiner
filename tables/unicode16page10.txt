@@ -84,5 +84,5 @@ and then the description of 0x13F03 could be expanded to be distinct from this:
 0x13F11
 In the glyph the viper is *under* the tree.
 
-0x13F34
-In UniKemet correct "kEH_JSesh N36D" to "kEH_JSesh N36C".
+ok 0x13F34
+In Unicode 18, "kEH_JSesh N36D" will be corrected to "kEH_JSesh N36C" for consistency with changes in JSesh 7.9.

@@ -71,7 +71,8 @@ https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara014.pdf
 This has a standard as in the glyph.
 
 0x13CD5 0x13CD6 0x13CD9 13CDA
-None of the descriptions of human-headed birds mention beards. If these are not expected to have beards, or if it doesn't matter, I would suggest omitting them from the glyphs.
+None of the descriptions of human-headed birds mention beards. If these are not expected to have beards, or if it doesn't matter, I would suggest omitting them from the glyphs. (I would not have mentioned this otherwise, but 
+descriptions elsewhere are (overly) specific when it comes to beards.)
 <p>
 The glyph of 0x13CDA, unlike 0x13CD9, seems to suggest uraei on the headdress. Are those real?
 
