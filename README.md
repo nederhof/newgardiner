@@ -20,7 +20,7 @@ View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/page0.htm
 
 There are countless unresolved issues in the extended list, such as inconsistencies between code charts and descriptions, and inconsistencies between the new signs and the published encoding principles. This font inevitably suffers from these issues as well and should therefore be considered as no more than a preliminary attempt to create a font covering the core signs.
 
-Particularly egregious is that several signs from the basic list were misplaced to new code points, while new shapes were assigned to old code points, without any documented justification or open discussion. Obviously this is unacceptable, as it invalidated overnight any encodings that were compiled in the past 16 years. The basic list needs to be restored to what it was in Unicode 5.2 as soon as possible. At this time however, I'm not hopeful that reason will prevail. Apparently, criticism is not appreciated.
+Particularly egregious is that several signs from the basic list were misplaced to new code points, while new shapes were assigned to old code points, without any documented justification or open discussion. Obviously this is unacceptable, as it invalidated overnight any encodings that were compiled in the past 16 years. The basic list needs to be restored to what it was in Unicode 5.2 as soon as possible. At this time however, I'm not hopeful that reason will prevail.
 
 ## Links
 
