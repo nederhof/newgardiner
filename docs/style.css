@@ -18,6 +18,11 @@ h1 {
 	margin-bottom: 20px;
 }
 
+h1 .subtitle {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
 h2 {
 	font-size: 20px;
 	margin-top: 16px;

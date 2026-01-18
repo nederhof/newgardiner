@@ -362,7 +362,7 @@ I would prefer for the description to leave underspecified which sign is on top,
 0x1342D
 The internal detail in the form of diagonal lines was removed.
 The only justification I can piece together
-is that no diagonal lines happened to be discernible in any of the
+is that no diagonal lines happened to be discernible in any of the mere
 6 (!) tokens in the TSL, which may have been from after the Old Kingdom.
 The Database has "Agreed, TSL without strokes only [...] OK
 form vs. later form". There is no doubt though that the sign occurs in the Old Kingdom with diagonal strokes.
@@ -405,8 +405,5 @@ The devil's advocate would say that a student would be misled into thinking that
 any token of Aa31 in a real inscription from any period must have all the internal details
 that the normalized glyph has. But even a beginning student would know that this is not how the writing system works.
 <p>
-It appears that the unannounced revision of the basic sign list that no one asked for
-was guided by an eagerness to destroy and remake in one's image,
-from the perspective of palaeographic special interests,
-rather than by any considerations about the
-continuity of Unicode or what would be best for typical users.
+Palaeographic special interests should not override any and all considerations about
+the continuity of Unicode or what would be best for typical users.
