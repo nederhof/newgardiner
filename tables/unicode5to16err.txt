@@ -153,7 +153,7 @@ for all practical purposes, there was the unexpected move to drastically change 
 R12 standard as in the description, that is, a standard with the vertical beam roughly in the middle, and objects attached
 to the left end, and this became the Unicode 17 form.
 This seems to be a much less common form for ibis-on-standard, 
-even though it is the logo of the Thot Sign List. Most tokens seem to have a plain horizontal beam with attached objects and 
+even though it is the logo of the Thot Sign List. Most tokens seem to have a plain horizontal beam without attached objects and 
 with the vertical beam perfectly or almost at the right end:
 <p>
 https://thotsignlist.org/mysign?id=3456
