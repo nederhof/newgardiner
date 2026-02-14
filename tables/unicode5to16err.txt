@@ -15,9 +15,9 @@ In the original shape, the hair is not long. The Database has
 "Nederhof example is a different sign though [...]". Different from what? Also, it is not my example, it is *the* example that was *the*
 justification for introducing this code point in Unicode 5.2 in the first place.
 The only ground truth in determining what a code point should stand for is the original UniKemet database 
-used to compile the Unicode 5.2 basic list. See p. 34 of:
+used to compile the Unicode 5.2 basic list. See p. 35 of:
 <p>
-https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf
+https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf
 <p>
 It defines B005A as the sign in GITB 804-013-500:
 <p>
@@ -193,9 +193,9 @@ In 2005-2009, there were protracted discussions about what the most appropriate 
 In consultation with Egyptologists it was decided to opt for the form in Unicode 5.2, fixed formally by letting UniKemet
 link the code point to the occurrence on p. 477 as opposed to the occurrence on p. 545.
 This was motivated by similar signs (like the newly introduced 0x13DEE) that have the head up as well.
-For more information, see pp. 8 and 39 of:
+For more information, see pp. 4 and 40 of:
 <p>
-https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf
+https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf
 <p>
 Whether or not one now agrees this was the right decision at the time, 
 having studied (or not) the arguments laid out by Egyptologists in 2005-2009, 
@@ -307,9 +307,9 @@ tokens without circle and one token with circle. The only thing this tells us is
 and with circle. It does not in any way tell us that the originally intended shape
 of 0x13277 in Unicode 5.2 should have a circle. The only ground truth in this respect is the original UniKemet, which 
 defines O025A to be the shape that occurs on p. 246 of Gardiner (1931) and on p. 4 of Gardiner (1953) and that
-very clearly has no circle. Cf. p. 42 of:
+very clearly has no circle. Cf. p. 43 of:
 <p>
-https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf
+https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf
 <p>
 and pp. 44 and 49 of:
 <p>

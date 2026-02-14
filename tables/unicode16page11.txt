@@ -110,10 +110,11 @@ Introduction of 0x13FFF violates Point 5 of the Encoding Principles:
 <p>
 "Signs that exist with and without inner detailing will be included with the inner detailing".
 
-0x14006 0x14007
+ok 0x14006 0x14007
 Hm, I think I understand what is meant (something in the vein of "the kind of
 chevaux de frise that typically occurs on top of a wall"), but there are no
-walls in the glyphs. I would just omit "on top of walls".
+walls in the glyphs. In Unicode 18 this is solved by removing "on top of walls" from the
+description.
 
 0x1400C
 I would make the spike more spiky because currently it doesn't look like a spike.

@@ -39,8 +39,9 @@ Ancillary Unicode documentation:
 Unicode 5.2 (2009):
 
 - [Basic list](https://www.unicode.org/charts/PDF/Unicode-5.2/U52-13000.pdf)
-- [Document containing original Unikemet](https://www.unicode.org/L2/L2006/06354-n3181-egyptian.pdf)
-- [Sources](https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf)
+- [Document containing original Unikemet](https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf)
+- [Sources (Gardiner's lists)](https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf)
+- [Sources (Gardiner's lists plus additional material)](https://www.unicode.org/L2/L2006/06355-n3182-egyptian-sources.pdf)
 
 Critiques of Unicode 16:
 
@@ -58,6 +59,8 @@ Provisional Unicode 17 code charts:
 
 ## Selected versions of the NewGardiner font
 
+- 3.07 (2026-02-14)
+	- Several corrections.
 - 3.06 (2025-12-21)
 	- Placeholder glyphs for non-core signs removed.
 - 3.05 (2025-12-13)

@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageTk
 
 CHART_DIR = '../docs/glyphs16/'
 FONT = '../fonts/NewGardiner.ttf'
-UNIK = '../tables/Unikemet16revised.txt'
+UNIK = '../tables/Unikemet-17.0.0.txt'
 COMMENTS = 'comments.txt'
 
 CANVAS_W = 256

@@ -7,13 +7,16 @@ In Unicode 18, "kEH_JSesh Aa18a" will be corrected to "kEH_JSesh Aa18A".
 0x14256 0x14253
 Is the feather "angled forwards" in the glyph of 0x14256? I thought I understood what descriptions generally mean by "angled forwards" (cf. 0x14253) but this isn't it.
 
-0x1425E
+ok 0x1425E
 "vertical lines"? I rather see curves, not vertical lines. A matter of loose use of words, or rather a glyph that is incorrect?
 The Database refers to p. 34, l. 14 of:
 <p>
 https://archive.org/details/MMAF25/page/n29/mode/2up
 <p>
 Here there are vertical lines, but the net is not long.
+<p>
+In the glyph in Unicode 18, the lines inside are more vertical than curved. For all practical purposes
+it probably doesn't matter.
 
 0x1425F
 Should that be "with weights"? What are the circles at the right?
@@ -54,8 +57,8 @@ https://www.ifao.egnet.net/uploads/publications/enligne/MMAF020.pdf
 <p>
 This suggests the tick on the right should be redrawn as a small loop, of roughly the same size.
 
-0x142DB 0x142DC
-To me, "square" implies 4 corners.  If this was meant to contrast 0x142DB with say 0x142DC, then perhaps replace "square-bottomed" by "flat-bottomed"?
+ok 0x142DB 0x142DC
+To me, "square" implies 4 corners.  If this was meant to contrast 0x142DB with say 0x142DC, then perhaps replace "square-bottomed" by "flat-bottomed"? The description will be adjusted in Unicode 18.
 
 0x142F6
 The vertical line is interrupted by the base. That seems inconsistent with the description. Is the glyph incorrect or should the description be amended?

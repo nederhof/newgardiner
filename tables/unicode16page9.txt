@@ -14,11 +14,13 @@ see for example the facsimile on p. 66 (bottom line) of the above publication.
 <p>
 The obvious solution of course is to make descriptions less overly specific.
 
-0x13D72
+ok 0x13D72
 In the glyph, the cobra is *under* the white crown, not *over*.
+The glyph will be corrected in Unicode 18.
 
-0x13D92
+ok 0x13D92
 The mention of the forked base is strange, as the base is not visible.
+This will be fixed in Unicode 18 by omitting this extraneous detail from the description.
 
 0x13DA5
 In the glyph there is a sun disk on the headdress, not mentioned in the description.
@@ -31,9 +33,6 @@ So it may be best to leave underspecified whether there is a sun disk.
 The problem is now that many other descriptions in UniKemet are overspecific and would mention the sun disk
 if it is visible in the inscription. I think the only viable way forward is to remove extraneous detail from
 the descriptions, so the sign list becomes an actual list of signs rather than a list of tokens.
-
-0x13DA8
-Font-technical issue at face of falcon, clockwise/counter-clockwise?
 
 0x13DAB 0x13DAD 0x13DAE
 What is the difference between "standing up" and "its tail coiled up, in a
@@ -58,7 +57,7 @@ Here the shape in the normalized font looks like that in Unicode,
 but the image of the token more plausibly looks like the description, with a rounded "hole".
 
 0x13DBB 0x13DBE
-What is the difference that justifies the multiple code points for such similar graphical variants? The "head upward" ? Or the exact angle of the knifes?  In fact the head in 0x13DBE is less "upward" than in 0x13DBB.
+What is the difference that justifies the multiple code points for such similar graphical variants? The "head upward" ? Or the exact angle of the knifes?  (In fact, the head in the glyph of 0x13DBE is less "upward" than in 0x13DBB, but that glyph will be changed to have the head pointing up in Unicode 18.)
 <p>
 Once again I'm astonished that clearly distinct graphical variants among the basic list have been made Legacy, while almost indistinguishable variants were introduced as core signs.
 
@@ -90,18 +89,17 @@ from 0x131A3, then the "multiple vertical lines" in 0x13DE2 deserve to be
 mentioned as well. (That is provided the "multiple vertical lines" in the
 glyph of 0x13DE2 are real.)
 
-0x13DE7
+ok 0x13DE7
 In the glyph, the wings are not remotely connected and I would not even say the wings make a circular form.  I think I know what is meant by "circular form", e.g. the winged scarab pectoral of Tutankhamun has a full circular form with the sun disk in between at the top 
 (and a nb sign at the bottom); see link below. 0x13DE7 is not that.
 <p>
 https://egypt-museum.com/winged-scarab-pectoral-of-tutankhamun/
 <p>
-There is a photo in the Database, but that does not have the "connecting" of the wings either.
-The Database further points to p. 152, l. 12 of:
+The Database points to p. 552, l. 3 of Le temple d'Edfou, Volume 1:
 <p>
-https://archive.org/details/MMAF25/page/n87/mode/2up
+https://www.ifao.egnet.net/uploads/publications/enligne/MMAF010.pdf
 <p>
-Also this does not have the "circular form". Why then is the description as it is?
+This is like the glyph, but definitely not like the description, which henceforth should be considered erroneous.
 
 0x13E09 0x13E0A
 Correct "at the bottom".

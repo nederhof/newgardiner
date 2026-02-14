@@ -9,7 +9,7 @@ https://digi.ub.uni-heidelberg.de/diglit/rectrav1892/0117/image,info
 
 0x13008
 The Database has "I am rather doubtful if this grapheme actually exists"  
-but fails to address the link in the original UniKemet from 2006 to GITB 804-005-650
+but fails to address the link in the original UniKemet from 2007 to GITB 804-005-650
 where the exact Unicode 5.2 glyph is found, with feet that are vertical rather than horizontal:
 <p>
 http://www.griffith.ox.ac.uk/gri/8rel100.pdf
@@ -51,7 +51,7 @@ the orientation of the hands as in Unicode 16. Therefore, no further action is r
 
 0x1304F 0x137E9 0x137EA
 The hands of 0x1304F were oriented outwards, now inwards. 
-The supposed source is GITB 801-626-810, but this does not have the sign:
+By the original UniKemet from 2007, the supposed source is GITB 801-626-810, but this does not have the sign:
 <p>
 http://www.griffith.ox.ac.uk/gri/s14.pdf
 <p>
@@ -130,17 +130,30 @@ What evidence justified departing from both the original Unicode 5.2 shape and t
 If no such evidence exists, then one should have kept the original shape, rather than sacrifice the stability
 of Unicode on a whim for no apparent reason.
 
-0x13233
+ok 0x13233
 Child was given white crown. Bovid lost its horns.
 <p>
-The Database says no token could be found. The default action should then be to keep the shape as it is, rather than
-change the glyph randomly, and sacrifice the stability of Unicode on a whim for no apparent reason.
+Thanks to Michel Suignard for pointing out that
+the Unicode 5.2 form differs from what, according to the original UniKemet, should have been
+the source, namely Gardiner (1953). See p. 53 of:
+<p>
+https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
+<p>
+It is hard to escape the conclusion that the shape was incorrectly copied from Gardiner (1953) 
+to the Unicode 5.2 code charts at the time. The Unicode 16 shape therefore seems to be an improvement.
 
-0x13234
+ok 0x13234
 Child was given white crown.
 <p>
-The Database says no token could be found. The default action should then be to keep the shape as it is, rather than
-change the glyph randomly, and sacrifice the stability of Unicode on a whim for no apparent reason.
+Thanks to Michel Suignard for pointing out that
+the Unicode 5.2 form differs from what, according to the original UniKemet, should have been
+the source, namely Gardiner (1953). See p. 53 of:
+<p>
+https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
+<p>
+However, the white crown was also incorrect and should have been a red crown.
+It is hard to escape the conclusion that the shape was incorrectly copied from Gardiner (1953) 
+to the Unicode 5.2 code charts at the time. 
 
 0x13235
 Headdress lost the sun-disk.
@@ -177,6 +190,9 @@ https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
 <p>
 It is hard to escape the conclusion that the shape was incorrectly copied from Gardiner (1953) to the Unicode 5.2 code charts at the time.
 The Unicode 16 shape therefore seems to be an improvement.
+For a token, see here:
+<p>
+http://sith.huma-num.fr/karnak/1128
 
 0x1324E
 I would not be concerned about the slight change to the glyph, 
@@ -235,7 +251,7 @@ By the way, there is a token where the standard is somewhere in between the stan
 <p>
 http://sith.huma-num.fr/karnak/1128
 
-0x13247
+ok 0x13247
 There was no basket in the original shape. 
 As the Database points out, the Unicode 5.2 form differs from what, according to the original UniKemet, should have been
 the source, namely Gardiner (1953). See p. 52 of:
@@ -245,8 +261,10 @@ https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
 It is hard to escape the conclusion that the shape was incorrectly copied from Gardiner (1953) to the Unicode 5.2 code charts at the time.
 The Unicode 16 shape therefore seems to be an improvement.
 <p>
-However, the "four pieces of grain or fruit" seem overly specific and can
-certainly not be discerned in Gardiner (1953). I would omit this phrase from the description.
+The "four pieces of grain or fruit" seem overly specific, and I would omit this phrase from the description.
+For a token, see:
+<p>
+http://sith.huma-num.fr/karnak/1128
 
 0x1324F 0x13F0F 0x13F11
 In 0x1324F, the object on the standard changed to a kind of overlay. 
