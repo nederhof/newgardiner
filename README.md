@@ -10,7 +10,7 @@ It includes:
 - Default glyphs for the 38 control characters introduced in Unicode 12 (2019) and Unicode 15 (2022).
 - Various ligatures and auxiliary signs for the implementation of [HieroJax](https://github.com/nederhof/hierojax).
 
-From the extended list only the **core** signs are included in the font. The 568 **non-core** signs are unverified and undocumented, and are thereby pointless and were introduced in Unicode for all the wrong reasons (don't ask). A handful of non-core signs that were drawn by mistake are kept in a separate font.
+From the extended list only the **core** signs are included in the font. The 568 **non-core** signs are unverified and undocumented, and were introduced in Unicode for all the wrong reasons (don't ask). A handful of non-core signs that were drawn by mistake are kept in a separate font.
 
 **Do not ask me to add non-core signs. I cannot draw something if I don't know what that something is.**
 
@@ -18,9 +18,7 @@ View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/page0.htm
 
 ## Warning
 
-There are countless unresolved issues in the extended list, such as inconsistencies between code charts and descriptions, and inconsistencies between the new signs and the published encoding principles. This font inevitably suffers from these issues as well and should therefore be considered as no more than a preliminary attempt to create a font covering the core signs.
-
-Particularly egregious is that several signs from the basic list were misplaced to new code points, while new shapes were assigned to old code points, without any documented justification or open discussion. Obviously this is unacceptable, as it invalidated overnight any encodings that were compiled in the past 16 years. The basic list needs to be restored to what it was in Unicode 5.2 as soon as possible. At this time however, I'm not hopeful that reason will prevail.
+There are countless unresolved issues in the extended list, such as inconsistencies between code charts and descriptions, and inconsistencies between the new signs and the published encoding principles. This font inevitably suffers from these issues as well and should therefore be considered as no more than a preliminary attempt to create a font covering the core signs. Some of these issues may be corrected in Unicode 18, but many will probably not be.
 
 ## Links
 
@@ -49,6 +47,12 @@ Critiques of Unicode 16:
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 - [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
 - [Legacy characters](https://nederhof.github.io/newgardiner/legacy.html)
+
+Drafts of Unicode 18:
+
+- [Basic list](https://www.unicode.org/charts/PDF/Unicode-18.0/U180-13000.pdf)
+- [Extended list](https://www.unicode.org/charts/PDF/Unicode-18.0/U180-13460.pdf)
+- [Unikemet](https://www.unicode.org/Public/draft/ucd/Unikemet.txt)
 
 <!--
 Provisional Unicode 17 code charts:

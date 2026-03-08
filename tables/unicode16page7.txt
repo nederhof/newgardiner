@@ -54,6 +54,14 @@ Moreover, for 0x13B88 and 0x13B8B, "written over" suggests the mouth occludes vi
 
 0x13B91
 "sun disks" ? I only see one sun disk in the middle. Are the uraei to have sun disks instead? The glyph doesn't have these. Is the sun disk in the middle correct? That is not mentioned in the description.
+<p>
+The Database points to Dendara III, p. 102,17, which like the glyph has a sun disk in the middle.
+It could be that the uraei are meant to have sun disks, but this is hard to see:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara003.pdf
+<p> 
+It makes little sense to refer to sun disks on the uraei if these normally vanish with ordinary font sizes
+(and apparently even in the code charts).
 
 ok 0x13BB3
 The "vertical" does not appear accurate. In Unicode 17, the UniKemet description has been adjusted to have "pointing upwards".
@@ -65,8 +73,11 @@ two tokens, but it remains difficult to recognize all the mentioned elements fro
 My suggestion would be to adjust the description to something shorter and less specific like "Stylized bent leg of a bovid".
 
 0x13BDF 0x13125
-I understand that 0x13BDF was introduced as a variant of 0x13125 mainly for the use with insertions. This is a terrible
-idea, for at least three reasons.
+I understand that 0x13BDF was introduced as a variant of 0x13125 mainly for the use with insertions
+(the Database refers to the composite sign F157), suggesting that otherwise it 
+"is completely meaningless".
+Introducing a trivial graphical variant just for the purpose of a corner insertion is a terrible idea, 
+for at least three reasons.
 <p>
 First, it assumes that a font cannot detect whether a sign is used with
 or without an insertion and then automatically select an appropriate

@@ -13,6 +13,10 @@ Conversely, one can find tokens of 0x13192 where top and bottom lines have the s
 see for example the facsimile on p. 66 (bottom line) of the above publication.
 <p>
 The obvious solution of course is to make descriptions less overly specific.
+<p>
+In the Unicode 18 glyph, the top line will be about half the length of the bottom line, under the assumption that the
+description was correct and the Unicode 16 glyph was wrong. That assumption could very well be wrong,
+like many descriptions inconsistent with the glyphs have turned out to be wrong.
 
 ok 0x13D72
 In the glyph, the cobra is *under* the white crown, not *over*.
@@ -34,39 +38,38 @@ The problem is now that many other descriptions in UniKemet are overspecific and
 if it is visible in the inscription. I think the only viable way forward is to remove extraneous detail from
 the descriptions, so the sign list becomes an actual list of signs rather than a list of tokens.
 
-0x13DAB 0x13DAD 0x13DAE
+ok 0x13DAB 0x13DAD 0x13DAE
 What is the difference between "standing up" and "its tail coiled up, in a
 single coil"? In the glyphs, it is just the height of the tail that differs
 between 0x13DAB and 0x13DAD, and 0x13DAE actually appears to have a tail closer to 0x13DAB than to 0x13DAD.
 <p>
 Another example where consistency between fonts will be impossible to achieve, and the graphical distinctions that
 have been made seem inappropriately fine-grained for Unicode.
+<p>
+In Unicode 18, 0x13DAE will be made to look more like 0x13DAD what the height of the coil is concerned, 
+although that doesn't really address my worry about graphical distinctions that 
+may well prove to be meaningless (both 0x13DAB and 0x13DAD are used as classifier "snake").
 
-0x13DB1 0x13DB2
+ok 0x13DB1 0x13DB2
 If it is really necessary to distinguish these two (they are functionality
 identical and as close as say the hare from the flat hare in appearance), then "lower than"
-is insufficient to distinguish 0x13DB1 from 0x13DB2. In the glyph, the coils are about half the height of the head. If this is accurate, then I would write "about half the height" rather than "lower than".
+is insufficient to distinguish 0x13DB1 from 0x13DB2; in the glyph, the coils are about half the height of the head. 
+In Unicode 18, the description of 0x13DB1 will clarify "about half the height of the head".
 
-0x13DB6
-In the glyph, the "hole" looks like one end of the pt sign, but that is misleading.
-See:
+ok 0x13DBB 0x13DBE
+What is the difference that justifies the multiple code points for such similar graphical variants? The "head upward" ? Or the exact angle of the knifes?  (In fact, the head in the glyph of 0x13DBE is less "upward" than in 0x13DBB, but the glyph of 0x13DBE will be changed to have the head pointing up in Unicode 18.)
 <p>
-https://thotsignlist.org/mysign?id=36
-<p>
-Here the shape in the normalized font looks like that in Unicode, 
-but the image of the token more plausibly looks like the description, with a rounded "hole".
+Even with the changed orientation of the head of 0x13DBE in Unicode 18,
+I'm astonished that clearly distinct graphical variants among the basic list have been made Legacy, while almost indistinguishable variants were introduced as core signs.
 
-0x13DBB 0x13DBE
-What is the difference that justifies the multiple code points for such similar graphical variants? The "head upward" ? Or the exact angle of the knifes?  (In fact, the head in the glyph of 0x13DBE is less "upward" than in 0x13DBB, but that glyph will be changed to have the head pointing up in Unicode 18.)
-<p>
-Once again I'm astonished that clearly distinct graphical variants among the basic list have been made Legacy, while almost indistinguishable variants were introduced as core signs.
-
-0x13DD3 0x13DD5
+ok 0x13DD3 0x13DD5
 I appreciate the fishes are difficult, because the graphical distinctions can
 be subtle and variable and often encoders need to rely more on function than
 on appearance, but even so, the above is a problem because the description of
 0x13DD3 subsumes that of 0x13DD5 and the functions are identical. If 0x13DD5
 is characterized by particular fins, then 0x13DD3 deserves to be characterized by particular (other) fins as well.
+<p>
+In Unicode 18, the description of 0x13DD3 will include mention of positions of fins to distinguish the two signs.
 
 0x13DD4
 The glyph does not have the "loop under the horizontal beam".
@@ -78,6 +81,9 @@ The transcription and photo seem to confirm the loop (rather than the diagonal b
 
 0x13DD7 0x13DD8
 As above. One description subsumes the other. The functions are identical.
+<p>
+In Unicode 18, this is addressed by letting 0x13DD7 refer to K0004A (that should have been K004A, 
+which is 0x13DD3) and 0x13DD8 to K004B (0x13DD5).
 
 0x13DDF 0x13DDC 0x13DDD
 I don't think it is accurate to call the tail fin in the glyph of 0x13DDF a "V like shape". 
@@ -88,6 +94,12 @@ If the "multiple vertical lines" are sufficient reason to distinguish 0x13DE1
 from 0x131A3, then the "multiple vertical lines" in 0x13DE2 deserve to be
 mentioned as well. (That is provided the "multiple vertical lines" in the
 glyph of 0x13DE2 are real.)
+<p>
+I suspect the vertical lines are an arbitrary choice of the ancient artists and in some respects
+modern creators of facsimiles and fonts. See for example the combination of scarabs with and without
+vertical lines in the photo and facsimile on pp. 507-508 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf
 
 ok 0x13DE7
 In the glyph, the wings are not remotely connected and I would not even say the wings make a circular form.  I think I know what is meant by "circular form", e.g. the winged scarab pectoral of Tutankhamun has a full circular form with the sun disk in between at the top 
@@ -101,18 +113,11 @@ https://www.ifao.egnet.net/uploads/publications/enligne/MMAF010.pdf
 <p>
 This is like the glyph, but definitely not like the description, which henceforth should be considered erroneous.
 
-0x13E09 0x13E0A
-Correct "at the bottom".
-
 0x13E20 0x13E27
 Overtly violates Point 5 of the Encoding Principles "Signs that exist with and without inner detailing will be included with the inner detailing".
 
 ok 0x13E35
 In Unicode 18, "kEH_JSesh M8i" will be corrected to "kEH_JSesh M8I".
-
-0x13E41 0x13E42
-Apart from the violation of Point 5 of the Encoding Principles, the description of
-0x13E42 is inaccurate. At best, correct 0x13E42 to "without".
 
 0x13E44 0x13E47
 I don't see how anyone can possibly justify having the second next to the first. For similar cases of trivial graphical variants in the basic list, there was apparently a decision to make one of them Legacy. I see no consistency. The two shapes are functionally equivalent.
@@ -136,10 +141,10 @@ normalized transcriptions. It so happens that someone at some point drew the gly
 and the number 7 was then elevated to a status it doesn't deserve.
 Claims that an (over)emphasis on (arbitrary) details is somehow more "scientific" should not be readily accepted.
 <p>
-Changing 7 to 6 in the description won't solve the issue, because the week after 
+Changing 7 to 6 in the description won't solve the issue, because the day after 
 a token may be found which actually has 7 petals.
 The one obvious solution is not to include the exact number of petals in the description.
 Then the question becomes whether 0x13E4B deserves an independent code point.
 
 0x13E5E 0x13376
-The way the root of 0x13E5E is drawn does not exactly suggest V9 (0x13376).
+The glyph in the code charts does not suggest a "root resembling a cartouche in a round form (V9), with two angled strokes on either side of the stem", but rather, the "two angled strokes" directly lead into the round form of the cartouche, making it difficult to see the cartouche as an individual part.

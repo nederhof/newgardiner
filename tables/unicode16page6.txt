@@ -17,7 +17,7 @@ The glyph has been corrected in Unicode 17.
 
 ok 0x13A9F 0x13AA0 0x13AA1
 In all three glyphs, the *left* paw is raised.
-The glyphs has been corrected in Unicode 17.
+The glyphs have been corrected in Unicode 17.
 
 0x13AA5
 In the glyph, it is the left front leg that is raised. But who cares! Changing the description to "one front leg raised" would solve the issue.

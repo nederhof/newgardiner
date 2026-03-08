@@ -117,11 +117,8 @@ The Database mentions another token and adds "nor is the diamond shape in the W3
 that there was considerable doubt whether the diamond marking was correct to begin with. It might be safest to revert to
 the Unicode 5.2 shape entirely and also remove the diamond marking.
 
-0x13108 0x13B83
-The original shape was misplaced at 0x13B83. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
-<p>
-In the Database there is not a shred of an acknowledgement that the shape of 0x13108 changed from Unicode 5.2 to Unicode 16, 
-let alone a justification for the change.
+ok 0x13108 0x13B83
+The original shape was misplaced at 0x13B83. The signs will be switched back in Unicode 18.
 
 0x13110
 Even though these are insignificant graphical variants, code charts should not be changed without a good reason. Unless a compelling case can be made that the horn over the liquid cannot occur in real inscriptions, revert to the Unicode 5.2 form.
@@ -299,26 +296,9 @@ If anything, the tokens available for 0x13271 show that such a binary distinctio
 For any such sign, one will be able to find tokens with slightly different angles, some of which might be almost perfectly 90 degrees,
 others will be visibly smaller. But by any reasonable measure it is still the same sign.
 
-0x13277 0x13FDC
-The original shape (without circle) was misplaced at 0x13FDC. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
-<p>
-The Database has a link to TSL_1_4521_01, where one finds both the shape with circle and the shape without circle. There are two
-tokens without circle and one token with circle. The only thing this tells us is that the sign occurs both without circle
-and with circle. It does not in any way tell us that the originally intended shape
-of 0x13277 in Unicode 5.2 should have a circle. The only ground truth in this respect is the original UniKemet, which 
-defines O025A to be the shape that occurs on p. 246 of Gardiner (1931) and on p. 4 of Gardiner (1953) and that
-very clearly has no circle. Cf. p. 43 of:
-<p>
-https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf
-<p>
-and pp. 44 and 49 of:
-<p>
-https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
-<p> 
-Gardiner (1931) gives us some indication about the function of the sign: 
-"Det. names of sun-obelisks". But this is consistent with the function "sun temple" listed by
-the TSL to cover both the circled and the uncircled forms, and so also this offers no justification for changing the
-shape of 0x13277.
+ok 0x13277 0x13FDC
+The original shape (without circle) was misplaced at 0x13FDC. The signs will be switched back
+in Unicode 18.
 
 0x1329F 0x1406E 0x1406F 0x1406A 0x1406B
 The new shape of 0x1329F is mirrored. Since there is a mirroring control character, 
@@ -356,35 +336,8 @@ https://thotsignlist.org/mysign?id=5320
 shows us that the objects are not generally circular. I would even omit the exact number "three", because one will no doubt
 find tokens with say four items.
 
-0x132BC 0x14107
-The original shape of 0x132BC was misplaced at 0x14107. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
-<p>
-There is no justification in the Database for changing the shape of 0x132BC.
-The Database has "only(?) attested in Gardiner" suggesting that the original shape is a rare, anomalous form of the 
-cloth-on-pole-and-butchers-block,
-and therefore somehow deserves to be moved to another code point, although I cannot follow that reasoning at all
-(frequency and code points are unrelated concepts).
-But there is a photo of a token in the Database, and it didn't take me long to find another occurrence:
-<p>
-https://mnamon.sns.it/index.php?page=Immagini&id=32&img=5&lang=en
-<p>
-Another one possibly on p. 211 of:
-<p>
-https://www.journals.uchicago.edu/doi/epdfplus/10.1086/671433
-<p>
-I have found more potential tokens, but often the issue is that in some texts the internal decoration of the butchers block 
-takes the form of a single vertical line. It is then a matter of subjective judgement whether the thickness or position of that line 
-differs enough from the pole to be seen as two different things.
-A good example is:
-<p>
-https://journals.ekb.eg/article_402870_007f1ac8fd3d7458010f289771ab1391.pdf
-<p>
-The transcription has the sign with "pole-over-block", but upon closer inspection the photo seems to suggest "pole-on-block".
-<p>
-Altogether, it doesn't appear this is a rare sign at all, on the contrary,
-and if ever special treatment is warranted for rare signs, 
-then this does not apply here. In any case, moving a sign creates severe disruption to fonts and to encoders, and next to
-these disadvantages, there are absolutely no advantages of any kind.
+ok 0x132BC 0x14107
+The original shape of 0x132BC was misplaced at 0x14107. Unicode 18 will switch the signs back.
 
 0x132F6
 The description matches the original shape but not the new shape. In the new shape the piece of cloth is over the sickle.
@@ -413,8 +366,10 @@ I would simply omit "with a handle resembling a stem of papyrus with a bud (M13)
 0x1332F
 By plausible deniability one could argue the new shape underspecifies which sign is on top. But in Unicode 16, the shapes of overlays generally commit to one or the other. It would be better therefore to revert to the Unicode 5.2 shape.
 
-0x13341 0x1429C
+ok 0x13341 0x1429C
 It is unclear to me whether the original shape of 0x13341 is closer to its new shape, or whether it rather corresponds to 0x1429C. The original shape had a pronounced circle, like 0x1429C, while the new shape has more of a bulb. Does it even make sense to have two code points here?
+<p>
+Unicode 18 will make changes to 0x1429C, but the original motivation for having two code points is still not clear to me.
 
 0x1334B
 In isolation, I would have thought little of this slight change of shape, but see the below. It looks like the

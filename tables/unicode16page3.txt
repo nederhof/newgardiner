@@ -81,7 +81,7 @@ The description in the Unicode 17 version is inconsistent as to whether there is
 it has both "with a lump of clay on it" and "hands at the vessel".
 
 0x13818
-In the glyph, the left hand is not at the wheel, it is at the vessel. The right foot is not really at the base of the wheel. But who cares! Does the description need to be so precise? It could be simplified like the description of 0x13817 was simplified recently.
+In the glyph, the left hand is not at the wheel, it is at the vessel. The right foot is not really at the base of the wheel. But who cares! Does the description need to be so precise? It could be simplified like the description of 0x13817 was simplified since Unicode 16.
 
 0x13819
 Again, in the glyph, the left hand is not at the top of the potter's wheel, it is at the side of the lump of clay. And again, who cares!

@@ -39,9 +39,10 @@ In the Database there is a comment:
 <p>
 Quite! How this then became a new code point, let alone a core sign, is a mystery to me.
 
-0x142C4 0x142C5
+ok 0x142C4 0x142C5
 I suspect the "horizontal line on top of the forked drill-bit" should have distinguished these two, but
 it is missing from the glyph of 0x142C5. Without this, the signs are identical for all practical purposes.
+Unicode 18 will add a horizontal line to 0x142C5.
 
 0x142C9
 The glyph shows a forked drill-bit, not a round drill-bit. The horizontal line is not on top of the drill-bit but over it.

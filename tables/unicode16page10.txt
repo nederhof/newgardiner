@@ -1,19 +1,13 @@
-0x13E74 0x13E75
+ok 0x13E74 0x13E75
 In 0x13E74, there is mention of a "flower", while in 0x13E75, what to me looks like the same shape is called a "bud". 
-Can that be right?
+In Unicode 18, the terminology will be streamlined.
 
 0x13E81
 More fluent would perhaps be "with the flowers at the sides oriented outwards".
 
-0x13E82 0x13E81
+ok 0x13E82 0x13E81
 Presumably, a "bud" looks different from a "flower". Yet the three things in
-the glyph of 0x13E82 look identical. My hunch is that the two things on either side should look like the buds in 0x13E81.
-
-0x13E8A
-The description seems a bit longer than necessary, unless I misinterpret it. 
-How about just "A pool or strip of land with three vertical lotus buds."?
-<p>
-I see three ticks on top of the land, but I don't think these are important enough to mention.
+the glyph of 0x13E82 look identical. In Unicode 18, the terminology will be streamlined.
 
 0x13EAB 0x131E7
 The "near the bottom of the bundle" of 0x13EAB doesn't seem to match the glyph.
@@ -37,41 +31,29 @@ least make the glyph consistent. There are 9 pieces in the glyph.
 <p>
 This will be solved in Unicode 18 by a description with "two rows of pieces of grain or fruit".
 
-0x13EB5 0x13EB4
-Adding 0x13EB5 next to 0x13EB4 seems hardly appropriate for Unicode. 
-It appears to be overtly paleographic, and such details are lost in ordinary font sizes and coarse fonts may omit these details anyway.
-<p>
-Also related in spirit to Point 5 of the Encoding Principles.
-
-0x13EEC
-The glyph suggests the uraeus is in the far corner away from the wings, with a very long tail.
-However, in the photo of the token pointed to by the Database:
-<p>
-http://sith.huma-num.fr/karnak/4225
-<p>
-the uraeus is closer to the center of the space between the wings.
-
-0x13F03
-In the glyph, there are *four* horizontal lines, not three. Now, I'm not saying that counting lines is a good thing. My suggestion in keeping with other descriptions in this family of signs would be in the first instance (but see below):
-<p>
-"A parcel of land with irrigation ditches, at right angles."
+ok 0x13F03
+In the glyph, there are *four* horizontal lines, not three. Unicode 18 will have a corrected description
+that does not count the lines.
 
 0x13F05 0x13F06
-In both cases, the lines "extend beyond each other". If the glyphs are accurate, then a different way should be found to phrase the difference between 0x13F05 and 0x13F06 (and preferably not by counting lines). Is it the orientation of the angles, sloping "forward" or sloping "backward"?
+In both cases, the lines "extend beyond each other". If the glyphs are accurate, then a different way should be found to phrase the difference between 0x13F05 and 0x13F06 (and preferably not by counting lines). If the orientation of the angles (sloping "forward" or sloping "backward") is the difference, then the mirroring control could have been 
+used instead of duplicating the approximate shape.
 <p>
-But then the question is why the mirroring control could not be used.
+In Unicode 18, the descriptions will avoid counting, and the description of 0x13F06 will differ from that of
+0x13F05 in having "square". I suspect that if more tokens in actual inscriptions are compared, 
+the aspect ratio will turn out to be arbitrary, on a continuum from much wider than tall to approximately 
+as wide as tall, and possibly some taller than wide.
+In other words, here we may have another case of fetishizing normalized fonts.
+<p>
+There is a spurious "." at the end of the description of 0x13F06 in the draft UniKemet of Unicode 18.
 
-0x13F0A
-In keeping with the above, I would say here for 0x13F0A:
-<p>
-"A parcel of land with irrigation ditches, at right angles."
-<p>
-and then the description of 0x13F03 could be expanded to be distinct from this:
-<p>
-"A parcel of land with irrigation ditches, at right angles, the horizontal lines extending beyond the leftmost and rightmost vertical lines."
+ok 0x13F0A
+As above, counting is better avoided. In Unicode 18, the description will not mention a number and will
+use "enclosed" to distinguish the shape from similar shapes.
 
-0x13F11
-In the glyph the viper is *under* the tree.
+ok 0x13F11
+In the glyph, the tree is over the viper, rather than the viper over the tree.
+Unicode 18 will correct the description.
 
 ok 0x13F34
 In Unicode 18, "kEH_JSesh N36D" will be corrected to "kEH_JSesh N36C" for consistency with changes in JSesh 7.9.

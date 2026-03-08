@@ -65,7 +65,7 @@ to have (more or less) a plain standard with a diagonal beam. What looks strange
 that the vertical beam of the standard is curved.
 
 0x13A5C
-The loop around the neck in the glyph is an error. In Unicode 17, this has been removed.
+The loop around the neck in the glyph was reportedly an error. In Unicode 17, this has been removed.
 The description has "four pieces" while the glyph has three. A clear case of an overly specific
-description leading to avoidable problems. I suggesting omitting (at least) "four pieces of" in the description;
+description leading to avoidable problems. I suggest omitting (at least) "four pieces of" in the description;
 "a basket with grain or fruit" is specific enough.

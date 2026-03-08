@@ -4,11 +4,17 @@ Or is the glyph of 0x14041 wrong?
 <p>
 By the way, is a "crossbar" (0x1403F) the same thing as a "crossbeam" (0x14089)? It looks the same. Perhaps the terminology can be made consistent?
 
-0x14042 0x14050
-The description of 0x14042 is not nearly as detailed as some others.  For one thing, it doesn't mention the shapes at the ends of the "crescent moon", which are not like other boats, apart from 0x14050 perhaps, which has "prow and stern curved inwards".
+0x14042 0x14050 0x1406F
+The description of 0x14042 is not nearly as detailed as some others. 
+In Unicode 18, the description of 0x14042 will be refined to be similar to that of 0x14050.
 <p>
 Another thing is that the "back" is at the left, unlike other boats where the back is at the right. 
-It would be good to write in descriptions where prow and stern appear reversed.
+It would be good to write in descriptions where prow and stern appear reversed. 
+I do not support "normalizing" the orientation of boats, as, first, such normalization is inconsistent
+with what was done elsewhere, and second, this creates undesirable artefacts, such as the falcon becoming
+backwards in the case of 0x1406F. This reminds us once again that the mirroring of
+0x1329F in Unicode 16 was totally the wrong thing to do and one needs to revert to the Unicode 5.2 form
+as soon as possible.
 
 0x14043 0x14044
 Where is the "doorway" in the glyphs?
@@ -43,14 +49,12 @@ There appear to be *two* oars/rudders in the glyphs while the descriptions have 
 
 0x1404D 0x13933
 I don't see a doorway in the glyph of 0x1404D.
-Also, in the vague image I seem to make out the vulture headdress underneath the bovine horns headdress, just like 0x13933. Is that real?
 <p>
 The Database refers to p. 147, l. 2 and pl. CCCCXXXIX of:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara005.pdf
 <p>
-I would interpret the photo as showing a large doorway, but it is uncertain
-there is a vulture headdress.
+I would interpret the photo as showing a large doorway.
 <p>
 I think that doorways should not be mentioned in the descriptions of facades,
 as they are an overly palaeographic detail irrelevant on the level of Unicode,
@@ -79,8 +83,9 @@ mentioning them in the descriptions and not attempting to clearly display them i
 For one thing, this should avoid overinterpretation of photos and normalized transcriptions and hallucinating
 things that might not be real.
 
-0x14068 0x1406B 0x1406C
-There is "with an oar/rudder at the back" for 0x14068, there is "with lines crossing the prow" for 0x1406C, and nothing comparable for 0x1406B. Yet the shape looks identical in all three glyphs. For consistency, can we just have "with an oar/rudder at the back/front" for all these cases?
+ok 0x14068 0x1406B 0x1406C
+There is "with an oar/rudder at the back" for 0x14068, there is "with lines crossing the prow" for 0x1406C, and nothing comparable for 0x1406B. Yet the shape looks identical in all three glyphs. 
+In Unicode 18, the descriptions will use similar phrasing.
 
 0x14067 0x1406E 
 Why are these not the same sign? "tall" versus "low" is palaeography, and meaningless on the level of Unicode.
@@ -97,13 +102,22 @@ https://archive.org/details/sethos4/page/52/mode/2up
 Further, the internal lines of the shrine and the lines of the sledge should not have been drawn as one and running over the boat/ship,
 and they should be vertical, not diagonal.
 
-0x14074
-The shape of the sledge as described ("four vertical lines between two horizontal lines") does not at all correspond to the glyph.
-The Database refers to p.  238, l. 5 and pl. 138 of:
+0x14074 0x14075
+The shape of the sledge in 0x14074 as described ("four vertical lines between two horizontal lines") 
+does not at all correspond to the glyph.
+The Database refers to "p. 238,5, pl. 138" of Dendara X. This is apparently the 1997 edition
+that can still be found online via the waybackmachine.
+The transcription and photo in the plate suggest the glyph is more accurate than the description.
+This is even clearer in the 2026 edition, p. 281:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf
 <p>
-This confirms the shape as in the glyph. It seems to me the description needs revision.
+I suggest that the description be corrected to at least omit the details that do not match the
+glyph. Note that the described shape of the sledge in 0x14074 is not implausible, considering 
+similar shapes in the iconography of Dendara X.
+In this and similar signs, a lot of entirely futile work would have been avoided by not being so overly precise
+to the point of hallucinating what is not there. 
+In this case, "[...] on top of a sledge" is really all we needed to know of the sledge.
 
 0x14076 0x14077
 It is hard to imagine a more blatant, more literal violation of Point 5 of the
@@ -116,19 +130,13 @@ variant shapes despite giving the impression of wanting to keep the number of
 variant shapes within reasonable bounds. If even one of the clearer Encoding Principles
 is so flagrantly broken, then what is the point of having the Encoding Principles in the first place?
 
-0x1407A
-The glyph suggests *two* oars/rudders.
-<p>
-I would not call the mentioned shape in the glyph a "horizontal rectangle". A rectangle consists of straight lines, while the shape is prominently curved. Perhaps say "flat shape inside between prow and stern with vertical lines as internal decoration"?
-
 0x1407C
 In the glyph, I don't really see two loops coming from the lower beam of the sail, more like one and half loops. One of the loops ends at the mast, which does not seem quite consistent with the description.
 The glyph is consistent with the reference pointed to by the Database, p. 134, l. 4 of:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
-
-0x14084 0x14085
-I suspect "point" is a dutchism. The shape at the bottom right I would call a "corner", not a "point".
+<p>
+Making the description less specific would solve it.
 
 0x14086
 I see no "cross-beam over the sail" in the glyph. I think I see a cross-beam over the mast, *below* the sail. If the cross-beam is over the sail as in the description, what exactly is this supposed to look like?
@@ -140,24 +148,12 @@ Graphical variants that differ in no more than minute details cause endless inco
 font designers and encoders alike. I don't understand why this sign was included despite these comments in the Database
 arguing against it.
 
-0x14088
-Hm, here I don't see a "point" (corner), but rather a short "distinct" beam at the bottom of the sail extending to the right, and a sail between the two "distinct" beams.
-
-0x14089
-Correct "point" to "corner".
-
-0x1408B
-"filling"? If this is what is meant, I would say something like "without depicting the space between the prongs". Unless "filling" is sailor's jargon for something specific.
-
-0x140F4
-I don't think the shapes in the glyph can be described as triangular.  One end is ever so slightly wider than the other end.
-
-0x14109 0x1410A 0x1410B 0x1410C 0x1410D 0x14110
+ok 0x14109 0x1410A 0x1410B 0x1410C 0x1410D 0x14110
 In 0x1410B, 0x1410C, 0x1410D the mentioned things are connected by a line at the bottom. The line is thin in 0x1410C while it is thick and prominent in 0x1410B and 0x1410D. By all reasonable measures, the thickness should not matter as to the character identity. Even if the line is drawn as in 0x1410A, it is still just a line. I doubt there are any good reasons for talking about "base" in 0x14109 and 0x1410A while not even mentioning the connecting line in 0x1410B, 0x1410C, 0x1410D. 
 <p>
 The description of 0x14110 does mention "base", while the glyph has just a thick line, just like 0x1410B and 0x1410D.
 <p>
-My proposal would be to have "on a base" (not "a rectangular base") for all such signs for consistency.
+Unicode 18 will consistently have "on a base".
 
 0x1410A
 The pole is not at the bottom of the block in the glyph.
@@ -167,6 +163,3 @@ gazillions more of uninteresting graphical variants, we should make
 the description broader. We could allow a pole on top of the block *or* at the bottom of the block,
 we could omit mention of the angle of the feather, etc.
 That is, we should be moving towards an actual sign list rather than a token list.
-
-0x1412D
-In the glyph, there are two dots on either side of the fire-drill. Are those supposed to be there?

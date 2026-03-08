@@ -43,9 +43,6 @@ https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
 There are definitely legs in the transcription.
 The description seems to be wrong.
 
-0x13CBE
-The "one wing forward" is not remotely "horizontal" in the glyph. If the glyph is accurate, I would just say "wings forward, one slanting up and the other slanting down", avoiding also mention of the exact angle. [I'm not sure the word "slanting" is the most fluent English word one could choose.]
-
 0x13CC1 0x13CC2
 The standards in the glyphs look like one half of the 'sky' sign, not R92A.
 <p>
@@ -62,6 +59,18 @@ unwarranted.
 <p>
 I would suggest redrawing both glyphs with a normal standard.
 
+0x13CC9 0x14176 0x14177
+In Unicode 18, a sun disk will be added to the plumes in 0x13CC9. That is fine if there was evidence
+justifying this. But note that the draft Unikemet-18.0.0.txt does not mention the sun disk.  
+Regarding presence/absence of the sun disk as inconsequential would also be fine with me, but
+then this is inconsistent with e.g. the introduction of 0x14176 next to 0x14177.
+<p>
+As to the reference in the Database, I think "p. 17,6" should have been "p. 17,16", where the transcription
+suggests 4 plumes and no sun disk. It would be hard to tell whether a sun disk is present in plate CLXX1 as
+the Database acknowledges ("headgear is not clear"):
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara003.pdf
+
 0x13CDD
 The standard in the glyph is not mentioned in the description.
 The Database refers to p. 74, l. 15 of:
@@ -70,11 +79,13 @@ https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara014.pdf
 <p>
 This has a standard as in the glyph.
 
-0x13CD5 0x13CD6 0x13CD9 13CDA
-None of the descriptions of human-headed birds mention beards. If these are not expected to have beards, or if it doesn't matter, I would suggest omitting them from the glyphs. (I would not have mentioned this otherwise, but 
-descriptions elsewhere are (overly) specific when it comes to beards.)
+ok 0x13CD5 0x13CD6 0x13CD9 0x13CDA
+None of the descriptions of human-headed birds mention beards. In Unicode 18, the
+beards of 0x13CD5 and 0x13CD6 will be removed, while those of 0x13CD9 and 0x13CDA will stay.
+Reportedly, the argument is that 0x13CD5 and 0x13CD6 can be used for either males or females, while
+0x13CD9 and 0x13CDA are only used for males. (0x13CDA is for "He of Edfu".)
 <p>
-The glyph of 0x13CDA, unlike 0x13CD9, seems to suggest uraei on the headdress. Are those real?
+In Unicode 18, the description of 0x13CDA will be extended to mention the uraei.
 
 0x13CE9 0x13CEA 0x13CED 0x13CEE
 These violate Point 5 of the Encoding Principles "Signs that exist with and without
@@ -83,9 +94,9 @@ inner detailing will be included with the inner detailing".
 0x13150 0x13CFC
 Introduction of 0x13CFC violates Point 5 of the Encoding Principles.
 
-0x13D10 0x13D11
+ok 0x13D10 0x13D11
 In the glyph of 0x13D11, the cobra does *not* encircle the sun; it is just the I10 cobra.
-Copy-and-paste error from 0x13D10?
+Unicode 18 will rephrase the description without "encircle".
 
 0x13D36
 In the glyph, the feather is angled backwards, and the spear is angled backwards as well (rather than being vertical).
@@ -93,7 +104,6 @@ If you want to call the orientation of the spear "vertical", then fine, but then
 feather? The descriptions are overly precise, which creates avoidable problems for consistency.
 Another thing is that the glyph does have a "handle" on the arrow/harpoon, contrary to the description.
 
-0x13D45
-It is impossible to make out the sun disks on the cobras in the code charts. What's the point of specifying details that are so small that they are lost with any normal resolution?
-<p>
-(The description is also ungrammatical.)
+ok 0x13D45
+It is impossible to make out the sun disks on the cobras in the code charts. 
+Unicode 18 will rephrase the description and omit mention of the sun disks.

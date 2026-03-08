@@ -13,7 +13,8 @@ once as part of running text and once in iconography, and in both cases there is
 From Unicode 17, this has been addressed by adding "stroke shaped like an eyebrow" to the description.
 
 0x1432F 0x13393
-In the glyph of 0x1432F, it is not "written over" as it is usually interpreted.
+In the glyph of 0x1432F, it is not "written over" as it is usually interpreted. 
+In Unicode 18, the glyph will be corrected to match the description.
 <p>
 Further, the introduction of this code point next to 0x13393, or at all, is poorly justified.
 The Database has:
