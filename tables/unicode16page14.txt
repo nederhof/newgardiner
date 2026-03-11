@@ -19,7 +19,7 @@ In the glyph in Unicode 18, the lines inside will be more vertical than curved. 
 it probably doesn't matter.
 
 0x1425F
-Should that be "with weights"? What are the circles at the right?
+Should that be "with weights"? What are the circular shapes at the right?
 
 ok 0x1429D 0x1429C
 "At the front" in the description of 0x1429D becomes confusing because the sign is mirrored relative to say 0x1429C. 

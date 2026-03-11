@@ -8,7 +8,7 @@ The description does not mention the ankh sign. Is it real at all?
 The Database has "If added, it should be redrawn without uraeus and headband."
 The uraeus has been removed in Unicode 17.
 But the band around the head with the loop at the back is still in the draft code charts;
-it will need to be removed as well.
+it will need to be removed as well if the Database is correct.
 
 0x137C6 0x137C7
 The description of 0x137C6 does not say the block throne is on a base, 

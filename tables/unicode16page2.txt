@@ -33,7 +33,7 @@ I would omit the phrase "touching the thighs" altogether.
 
 0x13689
 There is no platform in the glyph.
-The Database has a photo of an example, without platform.
+The Database has a photo of a token, without platform.
 
 0x1368A 0x1368C 0x1368D
 S3 *is* the red crown. This suggests some noun is missing in all three descriptions.
