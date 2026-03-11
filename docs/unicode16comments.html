@@ -3225,28 +3225,17 @@ I would suggest redrawing both glyphs with a normal standard.
             <img src="glyphs16/81097.png" class="image16"/>
             <div class="code">13CC9</div>
           </td>
-          <td>
-            <img src="glyphs16/82294.png" class="image16"/>
-            <div class="code">14176</div>
-          </td>
-          <td>
-            <img src="glyphs16/82295.png" class="image16"/>
-            <div class="code">14177</div>
-          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+13CC9 kEH_Desc An archaic image of a falcon/cult image of a falcon, wearing a headdress consisting of two plumes (S9), with a flagellum (S45) on its back.</tt>
-      <br/>
-      <tt>U+14176 kEH_Desc A headdress consisting of the base of a crown (S55), with two plumes on top of it.</tt>
-      <br/>
-      <tt>U+14177 kEH_Desc A headdress consisting of the base of a crown (S55), with two plumes on top of it, with a sun-disk between the plumes.</tt>
     </p>
     <p>In Unicode 18, a sun disk will be added to the plumes in U+13CC9. That is fine if there was evidence
 justifying this. But note that the draft Unikemet-18.0.0.txt does not mention the sun disk.  
-Regarding presence/absence of the sun disk as inconsequential would also be fine with me, but
-then this is inconsistent with e.g. the introduction of U+14176 next to U+14177.
+It would also be fine with me to regard presence/absence of a sun disk on a headdress
+as inconsequential if the headdress is a secondary graphical element, but
+then this may be inconsistent with what was done elsewhere.
 </p>
     <p>
 As to the reference in the Database, I think "p. 17,6" should have been "p. 17,16", where the transcription
@@ -3689,7 +3678,7 @@ The transcription and photo seem to confirm the loop (rather than the diagonal b
     <p>As above. One description subsumes the other. The functions are identical.
 </p>
     <p>
-In Unicode 18, this is addressed by letting U+13DD7 refer to K0004A (that should have been K004A, 
+In Unicode 18, this will be addressed by letting U+13DD7 refer to K0004A (that should have been K004A, 
 which is U+13DD3) and U+13DD8 to K004B (U+13DD5).
 </p>
     <table class="glyph_table">
@@ -3879,8 +3868,7 @@ I would say the description is right and the glyph is wrong (or at least mislead
 Moreover, the photo shows the token does not have 7 but rather 6 petals, while the transcription has 8 petals! 
 This shows once again that having such overly specific descriptions in UniKemet is untenable.
 The number 7 is completely arbitrary. It is not part of the character identity. 
-It was not dictated by evidence in the form of extant inscriptions, and not even by existing
-normalized transcriptions. It so happens that someone at some point drew the glyph with 7 petals, 
+It so happens that someone at some point drew the glyph with 7 petals, 
 and the number 7 was then elevated to a status it doesn't deserve.
 Claims that an (over)emphasis on (arbitrary) details is somehow more "scientific" should not be readily accepted.
 </p>
@@ -3890,6 +3878,12 @@ a token may be found which actually has 7 petals.
 The one obvious solution is not to include the exact number of petals in the description.
 Then the question becomes whether U+13E4B deserves an independent code point.
 </p>
+    <p>
+The U+13E48 glyph was also used on p. 140 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf</a>
+    </p>
     <table class="glyph_table">
       <tbody>
         <tr>
@@ -4147,14 +4141,24 @@ Currently, one needs some imagination to see a uraeus in the shape.
             <img src="glyphs16/81811.png" class="image16"/>
             <div class="code">13F93</div>
           </td>
+          <td>
+            <img src="glyphs16/81810.png" class="image16"/>
+            <div class="code">13F92</div>
+          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+13F93 kEH_Desc A gateway, with the bottom fully closed, with internal detail.</tt>
+      <br/>
+      <tt>U+13F92 kEH_Desc A gateway, with the bottom fully closed.</tt>
     </p>
-    <p>There is no attempt to specify what the "internal details" consist of. I can understand why, as it would be pretty hard to specify what that even means.  Should any strokes or texture, no matter how insignificant, be seen as "internal detail"? This supports my view that there should not be multiple code points for the same sign with and without "internal details".
+    <p>There is no attempt to specify what the "internal details" in U+13F93 consist of. I can understand why, as it would be pretty hard to specify what that even means.  Should any strokes or texture, no matter how insignificant, be seen as "internal detail"? This supports my view that there should not be multiple code points for the same sign with and without "internal details".
 Point 5 of the Encoding Principles actually suggests the same.
+</p>
+    <p>
+That the token cited for U+13F92 happens to have a function different from the function of the cited token for U+13F93 seems inconsequential. O32 and its graphical variants have several possible functions, 
+but that doesn't imply there are multiple graphemes one for each function.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4201,7 +4205,7 @@ I'm sure that one will be able to find lots of occurrences of the flat N025A nex
       <tt>U+13FA2 kEH_Desc A façade of a shrine with a flat roof, with oblique sides, with a large doorway, with a pole in front, with a horizontal line over the roof, connected to the roof with two vertical lines.</tt>
     </p>
     <p>This distinction is so silly that even the number of vertical lines in the
-glyph of U+13FA1 is wrong (it is four in the glyph, not three).
+glyph of U+13FA1 is inconsistent with the description (it is four in the glyph, not three).
 </p>
     <p>
 Understandably, in the Database we find:
@@ -4211,6 +4215,30 @@ Understandably, in the Database we find:
 </p>
     <p>
 Was it a mistake then that both U+13FA1 and U+13FA2 ended up being added to Unicode as core signs?
+</p>
+    <p>
+In Unicode 18, the description of U+13FA1 will be changed to have "with four vertical lines" under the assumption
+that the glyph was correct. This will at least remove the inconsistency if nothing else.
+Note that the Database refers to p. 40, l. 3 for the transcription and pl. CCCCLXXXVII for the photo in:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara006.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara006.pdf</a>
+    </p>
+    <p>
+The transcription has three lines while I would interpret the photo on pl. CCCCLXXXVII 
+as having four lines. None of this should matter though. The fact that even Chassinat and Daumas didn't feel it
+made sense to try to exactly reproduce the number of lines should give us pause.
+</p>
+    <p>
+Astonishing is that for U+13FA2 the Database refers to p. 56, l. 9 of:
+</p>
+    <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara008.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara008.pdf</a>
+    </p>
+    <p>
+But this has the glyph with four lines rather than two! This suggests that U+13FA2 may not even exist. 
+Once more we see that fetishizing various normalized fonts is a deeply flawed approach to creating a sign list,
+as one quickly starts distinguishing graphical differences that may not even be real.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4247,7 +4275,12 @@ The transcription is like the above glyph. The image is not clear, but at least 
     <p>
       <tt>U+13FA7 kEH_Desc The emblem erected outside the temple of Min, resembling the horns of a bovid (F13) on top of a stem of papyrus with a bud (M13), with a coil of rope (V1) between the horns, connected to a cone, with a spike on top, from which a shrine with a flat roof comes forth.</tt>
     </p>
-    <p>I would make the spike more spiky. Now it just looks like a circle.
+    <p>The spike isn't very spiky. It looks more like a circle.
+</p>
+    <p>
+Unicode 18 will have "circle" instead of "spike" in the description. 
+But I'm not sure that is a good solution, as "circle" is a very 
+specific shape. Something more vague like "protrusion" might be preferable.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4323,18 +4356,25 @@ to have a single code point that covers multiple tokens that differ in discrete 
     <p>
       <tt>U+13FD6 kEH_Desc A booth with a round roof, supported by two columns resembling a stem of papyrus with a bud (M13), with an abacus; on top of a base (O210A).</tt>
     </p>
-    <p>The glyph and the description are at the very least misleading.
+    <p class="done">The glyph and the description are at the very least misleading.
 What are supposed to be abaci appear to be drawn as tips of the sky sign.
 Also, there is not one base, but rather two bases, one under each column.
 This is confirmed by the pointer in the Database:
 </p>
-    <p>
+    <p class="done">
       <a href="http://sith.huma-num.fr/karnak/3552">http://sith.huma-num.fr/karnak/3552</a>
     </p>
-    <p>
-I suggest making the description less ambiguous with regard to the base(s).
+    <p class="done">
 It is a legitimate question whether presence/absence of abaci is essential to the character identity in Unicode.
 I would ignore them, both in the glyph and in the description.
+</p>
+    <p class="done">
+Unicode 18 will have a simplified description, which also seems to better match the glyph. Some
+details may still be overinterpreted relative to the photo though: 
+I'm not sure the flat part of the roof is apparently the sky sign, 
+and one could interpret each column as becoming wider towards the bottom as opposed to there being
+a separate base. The bases are certainly not wide rectangular blocks as in the glyph.
+One could consider further simplifying the description to omit mention of the bases.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4349,34 +4389,23 @@ I would ignore them, both in the glyph and in the description.
     <p>
       <tt>U+13FD7 kEH_Desc A ram (Ovis longipes palaeo-aegyptiacus), standing, without a beard (E11), with a round vessel with an upstanding rim (W24) above its back; written inside a booth consisiting of the sky (N1), supported by two columns resembling a stem of papyrus with a bud (M13), with an abacus; on top of a base (O210A); on a broad base.</tt>
     </p>
-    <p>The token referred to by the Database is on p. 21 of:
+    <p class="done">The token referred to by the Database is on p. 21 of:
 </p>
-    <p>
+    <p class="done">
       <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf</a>
     </p>
-    <p>
+    <p class="done">
 The "on top of a base (O210A); on a broad base" should probably be "on top of a broad base" if the
 facsimile is accurate. That is, I don't see two bases (one below each column) in addition and on top of the one broad base.
 </p>
-    <p>
-I also don't see abaci in additions to the tips of the sky sign.
+    <p class="done">
+I also don't see abaci in addition to the tips of the sky sign.
 Conversely, could it have been that the tips of the sky sign are the abaci?
-Why bother mentioning the abaci in the first place? It is a tiny detail and likely not essential to the character identity.
+Why bother mentioning the abaci in the first place? 
+It is a tiny detail and likely not essential to the character identity.
 </p>
-    <table class="glyph_table">
-      <tbody>
-        <tr>
-          <td>
-            <img src="glyphs16/81899.png" class="image16"/>
-            <div class="code">13FEB</div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <p>
-      <tt>U+13FEB kEH_Desc A column resembling a stem of papyrus with a bud (M13), on a base, with a </tt>
-    </p>
-    <p>Truncated description.
+    <p class="done">
+Unicode 18 will have a simplified description avoiding these issues.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4385,16 +4414,45 @@ Why bother mentioning the abaci in the first place? It is a tiny detail and like
             <img src="glyphs16/81906.png" class="image16"/>
             <div class="code">13FF2</div>
           </td>
+          <td>
+            <img src="glyphs5/78254.png" class="image5"/>
+            <div class="code">131AE (5.2)</div>
+          </td>
+          <td>
+            <img src="glyphs5/78255.png" class="image5"/>
+            <div class="code">131AF (5.2)</div>
+          </td>
+          <td>
+            <img src="glyphs5/78499.png" class="image5"/>
+            <div class="code">132A3 (5.2)</div>
+          </td>
+          <td>
+            <img src="glyphs5/78582.png" class="image5"/>
+            <div class="code">132F6 (5.2)</div>
+          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+13FF2 kEH_Desc A door-bolt (O34), written over two human feet and lower legs (D58), arranged horizontally.</tt>
+      <br/>
+      <tt>U+131AE kEH_Desc A branch, horizontally written (M3), written over a tree (M1).</tt>
+      <br/>
+      <tt>U+131AF kEH_Desc A horned desert viper (Cerastes cerastes), written over a tree (M1).</tt>
+      <br/>
+      <tt>U+132A3 kEH_Desc A forearm, with the palm of the hand facing upwards (D36), written over a mast of a ship with two prongs, connected by vertical lines (P6).</tt>
+      <br/>
+      <tt>U+132F6 kEH_Desc A sickle (U1), written over a folded piece of cloth (S29).</tt>
     </p>
-    <p>The Database says "Needs to be atomic due to the position of the O34."
+    <p>For U+13FF2, the Database says "Needs to be atomic due to the position of the O34."
 </p>
     <p>
-Nonsense, because (1) whether O34 is 1pt higher or lower relative to the legs is paleography, and (2) it is the font's responsibility to arrange signs in a suitable manner. This exact group was in fact listed in:
+Nonsense, because (1) whether O34 is 1pt higher or lower relative to the legs is paleography, and (2) it is the font's responsibility to arrange signs in a suitable manner. Since the earliest discussions in 2016 
+about introducing the overlay control in Unicode, the assumption has always been that fonts may fine-tune
+the positions of the constituent signs.
+It was also this assumption that led to declaring e.g. U+131AE, U+131AF, ..., to be Legacy, because they 
+could henceforth be represented as overlays, even though the centers of the constituent signs do not coincide there
+either. The exact overlay represented by U+13FF2 was in fact also listed in:
 </p>
     <p>
       <a href="https://nederhof.github.io/hierojax/ligaturelist.html">https://nederhof.github.io/hierojax/ligaturelist.html</a>
@@ -4406,7 +4464,8 @@ And here linked to insertions:
       <a href="https://nederhof.github.io/hierojax/insertionlist.html">https://nederhof.github.io/hierojax/insertionlist.html</a>
     </p>
     <p>
-If we are starting to encode groups atomically because we wish to fine-tune their exact positioning, then why did we bother with controls in the first place? Controls by definition abstract away from exact positionings. The advantages of controls are normalization and abstraction.  Are we willing to give up on these advantages now?  It makes no sense to on the one hand deprecate clearly distinct graphical variants in the basic list (making them Legacy), motivated by the advantages of normalization and abstraction, while on the other hand introducing new atomic encodings of compositional groups, moving away from normalization.
+If we are starting to encode groups atomically because we wish to fine-tune their exact positioning, then why did we bother with controls in the first place? Controls by definition abstract away from exact positionings. The advantages of controls are normalization and abstraction.  Are we willing to give up on these advantages now?  It makes no sense to on the one hand deprecate clearly distinct graphical variants in the basic list and other overlays
+(making them Legacy), motivated by the advantages of normalization and abstraction, while on the other hand introducing new atomic encodings of compositional groups, moving away from normalization.
 </p>
     <p>
 And if you accept that Unicode needs to encode fine-tuned positioning, then the one or two ligatures that have slipped through in the extended Unicode set will not suffice. You will need to start introducing possibly hundreds of additional code points of compositional groups. I don't think anyone would be happy with that either.
@@ -4456,7 +4515,7 @@ And if you accept that Unicode needs to encode fine-tuned positioning, then the 
     </p>
     <p class="done">Hm, I think I understand what is meant (something in the vein of "the kind of
 chevaux de frise that typically occurs on top of a wall"), but there are no
-walls in the glyphs. In Unicode 18 this is solved by removing "on top of walls" from the
+walls in the glyphs. In Unicode 18 this will be solved by removing "on top of walls" from the
 description.
 </p>
     <table class="glyph_table">
@@ -4472,7 +4531,10 @@ description.
     <p>
       <tt>U+1400C kEH_Desc The emblem erected outside the temple of Min, resembling the horns of a bovid (F13) on top of a stem of papyrus with a bud (M13), with a sun disk (N5) between the horns, connected with a line to a cone with a spike on top.</tt>
     </p>
-    <p>I would make the spike more spiky because currently it doesn't look like a spike.
+    <p class="done">I would make the spike more spiky because currently it doesn't look like a spike.
+</p>
+    <p class="done">
+Unicode 18 will have "spur" in place of "spike".
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4505,7 +4567,12 @@ description.
       <br/>
       <tt>U+14012 kEH_Desc A plan of a prehistoric building at the town of Nekhen, written as an oval, with four angled lines, touching the oval.</tt>
     </p>
-    <p>If it is really necessary to distinguish these, then in U+13294 and U+14010, at least specify *two* angled lines. Perhaps for U+14011 one could replace "multiple" by "more than 4".
+    <p>If it is really necessary to distinguish these, then the descriptions need to make clear what the distinctions are.
+Unicode 18 will clarify "more than four angled lines" for U+14011.
+</p>
+    <p>
+But for U+14010 I would still like to see the number "two" in the description, 
+to distinguish it from U+14011 and U+14012.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -4559,7 +4626,8 @@ The Database has "Meaningless variant". Well then?
     <p>
       <tt>U+14032 kEH_Desc A boat/ship with an inward curved prow and stern, on top of a rectangle representing water, with an oar/rudder at the back.</tt>
     </p>
-    <p>In the glyph there are *two* oars/rudders at the back.
+    <p class="done">In the glyph there are *two* oars/rudders at the back. 
+In Unicode 18, the description will be adjusted to match the glyph.
 </p>
     <h2>Page 13</h2>
     <table class="glyph_table">
@@ -4608,6 +4676,14 @@ By the way, is a "crossbar" (U+1403F) the same thing as a "crossbeam" (U+14089)?
             <img src="glyphs16/82031.png" class="image16"/>
             <div class="code">1406F</div>
           </td>
+          <td>
+            <img src="glyphs16/82588.png" class="image16"/>
+            <div class="code">1429C</div>
+          </td>
+          <td>
+            <img src="glyphs16/82589.png" class="image16"/>
+            <div class="code">1429D</div>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -4617,6 +4693,10 @@ By the way, is a "crossbar" (U+1403F) the same thing as a "crossbeam" (U+14089)?
       <tt>U+14050 kEH_Desc A boat/ship with a prow and stern curved inwards, ending with a flower-like shape, with a circle inside the boat/ship.</tt>
       <br/>
       <tt>U+1406F kEH_Desc A moon-sickle shaped boat with an higher stern than prow, with the head of an antilope (F81) on top of the stern, on top of a rectangle representing water, with a falcon (G5) standing on top of a low cone shape inside the boat/ship, with an oar/rudder at the front.</tt>
+      <br/>
+      <tt>U+1429C kEH_Desc A plough, with a cross-bar and two vertical lines on the long beam, without a circle at the front of the long beam.</tt>
+      <br/>
+      <tt>U+1429D kEH_Desc A plough, with a cross-bar and two vertical lines on the long beam, with the long beam curving upwards at the front.</tt>
     </p>
     <p>The description of U+14042 is not nearly as detailed as some others. 
 In Unicode 18, the description of U+14042 will be refined to be similar to that of U+14050.
@@ -4625,7 +4705,8 @@ In Unicode 18, the description of U+14042 will be refined to be similar to that 
 Another thing is that the "back" is at the left, unlike other boats where the back is at the right. 
 It would be good to write in descriptions where prow and stern appear reversed. 
 I do not support "normalizing" the orientation of boats, as, first, such normalization is inconsistent
-with what was done elsewhere, and second, this creates undesirable artefacts, such as the falcon becoming
+with what was done elsewhere (e.g. U+1429C and U+1429D), 
+and second, this creates undesirable artefacts, such as the falcon becoming
 backwards in the case of U+1406F. This reminds us once again that the mirroring of
 U+1329F in Unicode 16 was totally the wrong thing to do and one needs to revert to the Unicode 5.2 form
 as soon as possible.
@@ -4749,17 +4830,11 @@ There appear to be *two* oars/rudders in the glyphs while the descriptions have 
             <img src="glyphs16/81997.png" class="image16"/>
             <div class="code">1404D</div>
           </td>
-          <td>
-            <img src="glyphs16/80179.png" class="image16"/>
-            <div class="code">13933</div>
-          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+1404D kEH_Desc A boat/ship, resembling a crescent moon, with the head of a woman, with a headdress of bovine horns with a sun disk (F102), on top of the prow and stern, on top of a rectangle resembling water, with a façade of a shrine with a flat roof, with oblique sides, with a large doorway (O21B) inside the boat/ship.</tt>
-      <br/>
-      <tt>U+13933 kEH_Desc The head of a goddess, seen in profile, wearing a headdress of bovine horns with a sun disk (F102), wearing the vulture headdress, on top of a staff.</tt>
     </p>
     <p>I don't see a doorway in the glyph of U+1404D.
 </p>
@@ -4903,17 +4978,11 @@ and they should be vertical, not diagonal.
             <img src="glyphs16/82036.png" class="image16"/>
             <div class="code">14074</div>
           </td>
-          <td>
-            <img src="glyphs16/82037.png" class="image16"/>
-            <div class="code">14075</div>
-          </td>
         </tr>
       </tbody>
     </table>
     <p>
       <tt>U+14074 kEH_Desc A moon-sickle shaped boat with an higher prow than stern, with the head of an antilope (F81) on top of the prow, on top of a sledge represented by four vertical lines between two horizontal lines, with a falcon with spread wings, on top of a low cone shape inside the boat/ship, embracing the cone with its wings, with an oar/rudder at the back.</tt>
-      <br/>
-      <tt>U+14075 kEH_Desc A moon-sickle shaped boat with an higher prow than stern, with the head of an antilope (F81) on top of the prow, with a downwards line with multiple horizontal lines written over it coming from the head, on top of a sledge represented by four vertical lines between two horizontal lines, with a falcon with spread wings, on top of a low cone shape inside the boat/ship, embracing the cone with its wings, with an oar/rudder at the back.</tt>
     </p>
     <p>The shape of the sledge in U+14074 as described ("four vertical lines between two horizontal lines") 
 does not at all correspond to the glyph.
@@ -4926,7 +4995,7 @@ This is even clearer in the 2026 edition, p. 281:
       <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf</a>
     </p>
     <p>
-I suggest that the description be corrected to at least omit the details that do not match the
+I propose that the description be corrected to at least omit the details that do not match the
 glyph. Note that the described shape of the sledge in U+14074 is not implausible, considering 
 similar shapes in the iconography of Dendara X.
 In this and similar signs, a lot of entirely futile work would have been avoided by not being so overly precise
@@ -5102,48 +5171,6 @@ That is, we should be moving towards an actual sign list rather than a token lis
       <tbody>
         <tr>
           <td>
-            <img src="glyphs16/82259.png" class="image16"/>
-            <div class="code">14153</div>
-          </td>
-          <td>
-            <img src="glyphs5/78547.png" class="image5"/>
-            <div class="code">132D3 (5.2)</div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <p>
-      <tt>U+14153 kEH_Desc The white crown (S1), on top of a plan of a crossroads in a village (O49).</tt>
-      <br/>
-      <tt>U+132D3 kEH_Desc The white crown (S1), on top of a plan of a crossroads in a village (O49).</tt>
-    </p>
-    <p>If you think you can justify having 2 codepoints for these trivial graphical variants, then at the very least you need to have two distinct descriptions.
-</p>
-    <table class="glyph_table">
-      <tbody>
-        <tr>
-          <td>
-            <img src="glyphs16/82263.png" class="image16"/>
-            <div class="code">14157</div>
-          </td>
-          <td>
-            <img src="glyphs5/78552.png" class="image5"/>
-            <div class="code">132D8 (5.2)</div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <p>
-      <tt>U+14157 kEH_Desc The red crown (S3), on top of a plan of a crossroads in a village (O49).</tt>
-      <br/>
-      <tt>U+132D8 kEH_Desc The red crown (S3), on top of a plan of a crossroads in a village (O49).</tt>
-    </p>
-    <p>As above.
-</p>
-    <table class="glyph_table">
-      <tbody>
-        <tr>
-          <td>
             <img src="glyphs16/82283.png" class="image16"/>
             <div class="code">1416B</div>
           </td>
@@ -5166,12 +5193,19 @@ so I assume the description is wrong.
     <p>
 It is also easy to misinterpret "two ureai hanging downwards from the horns at either side";
 there are examples (at least in iconography) where four uraei in total, two on each side, 
-are hanging from the Atef crowns,
-see e.g. here:
+are hanging from the crowns, see e.g. here:
 </p>
     <p>
       <a href="https://www.worldhistory.org/image/2508/tutankhamun--ankhsenamun/">https://www.worldhistory.org/image/2508/tutankhamun--ankhsenamun/</a>
     </p>
+    <p>
+In Unicode 18, the glyph will be given two more uraei on top of the crown and the description has been
+clarified. (But in "A Hemhem crown with the uraei" I would omit "the".)
+This at least makes glyph and description consistent. 
+But both are now inconsistent with what should have been the attestation of the sign given in the Database.
+I'm not sure one should care, because this form probably exists, considering hemhem crowns
+appear in many variations.
+</p>
     <table class="glyph_table">
       <tbody>
         <tr>
@@ -5191,40 +5225,29 @@ see e.g. here:
       <a href="http://sith.huma-num.fr/karnak/4209">http://sith.huma-num.fr/karnak/4209</a>
     </p>
     <p>
-The transcription does not have sun disks, while the photo of the heavily eroded inscription could potentially
-be interpreted to have sun disks.
-There is another token that (in normalized transcription) does have sun disks, namely p. 169 l. 3 of:
+The transcription does not have sun disks on the uraei, 
+while the photo of the heavily eroded inscription could potentially be interpreted to have sun disks.
+There is another token that (in normalized transcription) does have sun disks on the uraeus, namely p. 169 l. 3 of:
 </p>
     <p>
       <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf</a>
     </p>
     <p>
-An example of this crown with sun disks, albeit from iconography, is in Fig. 21 of:
+An example of this crown with sun disks, albeit from iconography, is in Fig. 21 (p. 48) of:
 </p>
     <p>
       <a href="https://archiv.ub.uni-heidelberg.de/propylaeumdok/2891/1/Beinlich_Faiyum_2013.pdf">https://archiv.ub.uni-heidelberg.de/propylaeumdok/2891/1/Beinlich_Faiyum_2013.pdf</a>
     </p>
     <p>
-The main thing is that glyph and description are consistent. Adding sun disks to the
-glyph seems the most straightforward way to achieve this in this instance.
+Adding sun disks to the uraei in the
+glyph seems the most straightforward way to achieve consistency in this instance.
 But more generally, one should seriously consider not encoding low-level details at all, i.e. not
 mentioning them in descriptions and not trying to visibly render them in glyphs, to circumvent
 problems that are inherently unsolvable.
 </p>
-    <table class="glyph_table">
-      <tbody>
-        <tr>
-          <td>
-            <img src="glyphs16/82297.png" class="image16"/>
-            <div class="code">14179</div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
     <p>
-      <tt>U+14179 kEH_Desc A headdress consisting of two feathers on top of the horns of a ram, with a cobra (Naja haja), standing up, with expanded hood (Uraeus), with sun disks its head on either side of the feathers, orientated outwards.</tt>
-    </p>
-    <p>Correct "with sun disks its head" to "with a sun disk on its head".
+In Unicode 18, the glyph will have sun disks on the uraei and
+the description will be clarified. (But in "A Hemhem crown with the uraei" I would omit "the".)
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5267,7 +5290,8 @@ This is clearer from the Unicode 18 glyph, which seems to be based on the atypic
       <a href="https://thotsignlist.org/mysign?id=5650">https://thotsignlist.org/mysign?id=5650</a>
     </p>
     <p class="done">
-The Database has "Not a meaningful variant". I would agree. Perhaps TSL_3_20841 is just a one-off, clumsily carved instance of the kilt,
+The Database has "Not a meaningful variant". I would agree. 
+Perhaps TSL_3_20841 is just a one-off, clumsily carved instance of the kilt,
 rather than an independent shape. But then why was it added?
 </p>
     <table class="glyph_table">
@@ -5324,6 +5348,9 @@ It doesn't seem appropriate to me that such shapes would be distinguished in Uni
 The Database says of U+141BF that it is "[n]ot a meaningful variant of [U+132F7]"; but note that the shape of
 U+132F7 in Unicode 16 has sloping fringes, whereas the intended shape in Unicode 5.2 is non-sloping.
 I see no reflection in the Database on what the core difference between U+141BF and U+141C0 is supposed to be.
+</p>
+    <p>
+In Unicode 18, the fringes of U+141C0 will be made slightly longer, but that doesn't solve anything.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5399,10 +5426,19 @@ For U+14217 the Database refers to p. 94, l. 6 of:
 Here the transcription has a "loop" as well instead of the diagonal beam, confirming the description.
 </p>
     <p>
-Even before, the Database had for U+14216: "I am not sure if it is that valuable for Unicode".
+The Database had for U+14216: "I am not sure if it is that valuable for Unicode".
 After correcting the glyphs of U+14214 and U+14217, 
-U+14216 becomes basically a duplicate of U+14214, and there should be even less reason for it to
-exist.
+U+14216 becomes basically a duplicate of U+14214, and there should be even less reason for it to exist.
+</p>
+    <p>
+In Unicode 18, the glyph of U+14214 will be unchanged but the description 
+will be simplified to omit mention of the loop, which
+removes the inconsistency between glyph and description, but does not address the attestation nor
+the difference with U+14216 (if there is any).
+</p>
+    <p>
+In Unicode 18, the description of U+14217 will still have "with a loop under the horizontal beam", which
+remains inconsistent with the glyph.
 </p>
     <h2>Page 15</h2>
     <table class="glyph_table">
@@ -5485,7 +5521,7 @@ The Database refers to p. 34, l. 14 of:
 Here there are vertical lines, but the net is not long.
 </p>
     <p class="done">
-In the glyph in Unicode 18, the lines inside are more vertical than curved. For all practical purposes
+In the glyph in Unicode 18, the lines inside will be more vertical than curved. For all practical purposes
 it probably doesn't matter.
 </p>
     <table class="glyph_table">
@@ -5522,14 +5558,16 @@ it probably doesn't matter.
       <br/>
       <tt>U+1429C kEH_Desc A plough, with a cross-bar and two vertical lines on the long beam, without a circle at the front of the long beam.</tt>
     </p>
-    <p>"At the front" in the description of U+1429D becomes confusing because the sign is mirrored relative to say U+1429C. 
+    <p class="done">"At the front" in the description of U+1429D becomes confusing because the sign is mirrored relative to say U+1429C. 
 (I assume the mirroring is intentional.) 
 Elsewhere in descriptions I have seen use of "left" and "right". I realise the downside of left/right is that strictly speaking this becomes incorrect for right-to-left running text, but the left/right terminology tends to be less ambiguous than front/back when describing signs in the sign list.
 </p>
-    <p>
+    <p class="done">
+In Unicode 18, the description will have "at the top" in place of "at the front".
+</p>
+    <p class="done">
 Apropos, what I find puzzling in this and many other cases is that only negative views are entered in the Database, here
-"variation too limited to be of use for Unicode" and "Not a meaningful variant". And yet it became not only a new code point but
-a core sign?
+"variation too limited to be of use for Unicode" and "Not a meaningful variant". And yet it became not only a new code point but a core sign?
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5695,9 +5733,15 @@ Also, I would replace "coming from" by "on".
       <tt>U+1334A kEH_Desc A chisel with a conical handle and short blade.</tt>
     </p>
     <p>Again, is the vertical line in U+142F7 supposed to be interrupted at the base? There isn't actually a vertical line between the two ovals, it looks more like there is whitespace between the two ovals.
+This is consistent though with the reference in the Database, p. 44, l. 10 of:
 </p>
     <p>
+      <a href="https://www.ifao.egnet.net/uploads/publications/enligne/MMAF024.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/MMAF024.pdf</a>
+    </p>
+    <p>
 U+142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot. It looks more like U22 (U+1334A).
+Unicode 18 will mention U22 in the description, but it is not clear to me that
+the identification of the protrusion with U22 is grounded in fact.
 </p>
     <table class="glyph_table">
       <tbody>
@@ -5712,17 +5756,20 @@ U+142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot.
     <p>
       <tt>U+142FC kEH_Desc The head of a human man, seen in profile, with a short straight beard (D1), on top of a tall potter's wheel.</tt>
     </p>
-    <p>There is no discernible beard in the glyph. 
+    <p class="done">There is no discernible beard in the glyph. 
 The Database refers to p. 138, l. 8 and pl. DLXVII of:
 </p>
-    <p>
+    <p class="done">
       <a href="https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara006.pdf">https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara006.pdf</a>
     </p>
-    <p>
+    <p class="done">
 It would be impossible to see a beard in the coarse font of the inscription and in the blurry
 photo (at least in the online PDF).
 Where does the idea come from that there is a beard?
 There would not have been a problem had undue specificity in the description been avoided.
+</p>
+    <p class="done">
+Unicode 18 will simplify the description to omit mention of the beard.
 </p>
     <h2>Page 16</h2>
     <table class="glyph_table">

@@ -15,20 +15,21 @@ https://archive.org/details/MMAF25/page/n29/mode/2up
 <p>
 Here there are vertical lines, but the net is not long.
 <p>
-In the glyph in Unicode 18, the lines inside are more vertical than curved. For all practical purposes
+In the glyph in Unicode 18, the lines inside will be more vertical than curved. For all practical purposes
 it probably doesn't matter.
 
 0x1425F
 Should that be "with weights"? What are the circles at the right?
 
-0x1429D 0x1429C
+ok 0x1429D 0x1429C
 "At the front" in the description of 0x1429D becomes confusing because the sign is mirrored relative to say 0x1429C. 
 (I assume the mirroring is intentional.) 
 Elsewhere in descriptions I have seen use of "left" and "right". I realise the downside of left/right is that strictly speaking this becomes incorrect for right-to-left running text, but the left/right terminology tends to be less ambiguous than front/back when describing signs in the sign list.
 <p>
+In Unicode 18, the description will have "at the top" in place of "at the front".
+<p>
 Apropos, what I find puzzling in this and many other cases is that only negative views are entered in the Database, here
-"variation too limited to be of use for Unicode" and "Not a meaningful variant". And yet it became not only a new code point but
-a core sign?
+"variation too limited to be of use for Unicode" and "Not a meaningful variant". And yet it became not only a new code point but a core sign?
 
 0x142AE 0x13349
 In the Unicode 5.2 code charts (not the Unicode 16 code charts), the handle of 0x13349 was already a little below the wood.  Either way, distinguishing these two variants on the basis of how many pixels the handle is below the wood is entirely inappropriate for Unicode.
@@ -68,10 +69,15 @@ Also, I would replace "coming from" by "on".
 
 0x142F7 0x1334A
 Again, is the vertical line in 0x142F7 supposed to be interrupted at the base? There isn't actually a vertical line between the two ovals, it looks more like there is whitespace between the two ovals.
+This is consistent though with the reference in the Database, p. 44, l. 10 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/MMAF024.pdf
 <p>
 0x142F7 has "upwards dot"? I would not describe the shape in the glyph as a dot. It looks more like U22 (0x1334A).
+Unicode 18 will mention U22 in the description, but it is not clear to me that
+the identification of the protrusion with U22 is grounded in fact.
 
-0x142FC
+ok 0x142FC
 There is no discernible beard in the glyph. 
 The Database refers to p. 138, l. 8 and pl. DLXVII of:
 <p>
@@ -81,3 +87,5 @@ It would be impossible to see a beard in the coarse font of the inscription and 
 photo (at least in the online PDF).
 Where does the idea come from that there is a beard?
 There would not have been a problem had undue specificity in the description been avoided.
+<p>
+Unicode 18 will simplify the description to omit mention of the beard.

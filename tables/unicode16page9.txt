@@ -82,7 +82,7 @@ The transcription and photo seem to confirm the loop (rather than the diagonal b
 0x13DD7 0x13DD8
 As above. One description subsumes the other. The functions are identical.
 <p>
-In Unicode 18, this is addressed by letting 0x13DD7 refer to K0004A (that should have been K004A, 
+In Unicode 18, this will be addressed by letting 0x13DD7 refer to K0004A (that should have been K004A, 
 which is 0x13DD3) and 0x13DD8 to K004B (0x13DD5).
 
 0x13DDF 0x13DDC 0x13DDD
@@ -136,8 +136,7 @@ I would say the description is right and the glyph is wrong (or at least mislead
 Moreover, the photo shows the token does not have 7 but rather 6 petals, while the transcription has 8 petals! 
 This shows once again that having such overly specific descriptions in UniKemet is untenable.
 The number 7 is completely arbitrary. It is not part of the character identity. 
-It was not dictated by evidence in the form of extant inscriptions, and not even by existing
-normalized transcriptions. It so happens that someone at some point drew the glyph with 7 petals, 
+It so happens that someone at some point drew the glyph with 7 petals, 
 and the number 7 was then elevated to a status it doesn't deserve.
 Claims that an (over)emphasis on (arbitrary) details is somehow more "scientific" should not be readily accepted.
 <p>
@@ -145,6 +144,10 @@ Changing 7 to 6 in the description won't solve the issue, because the day after
 a token may be found which actually has 7 petals.
 The one obvious solution is not to include the exact number of petals in the description.
 Then the question becomes whether 0x13E4B deserves an independent code point.
+<p>
+The 0x13E48 glyph was also used on p. 140 of:
+<p>
+https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna007.pdf
 
 0x13E5E 0x13376
 The glyph in the code charts does not suggest a "root resembling a cartouche in a round form (V9), with two angled strokes on either side of the stem", but rather, the "two angled strokes" directly lead into the round form of the cartouche, making it difficult to see the cartouche as an individual part.

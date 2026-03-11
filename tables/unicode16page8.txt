@@ -59,11 +59,12 @@ unwarranted.
 <p>
 I would suggest redrawing both glyphs with a normal standard.
 
-0x13CC9 0x14176 0x14177
+0x13CC9
 In Unicode 18, a sun disk will be added to the plumes in 0x13CC9. That is fine if there was evidence
 justifying this. But note that the draft Unikemet-18.0.0.txt does not mention the sun disk.  
-Regarding presence/absence of the sun disk as inconsequential would also be fine with me, but
-then this is inconsistent with e.g. the introduction of 0x14176 next to 0x14177.
+It would also be fine with me to regard presence/absence of a sun disk on a headdress
+as inconsequential if the headdress is a secondary graphical element, but
+then this may be inconsistent with what was done elsewhere.
 <p>
 As to the reference in the Database, I think "p. 17,6" should have been "p. 17,16", where the transcription
 suggests 4 plumes and no sun disk. It would be hard to tell whether a sun disk is present in plate CLXX1 as

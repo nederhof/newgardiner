@@ -4,14 +4,15 @@ Or is the glyph of 0x14041 wrong?
 <p>
 By the way, is a "crossbar" (0x1403F) the same thing as a "crossbeam" (0x14089)? It looks the same. Perhaps the terminology can be made consistent?
 
-0x14042 0x14050 0x1406F
+0x14042 0x14050 0x1406F 0x1429C 0x1429D
 The description of 0x14042 is not nearly as detailed as some others. 
 In Unicode 18, the description of 0x14042 will be refined to be similar to that of 0x14050.
 <p>
 Another thing is that the "back" is at the left, unlike other boats where the back is at the right. 
 It would be good to write in descriptions where prow and stern appear reversed. 
 I do not support "normalizing" the orientation of boats, as, first, such normalization is inconsistent
-with what was done elsewhere, and second, this creates undesirable artefacts, such as the falcon becoming
+with what was done elsewhere (e.g. 0x1429C and 0x1429D), 
+and second, this creates undesirable artefacts, such as the falcon becoming
 backwards in the case of 0x1406F. This reminds us once again that the mirroring of
 0x1329F in Unicode 16 was totally the wrong thing to do and one needs to revert to the Unicode 5.2 form
 as soon as possible.
@@ -47,7 +48,7 @@ The description of 0x14065 mentions a doorway while 0x14048 doesn't. The shape o
 <p>
 There appear to be *two* oars/rudders in the glyphs while the descriptions have "an oar/rudder" or "a rudder".
 
-0x1404D 0x13933
+0x1404D
 I don't see a doorway in the glyph of 0x1404D.
 <p>
 The Database refers to p. 147, l. 2 and pl. CCCCXXXIX of:
@@ -102,7 +103,7 @@ https://archive.org/details/sethos4/page/52/mode/2up
 Further, the internal lines of the shrine and the lines of the sledge should not have been drawn as one and running over the boat/ship,
 and they should be vertical, not diagonal.
 
-0x14074 0x14075
+0x14074
 The shape of the sledge in 0x14074 as described ("four vertical lines between two horizontal lines") 
 does not at all correspond to the glyph.
 The Database refers to "p. 238,5, pl. 138" of Dendara X. This is apparently the 1997 edition
@@ -112,7 +113,7 @@ This is even clearer in the 2026 edition, p. 281:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Dendara010.pdf
 <p>
-I suggest that the description be corrected to at least omit the details that do not match the
+I propose that the description be corrected to at least omit the details that do not match the
 glyph. Note that the described shape of the sledge in 0x14074 is not implausible, considering 
 similar shapes in the iconography of Dendara X.
 In this and similar signs, a lot of entirely futile work would have been avoided by not being so overly precise

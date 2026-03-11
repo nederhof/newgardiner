@@ -1,12 +1,6 @@
 0x141AB
 Correct "a the top ends" to "at the top ends".
 
-0x14153 0x132D3
-If you think you can justify having 2 codepoints for these trivial graphical variants, then at the very least you need to have two distinct descriptions.
-
-0x14157 0x132D8
-As above.
-
 0x1416B
 I cannot match this to the glyph at all. Where is the "an uraeus, with a sun disk on the head"?
 The Database points to p. 169 l. 4 of:
@@ -18,34 +12,40 @@ so I assume the description is wrong.
 <p>
 It is also easy to misinterpret "two ureai hanging downwards from the horns at either side";
 there are examples (at least in iconography) where four uraei in total, two on each side, 
-are hanging from the Atef crowns,
-see e.g. here:
+are hanging from the crowns, see e.g. here:
 <p>
 https://www.worldhistory.org/image/2508/tutankhamun--ankhsenamun/
+<p>
+In Unicode 18, the glyph will be given two more uraei on top of the crown and the description has been
+clarified. (But in "A Hemhem crown with the uraei" I would omit "the".)
+This at least makes glyph and description consistent. 
+But both are now inconsistent with what should have been the attestation of the sign given in the Database.
+I'm not sure one should care, because this form probably exists, considering hemhem crowns
+appear in many variations.
 
 0x1416C
 I don't see a sun disk on either uraeus in the glyph. The Database points to:
 <p>
 http://sith.huma-num.fr/karnak/4209
 <p>
-The transcription does not have sun disks, while the photo of the heavily eroded inscription could potentially
-be interpreted to have sun disks.
-There is another token that (in normalized transcription) does have sun disks, namely p. 169 l. 3 of:
+The transcription does not have sun disks on the uraei, 
+while the photo of the heavily eroded inscription could potentially be interpreted to have sun disks.
+There is another token that (in normalized transcription) does have sun disks on the uraeus, namely p. 169 l. 3 of:
 <p>
 https://www.ifao.egnet.net/uploads/publications/enligne/Temples-Esna002.pdf
 <p>
-An example of this crown with sun disks, albeit from iconography, is in Fig. 21 of:
+An example of this crown with sun disks, albeit from iconography, is in Fig. 21 (p. 48) of:
 <p>
 https://archiv.ub.uni-heidelberg.de/propylaeumdok/2891/1/Beinlich_Faiyum_2013.pdf
 <p>
-The main thing is that glyph and description are consistent. Adding sun disks to the
-glyph seems the most straightforward way to achieve this in this instance.
+Adding sun disks to the uraei in the
+glyph seems the most straightforward way to achieve consistency in this instance.
 But more generally, one should seriously consider not encoding low-level details at all, i.e. not
 mentioning them in descriptions and not trying to visibly render them in glyphs, to circumvent
 problems that are inherently unsolvable.
-
-0x14179
-Correct "with sun disks its head" to "with a sun disk on its head".
+<p>
+In Unicode 18, the glyph will have sun disks on the uraei and
+the description will be clarified. (But in "A Hemhem crown with the uraei" I would omit "the".)
 
 ok 0x1418E
 The Unicode 16 glyph was nowhere like this description. The glyph will be more accurate in Unicode 18.
@@ -56,7 +56,8 @@ This is clearer from the Unicode 18 glyph, which seems to be based on the atypic
 <p>
 https://thotsignlist.org/mysign?id=5650
 <p>
-The Database has "Not a meaningful variant". I would agree. Perhaps TSL_3_20841 is just a one-off, clumsily carved instance of the kilt,
+The Database has "Not a meaningful variant". I would agree. 
+Perhaps TSL_3_20841 is just a one-off, clumsily carved instance of the kilt,
 rather than an independent shape. But then why was it added?
 
 0x141B6
@@ -75,6 +76,8 @@ It doesn't seem appropriate to me that such shapes would be distinguished in Uni
 The Database says of 0x141BF that it is "[n]ot a meaningful variant of [0x132F7]"; but note that the shape of
 0x132F7 in Unicode 16 has sloping fringes, whereas the intended shape in Unicode 5.2 is non-sloping.
 I see no reflection in the Database on what the core difference between 0x141BF and 0x141C0 is supposed to be.
+<p>
+In Unicode 18, the fringes of U+141C0 will be made slightly longer, but that doesn't solve anything.
 
 0x14201
 In the glyph, I see a "boss near the top", not in the center.
@@ -97,7 +100,14 @@ https://archive.org/details/MMAF25/page/n59/mode/2up
 <p>
 Here the transcription has a "loop" as well instead of the diagonal beam, confirming the description.
 <p>
-Even before, the Database had for 0x14216: "I am not sure if it is that valuable for Unicode".
+The Database had for 0x14216: "I am not sure if it is that valuable for Unicode".
 After correcting the glyphs of 0x14214 and 0x14217, 
-0x14216 becomes basically a duplicate of 0x14214, and there should be even less reason for it to
-exist.
+0x14216 becomes basically a duplicate of 0x14214, and there should be even less reason for it to exist.
+<p>
+In Unicode 18, the glyph of 0x14214 will be unchanged but the description 
+will be simplified to omit mention of the loop, which
+removes the inconsistency between glyph and description, but does not address the attestation nor
+the difference with 0x14216 (if there is any).
+<p>
+In Unicode 18, the description of 0x14217 will still have "with a loop under the horizontal beam", which
+remains inconsistent with the glyph.
