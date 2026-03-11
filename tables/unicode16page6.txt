@@ -14,6 +14,9 @@ mentioning the beards would be one way to achieve that.
 ok 0x13A81
 The glyph depicts the jackal over the sedge, not the sedge over the jackal.
 The glyph has been corrected in Unicode 17.
+<p>
+The photo in the Database confirms the z-order of the jackal and sedge as in the description. But the standard
+in the photo is more basic than the one in the glyph, without the protrusions at the left.
 
 ok 0x13A9F 0x13AA0 0x13AA1
 In all three glyphs, the *left* paw is raised.
