@@ -20,8 +20,9 @@ In Unicode 18, the glyph will be given two more uraei on top of the crown and th
 clarified. (But in "A Hemhem crown with the uraei" I would omit "the".)
 This at least makes glyph and description consistent. 
 But both are now inconsistent with what should have been the attestation of the sign given in the Database.
-I'm not sure one should care, because this form probably exists, considering hemhem crowns
-appear in many variations.
+I'm not sure one should care too much, because this form probably exists, considering hemhem crowns
+appear in many variations. But I would then adjust descriptions to make clear which shapes should be
+encoded as 0x1416B and which as 0x1416C (see below).
 
 0x1416C
 I don't see a sun disk on either uraeus in the glyph. The Database points to:
