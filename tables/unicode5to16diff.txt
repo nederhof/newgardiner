@@ -1,13 +1,4 @@
-ok 0x13043
-Originally, there was a line representing the ground, and there was no connecting rope. 
-Now there is no line for the ground and there is a rope connecting the two pieces of the hoe. 
-In this instance, the Database seems to offer adequate justification for a change to a glyph. 
-Both Urk IV 57,3, supposedly the source of the sign according to Gardiner (1928), and the earlier publication by Bouriant it was based on
-(in Recueil de traveaux 12, 1890) have the Unicode 16 form. For the latter, see p. 107 of:
-<p>
-https://digi.ub.uni-heidelberg.de/diglit/rectrav1892/0117/image,info
-
-0x13008
+ok 0x13008
 The Database has "I am rather doubtful if this grapheme actually exists"  
 but fails to address the link in the original UniKemet from 2007 to GITB 804-005-650
 where the exact Unicode 5.2 glyph is found, with feet that are vertical rather than horizontal:
@@ -15,9 +6,9 @@ where the exact Unicode 5.2 glyph is found, with feet that are vertical rather t
 http://www.griffith.ox.ac.uk/gri/8rel100.pdf
 <p>
 Either way, no justification was offered for the change of the position of the feet; see also above for 0x13007.
-One would have to have very good arguments not to revert to the Unicode 5.2 form.
+Unicode 18 will revert to the position of the feet as in the Unicode 5.2 form.
 
-0x1300A
+ok 0x1300A
 There are two differences, the orientation of the hands, and the orientation of the left foot.
 <p>
 As for the hands, the Database has a comment "IT IS A FISTED HAND, not a handpalm oriented inwardly", which
@@ -31,11 +22,12 @@ namely TSL_3_22086 and TSL_3_17746. Some other tokens are not clear enough to be
 As for the left foot, the Database does not even mention that there was a change relative to Unicode 5.2.
 Again, many examples in the TSL seem to suggest the left foot is vertical rather than horizontal,
 including at least TSL_3_14385, TSL_3_17746, TSL_3_23102, TSL_3_25540. In other words, the
-Unicode 5.2 form appears to be reasonably representative,
-and one would need very good arguments not to revert to the Unicode 5.2 form.
+Unicode 5.2 form appears to be reasonably representative.
+Unicode 18 will revert to the position of the left foot as in Unicode 5.2.
 <p>
-One could perhaps omit specification of the orientation of the hand in the description, 
-and one may avoid clearly depicting the orientation of the hand in the glyph, thereby not committing to one view or another.
+One could consider omitting specification of the orientation of the hand in the description, 
+and one may avoid clearly depicting the orientation of the hand in the glyph, 
+thereby not committing to one view or another.
 
 ok 0x13023
 The orientation of the hands differs.
@@ -48,6 +40,15 @@ This said, if I look at the print in GEG using a magnifying glass, I would be mo
 in Unicode 16.
 Everything else being equal, the usual reading as classifier "turning away" also seems to favour
 the orientation of the hands as in Unicode 16. Therefore, no further action is required.
+
+ok 0x13043
+Originally, there was a line representing the ground, and there was no connecting rope. 
+Now there is no line for the ground and there is a rope connecting the two pieces of the hoe. 
+In this instance, the Database seems to offer adequate justification for a change to a glyph. 
+Both Urk IV 57,3, supposedly the source of the sign according to Gardiner (1928), and the earlier publication by Bouriant it was based on
+(in Recueil de traveaux 12, 1890) have the Unicode 16 form. For the latter, see p. 107 of:
+<p>
+https://digi.ub.uni-heidelberg.de/diglit/rectrav1892/0117/image,info
 
 0x1304F 0x137E9 0x137EA
 The hands of 0x1304F were oriented outwards, now inwards. 
@@ -75,10 +76,9 @@ indistinguishable: ḥḥ, "million".)
 So what is it? Is the orientation of the hands important, or is it not important?
 There seems to be a lack of consistency running through the entire Unicode 16 set.
 
-0x1306F 0x1375D
-For 0x1306F, the sun-disk was removed. This is fine if the sun-disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x1375D with sun-disk.
-<p>
-In the Database I find "redraw of C18G without sun" but without justification.
+ok 0x1306F
+For 0x1306F, the sun disk was removed. Apparently, this was requested by the philologists.
+Why is not clear to me.
 
 ok 0x130E8
 The Unicode 5.2 form did not have the uraeus. 
@@ -98,10 +98,11 @@ then currently no documentation exists that expresses this intention. In this se
 which, by being less overspecific about appearances of signs, avoided the suggestion that signs could only be used for tokens
 with narrowly defined graphical attributes.
 
-0x130F3
+ok 0x130F3
 Unicode 5.2 form did not have the four pieces of grain or fruit. This seems an insignificant detail and 
-I have no objection to the embellishment of the glyph with the four pieces of grain or fruit. I think though that one should simplify
-the description to just mention that there is a basket, without (over)specifying what is in it.
+I have no objection to the embellishment of the glyph with the four pieces of grain or fruit. 
+<p>
+Unicode 18 will have a less specific description, omitting the contents of the basket.
 
 0x13146 0x13C7C
 It is unclear to me what kind of standard was intended with the original shape of 0x13146, and it seems an insignificant detail. But if one starts introducing multiple code points depending on the choice of standard (cf. 0x13C7C), then it is not clear to me that the change of shape of 0x13146 is within the normal bounds of allowable graphical variation for a given code point, 
@@ -109,7 +110,7 @@ and perhaps a fresh code point would have been warranted.
 <p>
 The Database does not contain a shred of reflection on the fact that the shape of 0x13146 has changed.
 
-0x1314B
+ok 0x1314B
 The head of antelope was not previously discernible.
 If I correctly interpret the very fuzzy images in the TSL:
 <p>
@@ -120,20 +121,23 @@ Nonetheless, it would have been nice to see some acknowledgement in the Database
 Again, there is the problem that the description specifies the token, not the type.
 <p>
 Are *two* rudders visible, in both glyphs? In that case the description and the glyph are inconsistent.
+<p>
+Unicode 18 will have "two rudders". L2/26-060 acknowledges that the glyph occurs in many variations, and
+that the description field has its limitations.
 
-0x1314F 0x137B8
-For 0x1314F, the sun-disk was removed. This is fine if the sun-disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x137B8 that do have a sun-disk.
+ok 0x1314F 0x137B8
+For 0x1314F, the sun disk was removed. This is fine if the sun disk in the original shape seems to have been due to a misinterpretation of known tokens. But note that there are headdresses in similar signs like 0x137B8 that do have a sun disk.
 <p>
 The Database does not contain a shred of reflection on the fact that the shape of 0x1314F has changed.
 It does comment that "Jsesh glyph has a circle in crown".
 What evidence justified departing from both the original Unicode 5.2 shape and the JSesh shape?
-If no such evidence exists, then one should have kept the original shape, rather than sacrifice the stability
-of Unicode on a whim for no apparent reason.
+<p>
+Unicode 18 will revert to having a sun disk.
 
 ok 0x13233
 Child was given white crown. Bovid lost its horns.
 <p>
-Thanks to Michel Suignard for pointing out that
+Thanks to L2/26-060 for pointing out that
 the Unicode 5.2 form differs from what, according to the original UniKemet, should have been
 the source, namely Gardiner (1953). See p. 53 of:
 <p>
@@ -145,7 +149,7 @@ to the Unicode 5.2 code charts at the time. The Unicode 16 shape therefore seems
 ok 0x13234
 Child was given white crown.
 <p>
-Thanks to Michel Suignard for pointing out that
+Thanks to L2/26-060 for pointing out that
 the Unicode 5.2 form differs from what, according to the original UniKemet, should have been
 the source, namely Gardiner (1953). See p. 53 of:
 <p>
@@ -154,19 +158,24 @@ https://www.unicode.org/L2/L2005/05313-Gardiner28-57.pdf
 However, the white crown was also incorrect and should have been a red crown.
 It is hard to escape the conclusion that the shape was incorrectly copied from Gardiner (1953) 
 to the Unicode 5.2 code charts at the time. 
-
-0x13235
-Headdress lost the sun-disk.
 <p>
-The Database says "Could not yet locate an example." There cannot therefore have been a justification for changing the shape.
+Unicode 18 will correct the glyph to have a red crown.
 
-0x1323B
+ok 0x13235
+Headdress lost the sun disk.
+The Database says "Could not yet locate an example." There cannot therefore have been a justification for changing the shape.
+<p>
+Unicode 18 will return the sun disk to the headdress.
+
+ok 0x1323B
 In the original, the feather was not angled backwards.
 I'm not concerned about the glyph, but the description seems overspecific, unless you can make
 a case that the angle of the feather is an integral element of the character identity that
 Gardiner overlooked.
+<p>
+Unicode 18 will have a description omitting the angle of the feather.
 
-0x13236
+ok 0x13236
 The bow was mirrored.
 The Database aims to motivate the change on the basis of available tokens, but I'm far from convinced.
 It says "I wonder if the bow is ever facing outwards". Roughly the same group above
@@ -180,6 +189,8 @@ https://en.wikipedia.org/wiki/Ta-Seti#/media/File:Nomelist_(Sesostris_I.)_1up.jp
 <p>
 Just because one could not find an attestation of the exact Unicode 5.2 glyph within the available time, 
 that doesn't mean the glyph was wrong and that there was a compelling reason to change it.
+<p>
+Unicode 18 will return the bow to its original orientation.
 
 ok 0x1323C
 The object on the standard changed from looking similar to Y8 to something closer to R028.
@@ -202,7 +213,7 @@ If it is felt to be important whether a knife has a triangular or a rounded blad
 then I would not expect for the shape of a blade in the code charts to
 arbitrarily change, especially if the Database says "Could not yet locate a token".
 
-0x13332 0x14201
+ok 0x13332 0x14201
 The original shape did not have a boss. Here it seems acceptable, though far from necessary, to refine the appearance, since
 Gardiner refers to an occurrence at Medinet Habu where the sign appears to have a boss;
 see Plate 45, column 37 of:
@@ -215,8 +226,10 @@ Another thought is that if presence or absence of the loop on top is important e
 then how can presence or absence of the boss in 0x13332 be so unimportant that both forms can be represented 
 by the same code point? Once one goes down the path of making hard-core palaeographic
 distinctions, there is no stopping the unbridled proliferation of code points.
+<p>
+Unicode 18 will adjust the description.
 
-0x13241 0x13F14 0x13F15 0x13F1D 0x13F1E
+ok 0x13241 0x13F14 0x13F15 0x13F1D 0x13F1E
 In the original, the standard was simplified.
 In the Database, I see no reflection on this. The Database has a reference to:
 <p>
@@ -228,13 +241,17 @@ It would be fine to normalize glyphs when it comes to the type of standard, and 
 a standard that is similar to R12. But this is not what was done elsewhere, especially for the extended list
 (cf. 0x13F14 versus 0x13F15, 0x13F1D versus 0x13F1E).
 There appears to have been no consistent strategy for the treatment of standards.
+<p>
+Unicode 18 the standard will be as in Unicode 5.2.
 
-0x13242
+ok 0x13242
 In the original, the standard was simplified.
 The Database has "Transcription only. Inclusion in core based on principle, not verification with image".
 How then can a change to the glyph be justified?
+<p>
+Unicode 18 will have a simpler standard.
 
-0x13246
+ok 0x13246
 The standards are different, although both standards are often referred to as instances of R12.
 Also, in the original, the hare had whiskers.
 <p>
@@ -250,6 +267,8 @@ compelling need. To destroy and remake in one's image is not in the interests of
 By the way, there is a token where the standard is somewhere in between the standards above. See 9th column from the left in the photo of:
 <p>
 http://sith.huma-num.fr/karnak/1128
+<p>
+In Unicode 18 the standard will be as in Unicode 5.2.
 
 ok 0x13247
 There was no basket in the original shape. 
@@ -265,8 +284,10 @@ The "four pieces of grain or fruit" seem overly specific, and I would omit this 
 For a token, see:
 <p>
 http://sith.huma-num.fr/karnak/1128
+<p>
+Unicode 18 will simplify the description.
 
-0x1324F 0x13F0F 0x13F11
+ok 0x1324F 0x13F0F 0x13F11
 In 0x1324F, the object on the standard changed to a kind of overlay. 
 The Database notes that a supposed token of this sign has been identified that has "X1 behind what looks like a U8".
 This could be in the second column in the photo of:
@@ -277,10 +298,9 @@ where X1 is to the left of what looks like U8, so "behind" in terms of reading o
 (See also the first column, where there is the same combination of X1 and what looks like U8, but without standard.)
 I suspect the new glyph for Unicode 16 was created with the misunderstanding that "behind" meant "overlay".
 <p>
-Assuming that the above text correctly identifies the sign that Gardiner had in mind (which is not at all clear to me), 
-then a redrawing of the glyph may be in order. In any case, it should not be an overlay.
+Unicode 18 will replace the overlay by a non-overlapping horizontal arrangement.
 <p>
-Another concern is that for similar cases elsewhere, multiple code points were introduced, such as for
+A remaining worry is that for similar cases elsewhere, multiple code points were introduced, such as for
 0x13F0F and 0x13F11, which are alternative writings of the 14th nome of UE. 
 What then justifies confusing two alternative writings of the 22nd node of UE, with and without X1?
 There is no consistency to be found.
@@ -288,16 +308,24 @@ There is no consistency to be found.
 0x1327F
 The original shape was asymmetric, while the new shape is almost perfectly symmetric. Can that be correct? I imagine a tenoned door not to be symmetric. If one would ever wish to use the mirroring control with this sign, 
 then one had better make sure the sign is clearly asymmetric.
+<p>
+L26-060 dismisses this issue, referring to "other sources", by which meant are
+normalized fonts. I would have hoped for more openness to the possibility that 
+the "other sources" are simply of poorer quality than Gardiner's font. 
 
-0x1328F
+ok 0x1328F
 There was no loop at the front in the original.
 I don't think anyone cares that the glyph is refined. The only suggestion I have is to omit the loop from the description as
 overly precise.
+<p>
+In Unicode 18 the description will be simplified.
 
-0x132BA
+ok 0x132BA
 The two shapes are similar. But I cannot relate the description to the shapes. 
 I don't think the tie towards the front should be drawn as one with the outline of the bag.
 What is the "loop at the back"? May the description be overly precise?
+<p>
+In Unicode 18 the description will be simplified.
 
 0x132BF
 The standard has a different shape. Before it had a horizontal beam, now it has a rounded top.
@@ -306,18 +334,19 @@ No doubt the Unicode 16 form exists, but so does the Unicode 5.2 form, for examp
 <p>
 https://www.metmuseum.org/art/collection/search/546944
 <p>
-https://blogs.bl.uk/.a/6a00d8341c464853ef02e860ece6b0200b-pi
+I can only guess that the philologists happened to stumble upon a token with rounded top first, but this is not
+a good enough argument to change the shape.
 <p>
-One would have to have very good arguments not to revert to the Unicode 5.2 form. That one happened
-to stumble upon a token of the Unicode 16 form first is not a good enough argument.
-In any case "with a rounded top" is not part of the character identity of this code point as introduced in Unicode 5.2
-and should not be in the description. If the variant with rounded top is considered to be fundamentally distinct, 
-then it should be this variant that appears under a new code point.
+Unicode 18 will return to having a horizontal beam in the glyph.
+<p>
+However, the description in Unicode 18 still has "standard with a rounded top".
 
-0x132C5
+ok 0x132C5
 The headdress lost the sun disk. The Database motivates this by "more often without disk".
 I don't think anyone cares about the change to the glyph. But by the same token, I don't think
 there was ever a compelling need for any change.
+<p>
+Unicode 18 will have the sun disk again.
 
 0x132F7 0x141BF 0x141C0
 In the original shape of 0x132F7, the fringes were not sloping.
@@ -332,6 +361,12 @@ while at the same time treating the non-sloping and sloping forms of S32 as the 
 replacing one by the other in the code charts.
 <p>
 The Database does not contain a shred of reflection on the fact that the shape has changed.
+<p>
+One link following Gardiner is p. 33 of:
+<p>
+https://archive.org/details/MIFAO47/page/n23/mode/2up
+<p>
+but it seems to show iconography rather than a hieroglyph.
 
 0x130B9
 It is debatable whether the original shape has the folded piece of cloth on top, or whether the intention was to underspecify which of the two signs is on top. In the latter case, it may be adequate to describe this simply as an overlay of the two signs without specifying which of the two is on top, and leave it to the font designer how to draw this. By the same reasoning, 

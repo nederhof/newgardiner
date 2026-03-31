@@ -8,7 +8,8 @@ It includes:
 - One additional sign introduced in Unicode 12 (2019).
 - Most of the 3995 signs introduced in Unicode 16 (2024). This is also referred to as the **extended list**.
 - Default glyphs for the 38 control characters introduced in Unicode 12 (2019) and Unicode 15 (2022).
-- Various ligatures and auxiliary signs for the implementation of [HieroJax](https://github.com/nederhof/hierojax).
+- Various ligatures and auxiliary signs for the implementation of [HieroJax](https://github.com/nederhof/hierojax)
+and [hieropy](https://github.com/nederhof/hieropy).
 
 From the extended list only the **core** signs are included in the font. The 568 **non-core** signs are unverified and undocumented, and were introduced in Unicode for all the wrong reasons (don't ask). A handful of non-core signs that were drawn by mistake are kept in a separate font.
 
@@ -31,7 +32,7 @@ Latest Unicode code charts:
 Ancillary Unicode documentation:
 
 - [Unikemet](https://www.unicode.org/Public/UCD/latest/ucd/Unikemet.txt)
-- [Database](https://www.unicode.org/L2/L2023/23109-n5215-database.pdf)
+- [Database](https://www.unicode.org/wg2/docs/n5240-hieroglyphs-DB.pdf)
 - [Encoding principles](https://www.unicode.org/reports/tr57/tr57-4.html#EncodingPrinciples)
 
 Unicode 5.2 (2009):
@@ -47,6 +48,7 @@ Critiques of Unicode 16:
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 - [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
 - [Legacy characters](https://nederhof.github.io/newgardiner/legacy.html)
+- [Reply regarding corruption of the basic list](https://www.unicode.org/L2/L2026/26060-answer-to-26059.pdf)
 
 Drafts of Unicode 18:
 
@@ -63,6 +65,8 @@ Provisional Unicode 17 code charts:
 
 ## Selected versions of the NewGardiner font
 
+- 3.08 (2026-03-31)
+	- Simplified several glyphs in basic list.
 - 3.07 (2026-02-14)
 	- Several corrections.
 - 3.06 (2025-12-21)

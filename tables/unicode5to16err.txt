@@ -1,11 +1,17 @@
-0x13007
+ok 0x13007
 The "knees down" seems to accurately describe the original form, but not the Unicode 16 form that UniKemet normally
-describes as "seated on heel". Revert the glyph to the Unicode 5.2 form and make it consistent with the description.
-<p>
+describes as "seated on heel".
 In the Database there is "REDRAW (probably on the tips of his toes)", which points in the same direction.
+<p>
+Unicode 18 will revert to the position of the feet as in the Unicode 5.2 form.
 
 ok 0x13017 0x134CD
 The staff in the original shape of 0x13017 already had a slight backward angle, unlike the Unicode 16 form, where the staff is perfectly vertical. This has been solved in Unicode 17 by redrawing 0x13017 to have the staff at a backward angle, like in the original shape. But note that then 0x13017 and 0x134CD will differ by no more than the exact degree of the angle, which seems an inappropriately small graphical distinction for the purposes of Unicode.
+<p>
+In Unicode 18, the glyph has been changed again, to give the staff the opposite angle from what it was before.
+I'm not sure anyone should care; we need one sign for an old man with a stick and 0x13017 will do fine.
+My advice would be to ignore 0x134CD, despite the far-fetched claim by L2/26-060 that the angle of the staff
+is somehow significant. 
 
 ok 0x1303A 0x1355D
 Considering the hairstyles, 0x1303A was misplaced at 0x1355D. This has been solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x1303A and 0x1355D from Unicode 16.
@@ -34,8 +40,10 @@ the description could omit mention of the length of the hair and leave it to the
 But if the Database now argues there are two different signs,
 then the question which of those two signs is the one that is represented by 0x13055 is unambiguously answered by the
 original UniKemet database.
+<p>
+Unicode 18 will revert to a glyph with short hair. UniKemet still has "with long hair" though.
 
-0x13057
+ok 0x13057
 For 0x13057, there was a uraeus in the original, now there is not. 
 The Database motivates this by asserting that the uraeus was a mistake 
 because it is not in Gardiner's source (Ann 42, 479), from the tomb of Kheruef. However, 
@@ -72,6 +80,8 @@ and convincing reasons to make changes.
 <p>
 The uraeus suggests royalty (personal communication wth Peter Dils), and so the change
 of the glyph affected an important clue to the interpretation of the sign (Gardiner has "Det. of names of queens").
+<p>
+Unicode 18 will revert to a glyph with uraeus.
 
 0x130C1
 These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG, and are in fact found in the same line (top line of p. 458). 
@@ -86,6 +96,10 @@ https://thotsignlist.org/mysign?id=2871
 <p>
 Does it make sense to specify the curvature in the description when the curvature is so variable in actual inscriptions? I propose
 to change the description to just have "with horns"?
+<p>
+There also doesn't seem to be a shared view what "inward curving" and "outward curving" actually mean. I would call
+the Unicode 16 shape inward curving, while L2/26-060 calls it outward curving. 
+This is one more reason to get rid of this overspecificity.
 
 ok 0x130F9 0x13ABE
 The original shape of 0x130F9 unmistakably had whiskers. This has been solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130F9 and 0x13ABE from Unicode 16. (There is no need though to make the length of the whiskers as exaggerated as they are currently
@@ -97,7 +111,7 @@ In the original shape, the hare has whiskers. Moreover, the difference between 0
 ok 0x130FB 0x13AE8
 The original shape (tail up) was misplaced at 0x13AE8. This has been solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x130FB and 0x13AE8 from Unicode 16.
 
-0x130FC
+ok 0x130FC
 The original shape had the tail up. This has been solved in Unicode 17 by restoring the orientation of the tail.
 The Database links to p. 53, l. 6 and pl. DCXIX of:
 <p>
@@ -114,20 +128,29 @@ tail is hidden altogether.
 One remaining issue is that the original shape didn't have the diamond marking. What is the justification for adding the diamond marking?
 Neither transcription nor photo in the above link show the diamond marking.
 The Database mentions another token and adds "nor is the diamond shape in the W3 that clear". This suggests to me 
-that there was considerable doubt whether the diamond marking was correct to begin with. It might be safest to revert to
-the Unicode 5.2 shape entirely and also remove the diamond marking.
+that there was considerable doubt whether the diamond marking was correct to begin with. 
+<p>
+Unicode 18 will revert to the Unicode 5.2 shape.
 
 ok 0x13108 0x13B83
 The original shape was misplaced at 0x13B83. The signs will be switched back in Unicode 18.
 
-0x13110
-Even though these are insignificant graphical variants, code charts should not be changed without a good reason. Unless a compelling case can be made that the horn over the liquid cannot occur in real inscriptions, revert to the Unicode 5.2 form.
+ok 0x13110
+As pointed out by L2/26-060, the distinction between "horn over liquid" versus "liquid over horn" is not that clear.
+GEG and Unicode 5.2 are not necessarily consistent either. It may be better to ignore the issue.
 
-0x13112 0x13BB2
+ok 0x13112 0x13BB2
 The appearance of 0x13112 has changed considerably and one could even argue that 0x13BB2 is closer to the original shape than to the new shape; both the original shape and 0x13BB2 have a single row of pointed teeth while the new shape of 0x13112 has two isolated rows of
 less pointed teeth. Gardiner (1957) characterizes the sign as "lower jaw-bone of ox", and as far as I know, oxen are not particularly known for having pointed teeth. But does this necessarily mean that the original shape of 0x13112 and 0x13BB2 differ in what they are meant to represent? Unless there is solid evidence that the original shape of 0x13112 was wrong or uncharacteristic, it may be better to revert the shape to something closer to Unicode 5.2. It is then an open question whether the current shape of 0x13BB2 deserves its own (core) code point, or whether it is just a duplicate of 0x13112.
 <p>
 I don't see the original shape of 0x13112 anywhere in the Database, and there doesn't seem to be even a shred of an acknowledgement that the shape changed from Unicode 5.2 to Unicode 16, let alone a justification for the change.
+Even more troubling, no one seems to know which inscription the glyph was based on.
+<p>
+It does not seem a resolution is forthcoming. 
+L2/26-060 has decided that the Unicode 16 form will stay. 
+But if the Unicode 16 form is not wrong relative to the Unicode 5.2 form,
+then by the same logic the Unicode 5.2 form is not wrong relative to the Unicode 16 form.
+In other words, I can keep the Unicode 5.2 form, and I would suggest other font designers do the same.
 
 0x1315D 0x13C5D
 The glyphs of 0x1315D in Unicode 5.2 and Unicode 16 are virtually the same, and also the glyph at 0x13C5D looks very similar.
@@ -168,11 +191,18 @@ be less frequent than another graphical variant. (I don't follow the reasoning, 
 Here, it seems to be the exact opposite. The variant with R92A is more frequent by far than the variant with the literal R12,
 and yet there is supposedly a reason to move it to a new code point?
 I'm puzzled what one hopes to achieve with this.
+<p>
+Following L2/26-060, the discussion has stalled. I expect this matter will come back to haunt us.
 
 0x13163 0x13C4A
 It is by no more than a few black pixels, but it is unmistakable that the original shape was meant to exhibit a lappet. In other words, the shape of 0x13163 was misplaced at 0x13C4A. The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16.
+<p>
+L2/26-060 has "The presence of a lappet in the original Gardiner G31 (U+13163) is vestigial at best and is not corroborated by other sources." Here "sources" apparently means normalized fonts, 
+which makes the argument meaningless. 
+Also, that we are now arguing about lappets versus vestigial lappets
+is a clear indication that palaeographic distinctions have gone off the rails.
 
-0x13164
+ok 0x13164
 Again, it is unmistakable that the original shape exhibited a lappet.
 Ideally, one would revert to Unicode 5.2 and give the shape a lappet. However this case is of lesser importance.
 The lappet is a low-level palaeographic detail 
@@ -186,10 +216,17 @@ ok 0x1316B 0x1316A
 The width of 0x1316B should be the same as that of 0x1316A, but the height should be smaller. See Gardiner (1957) for the typographical motivation. This has been corrected in Unicode 17.
 
 0x131A6 0x13DEE
-In 2005-2009, there were protracted discussions about what the most appropriate orientation of 0x131A6 was for Unicode, since both orientations occur in GEG (p. 477 versus p. 545), and since the sign was taken from iconography and is not attested in actual running text.
-In consultation with Egyptologists it was decided to opt for the form in Unicode 5.2, fixed formally by letting UniKemet
+In 2005-2009, there were protracted discussions about what the most appropriate orientation of 0x131A6 was for Unicode, since both orientations occur in GEG (p. 477 versus p. 545). 
+Gardiner (1957, p. 477) based the shape on "a gold fly as an honorific decoration", following Bissing:
+<p>
+https://meretsegerbooks.cld.bz/bissingthebanischergrabfund/48/
+<p>
+The orientation on p. 545 is thereby clearly a printing error. 
+This is consistent with similar signs (like the newly introduced 0x13DEE) that have the head up as well.
+This was recognized, and
+in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2, 
+fixed formally by letting UniKemet
 link the code point to the occurrence on p. 477 as opposed to the occurrence on p. 545.
-This was motivated by similar signs (like the newly introduced 0x13DEE) that have the head up as well.
 For more information, see pp. 4 and 40 of:
 <p>
 https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf
@@ -197,13 +234,35 @@ https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf
 Whether or not one now agrees this was the right decision at the time, 
 having studied (or not) the arguments laid out by Egyptologists in 2005-2009, 
 all this should be irrelevant. 
-The glyph should not change on a whim relative to what it has been for the past 15 years since Unicode 5.2. 
+The glyph should not change on a whim relative to what it has been for the past 15 years since Unicode 5.2
+and wreak havoc on all existing encodings that happen to have used the sign.
 If anyone feels the need for the other orientation, a variation selector for rotation can be used.
 <p>
+Incidentally, I have used 0x131A6 in the past myself when I encoded the Inscriptions of Ahmose Pen-Nekhbet (Urk IV 39,1) as part of the St Andrews corpus; it is debatable which graphical variant in Unicode currently best matches this particular token, but 0x131A6 is a reasonable fit. Obviously, in this inscription 
+the head is up, totally as expected. Another token is in Urk IV 893,12,
+again with the head up; if anyone used 0x131A6 to encode this text or any other text with a fly
+in the past, then again, they will find that their encoding was invalidated overnight because the Unicode Consortium 
+couldn't help but randomly flip signs around without bothering to reflect on how this affects existing encodings.
+<p>
+Next to the reference to Bissing, Gardiner also points to p. 167 of:
+<p>
+https://archive.org/details/ProceedingsOfTheSocietyOfBiblicalArchaeologyVol221900/page/n253/mode/2up
+<p>
+and Urk IV 893,12 is linked to p. 143 of:
+<p>
+https://archive.org/details/zeitschriftfr48brug/page/142/mode/2up
+<p>
+Of course, the head is up again in both cases. In other words, every single reference in Gardiner has the head up. 
+Hence the shape with the head
+down is irrefutably an error. It is perverse to intentionally make a correct glyph in the code charts
+incorrect, for no other reason than that JSesh and Hieroglyphica have an incorrect glyph. Presumably 
+JSesh and Hieroglyphica had the fly the wrong way around already in 2009, when the authors of
+the Unicode 5.2 sign list wisely decided not to make the same mistake. So what changed in the past 15 years?
+<p>
 Apropos, the Database has the fly with the head up as well, so it is not even clear to me any of the philologists 
-actually wanted to have this sign rotated relative to the original orientation. In the end, the rotation may be due to clerical error.
+actually wanted to have this sign flipped relative to the original orientation.
 
-0x131BA
+ok 0x131BA
 No one should care about the length of the stalk in the glyph. This is a palaeographic detail and insignificant
 at the level of Unicode.
 I do object against the Database not even acknowledging that anything was changed, despite the fact that
@@ -213,7 +272,10 @@ a long stalk.
 The original form with the short stalk reappears in a different entry with the comment "Does not seem to be
 a meaningful variant". Ok, but if the difference between the shapes was not significant, why was there any need for the shape to be changed?
 <p>
-So delete "long" from the description. Ideally one would also make the stalk a little shorter than the Unicode 16 form
+So it would have been better to delete "long" from the description, but L2/26-060 has declined this, making
+a far-fetched argument that the stalk is somehow still long in the Unicode 5.2 form because it is folded,
+although that was clearly not the intended meaning of "long" here.
+Ideally one would also make the stalk a little shorter than the Unicode 16 form
 but it could be a little longer than the Unicode 5.2 form.
 <p>
 I'm also reminded that the extended sign list introduced multiple code points 0x13C9D and 0x13C9F for a falcon
@@ -223,14 +285,13 @@ So apparently, it is important how big something is. But it is apparently not im
 existing code points, and no one thought twice about replacing the short stalk by the long stalk?
 There seems to be a lack of consistency running through the entire Unicode 16 set.
 
-0x131C6
-Revert to the shape from Unicode 5.2. The description in fact already correctly reflects the original shape.
+ok 0x131C6
+Unicode 18 will revert to the shape with the cobra *over* the stem as in the description.
 
-0x131D8
+ok 0x131D8
 It is unclear which sign is on top in Unicode 5.2, so fonts have the liberty to interpret this as desired, but at least make sure the shape is consistent with the description, which is currently not the case. The current shape has the plant over the arm, not the arm over the plant.
 <p>
-Because the original shape did not fix which sign was on top, I would prefer for the description to leave this underspecified, by using
-a phrase other than "written over". Perhaps "overlaid with"?
+Unicode 18 will change the glyph to have the arm over the plant consistent with the description.
 
 0x131F4 0x131F6 0x13EDE 0x13EDF 0x13EE0
 There is no inner circle in the original shape of 0x131F4. One may argue this is an insignificant detail. But if one then introduces multiple code points 0x131F6 and 0x13EDE for the same sign with and without inner circle, and similarly 0x13EDF and 0x13EE0, then one simultaneously suggests that the inner circle is important and that the inner circle is not important. See also Point 5 of
@@ -242,44 +303,46 @@ In the Database there is not a shred of an acknowledgement that the shape of 0x1
 The Database does have the shape without inner circle, but in a separate entry, with the comment "Technically the more common form".
 Then what could possibly be the justification for changing the glyph if the Unicode 16 form is less common than the Unicode 5.2 form?
 
-0x13227 0x14256
+ok 0x13227 0x14256
 The differences of 0x13227 may be insignificant, but it appears to me that most of the description matches the original shape better than the Unicode 16 shape, in particular the orientation of the feather and the "short vertical line". 
-It may be appropriate to revise the glyph, and consult an expert whether the shape is drawn correctly.
-<p>
 It also seems to me that 0x14256 is closer to the new shape of 0x13227 than the new shape of 0x13227 is to the original shape of 0x13227.
 If 0x14256 is so fundamentally different that it warranted a new code point,
 then how can one justify treating the old and new shapes of 0x13227 as interchangeable?
-There seems to be no consistency in any of this.
+There seems to be no consistency in any of what was done.
+<p>
+Unicode 18 will have a glyph closer to the Unicode 5.2 glyph and to the description.
 
 0x13228
 I think the description matches the spear better in the original shape than in the Unicode 16 shape. 
-It may be appropriate to revise the glyph, and consult an expert whether the shape is drawn correctly.
 <p>
 Apropos, the Database refers to:
 <p>
 http://sith.huma-num.fr/karnak/1585
 <p>
 The spear there is like in the Unicode 5.2 form, although the harpoon is more like the Unicode 16 form.
-
-0x1324A 0x13CA7
-The original shape of 0x1324A was misplaced at 0x13CA7. The original and current shapes of 0x1324A are not even remotely the same sign.
 <p>
+Unicode 18 will have a glyph closer to the Unicode 5.2 glyph and to the description.
+But the "circle on either side of the spear tip" from the description is still not realized in the glyph.
+
+ok 0x1324A 0x13CA7
+The original and current shapes of 0x1324A are not even remotely the same sign.
 The Database writes "No token of this exact grapheme [the Unicode 16 glyph of 0x1324A] could yet be located". This means there was no reason 
-for the sign to even be in Unicode and one should have kept the Unicode 5.2 shape for 0x1324A, because that is attested, for example
-here:
+for the sign to even be in Unicode and one should have kept the Unicode 5.2 shape for 0x1324A, because that is attested, for example here:
 <p>
 http://sith.huma-num.fr/karnak/1128
 <p>
-(Incidentally, this has a token closer to the original Unicode 5.2 form of 0x1324A than to the Unicode 16 form of 0x13CA7.)
-<p>
-The only reasonable solution is to swap shapes and ancillary documentation from Unicode 16. I would then make 
-0x13CA7 non-core, as it will then get to harbor an unattested shape.
+In Unicode 18, the shape is reverted to its Unicode 5.2 form.
+One could debate whether 0x1324A and 0x13CA7 are in fact the same grapheme, with two different attested
+uses in the Database.
 
-0x1326E
+ok 0x1326E
 The description of the shape of the roof matches the original shape but not the new shape.
 In the new shape the roof is symmetric, rather than sloping downwards towards the back, as I would understand it.
+<p>
+Unicode 18 will resolve this by making the description less specific, omitting mention
+of the shape of the roof.
 
-0x13271
+ok 0x13271
 In the original, the sides were more oblique than vertical.
 In the TSL:
 <p>
@@ -295,6 +358,9 @@ consistently makes a binary distinction whether sides of "building" signs are ei
 If anything, the tokens available for 0x13271 show that such a binary distinction is an illusion.
 For any such sign, one will be able to find tokens with slightly different angles, some of which might be almost perfectly 90 degrees,
 others will be visibly smaller. But by any reasonable measure it is still the same sign.
+<p>
+The Unicode 18 form will have oblique sides and the description omits "vertical". 
+It is considerably wider than the Unicode 5.2 form, but I don't think anyone should care about this.
 
 ok 0x13277 0x13FDC
 The original shape (without circle) was misplaced at 0x13FDC. The signs will be switched back
@@ -335,19 +401,29 @@ https://thotsignlist.org/mysign?id=5320
 <p>
 shows us that the objects are not generally circular. I would even omit the exact number "three", because one will no doubt
 find tokens with say four items.
+<p>
+L2/26-060 has declined to change the description, referring to "sources", by which meant are
+normalized fonts, not actual tokens. The document also admits that there can be, for example,
+four items instead of three. Nonetheless, the description is as overly specific as before.
 
 ok 0x132BC 0x14107
 The original shape of 0x132BC was misplaced at 0x14107. Unicode 18 will switch the signs back.
 
-0x132F6
+ok 0x132F6
 The description matches the original shape but not the new shape. In the new shape the piece of cloth is over the sickle.
+<p>
+Unicode 18 will change the glyph to be consistent with the description.
 
-0x1330C
+ok 0x1330C
 The original shape underspecified which of the signs was on top, and it may be safest to leave this underspecified in the description.
 In any case, the glyph should be consistent with the description. In the new shape, the cobra is *under* the mace.
+<p>
+Unicode 18 will change the glyph to be consistent with the description.
 
-0x1330D
+ok 0x1330D
 The description matches the original shape but not the new shape. In the new shape the mace is over the cobras.
+<p>
+Unicode 18 will change the glyph to be consistent with the description.
 
 ok 0x1331C 0x131C5 0x131D5
 In the original code charts, the handle most certainly does not resemble M13 (0x131C5). 
@@ -362,15 +438,18 @@ https://www.reddit.com/r/Cowofgold_Essays/comments/zcfv4z/the_khopesh_of_ancient
 <p>
 In Unicode 18, the description will be less specific and avoid mention of M13.
 
-0x1332F
-By plausible deniability one could argue the new shape underspecifies which sign is on top. But in Unicode 16, the shapes of overlays generally commit to one or the other. It would be better therefore to revert to the Unicode 5.2 shape.
+ok 0x1332F
+By plausible deniability one could argue the new shape underspecifies which sign is on top. But in Unicode 16, the shapes of overlays generally commit to one or the other.
+<p>
+Unicode 18 will revert to the Unicode 5.2 shape.
 
-ok 0x13341 0x1429C
+0x13341 0x1429C
 It is unclear to me whether the original shape of 0x13341 is closer to its new shape, or whether it rather corresponds to 0x1429C. The original shape had a pronounced circle, like 0x1429C, while the new shape has more of a bulb. Does it even make sense to have two code points here?
 <p>
-Unicode 18 will make changes to 0x1429C, but the original motivation for having two code points is still not clear to me.
+Unicode 18 will change the description of 0x1429C to have "bulb", 
+but the original motivation for having two code points is still not clear to me.
 
-0x1334B
+ok 0x1334B
 In isolation, I would have thought little of this slight change of shape, but see the below. It looks like the
 shape that should have been at 0x1334C has been misplaced at 0x1334B.
 <p>
@@ -378,8 +457,10 @@ The Database has "Redraw based on Gardiner". Great, but which sign from Gardiner
 and the old glyph reasonably accurately mimics the printed GEG.
 By the way, I would not characterize the original shape as in the above description: what is between the two lines does not
 form a clean oval. 
+<p>
+Unicode 18 will revert to a shape close to the Unicode 5.2 shape.
 
-0x1334C 0x1334B 0x142B7 0x142B8
+ok 0x1334C 0x1334B 0x142B7 0x142B8
 The original shape of 0x1334C has a horizontal line on the top, so the new shape is wrong. By the original UniKemet from 2006,
 0x1334C stands for "a later form of U23" (Gardiner 1931) as found on the 26th Dyn. sarcophagus of Ankhnesneferibra (BM EA32).
 See p. 45 of:
@@ -396,6 +477,8 @@ The Database provides no evidence of having even consulted the original UniKemet
 Instead, the Database
 refers to the Pyramid of Unas, which is off by 2 millennia so this is unlikely to be relevant to 0x1334C. It is unclear to me how other newly introduced code points for hair-pins are supposed to relate to the original shape of 0x1334C, or even how to characterize the difference between 0x1334C and usual hairpin 0x1334B. It becomes an exercise in futility if new code points are introduced for barely distinguishable shapes, as if those are meaningful for Unicode, while exact specifications of existing code points are ignored to reuse these code points
 for totally different things. One either takes the character identities of code points seriously, or one does not, in which case why do we even bother with Unicode?
+<p>
+Unicode 18 will add a line on the top, to match the original shape.
 
 0x1334D
 The original shape had a round drill-bit.
@@ -408,9 +491,13 @@ rational basis for changing the Unicode form as it has existed since Unicode 5.2
 The phrase "a horizontal line on top of" is used elsewhere in UniKemet to mean something different from what is in the glyph.
 What is in the glyph would elsewhere in UniKemet be phrased as "a horizontal line over";
 cf. the descriptions of 0x142C7 and 0x142CB.
+<p>
+Unicode 18 will change the description, but not quite so that any of the above is resolved.
 
-0x1335A
+ok 0x1335A
 The description matches the original shape but not the new shape. In the new shape the spindle is over the viper.
+<p>
+In Unicode 18, the viper is over the spindle as in the description.
 
 0x1335D
 The original did not depict the plummet as a heart.
@@ -419,26 +506,38 @@ is it part of the character identity that the plummet resembles a heart?
 The Database has "only one token comes close, and it still lacks the heart", so I assume the answer is no.
 It seems therefore better to leave out details that may well be hallucinated or uncharacteristic for the sign.
 I propose simplifying both glyph and description.
+<p>
+L2/26-060 did not want to do that, referring to "sources". Here "sources" apparently refers
+to normalized fonts, which makes the argument meaningless.
 
-0x13393
-Apart from plausible deniability (see above), the description matches the original shape but not the new shape. It would be better to revert to the Unicode 5.2 shape.
+ok 0x13393
+Apart from plausible deniability (see above), the description matches the original shape but not the new shape.
+<p>
+Unicode 18 will revert to the original shape.
 
-0x1339C
-Apart from plausible deniability (see above), the new shape, unlike the description, suggests the wick is over the arm. Make the new shape consistent with the description.
-I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
+ok 0x1339C
+Apart from plausible deniability (see above), the new shape, unlike the description, suggests the wick is over the arm. 
+<p>
+In Unicode 18, the arm will be over the wick, consistent with the description.
 
-0x1339E
+ok 0x1339E
 Even though these are insignificant graphical variants, code charts should not be changed without a good reason. Unless a compelling case can be made that the basket over the hank of fibre cannot occur in real inscriptions, revert to the Unicode 5.2 form and change the
 description accordingly.
+<p>
+In Unicode 18, the description has "overlaid". I take this to mean that fonts
+may render this as in Unicode 5.2.
 
-0x1341B
-The description matches the original shape but not the new shape. Correct the new shape to have the top line curve downwards.
+ok 0x1341B
+The description matches the original shape but not the new shape. 
+<p>
+In Unicode 18, the top line curves downwards, consistent with the description.
 
-0x13424
-Apart from plausible deniability (see above), the new shape, unlike the description, suggests the object is over the arm. Make the new shape consistent with the description.
-I would prefer for the description to leave underspecified which sign is on top, as it is not clear from the original shape either.
+ok 0x13424
+Apart from plausible deniability (see above), the new shape, unlike the description, suggests the object is over the arm.
+<p>
+In Unicode 18, the arm will be over the object, consistent with the description.
 
-0x13427
+ok 0x13427
 The original glyph had triangle-over-moon while the new form has moon-over-triangle.
 This may have been motivated by a single token in the TSL that has moon-over-triangle:
 <p>
@@ -446,9 +545,5 @@ https://thotsignlist.org/mysign?id=987
 <p>
 No doubt one will also find examples of triangle-over-moon, and I don't
 see a compelling reason why the glyph should have changed.
-Nonetheless, this sign differs from some other cases discussed here in that it cannot 
-reasonably be obtained using the OVERLAY control, and therefore the kinds of problems discussed 
-in the dedicated section below on overlays do not arise here.
-However, the description ("moon [...] written over [...] triangle") should in any case be made
-less specific so it does not explicitly contradict the original glyph, which should
-remain an acceptable alternative graphical realization of this code point.
+<p>
+In Unicode 18, glyph and description will be changed to triangle-over-moon.

@@ -13,7 +13,7 @@
 <h2>Unicode 5.2</h2>
 
 In preparation for the list of Egyptian hieroglyphs in Unicode 5.2 (released in 2009),
-a database called UniKemet was created, published in 2006 as pp. 33-51 of:
+a database called UniKemet was created, published in 2006 as pp. 34-50 of:
 <p>
 <a href="https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf">https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf</a>
 <p>
@@ -48,24 +48,17 @@ one of which happens to be also named UniKemet:
 <p>
 and the other will be referred to henceforth as the Database:
 <p>
-<a href="https://www.unicode.org/L2/L2023/23109-n5215-database.pdf">https://www.unicode.org/L2/L2023/23109-n5215-database.pdf</a>
+<a href="https://www.unicode.org/wg2/docs/n5240-hieroglyphs-DB.pdf">https://www.unicode.org/wg2/docs/n5240-hieroglyphs-DB.pdf</a>
 <p>
-Surprisingly however, none of the information from the original UniKemet was included, 
-and it is unclear whether the recent work was done with any awareness that that earlier database 
-rigorously tied code points to sources.
+Surprisingly however, none of the information from the original UniKemet was included
+that linked code points to sources. 
 On the contrary, it seems the glyphs in the code charts were taken
 as mere suggestions, and new signs were arbitrarily assigned to old code points while old signs moved to new code points.
 <p>
-This has thrown the user community into turmoil. Encodings produced in the past 15 years may no longer be 
-valid, as old code points now stand for different signs, and the intended signs have moved to different code points. 
-Hieroglyphic fonts created in the past 15 years are now inconsistent with the current code charts and recalling and updating all those 
-fonts would be impossible.
-<p>
-Although in some instances the changes are harmless and do not require any fixes, there are many other cases where
-code points were given entirely different identities, without any justification whatsoever in the Database.
-In order to limit the harm, those code points need to be restored to their original intentions as soon as possible. Regrettably, the opportunity was missed
-that Unicode 17 would have offered to fix at least some of what had been broken, starting with the
-most egregious cases of misplaced signs.
+Most of this will finally be fixed in Unicode 18.
+The response I received will be referred to as 
+<a href="https://www.unicode.org/L2/L2026/26060-answer-to-26059.pdf">L2/26-060</a>.
+However, several issues remain.
 <p>
 Listed below are all discrepancies between Unicode 5.2 and Unicode 16 that I have been able to identify,
 divided into apparent errors and other noteworthy differences. 
