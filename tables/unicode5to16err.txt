@@ -10,8 +10,8 @@ The staff in the original shape of 0x13017 already had a slight backward angle, 
 <p>
 In Unicode 18, the glyph has been changed again, to give the staff the opposite angle from what it was before.
 I'm not sure anyone should care; we need one sign for an old man with a stick and 0x13017 will do fine.
-My advice would be to ignore 0x134CD, despite the far-fetched claim by L2/26-060 that the angle of the staff
-is somehow significant. 
+My advice would be to ignore 0x134CD, despite the far-fetched claim by L2/26-060 that the exact angle of the staff
+expresses the distinction between "wisdom" and "old age".
 
 ok 0x1303A 0x1355D
 Considering the hairstyles, 0x1303A was misplaced at 0x1355D. This has been solved in Unicode 17 by swapping the shapes and ancillary documentation of 0x1303A and 0x1355D from Unicode 16.
@@ -87,6 +87,9 @@ Unicode 18 will revert to a glyph with uraeus.
 These are arguably only insignificant graphical variants of the same thing, but unless one can argue that one variant is real and the other variant is not real (never occurs), one should revert to the original Unicode 5.2 variant, and change description and image accordingly. Incidentally, both forms exist in GEG, and are in fact found in the same line (top line of p. 458). 
 In 2005-2009, there were discussions about which of the two was the most appropriate form for Unicode, and in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2. Whether or not one agrees now this was the right decision at the time
 should be irrelevant. Code charts should not be changed without a compelling reason.
+<p>
+L2/26-060 declines to change this back, referring to "most of the glyphs", by which meant are glyphs in
+normalized fonts, which is a meaningless argument.
 
 0x130FE
 The description suggests outwards curving horns, unlike the Unicode 5.2 and Unicode 16 shapes. 
@@ -135,22 +138,20 @@ Unicode 18 will revert to the Unicode 5.2 shape.
 ok 0x13108 0x13B83
 The original shape was misplaced at 0x13B83. The signs will be switched back in Unicode 18.
 
-ok 0x13110
-As pointed out by L2/26-060, the distinction between "horn over liquid" versus "liquid over horn" is not that clear.
-GEG and Unicode 5.2 are not necessarily consistent either. It may be better to ignore the issue.
-
 ok 0x13112 0x13BB2
 The appearance of 0x13112 has changed considerably and one could even argue that 0x13BB2 is closer to the original shape than to the new shape; both the original shape and 0x13BB2 have a single row of pointed teeth while the new shape of 0x13112 has two isolated rows of
 less pointed teeth. Gardiner (1957) characterizes the sign as "lower jaw-bone of ox", and as far as I know, oxen are not particularly known for having pointed teeth. But does this necessarily mean that the original shape of 0x13112 and 0x13BB2 differ in what they are meant to represent? Unless there is solid evidence that the original shape of 0x13112 was wrong or uncharacteristic, it may be better to revert the shape to something closer to Unicode 5.2. It is then an open question whether the current shape of 0x13BB2 deserves its own (core) code point, or whether it is just a duplicate of 0x13112.
 <p>
 I don't see the original shape of 0x13112 anywhere in the Database, and there doesn't seem to be even a shred of an acknowledgement that the shape changed from Unicode 5.2 to Unicode 16, let alone a justification for the change.
-Even more troubling, no one seems to know which inscription the glyph was based on.
+Even more troubling, no one seems to know which inscription the glyph was based on, if any.
 <p>
 It does not seem a resolution is forthcoming. 
 L2/26-060 has decided that the Unicode 16 form will stay. 
 But if the Unicode 16 form is not wrong relative to the Unicode 5.2 form,
 then by the same logic the Unicode 5.2 form is not wrong relative to the Unicode 16 form.
-In other words, I can keep the Unicode 5.2 form, and I would suggest other font designers do the same.
+In other words, I can keep the Unicode 5.2 form, and I would suggest other font designers do the same,
+until there is meaningful evidence on the basis of actual inscriptions to suggest that the Unicode 16 form is
+preferable.
 
 0x1315D 0x13C5D
 The glyphs of 0x1315D in Unicode 5.2 and Unicode 16 are virtually the same, and also the glyph at 0x13C5D looks very similar.
@@ -255,12 +256,14 @@ https://archive.org/details/zeitschriftfr48brug/page/142/mode/2up
 Of course, the head is up again in both cases. In other words, every single reference in Gardiner has the head up. 
 Hence the shape with the head
 down is irrefutably an error. It is perverse to intentionally make a correct glyph in the code charts
-incorrect, for no other reason than that JSesh and Hieroglyphica have an incorrect glyph. Presumably 
+incorrect, for no other reason than that JSesh and Hieroglyphica have an incorrect glyph.
 JSesh and Hieroglyphica had the fly the wrong way around already in 2009, when the authors of
 the Unicode 5.2 sign list wisely decided not to make the same mistake. So what changed in the past 15 years?
 <p>
 Apropos, the Database has the fly with the head up as well, so it is not even clear to me any of the philologists 
 actually wanted to have this sign flipped relative to the original orientation.
+<p>
+I will keep fighting to get this fixed.
 
 ok 0x131BA
 No one should care about the length of the stalk in the glyph. This is a palaeographic detail and insignificant
@@ -275,7 +278,8 @@ a meaningful variant". Ok, but if the difference between the shapes was not sign
 So it would have been better to delete "long" from the description, but L2/26-060 has declined this, making
 a far-fetched argument that the stalk is somehow still long in the Unicode 5.2 form because it is folded,
 although that was clearly not the intended meaning of "long" here.
-Ideally one would also make the stalk a little shorter than the Unicode 16 form
+<p>
+Ideally one would make the stalk a little shorter than the Unicode 16 form
 but it could be a little longer than the Unicode 5.2 form.
 <p>
 I'm also reminded that the extended sign list introduced multiple code points 0x13C9D and 0x13C9F for a falcon
@@ -302,6 +306,13 @@ https://www.unicode.org/reports/tr57/tr57-4.html#EncodingPrinciples
 In the Database there is not a shred of an acknowledgement that the shape of 0x131FA changed from Unicode 5.2 to Unicode 16. 
 The Database does have the shape without inner circle, but in a separate entry, with the comment "Technically the more common form".
 Then what could possibly be the justification for changing the glyph if the Unicode 16 form is less common than the Unicode 5.2 form?
+<p>
+L2/26-060 reports changes to descriptions but declines to revert the glyph, on the basis of
+"most of the sources", by which are meant normalized fonts, which I do not accept as an argument.
+If the Unicode 16 form is not wrong relative to the Unicode 5.2 form,
+then by the same logic the Unicode 5.2 form is not wrong relative to the Unicode 16 form.
+In the absence of evidence suggesting that the Unicode 16 form is more common in inscriptions 
+(and in fact the Database already suggests it is not), then I will keep using the Unicode 5.2 form.
 
 ok 0x13227 0x14256
 The differences of 0x13227 may be insignificant, but it appears to me that most of the description matches the original shape better than the Unicode 16 shape, in particular the orientation of the feather and the "short vertical line". 
@@ -404,7 +415,7 @@ find tokens with say four items.
 <p>
 L2/26-060 has declined to change the description, referring to "sources", by which meant are
 normalized fonts, not actual tokens. The document also admits that there can be, for example,
-four items instead of three. Nonetheless, the description is as overly specific as before.
+four items instead of three. Nonetheless, the description remains as overly specific as before.
 
 ok 0x132BC 0x14107
 The original shape of 0x132BC was misplaced at 0x14107. Unicode 18 will switch the signs back.
@@ -508,7 +519,7 @@ It seems therefore better to leave out details that may well be hallucinated or 
 I propose simplifying both glyph and description.
 <p>
 L2/26-060 did not want to do that, referring to "sources". Here "sources" apparently refers
-to normalized fonts, which makes the argument meaningless.
+to normalized fonts, which I do not accept as argument.
 
 ok 0x13393
 Apart from plausible deniability (see above), the description matches the original shape but not the new shape.
@@ -524,8 +535,8 @@ ok 0x1339E
 Even though these are insignificant graphical variants, code charts should not be changed without a good reason. Unless a compelling case can be made that the basket over the hank of fibre cannot occur in real inscriptions, revert to the Unicode 5.2 form and change the
 description accordingly.
 <p>
-In Unicode 18, the description has "overlaid". I take this to mean that fonts
-may render this as in Unicode 5.2.
+In Unicode 18, the description has "overlaid". I take this to mean that fonts are free to interpret this as
+in Unicode 5.2.
 
 ok 0x1341B
 The description matches the original shape but not the new shape. 

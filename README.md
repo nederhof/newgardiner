@@ -48,7 +48,7 @@ Critiques of Unicode 16:
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 - [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
 - [Legacy characters](https://nederhof.github.io/newgardiner/legacy.html)
-- [Reply regarding corruption of the basic list](https://www.unicode.org/L2/L2026/26060-answer-to-26059.pdf)
+- [Reply L2/26-060 regarding corruption of the basic list](https://www.unicode.org/L2/L2026/26060-answer-to-26059.pdf)
 
 Drafts of Unicode 18:
 

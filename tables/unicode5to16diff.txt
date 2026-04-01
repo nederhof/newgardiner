@@ -77,8 +77,12 @@ So what is it? Is the orientation of the hands important, or is it not important
 There seems to be a lack of consistency running through the entire Unicode 16 set.
 
 ok 0x1306F
-For 0x1306F, the sun disk was removed. Apparently, this was requested by the philologists.
-Why is not clear to me.
+For 0x1306F, the sun disk was removed. Apparently, this was requested by the philologists, but
+it is not clear to me what the strength of their evidence was. 
+L2/26-060 talks about a "justification", but the most compelling evidence I can find is a reference to
+"others in this group", which is not much of a reason, considering 
+Tatenen is often depicted with a sun disk on the headdress, and some of the "others" seem to be based on
+normalized fonts or badly eroded inscriptions.
 
 ok 0x130E8
 The Unicode 5.2 form did not have the uraeus. 
@@ -104,11 +108,17 @@ I have no objection to the embellishment of the glyph with the four pieces of gr
 <p>
 Unicode 18 will have a less specific description, omitting the contents of the basket.
 
-0x13146 0x13C7C
+ok 0x13110                                                                                          
+As pointed out by L2/26-060, GEG is more like the Unicode 16 form than the Unicode 5.2 form.        
+I'm inclined to accept the Unicode 16 form. The graphical distinction seems too small to worry about.
+
+ok 0x13146 0x13C7C
 It is unclear to me what kind of standard was intended with the original shape of 0x13146, and it seems an insignificant detail. But if one starts introducing multiple code points depending on the choice of standard (cf. 0x13C7C), then it is not clear to me that the change of shape of 0x13146 is within the normal bounds of allowable graphical variation for a given code point, 
 and perhaps a fresh code point would have been warranted.
 <p>
 The Database does not contain a shred of reflection on the fact that the shape of 0x13146 has changed.
+<p>
+I will assume that different variants of the standard are acceptable.
 
 ok 0x1314B
 The head of antelope was not previously discernible.
@@ -205,13 +215,16 @@ For a token, see here:
 <p>
 http://sith.huma-num.fr/karnak/1128
 
-0x1324E
+ok 0x1324E
 I would not be concerned about the slight change to the glyph, 
 if it were not for UniKemet descriptions elsewhere
 that explicitly specify whether a knife has a triangular or a rounded blade.
 If it is felt to be important whether a knife has a triangular or a rounded blade, 
 then I would not expect for the shape of a blade in the code charts to
 arbitrarily change, especially if the Database says "Could not yet locate a token".
+<p>
+L2/26-060 concedes that the description may be too specific. I will assume that the original
+Unicode 5.2 shape is still an acceptable glyph for the code point.
 
 ok 0x13332 0x14201
 The original shape did not have a boss. Here it seems acceptable, though far from necessary, to refine the appearance, since
@@ -366,7 +379,10 @@ One link following Gardiner is p. 33 of:
 <p>
 https://archive.org/details/MIFAO47/page/n23/mode/2up
 <p>
-but it seems to show iconography rather than a hieroglyph.
+but it seems to show iconography rather than a hieroglyph. 
+<p>
+L26-060 refers to existing fonts, but more convincing would be evidence showing that the non-sloping form
+either does not exist or is exceedingly rare.
 
 0x130B9
 It is debatable whether the original shape has the folded piece of cloth on top, or whether the intention was to underspecify which of the two signs is on top. In the latter case, it may be adequate to describe this simply as an overlay of the two signs without specifying which of the two is on top, and leave it to the font designer how to draw this. By the same reasoning, 
@@ -460,3 +476,9 @@ that the normalized glyph has. But even a beginning student would know that this
 <p>
 Palaeographic special interests should not override any and all considerations about
 the continuity of Unicode or what would be best for typical users.
+<p>
+L2/26-060 leaves open the possibility for this to be revisted. For now, 
+I will follow the same reasoning as elsewhere:
+If the Unicode 16 form is not wrong relative to the Unicode 5.2 form,
+then by the same logic the Unicode 5.2 form is not wrong relative to the Unicode 16 form,
+and one can keep using the Unicode 5.2 form in fonts.
