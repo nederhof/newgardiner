@@ -29,8 +29,8 @@ The following can be downloaded:
 - [NewGardiner font as OTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardiner.otf) (cubic Bézier curves)
 - [Font with a handful of non-core signs as TTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerNonCore.ttf)
 - [Font with a handful of non-core signs as OTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerNonCore.otf)
-- [Complex NewGardinerOmni font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni4.ttf) that can handle groups of depth 4, with 5 scaled copies per sign
-- [Simplified NewGardinerOmni font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni3.ttf) that can handle groups of depth 3, with 4 scaled copies per sign
+- [Complex NewGardinerOmni font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni4.ttf) that can handle groups up to depth 4, with 5 scaled copies per sign
+- [Simplified NewGardinerOmni font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni3.ttf) that can handle groups up to depth 3, with 4 scaled copies per sign
 
 ## Warning
 
