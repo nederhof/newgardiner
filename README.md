@@ -19,8 +19,7 @@ A handful of non-core signs that were drawn by mistake are kept in a separate fo
 
 View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/page0.html).
 
-There is now also a font, called **NewGardinerOmni**, that can dynamically interpret control characters
-as demonstrated here. Two versions can be downloaded.
+There is now also a font, called **NewGardinerOmni**, that can dynamically interpret control characters as demonstrated [here](https://nederhof.github.io/newgardiner/newgardineromnidemo.html). Two versions can be downloaded.
 
 ## Download
 
