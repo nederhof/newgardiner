@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'NewGardiner';
+    src: url('NewGardiner.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NewGardinerOmni3';
+    src: url('omnidemo3.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NewGardinerOmni4';
+    src: url('omnidemo4.ttf') format('opentype');
+}
+
+.controls{
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin: 28px 0 24px;
+	font-size: .85rem;
+	color: var(--ink-soft);
+}
+.controls input[type="range"] { 
+	width: 220px; 
+	accent-color: var(--seal); 
+}
+.controls b { 
+	color: var(--ink); 
+	font-variant-numeric: tabular-nums; 
+}
+
+.source {
+	font-size: 200%;
+	font-family: 'NewGardiner';
+}
+
+.hlr3 {
+    font-feature-settings: "liga" 1, "mark" 1;
+    font-size: 200%;
+    font-family: 'NewGardinerOmni3';
+}
+
+.hlr4 {
+    font-feature-settings: "liga" 1, "mark" 1;
+    font-size: 200%;
+    font-family: 'NewGardinerOmni4';
+}
+
+.vlr {
+    font-feature-settings: "liga" 1, "mark" 1, "vert" 1;
+    font-size: 200%;
+    font-family: 'NewGardinerOmni3';
+    word-break: break-all;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	height: 340px;
+	columns: 220px;
+	column-gap: 2.4em;
+}

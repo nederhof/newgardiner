@@ -11,11 +11,27 @@ It includes:
 - Various ligatures and auxiliary signs for the implementation of [HieroJax](https://github.com/nederhof/hierojax)
 and [hieropy](https://github.com/nederhof/hieropy).
 
-From the extended list only the **core** signs are included in the font. The 568 **non-core** signs are unverified and undocumented, and were introduced in Unicode for all the wrong reasons (don't ask). A handful of non-core signs that were drawn by mistake are kept in a separate font.
+From the extended list only the **core** signs are included in the font. The 568 **non-core** signs are unverified and undocumented, and were introduced in Unicode for all the wrong reasons (don't ask). It has also been confirmed recently that attempts to build OpenType fonts that can dynamically interpret control characters are severely hampered by having too many (useless) signs. See my comments on the NewGardinerOmni font as built with [hieropy](https://github.com/nederhof/hieropy).
+
+A handful of non-core signs that were drawn by mistake are kept in a separate font.
 
 **Do not ask me to add non-core signs. I cannot draw something if I don't know what that something is.**
 
 View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/page0.html).
+
+There is now also a font, called **NewGardinerOmni**, that can dynamically interpret control characters
+as demonstrated here. Two versions can be downloaded.
+
+## Download
+
+The following can be downloaded:
+
+- [NewGardiner font as TTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardiner.ttf) (quadratic Bézier curves)
+- [NewGardiner font as OTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardiner.otf) (cubic Bézier curves)
+- [Font with a handful of non-core signs as TTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerNonCore.ttf)
+- [Font with a handful of non-core signs as OTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerNonCore.otf)
+- [Complex NewGardinerOmni font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni4.ttf) that can handle groups of depth 4, with 5 scaled copies per sign
+- [Simplified NewGardinerOmni font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni3.ttf) that can handle groups of depth 3, with 4 scaled copies per sign
 
 ## Warning
 
@@ -46,9 +62,9 @@ Critiques of Unicode 16:
 
 - [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare0.html)
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
+- [Reply L2/26-060 regarding corruption of the basic list](https://www.unicode.org/L2/L2026/26060-answer-to-26059.pdf)
 - [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
 - [Legacy characters](https://nederhof.github.io/newgardiner/legacy.html)
-- [Reply L2/26-060 regarding corruption of the basic list](https://www.unicode.org/L2/L2026/26060-answer-to-26059.pdf)
 
 Drafts of Unicode 18:
 
@@ -65,6 +81,10 @@ Provisional Unicode 17 code charts:
 
 ## Selected versions of the NewGardiner font
 
+- 3.09 (2026-08-28)
+	- Added provision to make modifiers visible.
+	- Distributed as OTF as well.
+	- First release of NewGardinerOmni.
 - 3.08 (2026-03-31)
 	- Simplified several glyphs in basic list.
 - 3.07 (2026-02-14)
