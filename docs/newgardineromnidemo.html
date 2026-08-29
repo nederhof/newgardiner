@@ -87,9 +87,22 @@ The entire line as a single fragment:
 <p>
 Rendering seems to fail for most browsers somewhere within the above steps. On my platform, Firefox starts to fail a little before Chrome and Edge do.
 <p>
-Alternatively, the font can be compiled to handle subgroups to smaller depth and with fewer scaled copies per sign. This makes the font simpler, and more manageable for some browsers. The below line is formatted with a simplified font (maximum depth 3, with 4 scaled copies per sign, and with blue signs to distinguish it from the more complex font):
-<p>
-<span class="hlr3" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
+Alternatively, the font can be compiled to handle subgroups to smaller depth and with fewer scaled copies per sign. This makes the font simpler, and more manageable for some browsers. The below line is rendered with a simplified font (maximum depth 3, with 4 scaled copies per sign, and with blue signs to distinguish it from the more complex font). Rows are broken up automatically.
+<div class="controls">
+	<label for="w">Row width</label>
+	<input type="range" id="w" min="100" max="600" step="10" value="580">
+	<span><b id="wval">580</b>px</span>
+</div>
+<span class="hlr3 inline" id="hblock" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
+<script>
+const wrange = document.getElementById('w');
+const hblock = document.getElementById('hblock');
+const wlabel = document.getElementById('wval');
+wrange.addEventListener('input', () => {
+	hblock.style.width = wrange.value + 'px';
+	wlabel.textContent = wrange.value;
+});
+</script>
 <p>
 In the encoding below of BM EA101, long lines were manually broken up, to make it easier for browsers to handle encodings with the more complex font (maximum depth 4, with 5 scaled copies per sign). On my platform, rendering is successfully achieved in Chrome and Edge, but only partially in Firefox.
 
@@ -317,23 +330,20 @@ In the encoding below of BM EA101, long lines were manually broken up, to make i
 
 <h2>Vertical text</h2>
 
-The NewGardinerOmni fonts (demonstrated below is the simplified version with maximum depth 3) can represent (left-to-right) text in a vertical direction. Columns are broken up automatically:
-
+The NewGardinerOmni fonts (demonstrated below is the simplified version with maximum depth 3) can render (left-to-right) text in a vertical direction. Columns are broken up automatically.
 <div class="controls">
 	<label for="h">Column height</label>
 	<input type="range" id="h" min="160" max="480" step="10" value="340">
 	<span><b id="hval">340</b>px</span>
 </div>
-
-<span class="vlr" id="block" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
-
+<span class="vlr" id="vblock" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
 <script>
-const range = document.getElementById('h');
-const block = document.getElementById('block');
+const hrange = document.getElementById('h');
+const vblock = document.getElementById('vblock');
 const hlabel = document.getElementById('hval');
-range.addEventListener('input', () => {
-	block.style.height = range.value + 'px';
-	hlabel.textContent = range.value;
+hrange.addEventListener('input', () => {
+	vblock.style.height = hrange.value + 'px';
+	hlabel.textContent = hrange.value;
 });
 </script>
 <p>
@@ -346,11 +356,15 @@ Right-to-left text, horizontal or vertically, is inherently more difficult to im
 versus
 <span class="hlr3" style="font-size: 40px;">𓄪𓐻𓐍</span>
 
-
 <h3>Extra whitespace is added where needed because of insertions</h3>
 <span class="hlr3" style="font-size: 40px;">𓀀𓅱</span>
 versus
 <span class="hlr3" style="font-size: 40px;">𓀀𓅱𓐳𓏏</span>
+
+<h3>Rotation and mirroring</h3>
+<span class="source">𓌑&#x00A0;&#xFE02;𓑀</span>
+becomes
+<span class="hlr3" style="font-size: 40px;">𓌑︂𓑀</span>
 
 <h3>Ligatures</h3>
 <span class="source">𓌉𓐶𓋞</span>
@@ -360,6 +374,11 @@ becomes
 <span class="source">𓐷𓃀𓐱𓃀𓐸𓐶𓐷𓂝𓐰𓂝𓐸</span>
 becomes
 <span class="hlr3" style="font-size: 40px;">𓐷𓃀𓐱𓃀𓐸𓐶𓐷𓂝𓐰𓂝𓐸</span>
+
+<h3>Insertion into rotated sign</h3>
+<span class="source">𓉗&#x00A0;&#xFE01;︁𓐹𓅃</span>
+becomes
+<span class="hlr3" style="font-size: 40px;">𓉗︁𓐹𓅃</span>
 
 <h3>Combination of an overlay forming a ligature and an insertion</h3>
 <span class="source">𓉗𓐶𓉻𓐹𓏏</span>

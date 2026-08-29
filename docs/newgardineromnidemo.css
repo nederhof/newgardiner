@@ -39,6 +39,7 @@
     font-feature-settings: "liga" 1, "mark" 1;
     font-size: 200%;
     font-family: 'NewGardinerOmni3';
+	word-break: break-all;
 }
 
 .hlr4 {
@@ -57,4 +58,8 @@
 	height: 340px;
 	columns: 220px;
 	column-gap: 2.4em;
+}
+
+.inline {
+	display: inline-block;
 }
