@@ -13,6 +13,16 @@
     src: url('omnidemo4.ttf') format('opentype');
 }
 
+@font-face {
+    font-family: 'NewGardinerOmni2d3';
+    src: url('omnidemo2d3.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NewGardinerOmni2d4';
+    src: url('omnidemo2d4.ttf') format('opentype');
+}
+
 .controls{
 	display: flex;
 	align-items: center;
@@ -46,12 +56,27 @@
     font-feature-settings: "liga" 1, "mark" 1;
     font-size: 200%;
     font-family: 'NewGardinerOmni4';
+	word-break: break-all;
+}
+
+.hlr2d3 {
+    font-feature-settings: "liga" 1, "mark" 1;
+    font-size: 200%;
+    font-family: 'NewGardinerOmni2d3';
+	word-break: break-all;
+}
+
+.hlr2d4 {
+    font-feature-settings: "liga" 1, "mark" 1;
+    font-size: 200%;
+    font-family: 'NewGardinerOmni2d4';
+	word-break: break-all;
 }
 
 .vlr {
     font-feature-settings: "liga" 1, "mark" 1, "vert" 1;
     font-size: 200%;
-    font-family: 'NewGardinerOmni3';
+    font-family: 'NewGardinerOmni2d4';
     word-break: break-all;
 	writing-mode: vertical-lr;
 	text-orientation: upright;

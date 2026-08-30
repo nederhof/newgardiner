@@ -85,15 +85,19 @@ The entire line as a single fragment:
 <p>
 <span class="hlr4" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
 <p>
-Rendering seems to fail for most browsers somewhere within the above steps. On my platform, Firefox starts to fail a little before Chrome and Edge do.
+Rendering seems to fail for most browsers somewhere within the above steps. On my platform, Firefox starts to fail a little before Chrome and Edge do (although I have also witnessed the converse for some of the fonts discussed below).
 <p>
-Alternatively, the font can be compiled to handle subgroups to smaller depth and with fewer scaled copies per sign. This makes the font simpler, and more manageable for some browsers. The below line is rendered with a simplified font (maximum depth 3, with 4 scaled copies per sign, and with blue signs to distinguish it from the more complex font). Rows are broken up automatically.
+Alternatively, the font can be compiled to handle subgroups to smaller depth and with fewer scaled copies per sign. This makes the font simpler, and more manageable for some browsers. The below line is rendered with a simplified font (maximum depth 3, with 4 scaled copies per sign, and with blue signs to distinguish it from the more complex font above). On my platform, this is rendered correctly with Chrome but not Firefox:
+<p>
+<span class="hlr3" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
+<p>
+Yet another alternative is to compile the font with a more primitive internal representation of dimensions. This will result in a coarser positioning, with more signs accidentally touching one another. Another problem is that cartouches longer than 3 EM can currently not be handled with this more primitive representation. For the same line as above, this font is demonstrated below (in green to distinguish it from the earlier two fonts). Also demonstrated is that rows are broken up automatically:
 <div class="controls">
 	<label for="w">Row width</label>
 	<input type="range" id="w" min="100" max="600" step="10" value="580">
 	<span><b id="wval">580</b>px</span>
 </div>
-<span class="hlr3 inline" id="hblock" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
+<span class="hlr2d4 inline" id="hblock" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
 <script>
 const wrange = document.getElementById('w');
 const hblock = document.getElementById('hblock');
@@ -104,7 +108,10 @@ wrange.addEventListener('input', () => {
 });
 </script>
 <p>
-In the encoding below of BM EA101, long lines were manually broken up, to make it easier for browsers to handle encodings with the more complex font (maximum depth 4, with 5 scaled copies per sign). On my platform, rendering is successfully achieved in Chrome and Edge, but only partially in Firefox.
+The more primitive internal representation of dimensions can be combined with bounding the depth to 3, which gives us a fourth font (in purple):
+<span class="hlr2d3 inline" id="hblock" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span>
+<p>
+The encoding below of BM EA101 is rendered with a combination of the fonts discussed above. Each line can be rendered correctly by Chrome and Firefox with one of the fonts, but with no single font can the entire text be rendered by both Chrome and Firefox.
 
 <h2>British Museum EA101 (Stela of Nebipusenusret)</h2>
 
@@ -112,225 +119,105 @@ In the encoding below of BM EA101, long lines were manually broken up, to make i
 
 (top)
 <p>
-<span class="hlr4" style="font-size: 30px;">𓂀𓄤𓐱𓄤𓐱𓄤𓊹𓄤</span>
-<span class="hlr4" style="font-size: 30px;">𓍹𓐼𓇳𓐰𓈍𓂓𓐱𓂓𓐰𓂓𓐽𓍺</span>
-<span class="hlr4" style="font-size: 30px;">𓐙︂𓊤</span>
+<span class="hlr2d4" style="font-size: 30px;">𓂀𓄤𓐱𓄤𓐱𓄤𓊹𓄤𓍹𓐼𓇳𓐰𓈍𓂓𓐱𓂓𓐰𓂓𓐽𓍺𓐙︂𓊤</span>
 <p>
 (left half)
 <p>
 <span class="lineno">(1)</span>
-<span class="hlr4" style="font-size: 30px;">𓁹𓐱𓊨𓃹𓐷𓈖𓐰𓈖𓐰𓎟𓐸𓐱𓄤</span>
-<span class="hlr4" style="font-size: 30px;">𓍋𓐱𓃀𓈋𓐱𓊖𓌸𓐱𓇋𓐱𓇋</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓁹𓐱𓊨𓃹𓐷𓈖𓐰𓈖𓐰𓎟𓐸𓐱𓄤𓍋𓐱𓃀𓈋𓐱𓊖𓌸𓐱𓇋𓐱𓇋</span><br>
 <span class="lineno">(2)</span>
-<span class="hlr4" style="font-size: 30px;">𓃹𓐰𓈖𓐰𓉿𓁷𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻</span>
-<span class="hlr4" style="font-size: 30px;">𓉐𓐰𓎟𓅱𓐳𓊪𓄊𓐱𓋴</span>
-<span class="hlr4" style="font-size: 30px;">𓂋𓐰𓏏𓐰𓊃𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓌴𓐰𓁹</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓃹𓐰𓈖𓐰𓉿𓁷𓐰𓈖𓀹𓄤𓄂𓐰𓏏𓌞𓅱𓉐𓐰𓉻𓉐𓐰𓎟𓅱𓐳𓊪𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓌴𓐰𓁹</span><br>
 <span class="lineno">(3)</span>
-<span class="hlr4" style="font-size: 30px;">𓄿𓐰𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓊨𓁹𓐰𓀭𓌷𓐰𓂝𓐷𓐍𓐰𓂋𓐸𓐱𓊤</span>
-<span class="hlr4" style="font-size: 30px;">𓆑𓅓</span>
-<span class="hlr4" style="font-size: 30px;">𓂸𓐻𓏤𓐰𓇷𓐱𓏏𔃼𓏏𓐱𓏭</span>
-<span class="hlr4" style="font-size: 30px;">𓊵𓐰𓏏𓐱𓊪𓆑</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓄿𓐰𓆑𓊨𓁹𓐰𓀭𓌷𓐰𓂝𓐍𓐰𓂋𓊤𓆑𓅓𓂸𓐻𓏤𓐰𓇷𓐱𓏏𔃼𓏏𓏭𓊵𓐰𓏏𓐱𓊪𓆑</span><br>
 <span class="lineno">(4)</span>
-<span class="hlr4" style="font-size: 30px;">𓅓𓉥</span>
-<span class="hlr4" style="font-size: 30px;">𓆑𓐰𓄫𓅱</span>
-<span class="hlr4" style="font-size: 30px;">𓄣𓐱𓏤𓐰𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓊵𓐰𓎡</span>
-<span class="hlr4" style="font-size: 30px;">𓅱𓐷𓁷𓐰𓂋𓐸𓐱𓋴</span>
-<span class="hlr4" style="font-size: 30px;">𓇋𓐱𓐷𓈖𓐰𓊃𓐸𓏏𓐰𓈉</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓅓𓉥𓆑𓐰𓄫𓅱𓄣𓐱𓏤𓐰𓆑𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓊵𓐰𓎡𓅱𓐷𓁷𓐰𓂋𓐸𓐱𓋴𓇋𓐱𓐷𓈖𓐰𓊃𓐸𓏏𓐰𓈉</span><br>
 <span class="lineno">(5)</span>
-<span class="hlr4" style="font-size: 30px;">𓇼𓀢𓊨𓐰𓁹</span>
-<span class="hlr4" style="font-size: 30px;">𓀭𓅓𓉲𓎱𓐰𓏥𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓄤𓐱𓅱</span>
-<span class="hlr4" style="font-size: 30px;">𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓂋</span>
-<span class="hlr4" style="font-size: 30px;">𓎛𓐱𓎛𓇳</span>
+<span class="hlr2d3" style="font-size: 30px;">𓇼𓀢𓊨𓐰𓁹𓀭𓅓𓉲𓎱𓐰𓏥𓆑𓄤𓐱𓅱𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓂋𓎛𓐱𓎛𓇳</span>
 <p>
 (right half)
 <p>
 <span class="lineno">(1)</span>
-<span class="hlr4" style="font-size: 30px;">𓄋𓈐𓐰𓈐𓐰𓈐</span>
-<span class="hlr4" style="font-size: 30px;">𓎟𓐰𓇿𓐰𓏤𓐱𓈅𓑀𓂦𓐰𓂋</span>
-<span class="hlr4" style="font-size: 30px;">𓈉𓌸𓐱𓇋𓐱𓇋</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓄋𓈐𓐰𓈐𓐰𓈐𓎟𓐰𓇿𓐰𓏤𓐱𓈅𓑀𓂦𓐰𓂋𓈉𓌸𓐱𓇋𓐱𓇋</span><br>
 <span class="lineno">(2)</span>
-<span class="hlr4" style="font-size: 30px;">𓃹𓐰𓈖𓐰𓉿</span>
-<span class="hlr4" style="font-size: 30px;">𓁷𓐰𓈖𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱</span>
-<span class="hlr4" style="font-size: 30px;">𓉐𓐰𓉻</span>
-<span class="hlr4" style="font-size: 30px;">𓉐𓐰𓎟𓅱𓐳𓊪𓄊𓐱𓋴</span>
-<span class="hlr4" style="font-size: 30px;">𓂋𓐰𓏏𓐰𓊃𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓌴𓐰𓁹</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓃹𓐰𓈖𓐰𓉿𓁷𓐰𓈖𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓉐𓐰𓎟𓅱𓐳𓊪𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓌴𓐰𓁹</span><br>
 <span class="lineno">(3)</span>
-<span class="hlr4" style="font-size: 30px;">𓆑𓄤𓐱𓄤𓐱𓄤𓄋𓈐𓐰𓏏𓐱𓏦𓪄𓅓</span>
-<span class="hlr4" style="font-size: 30px;">𓉐𓐰𓂋</span>
-<span class="hlr4" style="font-size: 30px;">𓏏𓐱𓂻𓐰𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓄤𓐱𓐷𓂋𓐰𓏏𓐸𓂻</span>
-<span class="hlr4" style="font-size: 30px;">𓅱𓐰𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓅓𓐰𓊵</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓆑𓄤𓐱𓄤𓐱𓄤𓄋𓈐𓐰𓏏𓐱𓏦𓪄𓅓𓉐𓐰𓂋𓏏𓐱𓂻𓐰𓆑𓄤𓐱𓐷𓂋𓐰𓏏𓐸𓂻𓅱𓐰𓆑𓅓𓐰𓊵</span><br>
 <span class="lineno">(4)</span>
-<span class="hlr4" style="font-size: 30px;">𓂋𓐰𓉥𓆑𓐰𓈖𓇛𓐱𓅓𓄣𓐰𓃹</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓐰𓏏𓐱𓇼</span>
-<span class="hlr4" style="font-size: 30px;">𓊹𓐱𓉞𓉐</span>
-<span class="hlr4" style="font-size: 30px;">𓅓𓎛𓐱𓐷𓂝𓐰𓂝𓐸𓀠𓅱𓐰𓏏</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓂋𓐰𓉥𓆑𓐰𓈖𓇛𓅓𓄣𓐰𓃹𓈖𓐰𓏏𓐱𓇼𓊹𓉞𓉐𓅓𓎛𓂝𓐰𓂝𓀠𓅱𓐰𓏏</span><br>
 <span class="lineno">(5)</span>
-<span class="hlr4" style="font-size: 30px;">𓇼𓀢𓄋</span>
-<span class="hlr4" style="font-size: 30px;">𓈐𓐰𓏏𓐰𓏥𓃧𓅓𓉐𓐰𓂋𓏏𓐰𓂻</span>
-<span class="hlr4" style="font-size: 30px;">𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓄤𓐱𓐷𓂋𓐰𓏏𓐸</span>
-<span class="hlr4" style="font-size: 30px;">𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓂋𓎛𓐱𓎛𓇳</span>
+<span class="hlr2d3" style="font-size: 30px;">𓇼𓀢𓄋𓈐𓐰𓏏𓐰𓏥𓃧𓅓𓉐𓐰𓂋𓏏𓐰𓂻𓆑𓄤𓐱𓐷𓂋𓐰𓏏𓐸𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓂋𓎛𓐱𓎛𓇳</span>
 
 <h3>central register</h3>
 
 (rightmost columns)
 <p>
 <span class="lineno">(1)</span>
-<span class="hlr4" style="font-size: 30px;">𓆓𓐳𓌃𓐻𓐷𓇋𓐰𓈖𓐸</span>
-<span class="hlr4" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏</span>
-<span class="hlr4" style="font-size: 30px;">𓌞𓐱𓅱</span>
-<span class="hlr4" style="font-size: 30px;">𓉐𓐰𓉻𓎟𓅱𓐳𓊪𓄊𓐱𓋴</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓆓𓐳𓌃𓐻𓐷𓇋𓐰𓈖𓐸𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓎟𓅱𓐳𓊪𓄊𓐱𓋴</span><br>
 <span class="lineno">(2)</span>
-<span class="hlr4" style="font-size: 30px;">𓂋𓐰𓏏𓊃𓐰𓈖𓐚𓐰𓊤︂</span>
-<span class="hlr4" style="font-size: 30px;">︂𓆣𓐰𓂋𓊪𓐱𓀔𓌨𓐱𓂾𓐱𓂾</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓇓𓐱𓐷𓏏𓐰𓈖𓐸𓋴𓐱𓃀𓇼</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓂋𓐰𓏏𓊃𓐰𓈖𓐚𓐰𓊤︂𓆣𓐰𓂋𓊪𓐱𓀔𓌨𓐱𓂾𓐱𓂾𓈖𓇓𓐱𓐷𓏏𓐰𓈖𓐸𓋴𓐱𓃀𓇼</span><br>
 <span class="lineno">(3)</span>
-<span class="hlr4" style="font-size: 30px;">𓅃𓐰𓎟𓉦𓐰𓉐𓇋𓐱𓅱</span>
-<span class="hlr4" style="font-size: 30px;">𓁹𓐰𓈖𓀀𓋴𓐱𓍋𓌨𓐰𓂋𓃀</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓅃𓐰𓎟𓉦𓐰𓉐𓇋𓐱𓅱𓁹𓐰𓈖𓀀𓋴𓐱𓍋𓌨𓐰𓂋𓃀</span><br>
 <span class="lineno">(4)</span>
-<span class="hlr4" style="font-size: 30px;">𓅡𓇋𓐱𓇋𓐱𔎐𓇓𓐱𓐷𓏏𓐰𓈖𓐸𓅓</span>
-<span class="hlr4" style="font-size: 30px;">𓉲𓐰𓎱</span>
-<span class="hlr4" style="font-size: 30px;">𓆳𓐱𓆳𓐱𓆳𓐍𓐰𓂋𓍛𓐱𓏤𓈖</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓅡𓇋𓐱𓇋𓐱𔎐𓇓𓐱𓐷𓏏𓐰𓈖𓐸𓅓𓉲𓐰𓎱𓆳𓐱𓆳𓐱𓆳𓐍𓐰𓂋𓍛𓐱𓏤𓈖</span><br>
 <span class="lineno">(5)</span>
 <span class="hlr4" style="font-size: 30px;">𓅃𓉘𓐼𓉻𓐰𓂝𓅢𓐽𓊂</span>
-<span class="hlr4" style="font-size: 30px;">𓇋𓐱𓅱𓁹𓐰𓈖𓀀</span>
-<span class="hlr4" style="font-size: 30px;">𓅨𓐰𓂋𓎆𓐱𓇗𓊹𓐱𓍛</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓇋𓐱𓅱𓁹𓐰𓈖𓀀𓅨𓐰𓂋𓎆𓐱𓇗𓊹𓐱𓍛</span><br>
 <span class="lineno">(6)</span>
-<span class="hlr4" style="font-size: 30px;">𓇼𓐰𓅨𓅓𓉲𓐰𓎱𓋴𓐱𓐷𓂧𓐰𓈄</span>
-<span class="hlr4" style="font-size: 30px;">𓐸𓉳𓐍𓐰𓂋𓍛𓐱𓐷𓏤𓐰𓈖𓐸𓆥</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓇼𓐰𓅨𓅓𓉲𓐰𓎱𓋴𓐱𓐷𓂧𓐰𓈄𓐸𓉳𓐍𓐰𓂋𓍛𓐱𓐷𓏤𓐰𓈖𓐸𓆥</span><br>
 <span class="lineno">(7)</span>
 <span class="hlr4" style="font-size: 30px;">𓍹𓐼𓇳𓐰𓈖𓌶𓂝𓐰𓏏𓐽𓍺</span>
-<span class="hlr4" style="font-size: 30px;">𓋹𓐱𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓏃</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓐰𓏏𓊛𓌂𓐱𓾋𓊪𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓅓𓐰𓂞</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓋹𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓏃𓈖𓐰𓏏𓊛𓌂𓐱𓾋𓊪𓐰𓈖</span>
+<span class="hlr2d3" style="font-size: 30px;">𓅓𓐰𓂞</span><br>
 <span class="lineno">(8)</span>
-<span class="hlr4" style="font-size: 30px;">𓎛𓐱𓌨𓐱𓃀</span>
-<span class="hlr4" style="font-size: 30px;">𓀗𓇋𓐱𓃀𓃙𓇋𓐱𓀀</span>
-<span class="hlr4" style="font-size: 30px;">𓐍𓐱𓏏𓐰𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓇍𓐱𓏏𓐱𓇋𓂻𓐰𓃹</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓐰𓏌𓐱𓏏</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓎛𓐱𓌨𓐱𓃀𓀗𓇋𓐱𓃀𓃙𓇋𓐱𓀀𓐍𓐱𓏏𓐰𓆑𓇍𓐱𓏏𓐱𓇋𓂻𓐰𓃹𓈖𓐰𓏌𓐱𓏏</span><br>
 <span class="lineno">(9)</span>
-<span class="hlr4" style="font-size: 30px;">𓇼𓐰𓏥𓊹𓐱𓉗𓏏𓐱𓉐𓐰𓂋</span>
-<span class="hlr4" style="font-size: 30px;">𓌴𓐰𓁹</span>
-<span class="hlr4" style="font-size: 30px;">𓇓𓐱𓐷𓏏𓐰𓈖𓐸𓅓𓉲𓐰𓎱</span>
-<span class="hlr4" style="font-size: 30px;">𓆑𓄤𓐱𓆓𓐻𓐷𓏏𓐰𓇿𓐸</span>
+<span class="hlr2d3" style="font-size: 30px;">𓇼𓐰𓏥𓊹𓐱𓉗𓏏𓐱𓉐𓐰𓂋𓌴𓐰𓁹𓇓𓐱𓐷𓏏𓐰𓈖𓐸𓅓𓉲𓐰𓎱𓆑𓄤𓆓𓐻𓐷𓏏𓐰𓇿𓐸</span>
 <p>
 (text accompanying scene)
 <p>
 <span class="lineno">(1)</span>
-<span class="hlr4" style="font-size: 30px;">𓊨𓐱𓁹𓃧𔃼𓍋𓐱𓃀</span>
-<span class="hlr4" style="font-size: 30px;">𓈋𓐰𓊖𓂞𓐰𓆑</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓊨𓐱𓁹𓃧𔃼𓍋𓐱𓃀𓈋𓐰𓊖𓂞𓐰𓆑</span><br>
 <span class="lineno">(2)</span>
-<span class="hlr4" style="font-size: 30px;">𓐷𓐍𓐱𓏏𓐰𓎟𓐰𓏏𓐸𓐱𓄤</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓐰𓂓𓐰𓈖𓀹𓐱𓄤</span>
-<span class="hlr4" style="font-size: 30px;">𓄂𓐰𓎟𓊪𓐰𓅱𓐚𓐰𓊤︂</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓐷𓐍𓐱𓏏𓐰𓎟𓐰𓏏𓐸𓐱𓄤𓈖𓐰𓂓𓐰𓈖𓀹𓐱𓄤𓄂𓐰𓎟𓊪𓐰𓅱𓐚𓐰𓊤︂</span><br>
 <span class="lineno">(3)</span>
-<span class="hlr4" style="font-size: 30px;">𓉓𓅓</span>
-<span class="hlr4" style="font-size: 30px;">𓂞𓐰𓂞</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓉓𓅓𓂞𓐰𓂞</span><br>
 <span class="lineno">(4)</span>
-<span class="hlr4" style="font-size: 30px;">𓊨𓁹𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓂓𓐰𓏤𓈖</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓊨𓁹𓐰𓈖𓂓𓐰𓏤𓈖</span><br>
 <span class="lineno">(5)</span>
-<span class="hlr4" style="font-size: 30px;">𓇋𓐱𓄪𓐻𓐍</span>
-<span class="hlr4" style="font-size: 30px;">𓎟𓐰𓊪𓅱</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓇋𓐱𓄪𓐻𓐍𓎟𓐰𓊪𓅱</span><br>
 <span class="lineno">(6)</span>
-<span class="hlr4" style="font-size: 30px;">𓄊𓐱𓋴𓂋𓐰𓏏</span>
-<span class="hlr4" style="font-size: 30px;">𓊃𓐰𓈖</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓄊𓐱𓋴𓂋𓐰𓏏𓊃𓐰𓈖</span><br>
 <span class="lineno">(7)</span>
-<span class="hlr4" style="font-size: 30px;">𓆼𓏊</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓆼𓏊</span><br>
 <span class="lineno">(8)</span>
-<span class="hlr4" style="font-size: 30px;">𓆼𓏐</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓆼𓏐</span><br>
 <span class="lineno">(9)</span>
-<span class="hlr4" style="font-size: 30px;">𓊵𓐰𓏏𓐱𓊪𓆓𓐻𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓏔𓐰𓏥</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓊵𓐰𓏏𓐱𓊪𓆓𓐻𓆑𓏔𓐰𓏥</span><br>
 <span class="lineno">(10)</span>
-<span class="hlr4" style="font-size: 30px;">𓂋𓐰𓈖𓐰𓈖𓇋𓐱𓍯</span>
-<span class="hlr4" style="font-size: 30px;">𓂋𓐰𓈖𓐰𓈖𓎼𓐱𓅱</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓂋𓐰𓈖𓐰𓈖𓇋𓐱𓍯𓂋𓐰𓈖𓐰𓈖𓎼𓐱𓅱</span><br>
 <span class="lineno">(11)</span>
-<span class="hlr4" style="font-size: 30px;">𓌢𓐱𓐷𓈖𓐰𓆑𓐸𓈘𓐰𓆑</span>
-<span class="hlr4" style="font-size: 30px;">𓇋𓐱𓊪𓐱𓊪𓀀𓐚𓐰𓊤︂</span>
+<span class="hlr2d3" style="font-size: 30px;">𓌢𓐱𓐷𓈖𓐰𓆑𓐸𓈘𓐰𓆑𓇋𓐱𓊪𓐱𓊪𓀀𓐚𓐰𓊤︂</span>
 
 <h3>lower register</h3>
 
 <span class="lineno">(1)</span>
-<span class="hlr4" style="font-size: 30px;">𓀹𓐱𓄤</span>
-<span class="hlr4" style="font-size: 30px;">𓄂𓐰𓏏</span>
-<span class="hlr4" style="font-size: 30px;">𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐</span>
-<span class="hlr4" style="font-size: 30px;">𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓐰𓇼𓐰𓏏</span>
-<span class="hlr4" style="font-size: 30px;">𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀</span>
-<span class="hlr4" style="font-size: 30px;">𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏</span>
-<span class="hlr4" style="font-size: 30px;">𓆥</span>
-<span class="hlr4" style="font-size: 30px;">𓎛𓇬𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓇓𓏏𓐰𓈖𓀴</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</span><br>
 <span class="lineno">(2)</span>
-<span class="hlr4" style="font-size: 30px;">𓅓𓐱𓋹𓍿𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓏠𓐰𓈖𓐰𓏝𓈖𓐰𓍿𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓏠𓐰𓏌𓐱𓏌𓐱𓏌𓐰𓈖𔃼𓍿𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓊖𓐱𓅂</span>
-<span class="hlr4" style="font-size: 30px;">𓃹𓐰𓈖𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓍿𓐰𓈖𓌨𓐰𓂋𓎿𓐱𓅱𓏏𓐰𓏦</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓐰𓏏𓇋𓐱𓍘</span>
-<span class="hlr4" style="font-size: 30px;">𓇋𓐱𓇋𓀚𓍿𓐰𓈖𓋴𓐱𓎗𓅱</span>
-<span class="hlr4" style="font-size: 30px;">𓀁𓍿𓐰𓈖</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓅓𓋹𓍿𓐰𓈖𓏠𓐰𓈖𓐰𓏝𓈖𓐰𓍿𓐰𓈖𓏠𓐰𓏌𓐱𓏌𓐱𓏌𓐰𓈖𔃼𓍿𓐰𓈖𓊖𓅂𓃹𓐰𓈖𓐰𓈖𓍿𓐰𓈖𓌨𓐰𓂋𓎿𓅱𓏏𓐰𓏦𓈖𓐰𓏏𓇋𓍘𓇋𓇋𓀚𓍿𓐰𓈖𓋴𓎗𓅱𓀁𓍿𓐰𓈖</span><br>
 <span class="lineno">(3)</span>
-<span class="hlr4" style="font-size: 30px;">𓊑𓏏𓐰𓏦𓍿𓐰𓈖𓈖𓐰𓄡𓐰𓂧</span>
-<span class="hlr4" style="font-size: 30px;">𓀔𓏥𓐰𓍿𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓃹𓐰𓈖𓐰𓈖𓄠𓐱𓅱𓀔𓏥𓐰𓍿𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓏠𓐰𓈖𓁷𓐰𓎼</span>
-<span class="hlr4" style="font-size: 30px;">𓎼𓐰𓎼𓍿𓐰𓈖𓅓</span>
-<span class="hlr4" style="font-size: 30px;">𓊑𓏏𓐰𓏦𓍿𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓐰𓏏</span>
-<span class="hlr4" style="font-size: 30px;">𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓂜𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓎛𓐱𓐷𓈎𓐰𓂋𓐸𓀁</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓊑𓏏𓐰𓏦𓍿𓐰𓈖𓈖𓐰𓄡𓐰𓂧𓀔𓏥𓐰𓍿𓐰𓈖𓃹𓐰𓈖𓐰𓈖𓄠𓐱𓅱𓀔𓏥𓐰𓍿𓐰𓈖𓏠𓐰𓈖𓁷𓐰𓎼𓎼𓐰𓎼𓍿𓐰𓈖𓅓𓊑𓏏𓐰𓏦𓍿𓐰𓈖𓈖𓐰𓏏𓆓𓐻𓐷𓏏𓐰𓇿𓐸𓂜𓐰𓈖𓎛𓐱𓐷𓈎𓐰𓂋𓐸𓀁</span><br>
 <span class="lineno">(4)</span>
-<span class="hlr4" style="font-size: 30px;">𓍿𓐰𓈖𓂜𓐰𓈖𓇋𓐱𓃀</span>
-<span class="hlr4" style="font-size: 30px;">𓇋𓐱𓈗</span>
-<span class="hlr4" style="font-size: 30px;">𓍿𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓇋𓐱𓅱𓎗𓐱𓅱𓏛𓐰𓈖𓊹𓐱𓉼</span>
-<span class="hlr4" style="font-size: 30px;">𓃹𓐰𓈖𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓍿𓐰𓈖𓁶𓐰𓇾</span>
-<span class="hlr4" style="font-size: 30px;">𓌨𓐰𓂋</span>
-<span class="hlr4" style="font-size: 30px;">𓎿𓐱𓅱𓏏𓐰𓏥𓐰𓆑𓂜𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓍵𓈖𓐰𓂝𓍕𓐰𓉐𓅱𓐳𓏏</span>
-<span class="hlr4" style="font-size: 30px;">𓍿𓐰𓈖𓅓</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓍿𓐰𓈖𓂜𓐰𓈖𓇋𓃀𓇋𓈗𓍿𓐰𓈖𓇋𓅱𓎗𓅱𓏛𓐰𓈖𓊹𓉼𓃹𓐰𓈖𓐰𓈖𓍿𓐰𓈖𓁶𓐰𓇾𓌨𓐰𓂋𓎿𓅱𓏏𓐰𓏥𓐰𓆑𓂜𓐰𓈖𓍵𓈖𓐰𓂝𓍕𓐰𓉐𓅱𓐳𓏏𓍿𓐰𓈖𓅓</span><br>
 <span class="lineno">(5)</span>
-<span class="hlr4" style="font-size: 30px;">𓊨𓐱𓐷𓏏𓐰𓉐𓐸𓌟𓐱𓋴</span>
-<span class="hlr4" style="font-size: 30px;">𓈖𓐰𓏏𓐰𓉐</span>
-<span class="hlr4" style="font-size: 30px;">𓌨𓐰𓂋𓎿𓏏𓐰𓏛𓐰𓏥𓈖𓐰𓏏𔃼𓍿𓐰𓈖𓊖𓐱𓅂</span>
-<span class="hlr4" style="font-size: 30px;">𓆓𓐻𓂧𓍿𓐰𓈖𓇓𓏏𓐰𓊵</span>
-<span class="hlr4" style="font-size: 30px;">𓏙𓐱𓊨𓁹𓐰𓎟𓍋𓐱𓃀</span>
-<span class="hlr4" style="font-size: 30px;">𓈋𓐰𓊖𓊹𓐱𓉼𓃹𓐰𓈖𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓄤𓐱𓆼𓅓</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓊨𓐱𓐷𓏏𓐰𓉐𓐸𓌟𓋴𓈖𓐰𓏏𓐰𓉐𓌨𓐰𓂋𓎿𓏏𓐰𓏛𓐰𓏥𓈖𓐰𓏏𔃼𓍿𓐰𓈖𓊖𓅂𓆓𓐻𓂧𓍿𓐰𓈖𓇓𓏏𓐰𓊵𓏙𓊨𓁹𓐰𓎟𓍋𓃀𓈋𓐰𓊖𓊹𓉼𓃹𓐰𓈖𓐰𓈖𓄤𓆼𓅓</span><br>
 <span class="lineno">(6)</span>
-<span class="hlr4" style="font-size: 30px;">𓏑𓐱𓏊𓃾𓐱𓅿𓐰𓏔𓉓</span>
-<span class="hlr4" style="font-size: 30px;">𓅓𓉲𓐰𓎱𓈖𓐰𓂓𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱</span>
-<span class="hlr4" style="font-size: 30px;">𓉐𓐰𓉻𓐰𓉐</span>
-<span class="hlr4" style="font-size: 30px;">𓎟𓐰𓊪𓅱</span>
-<span class="hlr4" style="font-size: 30px;">𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖</span>
-<span class="hlr4" style="font-size: 30px;">𓁹𓐰𓈖𓇋𓏏𓐰𓏐</span>
-<span class="hlr4" style="font-size: 30px;">𓁐𓊡𓅱𓈖𓐰𓂋𓐰𓏤𓅜</span>
-<span class="hlr4" style="font-size: 30px;">𓐍𓐰𓏛𓐰𓈖</span><br>
+<span class="hlr2d3" style="font-size: 30px;">𓏑𓐱𓏊𓃾𓐱𓅿𓐰𓏔𓉓𓅓𓉲𓐰𓎱𓈖𓐰𓂓𓐰𓈖𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓁹𓐰𓈖𓇋𓏏𓐰𓏐𓁐𓊡𓅱𓈖𓐰𓂋𓐰𓏤𓅜𓐍𓐰𓏛𓐰𓈖</span><br>
 <span class="lineno">(7)</span>
-<span class="hlr4" style="font-size: 30px;">𓃶𓂜𓐰𓈖𓍇𓐰𓏌𓅱𓅓</span>
-<span class="hlr4" style="font-size: 30px;">𓅨𓐰𓂋𓂧𓐰𓏏𓀉𓌨𓐰𓂋𓋴</span>
-<span class="hlr4" style="font-size: 30px;">𓃹𓐰𓈖𓐰𓈖𓍿𓐰𓈖𓅓</span>
-<span class="hlr4" style="font-size: 30px;">𓇋𓐱𓐍𓅓𓋴𓐱𓎝𓎡𓐰𓇼</span>
-<span class="hlr4" style="font-size: 30px;">𓅓𓇼𓇋𓐱𓏶𓆼𓅡𓋴</span>
+<span class="hlr2d3" style="font-size: 30px;">𓃶𓂜𓐰𓈖𓍇𓐰𓏌𓅱𓅓𓅨𓐰𓂋𓂧𓐰𓏏𓀉𓌨𓐰𓂋𓋴𓃹𓐰𓈖𓐰𓈖𓍿𓐰𓈖𓅓𓇋𓐍𓅓𓋴𓐱𓎝𓎡𓐰𓇼𓅓𓇼𓇋𓏶𓆼𓅡𓋴</span>
 
 <h2>Vertical text</h2>
 
-The NewGardinerOmni fonts (demonstrated below is the simplified version with maximum depth 3) can render (left-to-right) text in a vertical direction. Columns are broken up automatically.
+The NewGardinerOmni fonts can render (left-to-right) text in a vertical direction. Columns are broken up automatically.
 <div class="controls">
 	<label for="h">Column height</label>
 	<input type="range" id="h" min="160" max="480" step="10" value="340">
@@ -346,6 +233,8 @@ hrange.addEventListener('input', () => {
 	hlabel.textContent = hrange.value;
 });
 </script>
+<p>
+(On my platform, Firefox truncates the last sign at the bottom of each column.)
 <p>
 Right-to-left text, horizontal or vertically, is inherently more difficult to implement in OpenType than left-to-right text. This is for future work.
 
@@ -408,6 +297,8 @@ becomes
 <h3>Nested enclosures</h3>
 <p>
 <span class="hlr3" style="font-size: 40px;">𓍹𓐼𓊹𓄤𓍹𓐼𓇳𓏠𓆣𓐽𓍺𓐙𓐰𓊤︂𓐽𓍺</span>
+<p>
+(On my platform, Firefox fails to render this.)
 
 </body>
 </html>
