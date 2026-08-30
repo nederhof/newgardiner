@@ -26,6 +26,10 @@ View the font in [GitHub Pages](https://nederhof.github.io/newgardiner/page0.htm
 - [Font with a handful of non-core signs as TTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerNonCore.ttf)
 - [Font with a handful of non-core signs as OTF](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerNonCore.otf)
 
+## Warning
+
+There are countless unresolved issues in the extended list, such as inconsistencies between code charts and descriptions, and inconsistencies between the new signs and the published encoding principles. This font inevitably suffers from these issues as well and should therefore be considered as no more than a preliminary attempt to create a font covering the core signs. Some of these issues may be corrected in Unicode 18, but many will probably not be.
+
 ## NewGardinerOmni
 
 There is now also a font that can dynamically interpret control characters as demonstrated [here](https://nederhof.github.io/newgardiner/newgardineromnidemo.html). A number of different versions can be downloaded.
@@ -38,10 +42,6 @@ There is now also a font that can dynamically interpret control characters as de
 The last of these seems to be able to work well with modern browsers and Word processors, but positioning will be coarser than with the other NewGardinerOmni fonts, and enclosures longer than 3 EM can currently not be handled, due to the simplified representation of dimensions, and moreover, the restriction to depth 3 means that not all texts can be rendered.
 
 The other NewGardinerOmni fonts are more powerful, but many browsers and Word processors may struggle to apply them correctly. For use in web pages, HieroJax may remain the better option for some time to come.
-
-## Warning
-
-There are countless unresolved issues in the extended list, such as inconsistencies between code charts and descriptions, and inconsistencies between the new signs and the published encoding principles. This font inevitably suffers from these issues as well and should therefore be considered as no more than a preliminary attempt to create a font covering the core signs. Some of these issues may be corrected in Unicode 18, but many will probably not be.
 
 ## Links
 
