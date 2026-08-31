@@ -32,7 +32,7 @@ There are countless unresolved issues in the extended list, such as inconsistenc
 
 ## NewGardinerOmni
 
-There is now also a font that can dynamically interpret control characters as demonstrated [here](https://nederhof.github.io/newgardiner/newgardineromnidemo.html). A number of different versions can be downloaded.
+There is now also an extension of NewGardiner that can dynamically interpret control characters as demonstrated [here](https://nederhof.github.io/newgardiner/newgardineromnidemo.html). A number of different versions can be downloaded.
 
 - [NewGardinerOmni4 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni4.ttf) A powerful stand-alone font that can handle groups up to depth 4, with 5 scaled copies per sign.
 - [NewGardinerOmni3 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni3.ttf) A simpler stand-alone font that can handle groups up to depth 3, with 4 scaled copies per sign.
