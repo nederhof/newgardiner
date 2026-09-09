@@ -34,14 +34,16 @@ There are countless unresolved issues in the extended list, such as inconsistenc
 
 There is now also an extension of NewGardiner that can dynamically interpret control characters as demonstrated [here](https://nederhof.github.io/newgardiner/newgardineromnidemo.html). A number of different versions can be downloaded.
 
-- [NewGardinerOmni4 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni4.ttf) A powerful stand-alone font that can handle groups up to depth 4, with 5 scaled copies per sign.
-- [NewGardinerOmni3 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni3.ttf) A simpler stand-alone font that can handle groups up to depth 3, with 4 scaled copies per sign.
-- [NewGardinerOmni2d4 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni2d4.ttf) Another simple stand-alone font that can handle groups up to depth 4, with 4 scaled copies per sign, and with a simplified representation of dimensions.
+- [NewGardinerOmni2d4 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni2d4.ttf) A simple stand-alone font that can handle groups up to depth 4, with 4 scaled copies per sign, and with a simplified representation of dimensions.
 - [NewGardinerOmni2d3 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni2d3.ttf) The simplest stand-alone font, which can handle groups up to depth 3, with 4 scaled copies per sign, and with a simplified representation of dimensions.
+- [NewGardinerOmni4 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni4.ttf) A powerful stand-alone font that can handle groups up to depth 4, with 5 scaled copies per sign.
+- [NewGardinerOmni3 font](https://github.com/nederhof/newgardiner/raw/refs/heads/main/fonts/NewGardinerOmni3.ttf) A powerful but more restricted stand-alone font that can handle groups up to depth 3, with 4 scaled copies per sign.
 
-The last of these seems to be able to work well with modern browsers and Word processors, but positioning will be coarser than with the other NewGardinerOmni fonts, and enclosures longer than 3 EM can currently not be handled, due to the simplified representation of dimensions, and moreover, the restriction to depth 3 means that not all texts can be rendered.
+The first two of these seem to be handled well by the very latest versions of browsers and Word processors, but positioning can be coarse, and some complicated groups, such as nested enclosures, cannot be handled, due to the simplified representation of dimensions. The last two of the above fonts are more powerful, and give a more refined appearance, but many browsers and Word processors may struggle to apply them correctly. 
 
-The other NewGardinerOmni fonts are more powerful, but many browsers and Word processors may struggle to apply them correctly. For use in web pages, HieroJax may remain the better option for some time to come.
+A restriction to depth 3 (the second and fourth fonts above) means that many texts cannot be rendered.
+
+For use in web pages, HieroJax may remain the better option for some time to come, as it offers more precise positioning of signs and has **no** restriction on the depth of groups.
 
 ## Links
 
