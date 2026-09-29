@@ -1,26 +1,26 @@
 @font-face {
-    font-family: 'NewGardiner';
-    src: url('NewGardiner.ttf') format('opentype');
+	font-family: 'NewGardiner';
+	src: url('NewGardiner.ttf') format('opentype');
 }
 
 @font-face {
-    font-family: 'NewGardinerOmni3';
-    src: url('omnidemo3.ttf') format('opentype');
+	font-family: 'NewGardinerOmni3';
+	src: url('omnidemo3.ttf') format('opentype');
 }
 
 @font-face {
-    font-family: 'NewGardinerOmni4';
-    src: url('omnidemo4.ttf') format('opentype');
+	font-family: 'NewGardinerOmni4';
+	src: url('omnidemo4.ttf') format('opentype');
 }
 
 @font-face {
-    font-family: 'NewGardinerOmni2d3';
-    src: url('omnidemo2d3.ttf') format('opentype');
+	font-family: 'NewGardinerOmni2d3';
+	src: url('omnidemo2d3.ttf') format('opentype');
 }
 
 @font-face {
-    font-family: 'NewGardinerOmni2d4';
-    src: url('omnidemo2d4.ttf') format('opentype');
+	font-family: 'NewGardinerOmni2d4';
+	src: url('omnidemo2d4.ttf') format('opentype');
 }
 
 .controls{
@@ -31,13 +31,13 @@
 	font-size: .85rem;
 	color: var(--ink-soft);
 }
-.controls input[type="range"] { 
-	width: 220px; 
-	accent-color: var(--seal); 
+.controls input[type="range"] {
+	width: 220px;
+	accent-color: var(--seal);
 }
-.controls b { 
-	color: var(--ink); 
-	font-variant-numeric: tabular-nums; 
+.controls b {
+	color: var(--ink);
+	font-variant-numeric: tabular-nums;
 }
 
 .source {
@@ -46,38 +46,40 @@
 }
 
 .hlr3 {
-    font-feature-settings: "liga" 1, "mark" 1;
-    font-size: 200%;
-    font-family: 'NewGardinerOmni3';
+	font-feature-settings: "liga" 1, "mark" 1;
+	font-size: 200%;
+	font-family: 'NewGardinerOmni3';
 	word-break: break-all;
 }
 
 .hlr4 {
-    font-feature-settings: "liga" 1, "mark" 1;
-    font-size: 200%;
-    font-family: 'NewGardinerOmni4';
+	font-feature-settings: "liga" 1, "mark" 1;
+	font-size: 200%;
+	font-family: 'NewGardinerOmni4';
 	word-break: break-all;
 }
 
 .hlr2d3 {
-    font-feature-settings: "liga" 1, "mark" 1;
-    font-size: 200%;
-    font-family: 'NewGardinerOmni2d3';
+	font-feature-settings: "liga" 1, "mark" 1;
+	font-size: 200%;
+	font-family: 'NewGardinerOmni2d3';
 	word-break: break-all;
+	vertical-align: -0.3em;
 }
 
 .hlr2d4 {
-    font-feature-settings: "liga" 1, "mark" 1;
-    font-size: 200%;
-    font-family: 'NewGardinerOmni2d4';
+	font-feature-settings: "liga" 1, "mark" 1;
+	font-size: 200%;
+	font-family: 'NewGardinerOmni2d4';
 	word-break: break-all;
+	vertical-align: -0.3em;
 }
 
 .vlr {
-    font-feature-settings: "liga" 1, "mark" 1, "vert" 1;
-    font-size: 200%;
-    font-family: 'NewGardinerOmni2d4';
-    word-break: break-all;
+	font-feature-settings: "liga" 1, "mark" 1, "vert" 1;
+	font-size: 200%;
+	font-family: 'NewGardinerOmni2d4';
+	word-break: break-all;
 	writing-mode: vertical-lr;
 	text-orientation: upright;
 	height: 340px;

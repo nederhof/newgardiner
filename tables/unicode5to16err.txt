@@ -229,12 +229,14 @@ On a fly pendant, the flies always appear with the head up. See also:
 <p>
 https://www.reddit.com/r/Cowofgold_Essays/comments/r48zfn/the_fly_in_ancient_egypt/
 <p>
-The orientation on p. 545 is thereby clearly a printing error. 
+The orientation on p. 545 is thereby clearly a printing error.
 This is consistent with similar signs (like the newly introduced 0x13DEE) that have the head up as well.
 This was recognized, and
 in consultation with Egyptologists it was decided to opt for the form in Unicode 5.2, 
 fixed formally by letting UniKemet
 link the code point to the occurrence on p. 477 as opposed to the occurrence on p. 545.
+(Many of these discussions happened at the conference Informatique et Égyptologie, 
+Worcester College, University of Oxford, 8-10 August 2006.)
 For more information, see pp. 4 and 40 of:
 <p>
 https://www.unicode.org/L2/L2007/07097-n3237-egyptian.pdf
