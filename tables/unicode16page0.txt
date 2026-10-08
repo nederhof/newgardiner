@@ -108,3 +108,9 @@ The description in Unicode 17 is:
 "Man, standing, back bent forwards, arms raised on either side of the body, bent at the elbow, hands at the height of the shoulders, holding an oar with both hands at 45 degree with the blade downwards."
 <p>
 If the oar is at 45 degrees, and the hands are both on the oar, then the hands cannot both be at the height of the shoulders. I think the description tries to be overly precise, to the point of no longer making sense. I would omit "hands at the height of the shoulders".
+<p>
+What is strange is that the UniK name is A152A, but the Database depicts a pole for A152A, not an oar. 
+The Database also mentions A159, which has an oar instead of a pole, and A159 is reportedly unattested. 
+The function "classifier to punt/pole" listed in Unikemet
+points to a pole rather than an oar. I wonder whether the two glyphs got confused when one of them was added to
+Unicode.
