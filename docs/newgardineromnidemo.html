@@ -166,8 +166,14 @@ hrange.addEventListener('input', () => {
 </script>
 <p>
 (On my platform, Firefox truncates the last sign at the bottom of each column.)
+
+<h2>Right-to-left text</h2>
+
+Right-to-left text, horizontal or vertical, is inherently more difficult to implement in OpenType than left-to-right text. This is because shaping engines currently do not yet preserve the logical order within clusters when
+reversing the text direction, at least not for Egyptian. 
 <p>
-Right-to-left text, horizontal or vertical, is inherently more difficult to implement in OpenType than left-to-right text. This is for future work.
+For web pages, the best solution for now is to mirror the entire elements, as demonstrated here:
+<div class="hrl2d4" id="hblock" style="font-size: 30px;">𓀹𓐱𓄤𓄂𓐰𓏏𓌞𓐱𓅱𓉐𓐰𓉻𓐰𓉐𓎟𓐰𓊪𓅱𓄊𓐱𓋴𓂋𓐰𓏏𓐰𓊃𓐰𓈖𓆓𓐻𓐷𓂧𓐰𓆑𓐸𓈖𓐰𓃹𓈖𓐰𓇼𓐰𓏏𓊹𓐱𓉞𓈖𓐰𓏏𓍋𓐱𓃀𓈋𓐰𓊖𓉞𓏏𓐰𓉐𓐰𓏥𓆑𓐰𓈖𓐰𓏏𓆥𓎛𓇬𓐰𓈖𓇓𓏏𓐰𓈖𓀴</div>
 
 <h2>More complex fonts</h2>
 

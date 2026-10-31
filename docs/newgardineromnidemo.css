@@ -75,6 +75,15 @@
 	vertical-align: -0.3em;
 }
 
+.hrl2d4 {
+	font-feature-settings: "liga" 1, "mark" 1;
+	font-size: 200%;
+	font-family: 'NewGardinerOmni2d4';
+	word-break: break-all;
+	vertical-align: -0.3em;
+	transform: scaleX(-1);
+}
+
 .vlr {
 	font-feature-settings: "liga" 1, "mark" 1, "vert" 1;
 	font-size: 200%;
