@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'Hieroglyphic';
+	src: url('NewGardiner.otf') format('opentype');
+}
+
+.hierojax-source {
+	font-family: Hieroglyphic;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.hierojax-hlr-container {
+}
+
+.hierojax-hrl-container {
+	display: inline-block;
+	direction: rtl;
+}
+
+.hierojax-hrl-container svg, .hierojax-hrl-container canvas {
+	direction: ltr;
+}
+
+.hierojax-v-container {
+	display: inline-flex;
+	flex-direction: column;
+	vertical-align: top;
+}
+
+.hierojax {
+	font-family: Hieroglyphic;
+	display: inline-block;
+	position: relative;
+	vertical-align: -0.1em;
+	text-indent: 0;
+}
+
+.hierojax[data-type="svg"], .hierojax[data-type="canvas"] {
+	vertical-align: -0.2em;
+}
+
+.hierojax-border {
+	border: solid 1px black;
+}
+
+.hierojax-dom-sign {
+	z-index: 2;
+	position: absolute;
+}
+
+.hierojax-dom-visual {
+	z-index: 2;
+	position: absolute;
+	user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	pointer-events: none;
+}
+
+.hierojax-dom-hatching {
+	z-index: 1;
+	position: absolute;
+	background-image: repeating-linear-gradient(135deg, white 0px, #909090 3px, white 6px);
+	background-repeat: no-repeat;
+}
+
+.hierojax-dom-uniform {
+	z-index: 1;
+	position: absolute;
+	background-color: darkgray;
+}
+
+.hierojax-dom-hidden {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0;
+}
+
+.hierojax-svg-sign {
+	font-family: Hieroglyphic;
+}
+
+.hierojax-svg-visual {
+	font-family: Hieroglyphic;
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+}
+
+.hierojax-svg-hatching {
+	stroke: gray;
+	stroke-width: 1;
+}
+
+.hierojax-svg-uniform {
+	fill: darkgray;
+}
+
+.hierojax-svg-hidden {
+	fill-opacity: 0;
+	stroke-opacity: 0;
+	color: transparent;
+	font-size: 0;
+	user-select: all;
+}
+
+.hierojax-canvas-hidden {
+	font-size: 0;
+}

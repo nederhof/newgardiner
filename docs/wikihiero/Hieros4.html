@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hieros4 converted to Unicode</title>
+<link rel="stylesheet" type="text/css" href="hierojax.css" />
+<script type="text/javascript" src="hierojax.js"></script>
+<script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", () => { hierojax.processFragments(); });
+</script>
+<style>
+@font-face {
+    font-family: 'NewGardinerOmni2d4';
+    src: url('omnidemo2d4.ttf') format('opentype');
+}
+
+.hlr2d4 {                                                                                     
+    font-feature-settings: "liga" 1, "mark" 1;                                                    
+    font-size: 200%;                                                                              
+    font-family: 'NewGardinerOmni2d4';                                                            
+	white-space: nowrap;
+    vertical-align: -0.3em;                                                                       
+} 
+
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<p>Automatically converted using <a href='https://pypi.org/project/hieropy/'>hieropy</a> from <a href='https://97b921f43c.catalyst.wmcloud.org/wiki/Hieros4'>here</a>. See <a href='https://phabricator.wikimedia.org/T344534'>discussion</a> at Wikimedia. <a href="Hieros3.html">Go to previous.</a> <a href="Hieros5.html">Go to next.</a> </p>
+
+<table>
+<tr><th>Line</th><th>Encoding</th><th>HieroJax</th><th>NewGardinerOmni2d4</th><th>Comment</th></tr>
+<tr><td>0</td><td>S14-(silver)</td><td><span class="hierojax" style="font-size: 30px;">𓋠</span><span style="font-size: 20px;">(silver)</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓋠</span><span style="font-size: 20px;">(silver)</span></td><td>The encoding could be called abuse of notation, but there is graceful handling of non-hieroglyphic text.</td></tr>
+<tr><td>1</td><td>S13</td><td><span class="hierojax" style="font-size: 30px;">𓋟</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓋟</span></td><td></td></tr>
+<tr><td>2</td><td>S14A</td><td><span class="hierojax" style="font-size: 30px;">𓋡</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓋡</span></td><td></td></tr>
+<tr><td>3</td><td>G8</td><td><span class="hierojax" style="font-size: 30px;">𓅉</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓅉</span></td><td></td></tr>
+<tr><td>4</td><td>N5</td><td><span class="hierojax" style="font-size: 30px;">𓇳</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇳</span></td><td></td></tr>
+<tr><td>5</td><td>I12</td><td><span class="hierojax" style="font-size: 30px;">𓆗</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓆗</span></td><td></td></tr>
+<tr><td>6</td><td>N33B</td><td><span class="hierojax" style="font-size: 30px;">𓈒</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓈒</span></td><td></td></tr>
+<tr><td>7</td><td>D46A</td><td><span class="hierojax" style="font-size: 30px;">𓧸</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓧸</span></td><td></td></tr>
+<tr><td>8</td><td>M17-D46A:X1-.-M17-D46:X1-T12</td><td><span class="hierojax" style="font-size: 30px;">𓇋𓧸𓐰𓏏𓑂𓇋𓂧𓐰𓏏𓌗</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇋𓧸𓐰𓏏𓑂𓇋𓂧𓐰𓏏𓌗</span></td><td></td></tr>
+<tr><td>9</td><td>M17</td><td><span class="hierojax" style="font-size: 30px;">𓇋</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇋</span></td><td></td></tr>
+<tr><td>10</td><td>M17-D46A-M17-M17-.-M17-D46A-.-D46:N38-(hand-with-pool)</td><td><span class="hierojax" style="font-size: 30px;">𓇋𓧸𓇋𓇋𓑂𓇋𓧸𓑂𓂧𓐰𓈛</span><span style="font-size: 20px;">(hand-with-pool)</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇋𓧸𓇋𓇋𓑂𓇋𓧸𓑂𓂧𓐰𓈛</span><span style="font-size: 20px;">(hand-with-pool)</span></td><td>As above, abuse of notation, but handled gracefully, by introducing a separate span for non-hieroglyphic text.</td></tr>
+<tr><td>11</td><td>M17-D46A:D46A-D46A:X1</td><td><span class="hierojax" style="font-size: 30px;">𓇋𓧸𓐰𓧸𓧸𓐰𓏏</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇋𓧸𓐰𓧸𓧸𓐰𓏏</span></td><td></td></tr>
+<tr><td>12</td><td>M17-D46-G43-N4-Z3</td><td><span class="hierojax" style="font-size: 30px;">𓇋𓂧𓅱𓇲𓏪</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇋𓂧𓅱𓇲𓏪</span></td><td></td></tr>
+<tr><td>13</td><td>N4-(rain)-.-M17-G1-D46:X1-D46A:N35:N35:N35-(one-example-of-seven)</td><td><span class="hierojax" style="font-size: 30px;">𓇲</span><span style="font-size: 20px;">(rain)</span><span class="hierojax" style="font-size: 30px;">𓑂𓇋𓄿𓂧𓐰𓏏𓧸𓐰𓈖𓐰𓈖𓐰𓈖</span><span style="font-size: 20px;">(one-example-of-seven)</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇲</span><span style="font-size: 20px;">(rain)</span><span class="hlr2d4" style="font-size: 30px;">𓑂𓇋𓄿𓂧𓐰𓏏𓧸𓐰𓈖𓐰𓈖𓐰𓈖</span><span style="font-size: 20px;">(one-example-of-seven)</span></td><td></td></tr>
+<tr><td>14</td><td>V15</td><td><span class="hierojax" style="font-size: 30px;">𓎁</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓎁</span></td><td></td></tr>
+<tr><td>15</td><td>D18:W24</td><td><span class="hierojax" style="font-size: 30px;">𓂈𓐰𓏌</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓂈𓐰𓏌</span></td><td></td></tr>
+<tr><td>16</td><td>T21</td><td><span class="hierojax" style="font-size: 30px;">𓌡</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓌡</span></td><td></td></tr>
+<tr><td>17</td><td>G5-H8-Q1-X1:H8</td><td><span class="hierojax" style="font-size: 30px;">𓅃𓆇𓊨𓏏𓐰𓆇</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓅃𓆇𓊨𓏏𓐰𓆇</span></td><td></td></tr>
+<tr><td>18</td><td>G5-G39-Z1-i-t:f-A40</td><td><span class="hierojax" style="font-size: 30px;">𓅃𓅭𓏤𓇋𓏏𓐰𓆑𓀭</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓅃𓅭𓏤𓇋𓏏𓐰𓆑𓀭</span></td><td></td></tr>
+<tr><td>19</td><td>O10</td><td><span class="hierojax" style="font-size: 30px;">𓉡</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓉡</span></td><td></td></tr>
+<tr><td>20</td><td>O6-X1-S12:N25</td><td><span class="hierojax" style="font-size: 30px;">𓉗𓏏𓋞𓐰𓈉</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓉗𓏏𓋞𓐰𓈉</span></td><td></td></tr>
+<tr><td>21</td><td>ra-mAat-kA</td><td><span class="hierojax" style="font-size: 30px;">𓇳𓁦𓂓</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇳𓁦𓂓</span></td><td></td></tr>
+<tr><td>22</td><td>i-mn:n-W9*t:F4-:t-A51</td><td><span class="hierojax" style="font-size: 30px;">𓇋𓏠𓐰𓈖𓎸𓐱𓏏𓐰𓄂𓏏𓀼</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇋𓏠𓐰𓈖𓎸𓐱𓏏𓐰𓄂𓏏𓀼</span></td><td>The encoding has a spurious colon. As ad hoc solution, each colon following a hyphen is removed.</td></tr>
+<tr><td>23</td><td>-nTr-t-xa:Z2-</td><td><span class="hierojax" style="font-size: 30px;">𓊹𓏏𓈍𓐰𓏥</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓊹𓏏𓈍𓐰𓏥</span></td><td></td></tr>
+<tr><td>24</td><td>M13-X1-M4-M4-M4</td><td><span class="hierojax" style="font-size: 30px;">𓇅𓏏𓆳𓆳𓆳</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇅𓏏𓆳𓆳𓆳</span></td><td></td></tr>
+<tr><td>25</td><td>wsr-s-X1:D28-D28:D28</td><td><span class="hierojax" style="font-size: 30px;">𓄊𓋴𓏏𓐰𓂓𓂓𓐰𓂓</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓄊𓋴𓏏𓐰𓂓𓂓𓐰𓂓</span></td><td></td></tr>
+<tr><td>26</td><td>H-n:t-G39-B1</td><td><span class="hierojax" style="font-size: 30px;">𓎛𓈖𓐰𓏏𓅭𓁐</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓎛𓈖𓐰𓏏𓅭𓁐</span></td><td></td></tr>
+<tr><td>27</td><td>D2:r:y-U7:S:D36-t:H8-B1</td><td><span class="hierojax" style="font-size: 30px;">𓁷𓐰𓂋𓐰𓏭𓌻𓐰𓈙𓐰𓂝𓏏𓐰𓆇𓁐</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓁷𓐰𓂋𓐰𓏭𓌻𓐰𓈙𓐰𓂝𓏏𓐰𓆇𓁐</span></td><td></td></tr>
+<tr><td>28</td><td>D22</td><td><span class="hierojax" style="font-size: 30px;">𓂌</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓂌</span></td><td></td></tr>
+<tr><td>29</td><td>T</td><td><span class="hierojax" style="font-size: 30px;">𓍿</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓍿</span></td><td></td></tr>
+<tr><td>30</td><td>V20</td><td><span class="hierojax" style="font-size: 30px;">𓎆</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓎆</span></td><td></td></tr>
+<tr><td>31</td><td>M17-D36-V28-N11</td><td><span class="hierojax" style="font-size: 30px;">𓇋𓂝𓎛𓇹</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇋𓂝𓎛𓇹</span></td><td></td></tr>
+<tr><td>32</td><td>Z11-m-w-t:Aa2</td><td><span class="hierojax" style="font-size: 30px;">𓏶𓅓𓅱𓏏𓐰𓐎</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓏶𓅓𓅱𓏏𓐰𓐎</span></td><td></td></tr>
+<tr><td>33</td><td>D4:r-M23-Z7-T14-A1</td><td><span class="hierojax" style="font-size: 30px;">𓁹𓐰𓂋𓇓𓏲𓌙𓀀</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓁹𓐰𓂋𓇓𓏲𓌙𓀀</span></td><td></td></tr>
+<tr><td>34</td><td>M23-Z7-T14-A1</td><td><span class="hierojax" style="font-size: 30px;">𓇓𓏲𓌙𓀀</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇓𓏲𓌙𓀀</span></td><td></td></tr>
+<tr><td>35</td><td>Q1-t:H8-Aa15:L2-M15-B1</td><td><span class="hierojax" style="font-size: 30px;">𓊨𓏏𓐰𓆇𓐝𓐰𓆤𓇇𓁐</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓊨𓏏𓐰𓆇𓐝𓐰𓆤𓇇𓁐</span></td><td></td></tr>
+<tr><td>36</td><td>N18-Z1-V7:N35-V7:N35-O49</td><td><span class="hierojax" style="font-size: 30px;">𓈀𓏤𓍲𓐰𓈖𓍲𓐰𓈖𓊖</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓈀𓏤𓍲𓐰𓈖𓍲𓐰𓈖𓊖</span></td><td></td></tr>
+<tr><td>37</td><td>i-mn:n-E1-E23:Z1*D28-U17</td><td><span class="hierojax" style="font-size: 30px;">𓇋𓏠𓐰𓈖𓃒𓃭𓐰𓏤𓐱𓂓𓍅</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇋𓏠𓐰𓈖𓃒𓃭𓐰𓏤𓐱𓂓𓍅</span></td><td></td></tr>
+<tr><td>38</td><td>&lt;-D28*Z1:r-r:a-Aa13:Z1:a-&gt;</td><td><span class="hierojax" style="font-size: 30px;">𓍹𓐼𓂓𓐱𓏤𓐰𓂋𓂋𓐰𓂝𓐛𓐰𓏤𓐰𓂝𓐽𓍺</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓍹𓐼𓂓𓐱𓏤𓐰𓂋𓂋𓐰𓂝𓐛𓐰𓏤𓐰𓂝𓐽𓍺</span></td><td>On my platform, the shaping engine fails on the NewGardinerOmni font. On this page, it is only for this line.</td></tr>
+<tr><td>39</td><td>N28-D28-D28-D28</td><td><span class="hierojax" style="font-size: 30px;">𓈍𓂓𓂓𓂓</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓈍𓂓𓂓𓂓</span></td><td></td></tr>
+<tr><td>40</td><td>G16-xa-mr-D21:D21</td><td><span class="hierojax" style="font-size: 30px;">𓅒𓈍𓌸𓂋𓐰𓂋</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓅒𓈍𓌸𓂋𓐰𓂋</span></td><td></td></tr>
+<tr><td>41</td><td>r-Y1-P5:X1*Z4:Z2</td><td><span class="hierojax" style="font-size: 30px;">𓂋𓏛𓊡𓐰𓏏𓐱𓏭𓐰𓏥</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓂋𓏛𓊡𓐰𓏏𓐱𓏭𓐰𓏥</span></td><td></td></tr>
+<tr><td>42</td><td>Xnm:t-nfr-HDt-wr:t</td><td><span class="hierojax" style="font-size: 30px;">𓎸𓐰𓏏𓄤𓋑𓅨𓐰𓏏</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓎸𓐰𓏏𓄤𓋑𓅨𓐰𓏏</span></td><td></td></tr>
+<tr><td>43</td><td>xnt:t kA*kA:kA s</td><td><span class="hierojax" style="font-size: 30px;">𓏃𓐰𓏏𓂓𓐱𓂓𓐰𓂓𓋴</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓏃𓐰𓏏𓂓𓐱𓂓𓐰𓂓𓋴</span></td><td></td></tr>
+<tr><td>44</td><td>M23:X1-L2:X1-M23:X1-L2:X1-G14</td><td><span class="hierojax" style="font-size: 30px;">𓇓𓐰𓏏𓆤𓐰𓏏𓇓𓐰𓏏𓆤𓐰𓏏𓅐</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇓𓐰𓏏𓆤𓐰𓏏𓇓𓐰𓏏𓆤𓐰𓏏𓅐</span></td><td></td></tr>
+<tr><td>45</td><td>Aa1:n-sw-w</td><td><span class="hierojax" style="font-size: 30px;">𓐍𓐰𓈖𓇓𓅱</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓐍𓐰𓈖𓇓𓅱</span></td><td></td></tr>
+<tr><td>46</td><td>N17:Z1*N21</td><td><span class="hierojax" style="font-size: 30px;">𓇿𓐰𓏤𓐱𓈅</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓇿𓐰𓏤𓐱𓈅</span></td><td></td></tr>
+<tr><td>47</td><td>&lt;-Aa1-G43-I9-G43-&gt;</td><td><span class="hierojax" style="font-size: 30px;">𓍹𓐼𓐍𓅱𓆑𓅱𓐽𓍺</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓍹𓐼𓐍𓅱𓆑𓅱𓐽𓍺</span></td><td></td></tr>
+<tr><td>48</td><td>&lt;-W9-E10-Aa1-G43-I9-&gt;</td><td><span class="hierojax" style="font-size: 30px;">𓍹𓐼𓎸𓃝𓐍𓅱𓆑𓐽𓍺</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓍹𓐼𓎸𓃝𓐍𓅱𓆑𓐽𓍺</span></td><td></td></tr>
+<tr><td>49</td><td>&lt;-Aa1:f-w-&gt;</td><td><span class="hierojax" style="font-size: 30px;">𓍹𓐼𓐍𓐰𓆑𓅱𓐽𓍺</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓍹𓐼𓐍𓐰𓆑𓅱𓐽𓍺</span></td><td></td></tr>
+<tr><td>50</td><td>&lt;-Aa1:f-w-f-&gt;</td><td><span class="hierojax" style="font-size: 30px;">𓍹𓐼𓐍𓐰𓆑𓅱𓆑𓐽𓍺</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓍹𓐼𓐍𓐰𓆑𓅱𓆑𓐽𓍺</span></td><td></td></tr>
+<tr><td>51</td><td>G5*G5:S12</td><td><span class="hierojax" style="font-size: 30px;">𓅃𓐱𓅃𓐰𓋞</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓅃𓐱𓅃𓐰𓋞</span></td><td></td></tr>
+<tr><td>52</td><td>Aa24:D21</td><td><span class="hierojax" style="font-size: 30px;">𓐦𓐰𓂋</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓐦𓐰𓂋</span></td><td></td></tr>
+<tr><td>53</td><td>Aa24-G43</td><td><span class="hierojax" style="font-size: 30px;">𓐦𓅱</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓐦𓅱</span></td><td></td></tr>
+<tr><td>54</td><td>:Aa24</td><td><span class="hierojax" style="font-size: 30px;">𓐦</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓐦</span></td><td></td></tr>
+<tr><td>55</td><td>&lt;-Aa1-G43-i-&gt;</td><td><span class="hierojax" style="font-size: 30px;">𓍹𓐼𓐍𓅱𓇋𓐽𓍺</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓍹𓐼𓐍𓅱𓇋𓐽𓍺</span></td><td></td></tr>
+<tr><td>56</td><td>N29-G1-Z4:D21*Z1-U33-M17-V13:V1-G40-G1-Z4:D21*Z1-Y4-T14-N25</td><td><span class="hierojax" style="font-size: 30px;">𓈎𓄿𓏭𓐰𓂋𓐱𓏤𓍘𓇋𓍿𓐰𓍢𓅮𓄿𓏭𓐰𓂋𓐱𓏤𓏟𓌙𓈉</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓈎𓄿𓏭𓐰𓂋𓐱𓏤𓍘𓇋𓍿𓐰𓍢𓅮𓄿𓏭𓐰𓂋𓐱𓏤𓏟𓌙𓈉</span></td><td></td></tr>
+<tr><td>57</td><td>F1</td><td><span class="hierojax" style="font-size: 30px;">𓃾</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓃾</span></td><td></td></tr>
+<tr><td>58</td><td>R8-D21:X1-S25</td><td><span class="hierojax" style="font-size: 30px;">𓊹𓂋𓐰𓏏𓋮</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓊹𓂋𓐰𓏏𓋮</span></td><td></td></tr>
+<tr><td>59</td><td>D58-G29-N41-F28</td><td><span class="hierojax" style="font-size: 30px;">𓃀𓅡𓈞𓄜</span></td><td><span class="hlr2d4" style="font-size: 30px;">𓃀𓅡𓈞𓄜</span></td><td></td></tr>
+
+</table>
+ 
+</body>
+</html>

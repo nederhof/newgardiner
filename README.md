@@ -71,6 +71,8 @@ Critiques of Unicode 16:
 - [Side by side comparison Unicode 5.2 and Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16compare0.html)
 - [Corruption of the basic list in Unicode 16](https://nederhof.github.io/newgardiner/unicode5to16corruption.html)
 - [Reply L2/26-060 regarding corruption of the basic list](https://www.unicode.org/L2/L2026/26060-answer-to-26059.pdf)
+- [My reply (L2/26-122) to L2/26-060 regarding corruption of the basic
+  list](https://www.unicode.org/L2/L2026/26122-corruption-hieroglyphs.pdf)
 - [Issues with the extended list in Unicode 16](https://nederhof.github.io/newgardiner/unicode16comments.html)
 - [Legacy characters](https://nederhof.github.io/newgardiner/legacy.html)
 
@@ -79,6 +81,11 @@ Drafts of Unicode 18:
 - [Basic list](https://www.unicode.org/charts/PDF/Unicode-18.0/U180-13000.pdf)
 - [Extended list](https://www.unicode.org/charts/PDF/Unicode-18.0/U180-13460.pdf)
 - [Unikemet](https://www.unicode.org/Public/draft/ucd/Unikemet.txt)
+
+Conversions:
+
+- [JSesh 7.9 to Unicode](https://nederhof.github.io/newgardiner/jseshconversion.pdf)
+- [WikiHiero to Unicode](https://nederhof.github.io/newgardiner/wikiconversion.pdf)
 
 <!--
 Provisional Unicode 17 code charts:
@@ -89,6 +96,8 @@ Provisional Unicode 17 code charts:
 
 ## Selected versions of the NewGardiner font
 
+- 3.10 (2026-11-20)
+	- Added JSesh 7.9 ligatures.
 - 3.09 (2026-08-28)
 	- Added provision to make modifiers visible.
 	- Distributed as OTF as well.
